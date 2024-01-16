@@ -66,32 +66,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-0800",
-			"references": [
-				{
-					"name": "CVE-2023-0800",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-0800"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2023-0801",
-			"references": [
-				{
-					"name": "CVE-2023-0801",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-0801"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-0802",
 			"references": [
 				{
@@ -129,40 +103,42 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-0804"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-0800",
+			"references": [
+				{
+					"name": "CVE-2023-0800",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-0800"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-0801",
+			"references": [
+				{
+					"name": "CVE-2023-0801",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-0801"
+				}
+			]
 		}
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:5353",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:5353"
-		},
-		{
-			"name": "CVE-2023-0800",
+			"name": "CVE-2023-0804",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0800"
-		},
-		{
-			"name": "CVE-2023-0801",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0801"
-		},
-		{
-			"name": "CVE-2023-0803",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0803"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0804"
 		},
 		{
 			"name": "2170167",
@@ -173,12 +149,28 @@
 			"url": "https://bugzilla.redhat.com/2170167"
 		},
 		{
-			"name": "2170172",
+			"name": "2170192",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2170172"
+			"url": "https://bugzilla.redhat.com/2170192"
+		},
+		{
+			"name": "ALSA-2023-5353",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-5353.html"
+		},
+		{
+			"name": "RHSA-2023:5353",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:5353"
 		},
 		{
 			"name": "CVE-2023-0802",
@@ -189,12 +181,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-0802"
 		},
 		{
-			"name": "CVE-2023-0804",
+			"name": "CVE-2023-0803",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0804"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0803"
 		},
 		{
 			"name": "2170178",
@@ -213,20 +205,28 @@
 			"url": "https://bugzilla.redhat.com/2170187"
 		},
 		{
-			"name": "2170192",
+			"name": "CVE-2023-0800",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0800"
+		},
+		{
+			"name": "CVE-2023-0801",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0801"
+		},
+		{
+			"name": "2170172",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2170192"
-		},
-		{
-			"name": "ALSA-2023-5353",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-5353.html"
+			"url": "https://bugzilla.redhat.com/2170172"
 		}
 	],
 	"published": "2023-09-26T00:00:00Z",

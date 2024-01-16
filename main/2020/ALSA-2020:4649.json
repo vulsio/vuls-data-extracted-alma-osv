@@ -121,20 +121,20 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-14928",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-14928"
-		},
-		{
 			"name": "ALSA-2020-4649",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2020-4649.html"
+		},
+		{
+			"name": "CVE-2020-14928",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-14928"
 		}
 	],
 	"published": "2020-11-03T12:23:41Z",
