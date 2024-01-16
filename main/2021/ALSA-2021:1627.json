@@ -66,6 +66,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-24330",
+			"references": [
+				{
+					"name": "CVE-2020-24330",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-24330"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-24331",
 			"references": [
 				{
@@ -88,19 +101,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2020-24332"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-24330",
-			"references": [
-				{
-					"name": "CVE-2020-24330",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-24330"
 				}
 			]
 		}
