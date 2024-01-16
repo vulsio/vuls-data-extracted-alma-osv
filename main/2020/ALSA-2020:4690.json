@@ -46,19 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-0569",
-			"references": [
-				{
-					"name": "CVE-2020-0569",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-0569"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-0570",
 			"references": [
 				{
@@ -107,6 +94,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2018-21035"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-0569",
+			"references": [
+				{
+					"name": "CVE-2020-0569",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-0569"
 				}
 			]
 		}

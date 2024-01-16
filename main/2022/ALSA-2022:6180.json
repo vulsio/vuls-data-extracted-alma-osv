@@ -61,14 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-29154",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-29154"
-		},
-		{
 			"name": "2110928",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +83,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:6180"
+		},
+		{
+			"name": "CVE-2022-29154",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-29154"
 		}
 	],
 	"published": "2022-08-24T00:00:00Z",

@@ -67,14 +67,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-29661",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-29661"
-		},
-		{
 			"name": "CVE-2020-14351",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -89,6 +81,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-25705"
+		},
+		{
+			"name": "CVE-2020-29661",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-29661"
 		}
 	],
 	"published": "2021-02-16T07:36:08Z",

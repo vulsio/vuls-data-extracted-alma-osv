@@ -46,19 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2019-14857",
-			"references": [
-				{
-					"name": "CVE-2019-14857",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-14857"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2019-20479",
 			"references": [
 				{
@@ -70,17 +57,22 @@
 					"url": "https://vulners.com/cve/CVE-2019-20479"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2019-14857",
+			"references": [
+				{
+					"name": "CVE-2019-14857",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-14857"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2019-20479",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-20479"
-		},
 		{
 			"name": "ALSA-2020-3032",
 			"source": "errata.almalinux.org",
@@ -96,6 +88,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-14857"
+		},
+		{
+			"name": "CVE-2019-20479",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-20479"
 		}
 	],
 	"published": "2020-07-21T14:12:27Z",

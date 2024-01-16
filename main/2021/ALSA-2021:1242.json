@@ -474,7 +474,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2021-27928"
+					"url": "https://access.redhat.com/security/cve/CVE-2021-27928"
 				},
 				{
 					"name": "CVE-2021-27928",
@@ -482,28 +482,12 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-27928"
+					"url": "https://vulners.com/cve/CVE-2021-27928"
 				}
 			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2021:1242",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2021:1242"
-		},
-		{
-			"name": "CVE-2021-27928",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-27928"
-		},
 		{
 			"name": "1940909",
 			"source": "errata.almalinux.org",
@@ -527,6 +511,22 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-27928"
+		},
+		{
+			"name": "RHSA-2021:1242",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2021:1242"
+		},
+		{
+			"name": "CVE-2021-27928",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-27928"
 		}
 	],
 	"published": "2021-04-19T00:00:00Z",
