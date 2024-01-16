@@ -1,0 +1,326 @@
+{
+	"id": "ALSA-2023:3582",
+	"title": "Important: .NET 6.0 security, bug fix, and enhancement update",
+	"description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 6.0.118 and .NET Runtime 6.0.18.\n\nThe following packages have been upgraded to a later upstream version: dotnet6.0 (6.0.118). (BZ#2212378)\n\nSecurity Fix(es):\n\n* dotnet: .NET Kestrel: Denial of Service processing X509 Certificates (CVE-2023-29331)\n* dotnet: vulnerability exists in NuGet where a potential race condition can lead to a symlink attack (CVE-2023-29337)\n* dotnet: Remote Code Execution - Source generators issue can lead to a crash due to unmanaged heap corruption (CVE-2023-33128)\n* dotnet: Bypass restrictions when deserializing a DataSet or DataTable from XML (CVE-2023-24936)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "aspnetcore-runtime-6.0"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0.18-1.el8_8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "aspnetcore-targeting-pack-6.0"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0.18-1.el8_8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "dotnet-apphost-pack-6.0"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0.18-1.el8_8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "dotnet-hostfxr-6.0"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0.18-1.el8_8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "dotnet-runtime-6.0"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0.18-1.el8_8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "dotnet-sdk-6.0"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0.118-1.el8_8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "dotnet-sdk-6.0-source-built-artifacts"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0.118-1.el8_8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "dotnet-targeting-pack-6.0"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0.18-1.el8_8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "dotnet-templates-6.0"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "6.0.118-1.el8_8"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2023-24936",
+			"references": [
+				{
+					"name": "CVE-2023-24936",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-24936"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-29331",
+			"references": [
+				{
+					"name": "CVE-2023-29331",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-29331"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-29337",
+			"references": [
+				{
+					"name": "CVE-2023-29337",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-29337"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-33128",
+			"references": [
+				{
+					"name": "CVE-2023-33128",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-33128"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "2192438",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2192438"
+		},
+		{
+			"name": "2212618",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2212618"
+		},
+		{
+			"name": "ALSA-2023-3582",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-3582.html"
+		},
+		{
+			"name": "RHSA-2023:3582",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:3582"
+		},
+		{
+			"name": "CVE-2023-24936",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-24936"
+		},
+		{
+			"name": "CVE-2023-33128",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-33128"
+		},
+		{
+			"name": "2212617",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2212617"
+		},
+		{
+			"name": "2213703",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2213703"
+		},
+		{
+			"name": "CVE-2023-29331",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-29331"
+		},
+		{
+			"name": "CVE-2023-29337",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-29337"
+		}
+	],
+	"published": "2023-06-14T00:00:00Z",
+	"modified": "2023-06-24T08:08:38Z",
+	"data_source": "alma-osv"
+}

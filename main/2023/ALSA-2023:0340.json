@@ -1,0 +1,99 @@
+{
+	"id": "ALSA-2023:0340",
+	"title": "Moderate: bash security update",
+	"description": "The bash packages provide Bash (Bourne-again shell), which is the default shell for AlmaLinux.\n\nSecurity Fix(es):\n\n* bash: a heap-buffer-overflow in valid_parameter_transform (CVE-2022-3715)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "bash"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.1.8-6.el9_1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "bash-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "5.1.8-6.el9_1"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2022-3715",
+			"references": [
+				{
+					"name": "CVE-2022-3715",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-3715"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "2126720",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2126720"
+		},
+		{
+			"name": "ALSA-2023-0340",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-0340.html"
+		},
+		{
+			"name": "RHSA-2023:0340",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:0340"
+		},
+		{
+			"name": "CVE-2022-3715",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3715"
+		}
+	],
+	"published": "2023-01-23T00:00:00Z",
+	"modified": "2023-01-24T10:46:39Z",
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,228 @@
+{
+	"id": "ALSA-2022:8431",
+	"title": "Low: podman security, bug fix, and enhancement update",
+	"description": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.\n\nSecurity Fix(es):\n\n* podman: possible information disclosure and modification (CVE-2022-2989)\n* buildah: possible information disclosure and modification (CVE-2022-2990)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* (podman image trust) does not support the new trust type \"sigstoreSigned \" (BZ#2120436)\n* dnf-update broken for podman/catatonit (BZ#2123319)\n* podman creates lock file in /etc/cni/net.d/cni.lock instead of /run/lock/ (BZ#2123905)\n* podman kill may deadlock [AlmaLinux 9.1] (BZ#2124716)\n* containers config.json gets empty after sudden power loss (BZ#2136278)\n* PANIC podman API service endpoint handler panic (BZ#2136287)\n\nEnhancement(s):\n\n* Podman volume plugin timeout should be configurable [almalinux-9.1.0 Z] (BZ#2124676)\n* [RFE]Podman support to perform custom actions on unhealthy containers (BZ#2136281)",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "podman"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:4.2.0-7.el9_1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "podman-catatonit"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:4.2.0-7.el9_1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "podman-docker"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:4.2.0-7.el9_1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "podman-gvproxy"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:4.2.0-7.el9_1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "podman-plugins"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:4.2.0-7.el9_1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "podman-remote"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:4.2.0-7.el9_1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "podman-tests"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:4.2.0-7.el9_1"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2022-2989",
+			"references": [
+				{
+					"name": "CVE-2022-2989",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2989"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-2990",
+			"references": [
+				{
+					"name": "CVE-2022-2990",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2990"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "2121453",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2121453"
+		},
+		{
+			"name": "ALSA-2022-8431",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-8431.html"
+		},
+		{
+			"name": "RHSA-2022:8431",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:8431"
+		},
+		{
+			"name": "CVE-2022-2989",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2989"
+		},
+		{
+			"name": "CVE-2022-2990",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2990"
+		},
+		{
+			"name": "2121445",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2121445"
+		}
+	],
+	"published": "2022-11-15T00:00:00Z",
+	"modified": "2023-09-15T13:41:48Z",
+	"data_source": "alma-osv"
+}

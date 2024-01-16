@@ -1,0 +1,139 @@
+{
+	"id": "ALSA-2021:4226",
+	"title": "Moderate: grafana security, bug fix, and enhancement update",
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nThe following packages have been upgraded to a later upstream version: grafana (7.5.9). (BZ#1921191)\n\nSecurity Fix(es):\n\n* golang: crypto/elliptic: incorrect operations on the P-224 curve (CVE-2021-3114)\n\n* grafana: snapshot feature allow an unauthenticated remote attacker to trigger a DoS via a remote API call (CVE-2021-27358)\n\n* golang: net: lookup functions may return invalid host names (CVE-2021-33195)\n\n* golang: net/http/httputil: ReverseProxy forwards connection headers if first one is empty (CVE-2021-33197)\n\n* golang: crypto/tls: certificate of wrong type is causing TLS client to panic (CVE-2021-34558)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "grafana"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.5.9-4.el8"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2021-27358",
+			"references": [
+				{
+					"name": "CVE-2021-27358",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-27358"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-3114",
+			"references": [
+				{
+					"name": "CVE-2021-3114",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3114"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-33195",
+			"references": [
+				{
+					"name": "CVE-2021-33195",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-33195"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-33197",
+			"references": [
+				{
+					"name": "CVE-2021-33197",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-33197"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-34558",
+			"references": [
+				{
+					"name": "CVE-2021-34558",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-34558"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2021-33197",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-33197"
+		},
+		{
+			"name": "CVE-2021-34558",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-34558"
+		},
+		{
+			"name": "CVE-2021-27358",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-27358"
+		},
+		{
+			"name": "CVE-2021-3114",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3114"
+		},
+		{
+			"name": "CVE-2021-33195",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-33195"
+		}
+	],
+	"published": "2021-11-09T08:46:47Z",
+	"modified": "2021-11-12T10:20:56Z",
+	"data_source": "alma-osv"
+}

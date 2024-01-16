@@ -1,0 +1,188 @@
+{
+	"id": "ALSA-2023:7038",
+	"title": "Moderate: flatpak security, bug fix, and enhancement update",
+	"description": "Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.\n\nThe following packages have been upgraded to a later upstream version: flatpak (1.10.8). (BZ#2222103)\n\nSecurity Fix(es):\n\n* flatpak: TIOCLINUX can send commands outside sandbox if running on a virtual console (CVE-2023-28100)\n* flatpak: Metadata with ANSI control codes can cause misleading terminal output (CVE-2023-28101)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "flatpak"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.10.8-1.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "flatpak-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.10.8-1.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "flatpak-libs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.10.8-1.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "flatpak-selinux"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.10.8-1.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "flatpak-session-helper"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.10.8-1.el8"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2023-28100",
+			"references": [
+				{
+					"name": "CVE-2023-28100",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-28100"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-28101",
+			"references": [
+				{
+					"name": "CVE-2023-28101",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-28101"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2023-28100",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-28100"
+		},
+		{
+			"name": "CVE-2023-28101",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-28101"
+		},
+		{
+			"name": "2179219",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2179219"
+		},
+		{
+			"name": "2179220",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2179220"
+		},
+		{
+			"name": "ALSA-2023-7038",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-7038.html"
+		},
+		{
+			"name": "RHSA-2023:7038",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:7038"
+		}
+	],
+	"published": "2023-11-14T00:00:00Z",
+	"modified": "2023-11-23T10:22:41Z",
+	"data_source": "alma-osv"
+}

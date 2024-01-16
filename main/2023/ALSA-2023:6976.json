@@ -1,0 +1,79 @@
+{
+	"id": "ALSA-2023:6976",
+	"title": "Moderate: libfastjson security update",
+	"description": "The libfastjson library provides essential JavaScript Object Notation (JSON) handling functions. The library enables users to construct JSON objects in C, output them as JSON-formatted strings, and convert JSON-formatted strings back to the C representation of JSON objects.\n\nSecurity Fix(es):\n\n* json-c, libfastjson: integer overflow and out-of-bounds write via a large JSON file (CVE-2020-12762)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "libfastjson"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.99.9-2.el8"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2020-12762",
+			"references": [
+				{
+					"name": "CVE-2020-12762",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2020-12762"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "1835253",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1835253"
+		},
+		{
+			"name": "ALSA-2023-6976",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-6976.html"
+		},
+		{
+			"name": "RHSA-2023:6976",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:6976"
+		},
+		{
+			"name": "CVE-2020-12762",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2020-12762"
+		}
+	],
+	"published": "2023-11-14T00:00:00Z",
+	"modified": "2023-11-23T10:19:20Z",
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,99 @@
+{
+	"id": "ALSA-2023:5201",
+	"title": "Important: thunderbird security update",
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.15.1.\n\nSecurity Fix(es):\n\n* libwebp: Heap buffer overflow in WebP Codec (CVE-2023-4863)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "thunderbird"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "102.15.1-1.el8_8.alma.plus"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "thunderbird"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "102.15.1-1.el8_8.alma"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2023-4863",
+			"references": [
+				{
+					"name": "CVE-2023-4863",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-4863"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "RHSA-2023:5201",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:5201"
+		},
+		{
+			"name": "CVE-2023-4863",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-4863"
+		},
+		{
+			"name": "2238431",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2238431"
+		},
+		{
+			"name": "ALSA-2023-5201",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-5201.html"
+		}
+	],
+	"published": "2023-09-18T00:00:00Z",
+	"modified": "2023-09-21T13:39:13Z",
+	"data_source": "alma-osv"
+}

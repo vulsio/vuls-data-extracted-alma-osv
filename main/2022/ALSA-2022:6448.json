@@ -1,0 +1,315 @@
+{
+	"id": "ALSA-2022:6448",
+	"title": "Moderate: nodejs:14 security and bug fix update",
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: DNS rebinding in --inspect via invalid IP addresses (CVE-2022-32212)\n* nodejs: HTTP request smuggling due to flawed parsing of Transfer-Encoding (CVE-2022-32213)\n* nodejs: HTTP request smuggling due to improper delimiting of header fields (CVE-2022-32214)\n* nodejs: HTTP request smuggling due to incorrect parsing of multi-line Transfer-Encoding (CVE-2022-32215)\n* got: missing verification of requested URLs allows redirects to UNIX sockets (CVE-2022-33987)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:14/nodejs: rebase to latest upstream release (BZ#2106367)\n* nodejs:14/nodejs: Specify --with-default-icu-data-dir when using bootstrap build (BZ#2111417)",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "nodejs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:14.20.0-2.module_el8.6.0+3261+490666b3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "nodejs-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:14.20.0-2.module_el8.6.0+3261+490666b3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "nodejs-docs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:14.20.0-2.module_el8.6.0+3261+490666b3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "nodejs-full-i18n"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:14.20.0-2.module_el8.6.0+3261+490666b3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "nodejs-nodemon"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.0.19-2.module_el8.6.0+3261+490666b3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "nodejs-packaging"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "23-3.module_el8.5.0+2618+8d46dafd"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "npm"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:6.14.17-1.14.20.0.2.module_el8.6.0+3261+490666b3"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2022-32214",
+			"references": [
+				{
+					"name": "CVE-2022-32214",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-32214"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-32215",
+			"references": [
+				{
+					"name": "CVE-2022-32215",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-32215"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-33987",
+			"references": [
+				{
+					"name": "CVE-2022-33987",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-33987"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-32212",
+			"references": [
+				{
+					"name": "CVE-2022-32212",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-32212"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-32213",
+			"references": [
+				{
+					"name": "CVE-2022-32213",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-32213"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "2105426",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2105426"
+		},
+		{
+			"name": "2105430",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2105430"
+		},
+		{
+			"name": "ALSA-2022-6448",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-6448.html"
+		},
+		{
+			"name": "CVE-2022-33987",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-33987"
+		},
+		{
+			"name": "2102001",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2102001"
+		},
+		{
+			"name": "CVE-2022-32213",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32213"
+		},
+		{
+			"name": "CVE-2022-32214",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32214"
+		},
+		{
+			"name": "CVE-2022-32215",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32215"
+		},
+		{
+			"name": "2105422",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2105422"
+		},
+		{
+			"name": "2105428",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2105428"
+		},
+		{
+			"name": "RHSA-2022:6448",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6448"
+		},
+		{
+			"name": "CVE-2022-32212",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32212"
+		}
+	],
+	"published": "2022-09-13T00:00:00Z",
+	"modified": "2022-11-24T19:17:28Z",
+	"data_source": "alma-osv"
+}

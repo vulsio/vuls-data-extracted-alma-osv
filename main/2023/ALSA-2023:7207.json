@@ -1,0 +1,128 @@
+{
+	"id": "ALSA-2023:7207",
+	"title": "Moderate: c-ares security update",
+	"description": "The c-ares C library defines asynchronous DNS (Domain Name System) requests and provides name resolving API.\n\nSecurity Fix(es):\n\n* c-ares: Heap buffer over read in ares_parse_soa_reply (CVE-2020-22217)\n* c-ares: Buffer Underwrite in ares_inet_net_pton() (CVE-2023-31130)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "c-ares"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.13.0-9.el8_9.1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "c-ares-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.13.0-9.el8_9.1"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2020-22217",
+			"references": [
+				{
+					"name": "CVE-2020-22217",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2020-22217"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-31130",
+			"references": [
+				{
+					"name": "CVE-2023-31130",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2020-22217",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2020-22217"
+		},
+		{
+			"name": "CVE-2023-31130",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
+		},
+		{
+			"name": "2209497",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2209497"
+		},
+		{
+			"name": "2235527",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2235527"
+		},
+		{
+			"name": "ALSA-2023-7207",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-7207.html"
+		},
+		{
+			"name": "RHSA-2023:7207",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:7207"
+		}
+	],
+	"published": "2023-11-14T00:00:00Z",
+	"modified": "2023-11-23T10:20:03Z",
+	"data_source": "alma-osv"
+}

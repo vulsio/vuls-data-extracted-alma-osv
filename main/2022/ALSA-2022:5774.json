@@ -1,0 +1,137 @@
+{
+	"id": "ALSA-2022:5774",
+	"title": "Important: thunderbird security update",
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\nThis update upgrades Thunderbird to version 91.12.0.\nSecurity Fix(es):\n* Mozilla: Memory safety bugs fixed in Firefox 103 and 102.1 (CVE-2022-2505)\n* Mozilla: Directory indexes for bundled resources reflected URL parameters (CVE-2022-36318)\n* Mozilla: Mouse Position spoofing with CSS transforms (CVE-2022-36319)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "thunderbird"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "91.12.0-1.el8_6.alma"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2022-2505",
+			"references": [
+				{
+					"name": "CVE-2022-2505",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2505"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-36318",
+			"references": [
+				{
+					"name": "CVE-2022-36318",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-36318"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-36319",
+			"references": [
+				{
+					"name": "CVE-2022-36319",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-36319"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "2111910",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2111910"
+		},
+		{
+			"name": "ALSA-2022-5774",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-5774.html"
+		},
+		{
+			"name": "RHSA-2022:5774",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5774"
+		},
+		{
+			"name": "CVE-2022-2505",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2505"
+		},
+		{
+			"name": "CVE-2022-36318",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-36318"
+		},
+		{
+			"name": "CVE-2022-36319",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-36319"
+		},
+		{
+			"name": "2111907",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2111907"
+		},
+		{
+			"name": "2111908",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2111908"
+		}
+	],
+	"published": "2022-08-01T00:00:00Z",
+	"modified": "2022-08-05T16:50:07Z",
+	"data_source": "alma-osv"
+}

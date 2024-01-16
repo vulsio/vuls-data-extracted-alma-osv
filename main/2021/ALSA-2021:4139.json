@@ -1,0 +1,136 @@
+{
+	"id": "ALSA-2021:4139",
+	"title": "Moderate: resource-agents security, bug fix, and enhancement update",
+	"description": "The resource-agents packages provide the Pacemaker and RGManager service managers with a set of scripts. These scripts interface with several services to allow operating in a high-availability (HA) environment.\n\nSecurity Fix(es):\n\n* python-pygments: Infinite loop in SML lexer may lead to DoS (CVE-2021-20270)\n\n* python-pygments: ReDoS in multiple lexers (CVE-2021-27291)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "resource-agents"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.1.1-98.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "resource-agents-aliyun"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.1.1-98.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "resource-agents-gcp"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.1.1-98.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "resource-agents-paf"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "4.1.1-98.el8"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2021-20270",
+			"references": [
+				{
+					"name": "CVE-2021-20270",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-20270"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-27291",
+			"references": [
+				{
+					"name": "CVE-2021-27291",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-27291"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2021-20270",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-20270"
+		},
+		{
+			"name": "CVE-2021-27291",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-27291"
+		}
+	],
+	"published": "2021-11-09T08:20:04Z",
+	"modified": "2021-11-12T10:21:02Z",
+	"data_source": "alma-osv"
+}

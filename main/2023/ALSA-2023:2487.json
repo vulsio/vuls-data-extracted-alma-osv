@@ -1,0 +1,206 @@
+{
+	"id": "ALSA-2023:2487",
+	"title": "Moderate: fwupd security and bug fix update",
+	"description": "The fwupd packages provide a service that allows session software to update device firmware.\n\nSecurity Fix(es):\n\n* fwupd: world readable password in /etc/fwupd/redfish.conf (CVE-2022-3287)\n* shim: 3rd party shim allow secure boot bypass (CVE-2022-34301)\n* shim: 3rd party shim allow secure boot bypass (CVE-2022-34302)\n* shim: 3rd party shim allow secure boot bypass (CVE-2022-34303)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "fwupd"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.8.10-2.el9.alma"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "fwupd-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.8.10-2.el9.alma"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "fwupd-plugin-flashrom"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.8.10-2.el9.alma"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2022-34302",
+			"references": [
+				{
+					"name": "CVE-2022-34302",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-34302"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-34303",
+			"references": [
+				{
+					"name": "CVE-2022-34303",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-34303"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-3287",
+			"references": [
+				{
+					"name": "CVE-2022-3287",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-3287"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-34301",
+			"references": [
+				{
+					"name": "CVE-2022-34301",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-34301"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2022-34301",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-34301"
+		},
+		{
+			"name": "CVE-2022-34302",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-34302"
+		},
+		{
+			"name": "CVE-2022-34303",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-34303"
+		},
+		{
+			"name": "2120699",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2120699"
+		},
+		{
+			"name": "2129904",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2129904"
+		},
+		{
+			"name": "RHSA-2023:2487",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:2487"
+		},
+		{
+			"name": "CVE-2022-3287",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3287"
+		},
+		{
+			"name": "2120687",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2120687"
+		},
+		{
+			"name": "2120701",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2120701"
+		},
+		{
+			"name": "ALSA-2023-2487",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-2487.html"
+		}
+	],
+	"published": "2023-05-09T00:00:00Z",
+	"modified": "2023-05-12T02:42:05Z",
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,83 @@
+{
+	"id": "ALSA-2021:1972",
+	"title": "Moderate: pandoc security update",
+	"description": "Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library.\n\nSecurity Fix(es):\n\n* cmark-gfm: Exponential time to parse certain inputs could lead to DoS (CVE-2020-5238)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "pandoc"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.0.6-5.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "pandoc-common"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.0.6-5.el8"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2020-5238",
+			"references": [
+				{
+					"name": "CVE-2020-5238",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-5238"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "ALSA-2021-1972",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2021-1972.html"
+		},
+		{
+			"name": "CVE-2020-5238",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-5238"
+		}
+	],
+	"published": "2021-05-18T06:31:29Z",
+	"modified": "2021-08-11T08:54:00Z",
+	"data_source": "alma-osv"
+}

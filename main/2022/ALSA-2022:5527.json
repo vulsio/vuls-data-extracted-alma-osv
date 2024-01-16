@@ -1,0 +1,79 @@
+{
+	"id": "ALSA-2022:5527",
+	"title": "Important: squid security update",
+	"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\nSecurity Fix(es):\n* squid: DoS when processing gopher server responses (CVE-2021-46784)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "squid"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7:5.2-1.el9_0.1"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2021-46784",
+			"references": [
+				{
+					"name": "CVE-2021-46784",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-46784"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "2100721",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2100721"
+		},
+		{
+			"name": "ALSA-2022-5527",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-5527.html"
+		},
+		{
+			"name": "RHSA-2022:5527",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5527"
+		},
+		{
+			"name": "CVE-2021-46784",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-46784"
+		}
+	],
+	"published": "2022-07-07T00:00:00Z",
+	"modified": "2022-07-21T17:04:23Z",
+	"data_source": "alma-osv"
+}

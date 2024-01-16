@@ -1,0 +1,79 @@
+{
+	"id": "ALSA-2022:7950",
+	"title": "Low: Image Builder security, bug fix, and enhancement update",
+	"description": "Image Builder is a service for building customized OS artifacts, such as VM images and OSTree commits, that uses osbuild under the hood.\n\nSecurity Fix(es):\n\n* golang: math/big: decoding big.Float and big.Rat types can panic if the encoded message is too short, potentially allowing a denial of service (CVE-2022-32189)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "weldr-client"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "35.5-4.el9"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2022-32189",
+			"references": [
+				{
+					"name": "CVE-2022-32189",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-32189"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "RHSA-2022:7950",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:7950"
+		},
+		{
+			"name": "CVE-2022-32189",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32189"
+		},
+		{
+			"name": "2113814",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2113814"
+		},
+		{
+			"name": "ALSA-2022-7950",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-7950.html"
+		}
+	],
+	"published": "2022-11-15T00:00:00Z",
+	"modified": "2022-11-18T08:32:07Z",
+	"data_source": "alma-osv"
+}

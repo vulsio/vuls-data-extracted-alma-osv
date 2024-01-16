@@ -1,0 +1,79 @@
+{
+	"id": "ALSA-2022:7026",
+	"title": "Important: thunderbird security update",
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.3.0.\n\nSecurity Fix(es):\n\n* expat: a use-after-free in the doContent function in xmlparse.c (CVE-2022-40674)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "thunderbird"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "102.3.0-4.el9_0.alma.plus"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2022-40674",
+			"references": [
+				{
+					"name": "CVE-2022-40674",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-40674"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2022-40674",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-40674"
+		},
+		{
+			"name": "2130769",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2130769"
+		},
+		{
+			"name": "ALSA-2022-7026",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-7026.html"
+		},
+		{
+			"name": "RHSA-2022:7026",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:7026"
+		}
+	],
+	"published": "2022-10-18T00:00:00Z",
+	"modified": "2022-10-19T12:27:23Z",
+	"data_source": "alma-osv"
+}

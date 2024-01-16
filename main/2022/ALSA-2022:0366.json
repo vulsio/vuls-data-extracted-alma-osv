@@ -1,0 +1,227 @@
+{
+	"id": "ALSA-2022:0366",
+	"title": "Moderate: vim security update",
+	"description": "Vim (Vi IMproved) is an updated and improved version of the vi editor.\n\nSecurity Fix(es):\n\n* vim: heap-based buffer overflow in win_redr_status() in drawscreen.c (CVE-2021-3872)\n\n* vim: illegal memory access in find_start_brace() in cindent.c when C-indenting (CVE-2021-3984)\n\n* vim: heap-based buffer overflow in find_help_tags() in help.c (CVE-2021-4019)\n\n* vim: use-after-free in win_linetabsize() (CVE-2021-4192)\n\n* vim: out-of-bound read in getvcol() (CVE-2021-4193)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "vim-X11"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:8.0.1763-16.el8_5.13"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "vim-common"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:8.0.1763-16.el8_5.13"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "vim-enhanced"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:8.0.1763-16.el8_5.13"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "vim-filesystem"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:8.0.1763-16.el8_5.13"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "vim-minimal"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2:8.0.1763-16.el8_5.13"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2021-3872",
+			"references": [
+				{
+					"name": "CVE-2021-3872",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3872"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-3984",
+			"references": [
+				{
+					"name": "CVE-2021-3984",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3984"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-4019",
+			"references": [
+				{
+					"name": "CVE-2021-4019",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-4019"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-4192",
+			"references": [
+				{
+					"name": "CVE-2021-4192",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-4192"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-4193",
+			"references": [
+				{
+					"name": "CVE-2021-4193",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-4193"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2021-4193",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-4193"
+		},
+		{
+			"name": "ALSA-2022-0366",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-0366.html"
+		},
+		{
+			"name": "CVE-2021-3872",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3872"
+		},
+		{
+			"name": "CVE-2021-3984",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3984"
+		},
+		{
+			"name": "CVE-2021-4019",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-4019"
+		},
+		{
+			"name": "CVE-2021-4192",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-4192"
+		}
+	],
+	"published": "2022-02-01T20:12:46Z",
+	"modified": "2022-02-02T11:55:08Z",
+	"data_source": "alma-osv"
+}

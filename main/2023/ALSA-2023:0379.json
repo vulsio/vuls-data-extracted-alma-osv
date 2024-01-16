@@ -1,0 +1,157 @@
+{
+	"id": "ALSA-2023:0379",
+	"title": "Important: libXpm security update",
+	"description": "X.Org X11 libXpm runtime library.\n\nSecurity Fix(es):\n\n* libXpm: compression commands depend on $PATH (CVE-2022-4883)\n* libXpm: Runaway loop on width of 0 and enormous height (CVE-2022-44617)\n* libXpm: Infinite loop on unclosed comments (CVE-2022-46285)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "libXpm"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.5.12-9.el8_7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "libXpm-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "3.5.12-9.el8_7"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2022-44617",
+			"references": [
+				{
+					"name": "CVE-2022-44617",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-44617"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-46285",
+			"references": [
+				{
+					"name": "CVE-2022-46285",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46285"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-4883",
+			"references": [
+				{
+					"name": "CVE-2022-4883",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-4883"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "2160092",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2160092"
+		},
+		{
+			"name": "2160193",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2160193"
+		},
+		{
+			"name": "2160213",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2160213"
+		},
+		{
+			"name": "ALSA-2023-0379",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-0379.html"
+		},
+		{
+			"name": "RHSA-2023:0379",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:0379"
+		},
+		{
+			"name": "CVE-2022-44617",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-44617"
+		},
+		{
+			"name": "CVE-2022-46285",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-46285"
+		},
+		{
+			"name": "CVE-2022-4883",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4883"
+		}
+	],
+	"published": "2023-01-23T00:00:00Z",
+	"modified": "2023-03-13T16:36:45Z",
+	"data_source": "alma-osv"
+}

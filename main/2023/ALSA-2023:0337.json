@@ -1,0 +1,99 @@
+{
+	"id": "ALSA-2023:0337",
+	"title": "Moderate: expat security update",
+	"description": "Expat is a C library for parsing XML documents.\n\nSecurity Fix(es):\n\n* expat: use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate (CVE-2022-43680)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "expat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.4.9-1.el9_1.1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "expat-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.4.9-1.el9_1.1"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2022-43680",
+			"references": [
+				{
+					"name": "CVE-2022-43680",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-43680"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "RHSA-2023:0337",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:0337"
+		},
+		{
+			"name": "CVE-2022-43680",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-43680"
+		},
+		{
+			"name": "2140059",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2140059"
+		},
+		{
+			"name": "ALSA-2023-0337",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-0337.html"
+		}
+	],
+	"published": "2023-01-23T00:00:00Z",
+	"modified": "2023-01-24T11:01:47Z",
+	"data_source": "alma-osv"
+}

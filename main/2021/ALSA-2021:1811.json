@@ -1,0 +1,167 @@
+{
+	"id": "ALSA-2021:1811",
+	"title": "Moderate: libvncserver security update",
+	"description": "LibVNCServer is a C library that enables you to implement VNC server functionality into own programs.\n\nSecurity Fix(es):\n\n* libvncserver: uninitialized memory contents are vulnerable to Information Leak (CVE-2018-21247)\n\n* libvncserver: buffer overflow in ConnectClientToUnixSock() (CVE-2019-20839)\n\n* libvncserver: libvncserver/rfbregion.c has a NULL pointer dereference (CVE-2020-14397)\n\n* libvncserver: libvncclient/rfbproto.c does not limit TextChat size (CVE-2020-14405)\n\n* libvncserver: libvncserver/rfbserver.c has a divide by zero which could result in DoS (CVE-2020-25708)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "libvncserver"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.9.11-17.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "libvncserver-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.9.11-17.el8"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2020-14397",
+			"references": [
+				{
+					"name": "CVE-2020-14397",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-14397"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-14405",
+			"references": [
+				{
+					"name": "CVE-2020-14405",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-14405"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-25708",
+			"references": [
+				{
+					"name": "CVE-2020-25708",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-25708"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2018-21247",
+			"references": [
+				{
+					"name": "CVE-2018-21247",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-21247"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-20839",
+			"references": [
+				{
+					"name": "CVE-2019-20839",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-20839"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2018-21247",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-21247"
+		},
+		{
+			"name": "CVE-2019-20839",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-20839"
+		},
+		{
+			"name": "CVE-2020-14397",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-14397"
+		},
+		{
+			"name": "CVE-2020-14405",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-14405"
+		},
+		{
+			"name": "CVE-2020-25708",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-25708"
+		},
+		{
+			"name": "ALSA-2021-1811",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2021-1811.html"
+		}
+	],
+	"published": "2021-05-18T06:09:01Z",
+	"modified": "2021-11-12T10:20:56Z",
+	"data_source": "alma-osv"
+}

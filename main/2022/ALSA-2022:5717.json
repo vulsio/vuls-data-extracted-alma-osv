@@ -1,0 +1,79 @@
+{
+	"id": "ALSA-2022:5717",
+	"title": "Important: grafana security update",
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for\nGraphite, InfluxDB & OpenTSDB.\nSecurity Fix(es):\n* grafana: OAuth account takeover (CVE-2022-31107)\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s)\nlisted in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "grafana"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "7.5.11-3.el8_6"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2022-31107",
+			"references": [
+				{
+					"name": "CVE-2022-31107",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-31107"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2022-31107",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-31107"
+		},
+		{
+			"name": "2104367",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2104367"
+		},
+		{
+			"name": "ALSA-2022-5717",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-5717.html"
+		},
+		{
+			"name": "RHSA-2022:5717",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5717"
+		}
+	],
+	"published": "2022-07-26T00:00:00Z",
+	"modified": "2022-07-28T09:33:32Z",
+	"data_source": "alma-osv"
+}

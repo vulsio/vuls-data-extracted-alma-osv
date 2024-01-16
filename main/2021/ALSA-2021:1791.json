@@ -1,0 +1,118 @@
+{
+	"id": "ALSA-2021:1791",
+	"title": "Moderate: spice-vdagent security and bug fix update",
+	"description": "The spice-vdagent packages provide a SPICE agent for Linux guests.\n\nSecurity Fix(es):\n\n* spice-vdagent: possible file transfer DoS and information leak via active_xfers hash map (CVE-2020-25651)\n\n* spice-vdagent: UNIX domain socket peer PID retrieved via SO_PEERCRED is subject to race condition (CVE-2020-25653)\n\n* spice-vdagent: memory DoS via arbitrary entries in active_xfers hash table (CVE-2020-25650)\n\n* spice-vdagent: possibility to exhaust file descriptors in vdagentd (CVE-2020-25652)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "spice-vdagent"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.20.0-3.el8"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2020-25650",
+			"references": [
+				{
+					"name": "CVE-2020-25650",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-25650"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-25651",
+			"references": [
+				{
+					"name": "CVE-2020-25651",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-25651"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-25652",
+			"references": [
+				{
+					"name": "CVE-2020-25652",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-25652"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-25653",
+			"references": [
+				{
+					"name": "CVE-2020-25653",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-25653"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2020-25650",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-25650"
+		},
+		{
+			"name": "CVE-2020-25651",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-25651"
+		},
+		{
+			"name": "CVE-2020-25652",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-25652"
+		},
+		{
+			"name": "CVE-2020-25653",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-25653"
+		}
+	],
+	"published": "2021-05-18T06:05:33Z",
+	"modified": "2021-11-12T10:20:56Z",
+	"data_source": "alma-osv"
+}

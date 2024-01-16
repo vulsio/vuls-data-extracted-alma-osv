@@ -1,0 +1,99 @@
+{
+	"id": "ALSA-2023:6236",
+	"title": "Moderate: binutils security update",
+	"description": "The binutils packages provide a collection of binary utilities for the manipulation of object code in various object file formats. It includes the ar, as, gprof, ld, nm, objcopy, objdump, ranlib, readelf, size, strings, strip, and addr2line utilities.\n\nSecurity Fix(es):\n\n* binutils: NULL pointer dereference in _bfd_elf_get_symbol_version_string leads to segfault (CVE-2022-4285)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "binutils"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.30-119.el8_8.2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "binutils-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.30-119.el8_8.2"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2022-4285",
+			"references": [
+				{
+					"name": "CVE-2022-4285",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-4285"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "RHSA-2023:6236",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:6236"
+		},
+		{
+			"name": "CVE-2022-4285",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4285"
+		},
+		{
+			"name": "2150768",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2150768"
+		},
+		{
+			"name": "ALSA-2023-6236",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-6236.html"
+		}
+	],
+	"published": "2023-11-01T00:00:00Z",
+	"modified": "2023-11-03T09:37:47Z",
+	"data_source": "alma-osv"
+}

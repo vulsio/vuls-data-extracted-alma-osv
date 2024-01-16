@@ -1,0 +1,83 @@
+{
+	"id": "ALSA-2021:4339",
+	"title": "Moderate: grilo security update",
+	"description": "Grilo is a framework that provides access to different sources of multimedia content, using a pluggable system. The grilo package contains the core library and elements.\n\nSecurity Fix(es):\n\n* grilo: missing TLS certificate verification (CVE-2021-39365)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "grilo"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.3.6-3.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "grilo-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "0.3.6-3.el8"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2021-39365",
+			"references": [
+				{
+					"name": "CVE-2021-39365",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-39365"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "ALSA-2021-4339",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2021-4339.html"
+		},
+		{
+			"name": "CVE-2021-39365",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-39365"
+		}
+	],
+	"published": "2021-11-09T09:02:57Z",
+	"modified": "2021-11-12T10:21:01Z",
+	"data_source": "alma-osv"
+}

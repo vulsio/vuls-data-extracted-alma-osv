@@ -1,0 +1,215 @@
+{
+	"id": "ALSA-2023:5435",
+	"title": "Important: thunderbird security update",
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 115.3.1.\n\nSecurity Fix(es):\n\n* firefox: use-after-free in workers (CVE-2023-3600)\n* Mozilla: Out-of-bounds write in PathOps (CVE-2023-5169)\n* Mozilla: Use-after-free in Ion Compiler (CVE-2023-5171)\n* Mozilla: Memory safety bugs fixed in Firefox 118, Firefox ESR 115.3, and Thunderbird 115.3 (CVE-2023-5176)\n* libvpx: Heap buffer overflow in vp8 encoding in libvpx (CVE-2023-5217)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "thunderbird"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "115.3.1-1.el9_2.alma.plus"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "thunderbird"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "115.3.1-1.el9_2.alma"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2023-5217",
+			"references": [
+				{
+					"name": "CVE-2023-5217",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-5217"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-3600",
+			"references": [
+				{
+					"name": "CVE-2023-3600",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-3600"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-5169",
+			"references": [
+				{
+					"name": "CVE-2023-5169",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-5169"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-5171",
+			"references": [
+				{
+					"name": "CVE-2023-5171",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-5171"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-5176",
+			"references": [
+				{
+					"name": "CVE-2023-5176",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-5176"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2023-5176",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5176"
+		},
+		{
+			"name": "2222652",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2222652"
+		},
+		{
+			"name": "2240896",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2240896"
+		},
+		{
+			"name": "CVE-2023-5171",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5171"
+		},
+		{
+			"name": "CVE-2023-3600",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-3600"
+		},
+		{
+			"name": "CVE-2023-5169",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5169"
+		},
+		{
+			"name": "CVE-2023-5217",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5217"
+		},
+		{
+			"name": "2240893",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2240893"
+		},
+		{
+			"name": "2240894",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2240894"
+		},
+		{
+			"name": "2241191",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2241191"
+		},
+		{
+			"name": "ALSA-2023-5435",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-5435.html"
+		},
+		{
+			"name": "RHSA-2023:5435",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:5435"
+		}
+	],
+	"published": "2023-10-04T00:00:00Z",
+	"modified": "2023-10-06T13:57:08Z",
+	"data_source": "alma-osv"
+}

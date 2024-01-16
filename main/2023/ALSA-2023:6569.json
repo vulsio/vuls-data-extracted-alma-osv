@@ -1,0 +1,79 @@
+{
+	"id": "ALSA-2023:6569",
+	"title": "Moderate: sysstat security and bug fix update",
+	"description": "The sysstat packages provide the sar and iostat commands. These commands enable system monitoring of disk, network, and other I/O activity.\n\nSecurity Fix(es):\n\n* sysstat: check_overflow() function can work incorrectly, which could lead to an overflow (CVE-2023-33204)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "sysstat"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "12.5.4-7.el9"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2023-33204",
+			"references": [
+				{
+					"name": "CVE-2023-33204",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-33204"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "2208270",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2208270"
+		},
+		{
+			"name": "ALSA-2023-6569",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-6569.html"
+		},
+		{
+			"name": "RHSA-2023:6569",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:6569"
+		},
+		{
+			"name": "CVE-2023-33204",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-33204"
+		}
+	],
+	"published": "2023-11-07T00:00:00Z",
+	"modified": "2023-11-14T12:05:16Z",
+	"data_source": "alma-osv"
+}

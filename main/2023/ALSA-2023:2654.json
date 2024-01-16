@@ -1,0 +1,422 @@
+{
+	"id": "ALSA-2023:2654",
+	"title": "Moderate: nodejs:18 security, bug fix, and enhancement update",
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (18.14.2).\n\nSecurity Fix(es):\n\n* glob-parent: Regular Expression Denial of Service (CVE-2021-35065)\n* c-ares: buffer overflow in config_sortlist() due to missing string length check (CVE-2022-4904)\n* http-cache-semantics: Regular Expression Denial of Service (ReDoS) vulnerability (CVE-2022-25881)\n* Node.js: Permissions policies can be bypassed via process.mainModule (CVE-2023-23918)\n* Node.js: OpenSSL error handling issues in nodejs crypto library (CVE-2023-23919)\n* Node.js: Fetch API did not protect against CRLF injection in host headers (CVE-2023-23936)\n* Node.js: insecure loading of ICU data through ICU_DATA environment variable (CVE-2023-23920)\n* Node.js: Regular Expression Denial of Service in Headers fetch API (CVE-2023-24807)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "nodejs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:18.14.2-2.module_el9.2.0+29+de583a0b"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "nodejs-devel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:18.14.2-2.module_el9.2.0+29+de583a0b"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "nodejs-docs"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:18.14.2-2.module_el9.2.0+29+de583a0b"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "nodejs-full-i18n"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:18.14.2-2.module_el9.2.0+29+de583a0b"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "nodejs-nodemon"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2.0.20-2.module_el9.2.0+29+de583a0b"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "nodejs-packaging"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2021.06-4.module_el9.1.0+13+d9a595ea"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "nodejs-packaging-bundler"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "2021.06-4.module_el9.1.0+13+d9a595ea"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "npm"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:9.5.0-1.18.14.2.2.module_el9.2.0+29+de583a0b"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2023-23920",
+			"references": [
+				{
+					"name": "CVE-2023-23920",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-23920"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-23936",
+			"references": [
+				{
+					"name": "CVE-2023-23936",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-23936"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-24807",
+			"references": [
+				{
+					"name": "CVE-2023-24807",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-24807"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-35065",
+			"references": [
+				{
+					"name": "CVE-2021-35065",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-35065"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-25881",
+			"references": [
+				{
+					"name": "CVE-2022-25881",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-25881"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-4904",
+			"references": [
+				{
+					"name": "CVE-2022-4904",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-23918",
+			"references": [
+				{
+					"name": "CVE-2023-23918",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-23918"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-23919",
+			"references": [
+				{
+					"name": "CVE-2023-23919",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-23919"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "CVE-2021-35065",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-35065"
+		},
+		{
+			"name": "CVE-2023-23918",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-23918"
+		},
+		{
+			"name": "CVE-2023-23919",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-23919"
+		},
+		{
+			"name": "CVE-2023-23920",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-23920"
+		},
+		{
+			"name": "2156324",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2156324"
+		},
+		{
+			"name": "2172170",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2172170"
+		},
+		{
+			"name": "CVE-2022-25881",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-25881"
+		},
+		{
+			"name": "2171935",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2171935"
+		},
+		{
+			"name": "CVE-2023-23936",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-23936"
+		},
+		{
+			"name": "CVE-2023-24807",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-24807"
+		},
+		{
+			"name": "2168631",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2168631"
+		},
+		{
+			"name": "2172217",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2172217"
+		},
+		{
+			"name": "ALSA-2023-2654",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-2654.html"
+		},
+		{
+			"name": "RHSA-2023:2654",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:2654"
+		},
+		{
+			"name": "CVE-2022-4904",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
+		},
+		{
+			"name": "2165824",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2165824"
+		},
+		{
+			"name": "2172190",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2172190"
+		},
+		{
+			"name": "2172204",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2172204"
+		}
+	],
+	"published": "2023-05-09T00:00:00Z",
+	"modified": "2023-05-11T21:13:57Z",
+	"data_source": "alma-osv"
+}
