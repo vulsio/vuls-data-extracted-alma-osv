@@ -734,6 +734,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2022:5779",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5779"
+		},
+		{
 			"name": "CVE-2021-41817",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -772,14 +780,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-5779.html"
-		},
-		{
-			"name": "RHSA-2022:5779",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:5779"
 		}
 	],
 	"published": "2022-08-01T00:00:00Z",

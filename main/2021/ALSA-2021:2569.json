@@ -26,6 +26,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-3541",
+			"references": [
+				{
+					"name": "CVE-2021-3541",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3541"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-3516",
 			"references": [
 				{
@@ -74,19 +87,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-3537"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-3541",
-			"references": [
-				{
-					"name": "CVE-2021-3541",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-3541"
 				}
 			]
 		}

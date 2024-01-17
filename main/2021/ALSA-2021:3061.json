@@ -953,6 +953,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-3416",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3416"
+		},
+		{
 			"name": "CVE-2021-3504",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -991,14 +999,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-20221"
-		},
-		{
-			"name": "CVE-2021-3416",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3416"
 		}
 	],
 	"published": "2021-08-10T11:58:46Z",
