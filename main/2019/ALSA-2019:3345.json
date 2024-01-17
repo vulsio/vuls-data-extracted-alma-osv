@@ -446,6 +446,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2019-12155",
+			"references": [
+				{
+					"name": "CVE-2019-12155",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-12155"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2019-9755",
 			"references": [
 				{
@@ -468,19 +481,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2019-9824"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-12155",
-			"references": [
-				{
-					"name": "CVE-2019-12155",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-12155"
 				}
 			]
 		}

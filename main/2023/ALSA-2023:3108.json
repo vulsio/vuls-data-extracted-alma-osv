@@ -86,9 +86,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-28205"
-		},
-		{
 			"cve": "CVE-2023-2203",
 			"references": [
 				{
@@ -100,6 +97,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-2203"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-28205"
 		}
 	],
 	"references": [
