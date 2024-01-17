@@ -127,6 +127,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2016-2124",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2016-2124"
+		},
+		{
 			"name": "CVE-2020-25717",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -141,14 +149,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-23192"
-		},
-		{
-			"name": "CVE-2016-2124",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2016-2124"
 		}
 	],
 	"published": "2021-12-13T08:15:38Z",

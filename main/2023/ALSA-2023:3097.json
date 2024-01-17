@@ -93,12 +93,44 @@
 	],
 	"references": [
 		{
-			"name": "2172022",
+			"name": "RHSA-2023:3097",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:3097"
+		},
+		{
+			"name": "CVE-2023-25566",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-25566"
+		},
+		{
+			"name": "CVE-2023-25567",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-25567"
+		},
+		{
+			"name": "2172020",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2172022"
+			"url": "https://bugzilla.redhat.com/2172020"
+		},
+		{
+			"name": "2172021",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2172021"
 		},
 		{
 			"name": "ALSA-2023-3097",
@@ -141,44 +173,12 @@
 			"url": "https://bugzilla.redhat.com/2172019"
 		},
 		{
-			"name": "2172020",
+			"name": "2172022",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2172020"
-		},
-		{
-			"name": "2172021",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2172021"
-		},
-		{
-			"name": "RHSA-2023:3097",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:3097"
-		},
-		{
-			"name": "CVE-2023-25566",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-25566"
-		},
-		{
-			"name": "CVE-2023-25567",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-25567"
+			"url": "https://bugzilla.redhat.com/2172022"
 		},
 		{
 			"name": "2172023",
