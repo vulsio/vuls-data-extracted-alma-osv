@@ -686,19 +686,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-42669",
-			"references": [
-				{
-					"name": "CVE-2023-42669",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-42669"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-3961",
 			"references": [
 				{
@@ -723,9 +710,38 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-4091"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-42669",
+			"references": [
+				{
+					"name": "CVE-2023-42669",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-42669"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2023-3961",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-3961"
+		},
+		{
+			"name": "CVE-2023-4091",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-4091"
+		},
 		{
 			"name": "CVE-2023-42669",
 			"source": "errata.almalinux.org",
@@ -773,22 +789,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:7467"
-		},
-		{
-			"name": "CVE-2023-3961",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-3961"
-		},
-		{
-			"name": "CVE-2023-4091",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-4091"
 		}
 	],
 	"published": "2023-11-22T00:00:00Z",

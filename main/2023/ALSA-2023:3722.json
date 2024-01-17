@@ -153,12 +153,36 @@
 	],
 	"references": [
 		{
-			"name": "2182561",
+			"name": "RHSA-2023:3722",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:3722"
+		},
+		{
+			"name": "CVE-2023-0464",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0464"
+		},
+		{
+			"name": "2181082",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2182561"
+			"url": "https://bugzilla.redhat.com/2181082"
+		},
+		{
+			"name": "2188461",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2188461"
 		},
 		{
 			"name": "2207947",
@@ -169,12 +193,12 @@
 			"url": "https://bugzilla.redhat.com/2207947"
 		},
 		{
-			"name": "RHSA-2023:3722",
+			"name": "CVE-2023-0465",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"cve"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:3722"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0465"
 		},
 		{
 			"name": "CVE-2023-0466",
@@ -201,28 +225,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-2650"
 		},
 		{
-			"name": "2181082",
+			"name": "2182561",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2181082"
-		},
-		{
-			"name": "CVE-2023-0464",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0464"
-		},
-		{
-			"name": "CVE-2023-0465",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0465"
+			"url": "https://bugzilla.redhat.com/2182561"
 		},
 		{
 			"name": "2182565",
@@ -231,14 +239,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2182565"
-		},
-		{
-			"name": "2188461",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2188461"
 		},
 		{
 			"name": "ALSA-2023-3722",

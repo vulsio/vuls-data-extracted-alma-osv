@@ -113,6 +113,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-5217",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5217"
+		},
+		{
 			"name": "2222652",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -129,12 +137,20 @@
 			"url": "https://bugzilla.redhat.com/2240893"
 		},
 		{
-			"name": "2240894",
+			"name": "2240896",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2240894"
+			"url": "https://bugzilla.redhat.com/2240896"
+		},
+		{
+			"name": "2241191",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2241191"
 		},
 		{
 			"name": "ALSA-2023-5434",
@@ -143,14 +159,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-5434.html"
-		},
-		{
-			"name": "RHSA-2023:5434",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:5434"
 		},
 		{
 			"name": "CVE-2023-5169",
@@ -177,28 +185,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-5176"
 		},
 		{
-			"name": "CVE-2023-5217",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-5217"
-		},
-		{
-			"name": "2240896",
+			"name": "2240894",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2240896"
+			"url": "https://bugzilla.redhat.com/2240894"
 		},
 		{
-			"name": "2241191",
+			"name": "RHSA-2023:5434",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"third-party-advisory"
 			],
-			"url": "https://bugzilla.redhat.com/2241191"
+			"url": "https://access.redhat.com/errata/RHSA-2023:5434"
 		},
 		{
 			"name": "CVE-2023-3600",

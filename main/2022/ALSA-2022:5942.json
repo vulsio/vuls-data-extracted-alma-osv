@@ -147,22 +147,6 @@
 	],
 	"references": [
 		{
-			"name": "2091682",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2091682"
-		},
-		{
-			"name": "2091687",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2091687"
-		},
-		{
 			"name": "ALSA-2022-5942",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -209,6 +193,22 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2088689"
+		},
+		{
+			"name": "2091682",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2091682"
+		},
+		{
+			"name": "2091687",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2091687"
 		}
 	],
 	"published": "2022-08-09T00:00:00Z",
