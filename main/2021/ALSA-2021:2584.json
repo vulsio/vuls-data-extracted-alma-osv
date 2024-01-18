@@ -514,14 +514,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-28965",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-28965"
-		},
-		{
 			"name": "ALSA-2021-2584",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -536,6 +528,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-25613"
+		},
+		{
+			"name": "CVE-2021-28965",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-28965"
 		}
 	],
 	"published": "2021-06-29T13:57:50Z",

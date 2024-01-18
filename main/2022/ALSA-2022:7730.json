@@ -141,6 +141,14 @@
 	],
 	"references": [
 		{
+			"name": "2108215",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2108215"
+		},
+		{
 			"name": "ALSA-2022-7730",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -163,14 +171,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-32746"
-		},
-		{
-			"name": "2108215",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2108215"
 		}
 	],
 	"published": "2022-11-08T00:00:00Z",
