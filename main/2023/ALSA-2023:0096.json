@@ -146,19 +146,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-42012",
-			"references": [
-				{
-					"name": "CVE-2022-42012",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-42012"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-42010",
 			"references": [
 				{
@@ -183,41 +170,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-42011"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-42012",
+			"references": [
+				{
+					"name": "CVE-2022-42012",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42012"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2022-42010",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-42010"
-		},
-		{
-			"name": "CVE-2022-42011",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-42011"
-		},
-		{
-			"name": "CVE-2022-42012",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-42012"
-		},
-		{
-			"name": "2133616",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2133616"
-		},
 		{
 			"name": "2133617",
 			"source": "errata.almalinux.org",
@@ -249,6 +217,38 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:0096"
+		},
+		{
+			"name": "CVE-2022-42010",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-42010"
+		},
+		{
+			"name": "CVE-2022-42011",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-42011"
+		},
+		{
+			"name": "CVE-2022-42012",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-42012"
+		},
+		{
+			"name": "2133616",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2133616"
 		}
 	],
 	"published": "2023-01-12T00:00:00Z",

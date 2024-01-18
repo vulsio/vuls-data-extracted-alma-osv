@@ -244,14 +244,6 @@
 			"url": "https://errata.almalinux.org/9/ALSA-2023-5363.html"
 		},
 		{
-			"name": "CVE-2022-25883",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-25883"
-		},
-		{
 			"name": "CVE-2023-32559",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -282,6 +274,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:5363"
+		},
+		{
+			"name": "CVE-2022-25883",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-25883"
 		},
 		{
 			"name": "CVE-2023-32002",

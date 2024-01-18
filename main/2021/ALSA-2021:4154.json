@@ -574,6 +574,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-3602",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3602"
+		},
+		{
 			"name": "ALSA-2021-4154",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -588,14 +596,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-20291"
-		},
-		{
-			"name": "CVE-2021-3602",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3602"
 		}
 	],
 	"published": "2021-11-09T08:24:51Z",

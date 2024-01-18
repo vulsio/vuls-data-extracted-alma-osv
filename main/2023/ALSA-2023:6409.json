@@ -641,14 +641,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:6409",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:6409"
-		},
-		{
 			"name": "CVE-2023-3750",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -671,6 +663,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-6409.html"
+		},
+		{
+			"name": "RHSA-2023:6409",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:6409"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

@@ -406,6 +406,9 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-3750"
+		},
+		{
 			"cve": "CVE-2023-2680",
 			"references": [
 				{
@@ -417,12 +420,17 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-2680"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2021-3750"
 		}
 	],
 	"references": [
+		{
+			"name": "2203387",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2203387"
+		},
 		{
 			"name": "ALSA-2023-6368",
 			"source": "errata.almalinux.org",
@@ -446,14 +454,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-2680"
-		},
-		{
-			"name": "2203387",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2203387"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",
