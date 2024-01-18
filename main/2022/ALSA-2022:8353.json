@@ -194,6 +194,22 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-28861",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-28861"
+		},
+		{
+			"name": "2075390",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2075390"
+		},
+		{
 			"name": "2120642",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -224,22 +240,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2015-20107"
-		},
-		{
-			"name": "CVE-2021-28861",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-28861"
-		},
-		{
-			"name": "2075390",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2075390"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

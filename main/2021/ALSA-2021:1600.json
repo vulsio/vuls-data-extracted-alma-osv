@@ -67,6 +67,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2020-26572",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-26572"
+		},
+		{
 			"name": "ALSA-2021-1600",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -89,14 +97,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-26571"
-		},
-		{
-			"name": "CVE-2020-26572",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-26572"
 		}
 	],
 	"published": "2021-05-18T05:37:30Z",

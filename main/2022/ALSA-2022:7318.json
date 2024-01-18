@@ -594,6 +594,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-30594",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-30594"
+		},
+		{
 			"name": "2085300",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -632,14 +640,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-2585"
-		},
-		{
-			"name": "CVE-2022-30594",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-30594"
 		}
 	],
 	"published": "2022-11-02T00:00:00Z",

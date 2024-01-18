@@ -46,6 +46,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-4904",
+			"references": [
+				{
+					"name": "CVE-2022-4904",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-31124",
 			"references": [
 				{
@@ -83,22 +96,17 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-4904",
-			"references": [
-				{
-					"name": "CVE-2022-4904",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "RHSA-2023:6635",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:6635"
+		},
 		{
 			"name": "CVE-2022-4904",
 			"source": "errata.almalinux.org",
@@ -106,14 +114,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
-		},
-		{
-			"name": "CVE-2023-31130",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
 		},
 		{
 			"name": "2168631",
@@ -140,12 +140,12 @@
 			"url": "https://bugzilla.redhat.com/2209501"
 		},
 		{
-			"name": "RHSA-2023:6635",
+			"name": "ALSA-2023-6635",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:6635"
+			"url": "https://errata.almalinux.org/9/ALSA-2023-6635.html"
 		},
 		{
 			"name": "CVE-2023-31124",
@@ -154,6 +154,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-31124"
+		},
+		{
+			"name": "CVE-2023-31130",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
 		},
 		{
 			"name": "CVE-2023-31147",
@@ -170,14 +178,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2209494"
-		},
-		{
-			"name": "ALSA-2023-6635",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-6635.html"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

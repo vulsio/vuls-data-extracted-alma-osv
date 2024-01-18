@@ -346,19 +346,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-22067",
-			"references": [
-				{
-					"name": "CVE-2023-22067",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-22067"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-22081",
 			"references": [
 				{
@@ -383,9 +370,46 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-40433"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-22067",
+			"references": [
+				{
+					"name": "CVE-2023-22067",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-22067"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "ALSA-2023-5733",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-5733.html"
+		},
+		{
+			"name": "RHSA-2023:5733",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:5733"
+		},
+		{
+			"name": "CVE-2022-40433",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-40433"
+		},
 		{
 			"name": "CVE-2023-22067",
 			"source": "errata.almalinux.org",
@@ -425,30 +449,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2243637"
-		},
-		{
-			"name": "ALSA-2023-5733",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-5733.html"
-		},
-		{
-			"name": "RHSA-2023:5733",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:5733"
-		},
-		{
-			"name": "CVE-2022-40433",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-40433"
 		}
 	],
 	"published": "2023-10-18T00:00:00Z",

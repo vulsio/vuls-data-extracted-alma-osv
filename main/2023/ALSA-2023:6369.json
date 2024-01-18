@@ -353,12 +353,12 @@
 	],
 	"references": [
 		{
-			"name": "2232173",
+			"name": "ALSA-2023-6369",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"vendor-advisory"
 			],
-			"url": "https://bugzilla.redhat.com/2232173"
+			"url": "https://errata.almalinux.org/9/ALSA-2023-6369.html"
 		},
 		{
 			"name": "RHSA-2023:6369",
@@ -369,12 +369,12 @@
 			"url": "https://access.redhat.com/errata/RHSA-2023:6369"
 		},
 		{
-			"name": "CVE-2023-33285",
+			"name": "CVE-2023-32573",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-33285"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32573"
 		},
 		{
 			"name": "CVE-2023-34410",
@@ -383,14 +383,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-34410"
-		},
-		{
-			"name": "CVE-2023-38197",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-38197"
 		},
 		{
 			"name": "2208135",
@@ -417,20 +409,20 @@
 			"url": "https://bugzilla.redhat.com/2222767"
 		},
 		{
-			"name": "ALSA-2023-6369",
+			"name": "2232173",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"bugzilla"
 			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-6369.html"
+			"url": "https://bugzilla.redhat.com/2232173"
 		},
 		{
-			"name": "CVE-2023-32573",
+			"name": "CVE-2023-33285",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32573"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-33285"
 		},
 		{
 			"name": "CVE-2023-37369",
@@ -439,6 +431,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-37369"
+		},
+		{
+			"name": "CVE-2023-38197",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-38197"
 		},
 		{
 			"name": "2209488",
