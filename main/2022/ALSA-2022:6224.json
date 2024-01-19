@@ -153,28 +153,12 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-1473",
+			"name": "2081494",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1473"
-		},
-		{
-			"name": "CVE-2022-2068",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2068"
-		},
-		{
-			"name": "CVE-2022-2097",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2097"
+			"url": "https://bugzilla.redhat.com/2081494"
 		},
 		{
 			"name": "2087913",
@@ -191,6 +175,30 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2097310"
+		},
+		{
+			"name": "2104905",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2104905"
+		},
+		{
+			"name": "CVE-2022-2097",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2097"
+		},
+		{
+			"name": "2087911",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2087911"
 		},
 		{
 			"name": "ALSA-2022-6224",
@@ -225,28 +233,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1343"
 		},
 		{
-			"name": "2081494",
+			"name": "CVE-2022-1473",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2081494"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1473"
 		},
 		{
-			"name": "2087911",
+			"name": "CVE-2022-2068",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2087911"
-		},
-		{
-			"name": "2104905",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2104905"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2068"
 		}
 	],
 	"published": "2022-08-30T00:00:00Z",

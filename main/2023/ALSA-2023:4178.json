@@ -374,14 +374,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2023-4178",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-4178.html"
-		},
-		{
 			"name": "RHSA-2023:4178",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -420,6 +412,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2221647"
+		},
+		{
+			"name": "ALSA-2023-4178",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-4178.html"
 		}
 	],
 	"published": "2023-07-20T00:00:00Z",

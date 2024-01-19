@@ -274,30 +274,6 @@
 	],
 	"references": [
 		{
-			"name": "2061633",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2061633"
-		},
-		{
-			"name": "ALSA-2022-5344",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-5344.html"
-		},
-		{
-			"name": "RHSA-2022:5344",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:5344"
-		},
-		{
 			"name": "CVE-2020-28915",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -320,6 +296,30 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/1899177"
+		},
+		{
+			"name": "2061633",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2061633"
+		},
+		{
+			"name": "ALSA-2022-5344",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-5344.html"
+		},
+		{
+			"name": "RHSA-2022:5344",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5344"
 		}
 	],
 	"published": "2022-06-28T00:00:00Z",

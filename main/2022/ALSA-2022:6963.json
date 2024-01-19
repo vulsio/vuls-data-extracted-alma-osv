@@ -106,19 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-35255",
-			"references": [
-				{
-					"name": "CVE-2022-35255",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-35255"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-35256",
 			"references": [
 				{
@@ -130,17 +117,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-35256"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-35255",
+			"references": [
+				{
+					"name": "CVE-2022-35255",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-35255"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2022:6963",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6963"
-		},
 		{
 			"name": "CVE-2022-35255",
 			"source": "errata.almalinux.org",
@@ -180,6 +172,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-6963.html"
+		},
+		{
+			"name": "RHSA-2022:6963",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6963"
 		}
 	],
 	"published": "2022-10-18T00:00:00Z",
