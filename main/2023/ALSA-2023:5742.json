@@ -481,14 +481,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2023-5742",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-5742.html"
-		},
-		{
 			"name": "RHSA-2023:5742",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -511,6 +503,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2243627"
+		},
+		{
+			"name": "ALSA-2023-5742",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-5742.html"
 		}
 	],
 	"published": "2023-10-18T00:00:00Z",

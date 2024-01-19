@@ -46,58 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-27363",
-			"references": [
-				{
-					"name": "CVE-2021-27363",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-27363"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-27364",
-			"references": [
-				{
-					"name": "CVE-2021-27364",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-27364"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-27365",
-			"references": [
-				{
-					"name": "CVE-2021-27365",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-27365"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-3347",
-			"references": [
-				{
-					"name": "CVE-2021-3347",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-3347"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-0466",
 			"references": [
 				{
@@ -146,6 +94,58 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-26708"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-27363",
+			"references": [
+				{
+					"name": "CVE-2021-27363",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-27363"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-27364",
+			"references": [
+				{
+					"name": "CVE-2021-27364",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-27364"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-27365",
+			"references": [
+				{
+					"name": "CVE-2021-27365",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-27365"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-3347",
+			"references": [
+				{
+					"name": "CVE-2021-3347",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3347"
 				}
 			]
 		}
