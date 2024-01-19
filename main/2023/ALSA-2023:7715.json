@@ -101,14 +101,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2023-7715",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-7715.html"
-		},
-		{
 			"name": "RHSA-2023:7715",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -131,6 +123,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2253058"
+		},
+		{
+			"name": "ALSA-2023-7715",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-7715.html"
 		}
 	],
 	"published": "2023-12-11T00:00:00Z",

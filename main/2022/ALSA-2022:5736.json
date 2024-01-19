@@ -528,6 +528,14 @@
 			"url": "https://bugzilla.redhat.com/2108547"
 		},
 		{
+			"name": "ALSA-2022-5736",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-5736.html"
+		},
+		{
 			"name": "CVE-2022-21540",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -536,12 +544,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-21540"
 		},
 		{
-			"name": "2108543",
+			"name": "CVE-2022-21541",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2108543"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-21541"
 		},
 		{
 			"name": "CVE-2022-21549",
@@ -552,14 +560,6 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-21549"
 		},
 		{
-			"name": "CVE-2022-34169",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-34169"
-		},
-		{
 			"name": "2108540",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -568,20 +568,12 @@
 			"url": "https://bugzilla.redhat.com/2108540"
 		},
 		{
-			"name": "2108554",
+			"name": "2108543",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2108554"
-		},
-		{
-			"name": "ALSA-2022-5736",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-5736.html"
+			"url": "https://bugzilla.redhat.com/2108543"
 		},
 		{
 			"name": "RHSA-2022:5736",
@@ -592,12 +584,20 @@
 			"url": "https://access.redhat.com/errata/RHSA-2022:5736"
 		},
 		{
-			"name": "CVE-2022-21541",
+			"name": "CVE-2022-34169",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-21541"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-34169"
+		},
+		{
+			"name": "2108554",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2108554"
 		}
 	],
 	"published": "2022-07-27T00:00:00Z",
