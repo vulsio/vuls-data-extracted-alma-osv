@@ -286,6 +286,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-39417",
+			"references": [
+				{
+					"name": "CVE-2023-39417",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-39417"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-5868",
 			"references": [
 				{
@@ -321,19 +334,6 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2023-5870"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2023-39417",
-			"references": [
-				{
-					"name": "CVE-2023-39417",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-39417"
 				}
 			]
 		}
@@ -372,12 +372,12 @@
 			"url": "https://bugzilla.redhat.com/2247169"
 		},
 		{
-			"name": "RHSA-2023:7784",
+			"name": "ALSA-2023-7784",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:7784"
+			"url": "https://errata.almalinux.org/9/ALSA-2023-7784.html"
 		},
 		{
 			"name": "CVE-2023-39417",
@@ -412,12 +412,12 @@
 			"url": "https://bugzilla.redhat.com/2247170"
 		},
 		{
-			"name": "ALSA-2023-7784",
+			"name": "RHSA-2023:7784",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"third-party-advisory"
 			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-7784.html"
+			"url": "https://access.redhat.com/errata/RHSA-2023:7784"
 		}
 	],
 	"published": "2023-12-13T00:00:00Z",
