@@ -780,6 +780,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-28739",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-28739"
+		},
+		{
 			"name": "2075687",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -818,14 +826,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-33621"
-		},
-		{
-			"name": "CVE-2022-28739",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-28739"
 		},
 		{
 			"name": "CVE-2023-28755",

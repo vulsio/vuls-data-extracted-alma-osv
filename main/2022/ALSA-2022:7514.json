@@ -46,19 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-25310",
-			"references": [
-				{
-					"name": "CVE-2022-25310",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-25310"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-25308",
 			"references": [
 				{
@@ -81,6 +68,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2022-25309"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-25310",
+			"references": [
+				{
+					"name": "CVE-2022-25310",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-25310"
 				}
 			]
 		}

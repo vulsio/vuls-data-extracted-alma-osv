@@ -570,6 +570,22 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-20316",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-20316"
+		},
+		{
+			"name": "CVE-2021-44141",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-44141"
+		},
+		{
 			"name": "RHSA-2022:2074",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -616,22 +632,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-2074.html"
-		},
-		{
-			"name": "CVE-2021-20316",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-20316"
-		},
-		{
-			"name": "CVE-2021-44141",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-44141"
 		}
 	],
 	"published": "2022-05-10T00:00:00Z",
