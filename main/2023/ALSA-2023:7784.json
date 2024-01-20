@@ -364,12 +364,12 @@
 			"url": "https://bugzilla.redhat.com/2228111"
 		},
 		{
-			"name": "2247169",
+			"name": "2247170",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2247169"
+			"url": "https://bugzilla.redhat.com/2247170"
 		},
 		{
 			"name": "ALSA-2023-7784",
@@ -396,20 +396,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-5868"
 		},
 		{
-			"name": "2247168",
+			"name": "2247169",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2247168"
-		},
-		{
-			"name": "2247170",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2247170"
+			"url": "https://bugzilla.redhat.com/2247169"
 		},
 		{
 			"name": "RHSA-2023:7784",
@@ -418,6 +410,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:7784"
+		},
+		{
+			"name": "2247168",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2247168"
 		}
 	],
 	"published": "2023-12-13T00:00:00Z",

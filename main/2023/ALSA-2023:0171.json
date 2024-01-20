@@ -101,14 +101,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-2132",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2132"
-		},
-		{
 			"name": "2099475",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -131,6 +123,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:0171"
+		},
+		{
+			"name": "CVE-2022-2132",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2132"
 		}
 	],
 	"published": "2023-01-16T00:00:00Z",

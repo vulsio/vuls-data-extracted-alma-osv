@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-38712",
-			"references": [
-				{
-					"name": "CVE-2023-38712",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-38712"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-38710",
 			"references": [
 				{
@@ -63,17 +50,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-38711"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-38712",
+			"references": [
+				{
+					"name": "CVE-2023-38712",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38712"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2023-38711",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-38711"
-		},
 		{
 			"name": "CVE-2023-38712",
 			"source": "errata.almalinux.org",
@@ -129,6 +121,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-38710"
+		},
+		{
+			"name": "CVE-2023-38711",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-38711"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",

@@ -46,19 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-25713",
-			"references": [
-				{
-					"name": "CVE-2020-25713",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-25713"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2017-18926",
 			"references": [
 				{
@@ -70,17 +57,22 @@
 					"url": "https://vulners.com/cve/CVE-2017-18926"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-25713",
+			"references": [
+				{
+					"name": "CVE-2020-25713",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-25713"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2020-25713",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-25713"
-		},
 		{
 			"name": "ALSA-2021-1842",
 			"source": "errata.almalinux.org",
@@ -96,6 +88,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2017-18926"
+		},
+		{
+			"name": "CVE-2020-25713",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-25713"
 		}
 	],
 	"published": "2021-05-18T06:13:17Z",
