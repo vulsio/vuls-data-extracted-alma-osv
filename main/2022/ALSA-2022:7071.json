@@ -96,6 +96,14 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-42932"
 		},
 		{
+			"name": "2136157",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2136157"
+		},
+		{
 			"name": "ALSA-2022-7071",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -134,14 +142,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2136156"
-		},
-		{
-			"name": "2136157",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2136157"
 		},
 		{
 			"name": "2136158",
