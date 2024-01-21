@@ -46,6 +46,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-33930",
+			"references": [
+				{
+					"name": "CVE-2021-33930",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-33930"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-33938",
 			"references": [
 				{
@@ -81,19 +94,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-33929"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-33930",
-			"references": [
-				{
-					"name": "CVE-2021-33930",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-33930"
 				}
 			]
 		}

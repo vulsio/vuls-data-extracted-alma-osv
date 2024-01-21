@@ -3566,6 +3566,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-26307",
+			"references": [
+				{
+					"name": "CVE-2022-26307",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-26307"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-3140",
 			"references": [
 				{
@@ -3603,38 +3616,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-26306"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-26307",
-			"references": [
-				{
-					"name": "CVE-2022-26307",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-26307"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "2118610",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2118610"
-		},
-		{
-			"name": "ALSA-2023-0304",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-0304.html"
-		},
 		{
 			"name": "RHSA-2023:0304",
 			"source": "errata.almalinux.org",
@@ -3660,12 +3644,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-26307"
 		},
 		{
-			"name": "CVE-2022-3140",
+			"name": "2134697",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-3140"
+			"url": "https://bugzilla.redhat.com/2134697"
+		},
+		{
+			"name": "ALSA-2023-0304",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-0304.html"
 		},
 		{
 			"name": "CVE-2022-26305",
@@ -3674,6 +3666,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-26305"
+		},
+		{
+			"name": "CVE-2022-3140",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3140"
+		},
+		{
+			"name": "2118610",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2118610"
 		},
 		{
 			"name": "2118611",
@@ -3690,14 +3698,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2118613"
-		},
-		{
-			"name": "2134697",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2134697"
 		}
 	],
 	"published": "2023-01-23T00:00:00Z",

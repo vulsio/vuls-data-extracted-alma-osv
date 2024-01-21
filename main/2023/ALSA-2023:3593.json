@@ -337,12 +337,20 @@
 			"url": "https://bugzilla.redhat.com/2192438"
 		},
 		{
-			"name": "ALSA-2023-3593",
+			"name": "2212615",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"bugzilla"
 			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-3593.html"
+			"url": "https://bugzilla.redhat.com/2212615"
+		},
+		{
+			"name": "2212618",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2212618"
 		},
 		{
 			"name": "2213703",
@@ -385,14 +393,6 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-33128"
 		},
 		{
-			"name": "2212615",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2212615"
-		},
-		{
 			"name": "2212617",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -401,12 +401,12 @@
 			"url": "https://bugzilla.redhat.com/2212617"
 		},
 		{
-			"name": "2212618",
+			"name": "ALSA-2023-3593",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"vendor-advisory"
 			],
-			"url": "https://bugzilla.redhat.com/2212618"
+			"url": "https://errata.almalinux.org/8/ALSA-2023-3593.html"
 		}
 	],
 	"published": "2023-06-14T00:00:00Z",
