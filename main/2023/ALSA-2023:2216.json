@@ -66,19 +66,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-46829",
-			"references": [
-				{
-					"name": "CVE-2021-46829",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-46829"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-44648",
 			"references": [
 				{
@@ -90,17 +77,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2021-44648"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-46829",
+			"references": [
+				{
+					"name": "CVE-2021-46829",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-46829"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "ALSA-2023-2216",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-2216.html"
-		},
 		{
 			"name": "RHSA-2023:2216",
 			"source": "errata.almalinux.org",
@@ -140,6 +132,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2114940"
+		},
+		{
+			"name": "ALSA-2023-2216",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-2216.html"
 		}
 	],
 	"published": "2023-05-09T00:00:00Z",

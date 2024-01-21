@@ -106,6 +106,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-29914",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-29914"
+		},
+		{
 			"name": "CVE-2022-29916",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -152,14 +160,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2022-29912"
-		},
-		{
-			"name": "CVE-2022-29914",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-29914"
 		}
 	],
 	"published": "2022-05-04T11:04:22Z",

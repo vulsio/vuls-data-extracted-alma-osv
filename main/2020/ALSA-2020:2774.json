@@ -474,6 +474,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2020-8608",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-8608"
+		},
+		{
 			"name": "ALSA-2020-2774",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -488,14 +496,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-20382"
-		},
-		{
-			"name": "CVE-2020-8608",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-8608"
 		}
 	],
 	"published": "2020-06-30T13:38:53Z",
