@@ -254,14 +254,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-36558",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-36558"
-		},
-		{
 			"name": "2247750",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -300,6 +292,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-36049"
+		},
+		{
+			"name": "CVE-2023-36558",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-36558"
 		}
 	],
 	"published": "2023-11-15T00:00:00Z",
