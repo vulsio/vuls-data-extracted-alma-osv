@@ -994,6 +994,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-2990",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2990"
+		},
+		{
 			"name": "2121445",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -1032,14 +1040,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-2989"
-		},
-		{
-			"name": "CVE-2022-2990",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2990"
 		}
 	],
 	"published": "2022-11-08T00:00:00Z",

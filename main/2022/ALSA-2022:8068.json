@@ -234,6 +234,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-0396",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-0396"
+		},
+		{
 			"name": "2064512",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -272,14 +280,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-25220"
-		},
-		{
-			"name": "CVE-2022-0396",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-0396"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",
