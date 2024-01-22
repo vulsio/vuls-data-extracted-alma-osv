@@ -121,14 +121,6 @@
 	],
 	"references": [
 		{
-			"name": "2109251",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2109251"
-		},
-		{
 			"name": "ALSA-2022-6439",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -151,6 +143,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-2553"
+		},
+		{
+			"name": "2109251",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2109251"
 		}
 	],
 	"published": "2022-09-13T00:00:00Z",

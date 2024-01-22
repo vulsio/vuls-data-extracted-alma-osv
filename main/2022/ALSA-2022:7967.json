@@ -446,19 +446,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-3611",
-			"references": [
-				{
-					"name": "CVE-2021-3611",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-3611"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-3750",
 			"references": [
 				{
@@ -496,9 +483,62 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2021-3507"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-3611",
+			"references": [
+				{
+					"name": "CVE-2021-3611",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-3611"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2021-3750",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-3750"
+		},
+		{
+			"name": "CVE-2021-4158",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-4158"
+		},
+		{
+			"name": "1951118",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1951118"
+		},
+		{
+			"name": "1973784",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1973784"
+		},
+		{
+			"name": "1999073",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1999073"
+		},
 		{
 			"name": "RHSA-2022:7967",
 			"source": "errata.almalinux.org",
@@ -522,46 +562,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-3611"
-		},
-		{
-			"name": "1951118",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1951118"
-		},
-		{
-			"name": "1973784",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1973784"
-		},
-		{
-			"name": "CVE-2021-3750",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-3750"
-		},
-		{
-			"name": "CVE-2021-4158",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-4158"
-		},
-		{
-			"name": "1999073",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1999073"
 		},
 		{
 			"name": "2035002",

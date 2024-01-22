@@ -86,45 +86,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-27814",
-			"references": [
-				{
-					"name": "CVE-2020-27814",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-27814"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-27823",
-			"references": [
-				{
-					"name": "CVE-2020-27823",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-27823"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-27842",
-			"references": [
-				{
-					"name": "CVE-2020-27842",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-27842"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-27843",
 			"references": [
 				{
@@ -134,45 +95,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2020-27843"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2018-20845",
-			"references": [
-				{
-					"name": "CVE-2018-20845",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-20845"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2018-5785",
-			"references": [
-				{
-					"name": "CVE-2018-5785",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-5785"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-27845",
-			"references": [
-				{
-					"name": "CVE-2020-27845",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-27845"
 				}
 			]
 		},
@@ -190,6 +112,19 @@
 			]
 		},
 		{
+			"cve": "CVE-2021-3575",
+			"references": [
+				{
+					"name": "CVE-2021-3575",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3575"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2018-20847",
 			"references": [
 				{
@@ -199,32 +134,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2018-20847"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2018-5727",
-			"references": [
-				{
-					"name": "CVE-2018-5727",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-5727"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-12973",
-			"references": [
-				{
-					"name": "CVE-2019-12973",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-12973"
 				}
 			]
 		},
@@ -242,6 +151,19 @@
 			]
 		},
 		{
+			"cve": "CVE-2020-27823",
+			"references": [
+				{
+					"name": "CVE-2020-27823",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-27823"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-27824",
 			"references": [
 				{
@@ -255,52 +177,98 @@
 			]
 		},
 		{
-			"cve": "CVE-2021-3575",
+			"cve": "CVE-2018-5727",
 			"references": [
 				{
-					"name": "CVE-2021-3575",
+					"name": "CVE-2018-5727",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2021-3575"
+					"url": "https://vulners.com/cve/CVE-2018-5727"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-27845",
+			"references": [
+				{
+					"name": "CVE-2020-27845",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-27845"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2018-20845",
+			"references": [
+				{
+					"name": "CVE-2018-20845",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-20845"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-12973",
+			"references": [
+				{
+					"name": "CVE-2019-12973",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-12973"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-27814",
+			"references": [
+				{
+					"name": "CVE-2020-27814",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-27814"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-27842",
+			"references": [
+				{
+					"name": "CVE-2020-27842",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-27842"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2018-5785",
+			"references": [
+				{
+					"name": "CVE-2018-5785",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-5785"
 				}
 			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2018-20845",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-20845"
-		},
-		{
-			"name": "CVE-2020-27843",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-27843"
-		},
-		{
-			"name": "CVE-2021-3575",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3575"
-		},
-		{
-			"name": "ALSA-2021-4251",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2021-4251.html"
-		},
 		{
 			"name": "CVE-2018-5785",
 			"source": "errata.almalinux.org",
@@ -318,12 +286,36 @@
 			"url": "https://vulners.com/cve/CVE-2019-12973"
 		},
 		{
-			"name": "CVE-2020-27814",
+			"name": "CVE-2020-27845",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2020-27814"
+			"url": "https://vulners.com/cve/CVE-2020-27845"
+		},
+		{
+			"name": "CVE-2021-29338",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-29338"
+		},
+		{
+			"name": "CVE-2021-3575",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3575"
+		},
+		{
+			"name": "CVE-2018-20845",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-20845"
 		},
 		{
 			"name": "CVE-2018-5727",
@@ -342,6 +334,46 @@
 			"url": "https://vulners.com/cve/CVE-2020-27823"
 		},
 		{
+			"name": "CVE-2020-27843",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-27843"
+		},
+		{
+			"name": "ALSA-2021-4251",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2021-4251.html"
+		},
+		{
+			"name": "CVE-2018-20847",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-20847"
+		},
+		{
+			"name": "CVE-2020-27814",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-27814"
+		},
+		{
+			"name": "CVE-2020-15389",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-15389"
+		},
+		{
 			"name": "CVE-2020-27824",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -356,38 +388,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-27842"
-		},
-		{
-			"name": "CVE-2018-20847",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-20847"
-		},
-		{
-			"name": "CVE-2020-15389",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-15389"
-		},
-		{
-			"name": "CVE-2020-27845",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-27845"
-		},
-		{
-			"name": "CVE-2021-29338",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-29338"
 		}
 	],
 	"published": "2021-11-09T08:51:11Z",
