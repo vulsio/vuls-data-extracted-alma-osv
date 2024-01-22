@@ -606,19 +606,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-4104",
-			"references": [
-				{
-					"name": "CVE-2021-4104",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-4104"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-23302",
 			"references": [
 				{
@@ -656,9 +643,38 @@
 					"url": "https://vulners.com/cve/CVE-2022-23307"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-4104",
+			"references": [
+				{
+					"name": "CVE-2021-4104",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-4104"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2021-4104",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-4104"
+		},
+		{
+			"name": "CVE-2022-23302",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-23302"
+		},
 		{
 			"name": "CVE-2022-23305",
 			"source": "errata.almalinux.org",
@@ -682,22 +698,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-0290.html"
-		},
-		{
-			"name": "CVE-2021-4104",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-4104"
-		},
-		{
-			"name": "CVE-2022-23302",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-23302"
 		}
 	],
 	"published": "2022-01-26T14:27:19Z",
