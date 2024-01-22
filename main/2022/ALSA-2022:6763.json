@@ -227,14 +227,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-3080",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-3080"
-		},
-		{
 			"name": "CVE-2022-38177",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -289,6 +281,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:6763"
+		},
+		{
+			"name": "CVE-2022-3080",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3080"
 		}
 	],
 	"published": "2022-10-03T00:00:00Z",

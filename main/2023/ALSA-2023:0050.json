@@ -146,6 +146,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-3517",
+			"references": [
+				{
+					"name": "CVE-2022-3517",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-3517"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-43548",
+			"references": [
+				{
+					"name": "CVE-2022-43548",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-43548"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-44906",
 			"references": [
 				{
@@ -181,32 +207,6 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2022-24999"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-3517",
-			"references": [
-				{
-					"name": "CVE-2022-3517",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-3517"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-43548",
-			"references": [
-				{
-					"name": "CVE-2022-43548",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-43548"
 				}
 			]
 		}
@@ -277,12 +277,12 @@
 			"url": "https://access.redhat.com/errata/RHSA-2023:0050"
 		},
 		{
-			"name": "ALSA-2023-0050",
+			"name": "CVE-2022-0235",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"cve"
 			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-0050.html"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-0235"
 		},
 		{
 			"name": "CVE-2022-3517",
@@ -301,12 +301,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-43548"
 		},
 		{
-			"name": "CVE-2022-0235",
+			"name": "ALSA-2023-0050",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-0235"
+			"url": "https://errata.almalinux.org/8/ALSA-2023-0050.html"
 		}
 	],
 	"published": "2023-01-09T00:00:00Z",
