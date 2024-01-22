@@ -201,6 +201,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-21538",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-21538"
+		},
+		{
 			"name": "2158342",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -223,14 +231,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:0077"
-		},
-		{
-			"name": "CVE-2023-21538",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-21538"
 		}
 	],
 	"published": "2023-01-11T00:00:00Z",
