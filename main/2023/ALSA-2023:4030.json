@@ -41,14 +41,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:4030",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:4030"
-		},
-		{
 			"name": "CVE-2023-3128",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -71,6 +63,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-4030.html"
+		},
+		{
+			"name": "RHSA-2023:4030",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:4030"
 		}
 	],
 	"published": "2023-07-12T00:00:00Z",
