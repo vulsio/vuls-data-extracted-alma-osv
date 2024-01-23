@@ -466,19 +466,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-21843",
-			"references": [
-				{
-					"name": "CVE-2023-21843",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-21843"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-21835",
 			"references": [
 				{
@@ -490,17 +477,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-21835"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-21843",
+			"references": [
+				{
+					"name": "CVE-2023-21843",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-21843"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2023:0194",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:0194"
-		},
 		{
 			"name": "CVE-2023-21835",
 			"source": "errata.almalinux.org",
@@ -540,6 +532,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-0194.html"
+		},
+		{
+			"name": "RHSA-2023:0194",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:0194"
 		}
 	],
 	"published": "2023-01-23T00:00:00Z",

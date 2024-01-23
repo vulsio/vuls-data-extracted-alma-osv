@@ -154,6 +154,14 @@
 	],
 	"references": [
 		{
+			"name": "2055815",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2055815"
+		},
+		{
 			"name": "2064769",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -192,14 +200,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-0996"
-		},
-		{
-			"name": "2055815",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2055815"
 		}
 	],
 	"published": "2022-08-02T00:00:00Z",

@@ -46,19 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2019-6978",
-			"references": [
-				{
-					"name": "CVE-2019-6978",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-6978"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2018-14553",
 			"references": [
 				{
@@ -81,6 +68,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2019-6977"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-6978",
+			"references": [
+				{
+					"name": "CVE-2019-6978",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-6978"
 				}
 			]
 		}

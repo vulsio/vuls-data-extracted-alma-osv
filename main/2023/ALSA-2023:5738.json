@@ -207,6 +207,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-39325",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-39325"
+		},
+		{
 			"name": "CVE-2023-44487",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -261,14 +269,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-29409"
-		},
-		{
-			"name": "CVE-2023-39325",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-39325"
 		}
 	],
 	"published": "2023-10-16T00:00:00Z",
