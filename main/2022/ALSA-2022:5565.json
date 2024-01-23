@@ -261,14 +261,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-1729",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1729"
-		},
-		{
 			"name": "2086753",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -291,6 +283,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:5565"
+		},
+		{
+			"name": "CVE-2022-1729",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1729"
 		}
 	],
 	"published": "2022-07-13T00:00:00Z",

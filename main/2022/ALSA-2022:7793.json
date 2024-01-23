@@ -61,14 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2022:7793",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:7793"
-		},
-		{
 			"name": "CVE-2022-37434",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +83,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-7793.html"
+		},
+		{
+			"name": "RHSA-2022:7793",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:7793"
 		}
 	],
 	"published": "2022-11-08T00:00:00Z",

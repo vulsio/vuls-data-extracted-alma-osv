@@ -46,6 +46,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2015-9541",
+			"references": [
+				{
+					"name": "CVE-2015-9541",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2015-9541"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2018-21035",
 			"references": [
 				{
@@ -94,19 +107,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2020-13962"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2015-9541",
-			"references": [
-				{
-					"name": "CVE-2015-9541",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2015-9541"
 				}
 			]
 		}

@@ -41,6 +41,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:2785",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:2785"
+		},
+		{
 			"name": "CVE-2022-27664",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -63,14 +71,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-2785.html"
-		},
-		{
-			"name": "RHSA-2023:2785",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:2785"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",
