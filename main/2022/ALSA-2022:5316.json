@@ -414,6 +414,14 @@
 	],
 	"references": [
 		{
+			"name": "1899177",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1899177"
+		},
+		{
 			"name": "2061633",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -452,14 +460,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-27666"
-		},
-		{
-			"name": "1899177",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1899177"
 		}
 	],
 	"published": "2022-06-30T00:00:00Z",

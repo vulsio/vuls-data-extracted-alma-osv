@@ -101,6 +101,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-42856",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-42856"
+		},
+		{
 			"name": "2153683",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -123,14 +131,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:0021"
-		},
-		{
-			"name": "CVE-2022-42856",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-42856"
 		}
 	],
 	"published": "2023-01-04T00:00:00Z",

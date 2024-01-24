@@ -80,6 +80,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-27664",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-27664"
+		},
+		{
 			"name": "CVE-2022-41715",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -150,14 +158,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2131149"
-		},
-		{
-			"name": "CVE-2022-27664",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-27664"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",
