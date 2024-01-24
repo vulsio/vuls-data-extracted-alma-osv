@@ -181,14 +181,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-10735",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2020-10735"
-		},
-		{
 			"name": "1834423",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -211,6 +203,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:7323"
+		},
+		{
+			"name": "CVE-2020-10735",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2020-10735"
 		}
 	],
 	"published": "2022-11-02T00:00:00Z",
