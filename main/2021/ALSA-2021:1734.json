@@ -106,6 +106,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-27779",
+			"references": [
+				{
+					"name": "CVE-2020-27779",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-27779"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-20225",
+			"references": [
+				{
+					"name": "CVE-2021-20225",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-20225"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-20233",
 			"references": [
 				{
@@ -169,35 +195,25 @@
 					"url": "https://vulners.com/cve/CVE-2020-27749"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2020-27779",
-			"references": [
-				{
-					"name": "CVE-2020-27779",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-27779"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-20225",
-			"references": [
-				{
-					"name": "CVE-2021-20225",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-20225"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-25632",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-25632"
+		},
+		{
+			"name": "CVE-2020-25647",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-25647"
+		},
 		{
 			"name": "CVE-2020-27749",
 			"source": "errata.almalinux.org",
@@ -245,22 +261,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-14372"
-		},
-		{
-			"name": "CVE-2020-25632",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-25632"
-		},
-		{
-			"name": "CVE-2020-25647",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-25647"
 		}
 	],
 	"published": "2021-05-18T05:57:10Z",

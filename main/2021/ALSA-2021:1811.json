@@ -46,32 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-14405",
-			"references": [
-				{
-					"name": "CVE-2020-14405",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-14405"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-25708",
-			"references": [
-				{
-					"name": "CVE-2020-25708",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-25708"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2018-21247",
 			"references": [
 				{
@@ -109,17 +83,35 @@
 					"url": "https://vulners.com/cve/CVE-2020-14397"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-14405",
+			"references": [
+				{
+					"name": "CVE-2020-14405",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-14405"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-25708",
+			"references": [
+				{
+					"name": "CVE-2020-25708",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-25708"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2020-14405",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-14405"
-		},
 		{
 			"name": "CVE-2020-25708",
 			"source": "errata.almalinux.org",
@@ -159,6 +151,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-14397"
+		},
+		{
+			"name": "CVE-2020-14405",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-14405"
 		}
 	],
 	"published": "2021-05-18T06:09:01Z",

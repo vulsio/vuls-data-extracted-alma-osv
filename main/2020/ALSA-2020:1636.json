@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2018-13139",
-			"references": [
-				{
-					"name": "CVE-2018-13139",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-13139"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2018-19662",
 			"references": [
 				{
@@ -50,17 +37,22 @@
 					"url": "https://vulners.com/cve/CVE-2018-19662"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2018-13139",
+			"references": [
+				{
+					"name": "CVE-2018-13139",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-13139"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2018-19662",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-19662"
-		},
 		{
 			"name": "CVE-2018-13139",
 			"source": "errata.almalinux.org",
@@ -68,6 +60,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2018-13139"
+		},
+		{
+			"name": "CVE-2018-19662",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-19662"
 		}
 	],
 	"published": "2020-04-28T08:59:15Z",
