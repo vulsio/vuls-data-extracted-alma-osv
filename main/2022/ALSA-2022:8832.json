@@ -194,14 +194,6 @@
 	],
 	"references": [
 		{
-			"name": "2134609",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2134609"
-		},
-		{
 			"name": "2140911",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -240,6 +232,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-43548"
+		},
+		{
+			"name": "2134609",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2134609"
 		}
 	],
 	"published": "2022-12-06T00:00:00Z",

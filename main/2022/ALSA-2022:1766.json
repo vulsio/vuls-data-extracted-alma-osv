@@ -3426,6 +3426,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-25633",
+			"references": [
+				{
+					"name": "CVE-2021-25633",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-25633"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-25634",
 			"references": [
 				{
@@ -3448,19 +3461,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-25635"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-25633",
-			"references": [
-				{
-					"name": "CVE-2021-25633",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-25633"
 				}
 			]
 		}

@@ -201,14 +201,6 @@
 	],
 	"references": [
 		{
-			"name": "2101046",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2101046"
-		},
-		{
 			"name": "ALSA-2023-2293",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -231,6 +223,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-2393"
+		},
+		{
+			"name": "2101046",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2101046"
 		}
 	],
 	"published": "2023-05-09T00:00:00Z",

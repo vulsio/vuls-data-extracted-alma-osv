@@ -226,6 +226,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-37436",
+			"references": [
+				{
+					"name": "CVE-2022-37436",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-37436"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2006-20001",
 			"references": [
 				{
@@ -248,19 +261,6 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2022-36760"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-37436",
-			"references": [
-				{
-					"name": "CVE-2022-37436",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-37436"
 				}
 			]
 		}

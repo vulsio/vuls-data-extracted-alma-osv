@@ -154,22 +154,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2019-14378",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-14378"
-		},
-		{
-			"name": "CVE-2019-9946",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-9946"
-		},
-		{
 			"name": "ALSA-2019-3403",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -184,6 +168,22 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-10214"
+		},
+		{
+			"name": "CVE-2019-14378",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-14378"
+		},
+		{
+			"name": "CVE-2019-9946",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-9946"
 		}
 	],
 	"published": "2019-11-05T17:41:57Z",
