@@ -261,6 +261,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-32233",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32233"
+		},
+		{
 			"name": "2196105",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -283,14 +291,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:3350"
-		},
-		{
-			"name": "CVE-2023-32233",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32233"
 		}
 	],
 	"published": "2023-05-30T00:00:00Z",

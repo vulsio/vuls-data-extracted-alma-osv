@@ -46,19 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-26708",
-			"references": [
-				{
-					"name": "CVE-2021-26708",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-26708"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-27363",
 			"references": [
 				{
@@ -146,6 +133,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2020-28374"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-26708",
+			"references": [
+				{
+					"name": "CVE-2021-26708",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-26708"
 				}
 			]
 		}
