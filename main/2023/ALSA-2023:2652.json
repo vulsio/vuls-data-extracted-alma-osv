@@ -90,6 +90,14 @@
 	],
 	"references": [
 		{
+			"name": "2179649",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2179649"
+		},
+		{
 			"name": "2190092",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -144,14 +152,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2176477"
-		},
-		{
-			"name": "2179649",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2179649"
 		}
 	],
 	"published": "2023-05-09T00:00:00Z",
