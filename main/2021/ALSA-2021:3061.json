@@ -953,14 +953,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-20221",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-20221"
-		},
-		{
 			"name": "CVE-2021-3416",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -999,6 +991,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-27617"
+		},
+		{
+			"name": "CVE-2021-20221",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-20221"
 		}
 	],
 	"published": "2021-08-10T11:58:46Z",

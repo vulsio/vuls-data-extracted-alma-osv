@@ -61,14 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-34903",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-34903"
-		},
-		{
 			"name": "2102868",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +83,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:6463"
+		},
+		{
+			"name": "CVE-2022-34903",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-34903"
 		}
 	],
 	"published": "2022-09-13T00:00:00Z",

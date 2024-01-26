@@ -67,22 +67,6 @@
 	],
 	"references": [
 		{
-			"name": "2245916",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2245916"
-		},
-		{
-			"name": "2245919",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2245919"
-		},
-		{
 			"name": "ALSA-2023-6748",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -129,6 +113,22 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2245910"
+		},
+		{
+			"name": "2245916",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2245916"
+		},
+		{
+			"name": "2245919",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2245919"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",
