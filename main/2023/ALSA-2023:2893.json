@@ -41,6 +41,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-40023",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-40023"
+		},
+		{
 			"name": "2128977",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -63,14 +71,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:2893"
-		},
-		{
-			"name": "CVE-2022-40023",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-40023"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",

@@ -221,6 +221,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:5711",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:5711"
+		},
+		{
 			"name": "CVE-2023-44487",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -243,14 +251,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-5711.html"
-		},
-		{
-			"name": "RHSA-2023:5711",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:5711"
 		}
 	],
 	"published": "2023-10-16T00:00:00Z",
