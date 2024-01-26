@@ -701,22 +701,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-3347",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-3347"
-		},
-		{
-			"name": "2222792",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2222792"
-		},
-		{
 			"name": "ALSA-2023-4325",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -731,6 +715,22 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:4325"
+		},
+		{
+			"name": "CVE-2023-3347",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-3347"
+		},
+		{
+			"name": "2222792",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2222792"
 		}
 	],
 	"published": "2023-07-31T00:00:00Z",
