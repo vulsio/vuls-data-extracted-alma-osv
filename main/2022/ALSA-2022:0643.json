@@ -114,6 +114,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-22815",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-22815"
+		},
+		{
 			"name": "CVE-2022-22816",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -136,14 +144,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-0643.html"
-		},
-		{
-			"name": "CVE-2022-22815",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-22815"
 		}
 	],
 	"published": "2022-02-22T17:25:31Z",
