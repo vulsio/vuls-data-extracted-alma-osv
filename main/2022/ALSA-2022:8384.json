@@ -81,6 +81,14 @@
 	],
 	"references": [
 		{
+			"name": "2102608",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2102608"
+		},
+		{
 			"name": "ALSA-2022-8384",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -103,14 +111,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-33068"
-		},
-		{
-			"name": "2102608",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2102608"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",
