@@ -54,14 +54,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2022-1964",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-1964.html"
-		},
-		{
 			"name": "CVE-2021-36386",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -76,6 +68,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-39272"
+		},
+		{
+			"name": "ALSA-2022-1964",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-1964.html"
 		}
 	],
 	"published": "2022-05-10T06:41:48Z",
