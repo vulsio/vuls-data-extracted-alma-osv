@@ -220,46 +220,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-25883",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-25883"
-		},
-		{
-			"name": "CVE-2023-32002",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32002"
-		},
-		{
-			"name": "CVE-2023-32006",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32006"
-		},
-		{
-			"name": "2230956",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2230956"
-		},
-		{
-			"name": "2230955",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2230955"
-		},
-		{
 			"name": "ALSA-2023-5363",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -276,12 +236,20 @@
 			"url": "https://access.redhat.com/errata/RHSA-2023:5363"
 		},
 		{
-			"name": "CVE-2023-32559",
+			"name": "CVE-2022-25883",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32559"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-25883"
+		},
+		{
+			"name": "CVE-2023-32006",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32006"
 		},
 		{
 			"name": "2216475",
@@ -290,6 +258,38 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2216475"
+		},
+		{
+			"name": "2230955",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2230955"
+		},
+		{
+			"name": "2230956",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2230956"
+		},
+		{
+			"name": "CVE-2023-32002",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32002"
+		},
+		{
+			"name": "CVE-2023-32559",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32559"
 		},
 		{
 			"name": "2230948",
