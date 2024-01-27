@@ -173,22 +173,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2022-0366",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-0366.html"
-		},
-		{
-			"name": "CVE-2021-3872",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3872"
-		},
-		{
 			"name": "CVE-2021-3984",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -219,6 +203,22 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-4193"
+		},
+		{
+			"name": "ALSA-2022-0366",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-0366.html"
+		},
+		{
+			"name": "CVE-2021-3872",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3872"
 		}
 	],
 	"published": "2022-02-01T20:12:46Z",

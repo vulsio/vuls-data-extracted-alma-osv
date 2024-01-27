@@ -620,20 +620,20 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-1729",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1729"
+		},
+		{
 			"name": "CVE-2022-1966",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1966"
-		},
-		{
-			"name": "CVE-2022-27666",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-27666"
 		},
 		{
 			"name": "2064604",
@@ -644,12 +644,12 @@
 			"url": "https://bugzilla.redhat.com/2064604"
 		},
 		{
-			"name": "2086753",
+			"name": "2092427",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2086753"
+			"url": "https://bugzilla.redhat.com/2092427"
 		},
 		{
 			"name": "ALSA-2022-5249",
@@ -676,12 +676,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1012"
 		},
 		{
-			"name": "CVE-2022-1729",
+			"name": "CVE-2022-27666",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1729"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-27666"
 		},
 		{
 			"name": "2061633",
@@ -692,12 +692,12 @@
 			"url": "https://bugzilla.redhat.com/2061633"
 		},
 		{
-			"name": "2092427",
+			"name": "2086753",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2092427"
+			"url": "https://bugzilla.redhat.com/2086753"
 		}
 	],
 	"published": "2022-07-01T00:00:00Z",
