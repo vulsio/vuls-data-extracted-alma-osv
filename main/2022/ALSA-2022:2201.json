@@ -61,20 +61,20 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2018-25032",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-25032"
-		},
-		{
 			"name": "ALSA-2022-2201",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-2201.html"
+		},
+		{
+			"name": "CVE-2018-25032",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-25032"
 		}
 	],
 	"published": "2022-05-11T13:23:26Z",

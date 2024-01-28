@@ -146,6 +146,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-20231",
+			"references": [
+				{
+					"name": "CVE-2021-20231",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-20231"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-20232",
 			"references": [
 				{
@@ -168,19 +181,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-3580"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-20231",
-			"references": [
-				{
-					"name": "CVE-2021-20231",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-20231"
 				}
 			]
 		}

@@ -101,14 +101,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-41974",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-41974"
-		},
-		{
 			"name": "2133988",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -131,6 +123,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:7185"
+		},
+		{
+			"name": "CVE-2022-41974",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-41974"
 		}
 	],
 	"published": "2022-10-25T00:00:00Z",

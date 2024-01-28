@@ -86,6 +86,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2019-9169",
+			"references": [
+				{
+					"name": "CVE-2019-9169",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-9169"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-27618",
+			"references": [
+				{
+					"name": "CVE-2020-27618",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-27618"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-3326",
 			"references": [
 				{
@@ -123,43 +149,9 @@
 					"url": "https://vulners.com/cve/CVE-2019-25013"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2019-9169",
-			"references": [
-				{
-					"name": "CVE-2019-9169",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-9169"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-27618",
-			"references": [
-				{
-					"name": "CVE-2020-27618",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-27618"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2019-25013",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-25013"
-		},
 		{
 			"name": "CVE-2019-9169",
 			"source": "errata.almalinux.org",
@@ -191,6 +183,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2016-10228"
+		},
+		{
+			"name": "CVE-2019-25013",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-25013"
 		}
 	],
 	"published": "2021-05-18T05:35:07Z",
