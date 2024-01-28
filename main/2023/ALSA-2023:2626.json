@@ -171,28 +171,20 @@
 			"url": "https://bugzilla.redhat.com/2192873"
 		},
 		{
-			"name": "ALSA-2023-2626",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-2626.html"
-		},
-		{
-			"name": "RHSA-2023:2626",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:2626"
-		},
-		{
-			"name": "CVE-2023-2491",
+			"name": "CVE-2022-48337",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-2491"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-48337"
+		},
+		{
+			"name": "CVE-2022-48339",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-48339"
 		},
 		{
 			"name": "2171987",
@@ -211,12 +203,20 @@
 			"url": "https://bugzilla.redhat.com/2171988"
 		},
 		{
-			"name": "CVE-2022-48337",
+			"name": "2171989",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-48337"
+			"url": "https://bugzilla.redhat.com/2171989"
+		},
+		{
+			"name": "RHSA-2023:2626",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:2626"
 		},
 		{
 			"name": "CVE-2022-48338",
@@ -227,20 +227,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-48338"
 		},
 		{
-			"name": "CVE-2022-48339",
+			"name": "CVE-2023-2491",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-48339"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-2491"
 		},
 		{
-			"name": "2171989",
+			"name": "ALSA-2023-2626",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"vendor-advisory"
 			],
-			"url": "https://bugzilla.redhat.com/2171989"
+			"url": "https://errata.almalinux.org/9/ALSA-2023-2626.html"
 		}
 	],
 	"published": "2023-05-09T00:00:00Z",

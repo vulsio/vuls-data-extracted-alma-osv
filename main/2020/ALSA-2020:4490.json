@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2019-13050",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-13050"
+		},
+		{
 			"name": "ALSA-2020-4490",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -75,14 +83,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2018-1000858"
-		},
-		{
-			"name": "CVE-2019-13050",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-13050"
 		}
 	],
 	"published": "2020-11-03T12:09:29Z",
