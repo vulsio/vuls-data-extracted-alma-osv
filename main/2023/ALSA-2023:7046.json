@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:7046",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:7046"
+		},
+		{
 			"name": "CVE-2023-28450",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -83,14 +91,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-7046.html"
-		},
-		{
-			"name": "RHSA-2023:7046",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:7046"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",
