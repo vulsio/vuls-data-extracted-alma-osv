@@ -234,6 +234,22 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-45873",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-45873"
+		},
+		{
+			"name": "2149063",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2149063"
+		},
+		{
 			"name": "2155515",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -264,22 +280,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-4415"
-		},
-		{
-			"name": "CVE-2022-45873",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-45873"
-		},
-		{
-			"name": "2149063",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2149063"
 		}
 	],
 	"published": "2023-02-28T00:00:00Z",

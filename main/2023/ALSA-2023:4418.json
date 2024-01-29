@@ -81,14 +81,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-37464",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-37464"
-		},
-		{
 			"name": "2223295",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -111,6 +103,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:4418"
+		},
+		{
+			"name": "CVE-2023-37464",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-37464"
 		}
 	],
 	"published": "2023-08-01T00:00:00Z",

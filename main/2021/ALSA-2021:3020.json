@@ -1066,19 +1066,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-36327",
-			"references": [
-				{
-					"name": "CVE-2020-36327",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-36327"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-31799",
 			"references": [
 				{
@@ -1114,6 +1101,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-32066"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-36327",
+			"references": [
+				{
+					"name": "CVE-2020-36327",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-36327"
 				}
 			]
 		}
