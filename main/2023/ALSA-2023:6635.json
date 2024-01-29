@@ -46,32 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-4904",
-			"references": [
-				{
-					"name": "CVE-2022-4904",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2023-31124",
-			"references": [
-				{
-					"name": "CVE-2023-31124",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-31124"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-31130",
 			"references": [
 				{
@@ -96,6 +70,32 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-4904",
+			"references": [
+				{
+					"name": "CVE-2022-4904",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-31124",
+			"references": [
+				{
+					"name": "CVE-2023-31124",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-31124"
+				}
+			]
 		}
 	],
 	"references": [
@@ -114,6 +114,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-31124"
+		},
+		{
+			"name": "CVE-2023-31130",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
+		},
+		{
+			"name": "CVE-2023-31147",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
 		},
 		{
 			"name": "2209494",
@@ -138,22 +154,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
-		},
-		{
-			"name": "CVE-2023-31130",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
-		},
-		{
-			"name": "CVE-2023-31147",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
 		},
 		{
 			"name": "2168631",

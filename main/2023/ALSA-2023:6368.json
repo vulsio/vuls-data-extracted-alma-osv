@@ -406,6 +406,9 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-3750"
+		},
+		{
 			"cve": "CVE-2023-2680",
 			"references": [
 				{
@@ -417,9 +420,6 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-2680"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2021-3750"
 		}
 	],
 	"references": [

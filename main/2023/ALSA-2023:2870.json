@@ -266,19 +266,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-41861",
-			"references": [
-				{
-					"name": "CVE-2022-41861",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-41861"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-41859",
 			"references": [
 				{
@@ -303,41 +290,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-41860"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-41861",
+			"references": [
+				{
+					"name": "CVE-2022-41861",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41861"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "ALSA-2023-2870",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-2870.html"
-		},
-		{
-			"name": "RHSA-2023:2870",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:2870"
-		},
-		{
-			"name": "CVE-2022-41859",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-41859"
-		},
-		{
-			"name": "CVE-2022-41860",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-41860"
-		},
 		{
 			"name": "CVE-2022-41861",
 			"source": "errata.almalinux.org",
@@ -369,6 +337,38 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2078487"
+		},
+		{
+			"name": "ALSA-2023-2870",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-2870.html"
+		},
+		{
+			"name": "RHSA-2023:2870",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:2870"
+		},
+		{
+			"name": "CVE-2022-41859",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-41859"
+		},
+		{
+			"name": "CVE-2022-41860",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-41860"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",
