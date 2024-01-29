@@ -214,7 +214,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2021-4008"
+					"url": "https://access.redhat.com/security/cve/CVE-2021-4008"
 				},
 				{
 					"name": "CVE-2021-4008",
@@ -222,7 +222,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-4008"
+					"url": "https://vulners.com/cve/CVE-2021-4008"
 				}
 			]
 		},
@@ -235,7 +235,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2021-4009"
+					"url": "https://access.redhat.com/security/cve/CVE-2021-4009"
 				},
 				{
 					"name": "CVE-2021-4009",
@@ -243,7 +243,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-4009"
+					"url": "https://vulners.com/cve/CVE-2021-4009"
 				}
 			]
 		},
@@ -277,7 +277,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-4011"
+					"url": "https://vulners.com/cve/CVE-2021-4011"
 				},
 				{
 					"name": "CVE-2021-4011",
@@ -285,12 +285,28 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2021-4011"
+					"url": "https://access.redhat.com/security/cve/CVE-2021-4011"
 				}
 			]
 		}
 	],
 	"references": [
+		{
+			"name": "2026074",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2026074"
+		},
+		{
+			"name": "CVE-2021-4008",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-4008"
+		},
 		{
 			"name": "CVE-2021-4010",
 			"source": "errata.almalinux.org",
@@ -298,6 +314,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-4010"
+		},
+		{
+			"name": "CVE-2021-4011",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-4011"
 		},
 		{
 			"name": "2026059",
@@ -308,20 +332,12 @@
 			"url": "https://bugzilla.redhat.com/2026059"
 		},
 		{
-			"name": "CVE-2021-4011",
+			"name": "2026072",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://vulners.com/cve/CVE-2021-4011"
-		},
-		{
-			"name": "RHSA-2022:1917",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:1917"
+			"url": "https://bugzilla.redhat.com/2026072"
 		},
 		{
 			"name": "ALSA-2022-1917",
@@ -330,14 +346,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-1917.html"
-		},
-		{
-			"name": "CVE-2021-4008",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-4008"
 		},
 		{
 			"name": "CVE-2021-4009",
@@ -356,6 +364,14 @@
 			"url": "https://vulners.com/cve/CVE-2021-4010"
 		},
 		{
+			"name": "RHSA-2022:1917",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:1917"
+		},
+		{
 			"name": "CVE-2021-4009",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -369,15 +385,7 @@
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-4011"
-		},
-		{
-			"name": "2026073",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2026073"
+			"url": "https://vulners.com/cve/CVE-2021-4011"
 		},
 		{
 			"name": "CVE-2021-4008",
@@ -388,20 +396,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2021-4008"
 		},
 		{
-			"name": "2026072",
+			"name": "2026073",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2026072"
-		},
-		{
-			"name": "2026074",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2026074"
+			"url": "https://bugzilla.redhat.com/2026073"
 		}
 	],
 	"published": "2022-05-10T00:00:00Z",

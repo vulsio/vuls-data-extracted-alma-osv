@@ -174,6 +174,22 @@
 	],
 	"references": [
 		{
+			"name": "2075390",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2075390"
+		},
+		{
+			"name": "ALSA-2022-6457",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-6457.html"
+		},
+		{
 			"name": "RHSA-2022:6457",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -204,22 +220,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2047376"
-		},
-		{
-			"name": "2075390",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2075390"
-		},
-		{
-			"name": "ALSA-2022-6457",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-6457.html"
 		}
 	],
 	"published": "2022-09-13T00:00:00Z",

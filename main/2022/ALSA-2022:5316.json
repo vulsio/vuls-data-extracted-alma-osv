@@ -414,6 +414,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2022:5316",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5316"
+		},
+		{
 			"name": "CVE-2020-28915",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -452,14 +460,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-5316.html"
-		},
-		{
-			"name": "RHSA-2022:5316",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:5316"
 		}
 	],
 	"published": "2022-06-30T00:00:00Z",

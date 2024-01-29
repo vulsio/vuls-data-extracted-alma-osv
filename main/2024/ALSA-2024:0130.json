@@ -46,6 +46,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-38407",
+			"references": [
+				{
+					"name": "CVE-2023-38407",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38407"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-47234",
 			"references": [
 				{
@@ -83,45 +96,16 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-38406"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-38407",
-			"references": [
-				{
-					"name": "CVE-2023-38407",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-38407"
-				}
-			]
 		}
 	],
 	"references": [
 		{
-			"name": "CVE-2023-38406",
+			"name": "RHSA-2024:0130",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"third-party-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-38406"
-		},
-		{
-			"name": "2248208",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2248208"
-		},
-		{
-			"name": "2248526",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2248526"
+			"url": "https://access.redhat.com/errata/RHSA-2024:0130"
 		},
 		{
 			"name": "2248528",
@@ -140,12 +124,28 @@
 			"url": "https://errata.almalinux.org/8/ALSA-2024-0130.html"
 		},
 		{
-			"name": "RHSA-2024:0130",
+			"name": "2248208",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0130"
+			"url": "https://bugzilla.redhat.com/2248208"
+		},
+		{
+			"name": "2248526",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2248526"
+		},
+		{
+			"name": "CVE-2023-38406",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-38406"
 		},
 		{
 			"name": "CVE-2023-38407",
