@@ -261,14 +261,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-38013",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-38013"
-		},
-		{
 			"name": "2125124",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -291,6 +283,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:6539"
+		},
+		{
+			"name": "CVE-2022-38013",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-38013"
 		}
 	],
 	"published": "2022-09-15T00:00:00Z",
