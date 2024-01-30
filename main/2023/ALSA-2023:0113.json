@@ -281,6 +281,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-2625",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2625"
+		},
+		{
 			"name": "2113825",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -303,14 +311,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:0113"
-		},
-		{
-			"name": "CVE-2022-2625",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2625"
 		}
 	],
 	"published": "2023-01-12T00:00:00Z",
