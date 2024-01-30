@@ -80,14 +80,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-35448",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-35448"
-		},
-		{
 			"name": "CVE-2021-20197",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -110,6 +102,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-3487"
+		},
+		{
+			"name": "CVE-2020-35448",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-35448"
 		}
 	],
 	"published": "2021-11-09T09:11:20Z",

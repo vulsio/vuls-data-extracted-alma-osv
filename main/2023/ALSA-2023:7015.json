@@ -66,19 +66,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-0666",
-			"references": [
-				{
-					"name": "CVE-2023-0666",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-0666"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-2856",
 			"references": [
 				{
@@ -116,33 +103,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-2952"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-0666",
+			"references": [
+				{
+					"name": "CVE-2023-0666",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-0666"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "2210832",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2210832"
-		},
-		{
-			"name": "2211406",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2211406"
-		},
-		{
-			"name": "ALSA-2023-7015",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-7015.html"
-		},
 		{
 			"name": "CVE-2023-2858",
 			"source": "errata.almalinux.org",
@@ -150,6 +126,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-2858"
+		},
+		{
+			"name": "2210829",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2210829"
+		},
+		{
+			"name": "2210832",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2210832"
 		},
 		{
 			"name": "CVE-2023-2952",
@@ -168,12 +160,20 @@
 			"url": "https://bugzilla.redhat.com/2210824"
 		},
 		{
-			"name": "2210829",
+			"name": "2211406",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2210829"
+			"url": "https://bugzilla.redhat.com/2211406"
+		},
+		{
+			"name": "ALSA-2023-7015",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-7015.html"
 		},
 		{
 			"name": "RHSA-2023:7015",
