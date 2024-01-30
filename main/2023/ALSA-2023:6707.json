@@ -247,6 +247,22 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-3468",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-3468"
+		},
+		{
+			"name": "CVE-2021-3502",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-3502"
+		},
+		{
 			"name": "CVE-2023-1981",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -293,22 +309,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:6707"
-		},
-		{
-			"name": "CVE-2021-3468",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-3468"
-		},
-		{
-			"name": "CVE-2021-3502",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-3502"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

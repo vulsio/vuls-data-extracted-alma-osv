@@ -174,14 +174,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2023-5080",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-5080.html"
-		},
-		{
 			"name": "RHSA-2023:5080",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -220,6 +212,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2222693"
+		},
+		{
+			"name": "ALSA-2023-5080",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-5080.html"
 		}
 	],
 	"published": "2023-09-12T00:00:00Z",
