@@ -379,6 +379,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-22960",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-22960"
+		},
+		{
 			"name": "CVE-2021-33502",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -433,14 +441,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-22959"
-		},
-		{
-			"name": "CVE-2021-22960",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-22960"
 		}
 	],
 	"published": "2021-12-15T19:09:29Z",
