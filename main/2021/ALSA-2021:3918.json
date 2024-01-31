@@ -106,6 +106,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-41099",
+			"references": [
+				{
+					"name": "CVE-2021-41099",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-41099"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-32626",
 			"references": [
 				{
@@ -167,19 +180,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-32687"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-41099",
-			"references": [
-				{
-					"name": "CVE-2021-41099",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-41099"
 				}
 			]
 		}

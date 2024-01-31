@@ -126,6 +126,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-23219",
+			"references": [
+				{
+					"name": "CVE-2022-23219",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-23219"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-3999",
 			"references": [
 				{
@@ -148,19 +161,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2022-23218"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-23219",
-			"references": [
-				{
-					"name": "CVE-2022-23219",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-23219"
 				}
 			]
 		}
