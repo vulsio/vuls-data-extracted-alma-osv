@@ -201,20 +201,20 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2022-4796",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-4796.html"
-		},
-		{
 			"name": "CVE-2021-43616",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-43616"
+		},
+		{
+			"name": "ALSA-2022-4796",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-4796.html"
 		}
 	],
 	"published": "2022-05-30T07:22:47Z",

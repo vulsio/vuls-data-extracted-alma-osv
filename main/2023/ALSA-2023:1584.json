@@ -300,20 +300,12 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-4378",
+			"name": "2150272",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-4378"
-		},
-		{
-			"name": "CVE-2023-0266",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0266"
+			"url": "https://bugzilla.redhat.com/2150272"
 		},
 		{
 			"name": "2152548",
@@ -324,12 +316,12 @@
 			"url": "https://bugzilla.redhat.com/2152548"
 		},
 		{
-			"name": "2163379",
+			"name": "2159505",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2163379"
+			"url": "https://bugzilla.redhat.com/2159505"
 		},
 		{
 			"name": "ALSA-2023-1584",
@@ -340,12 +332,20 @@
 			"url": "https://errata.almalinux.org/8/ALSA-2023-1584.html"
 		},
 		{
-			"name": "CVE-2022-4269",
+			"name": "RHSA-2023:1584",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:1584"
+		},
+		{
+			"name": "CVE-2022-4378",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-4269"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4378"
 		},
 		{
 			"name": "CVE-2023-0386",
@@ -356,28 +356,28 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-0386"
 		},
 		{
-			"name": "2150272",
+			"name": "2163379",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2150272"
+			"url": "https://bugzilla.redhat.com/2163379"
 		},
 		{
-			"name": "2159505",
+			"name": "CVE-2022-4269",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2159505"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4269"
 		},
 		{
-			"name": "RHSA-2023:1584",
+			"name": "CVE-2023-0266",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"cve"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:1584"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0266"
 		}
 	],
 	"published": "2023-04-04T00:00:00Z",
