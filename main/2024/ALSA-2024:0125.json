@@ -244,14 +244,6 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-42795"
 		},
 		{
-			"name": "2235370",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2235370"
-		},
-		{
 			"name": "2243752",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -274,6 +266,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-45648"
+		},
+		{
+			"name": "2235370",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2235370"
 		},
 		{
 			"name": "2243749",

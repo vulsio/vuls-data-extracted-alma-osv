@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-2505",
-			"references": [
-				{
-					"name": "CVE-2022-2505",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-2505"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-36318",
 			"references": [
 				{
@@ -63,41 +50,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-36319"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-2505",
+			"references": [
+				{
+					"name": "CVE-2022-2505",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2505"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2022-2505",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2505"
-		},
-		{
-			"name": "CVE-2022-36318",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-36318"
-		},
-		{
-			"name": "CVE-2022-36319",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-36319"
-		},
-		{
-			"name": "2111907",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2111907"
-		},
 		{
 			"name": "2111908",
 			"source": "errata.almalinux.org",
@@ -129,6 +97,38 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:5777"
+		},
+		{
+			"name": "CVE-2022-2505",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2505"
+		},
+		{
+			"name": "CVE-2022-36318",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-36318"
+		},
+		{
+			"name": "CVE-2022-36319",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-36319"
+		},
+		{
+			"name": "2111907",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2111907"
 		}
 	],
 	"published": "2022-08-01T00:00:00Z",
