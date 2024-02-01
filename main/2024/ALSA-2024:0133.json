@@ -946,19 +946,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-43804",
-			"references": [
-				{
-					"name": "CVE-2023-43804",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-43804"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-37920",
 			"references": [
 				{
@@ -970,33 +957,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-37920"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-43804",
+			"references": [
+				{
+					"name": "CVE-2023-43804",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-43804"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "ALSA-2024-0133",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2024-0133.html"
-		},
-		{
-			"name": "RHSA-2024:0133",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0133"
-		},
-		{
-			"name": "CVE-2023-37920",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-37920"
-		},
 		{
 			"name": "CVE-2023-43804",
 			"source": "errata.almalinux.org",
@@ -1020,6 +996,30 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2242493"
+		},
+		{
+			"name": "ALSA-2024-0133",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2024-0133.html"
+		},
+		{
+			"name": "RHSA-2024:0133",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0133"
+		},
+		{
+			"name": "CVE-2023-37920",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-37920"
 		}
 	],
 	"published": "2024-01-10T00:00:00Z",

@@ -166,19 +166,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-2879",
-			"references": [
-				{
-					"name": "CVE-2022-2879",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-2879"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-2880",
 			"references": [
 				{
@@ -203,33 +190,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-41715"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-2879",
+			"references": [
+				{
+					"name": "CVE-2022-2879",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2879"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2023:0328",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:0328"
-		},
-		{
-			"name": "CVE-2022-2879",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2879"
-		},
-		{
-			"name": "CVE-2022-2880",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2880"
-		},
 		{
 			"name": "CVE-2022-41715",
 			"source": "errata.almalinux.org",
@@ -269,6 +245,30 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-0328.html"
+		},
+		{
+			"name": "RHSA-2023:0328",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:0328"
+		},
+		{
+			"name": "CVE-2022-2879",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2879"
+		},
+		{
+			"name": "CVE-2022-2880",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2880"
 		}
 	],
 	"published": "2023-01-23T00:00:00Z",
