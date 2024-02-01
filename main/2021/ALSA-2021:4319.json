@@ -67,14 +67,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-37618",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-37618"
-		},
-		{
 			"name": "CVE-2021-37619",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -89,6 +81,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-31292"
+		},
+		{
+			"name": "CVE-2021-37618",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-37618"
 		}
 	],
 	"published": "2021-11-09T09:00:36Z",

@@ -86,6 +86,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-29361",
+			"references": [
+				{
+					"name": "CVE-2020-29361",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-29361"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-29362",
 			"references": [
 				{
@@ -108,19 +121,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2020-29363"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-29361",
-			"references": [
-				{
-					"name": "CVE-2020-29361",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-29361"
 				}
 			]
 		}

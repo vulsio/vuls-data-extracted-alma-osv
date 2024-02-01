@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-38710",
-			"references": [
-				{
-					"name": "CVE-2023-38710",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-38710"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-38711",
 			"references": [
 				{
@@ -61,6 +48,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2023-38712"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-38710",
+			"references": [
+				{
+					"name": "CVE-2023-38710",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38710"
 				}
 			]
 		}
