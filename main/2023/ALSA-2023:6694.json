@@ -61,22 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2007-4559",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
-		},
-		{
-			"name": "263261",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/263261"
-		},
-		{
 			"name": "ALSA-2023-6694",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +75,22 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:6694"
+		},
+		{
+			"name": "CVE-2007-4559",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
+		},
+		{
+			"name": "263261",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/263261"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

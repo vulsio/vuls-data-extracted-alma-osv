@@ -61,14 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2023-7116",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-7116.html"
-		},
-		{
 			"name": "RHSA-2023:7116",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +83,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2168631"
+		},
+		{
+			"name": "ALSA-2023-7116",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-7116.html"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",
