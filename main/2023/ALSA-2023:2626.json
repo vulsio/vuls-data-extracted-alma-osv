@@ -163,14 +163,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2023-2626",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-2626.html"
-		},
-		{
 			"name": "RHSA-2023:2626",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -187,12 +179,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-48339"
 		},
 		{
-			"name": "CVE-2023-2491",
+			"name": "ALSA-2023-2626",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-2491"
+			"url": "https://errata.almalinux.org/9/ALSA-2023-2626.html"
 		},
 		{
 			"name": "2171989",
@@ -225,6 +217,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-48338"
+		},
+		{
+			"name": "CVE-2023-2491",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-2491"
 		},
 		{
 			"name": "2171987",
