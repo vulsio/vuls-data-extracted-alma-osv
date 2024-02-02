@@ -353,28 +353,20 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:4378",
+			"name": "CVE-2023-0458",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"cve"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:4378"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0458"
 		},
 		{
-			"name": "2218672",
+			"name": "CVE-2023-35788",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2218672"
-		},
-		{
-			"name": "ALSA-2023-4378",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-4378.html"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-35788"
 		},
 		{
 			"name": "2151317",
@@ -401,20 +393,36 @@
 			"url": "https://bugzilla.redhat.com/2193219"
 		},
 		{
+			"name": "2215768",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2215768"
+		},
+		{
+			"name": "2218672",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2218672"
+		},
+		{
+			"name": "RHSA-2023:4378",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:4378"
+		},
+		{
 			"name": "CVE-2022-45869",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-45869"
-		},
-		{
-			"name": "CVE-2023-0458",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0458"
 		},
 		{
 			"name": "CVE-2023-1998",
@@ -433,20 +441,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-3090"
 		},
 		{
-			"name": "CVE-2023-35788",
+			"name": "ALSA-2023-4378",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-35788"
-		},
-		{
-			"name": "2215768",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2215768"
+			"url": "https://errata.almalinux.org/9/ALSA-2023-4378.html"
 		}
 	],
 	"published": "2023-08-01T00:00:00Z",
