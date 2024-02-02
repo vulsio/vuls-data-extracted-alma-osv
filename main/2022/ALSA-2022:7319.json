@@ -274,6 +274,22 @@
 	],
 	"references": [
 		{
+			"name": "ALSA-2022-7319",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-7319.html"
+		},
+		{
+			"name": "RHSA-2022:7319",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:7319"
+		},
+		{
 			"name": "CVE-2022-2585",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -304,22 +320,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2114874"
-		},
-		{
-			"name": "ALSA-2022-7319",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-7319.html"
-		},
-		{
-			"name": "RHSA-2022:7319",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:7319"
 		}
 	],
 	"published": "2022-11-02T00:00:00Z",

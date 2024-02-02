@@ -1166,19 +1166,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2007-4559",
-			"references": [
-				{
-					"name": "CVE-2007-4559",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-32681",
 			"references": [
 				{
@@ -1188,6 +1175,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2023-32681"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2007-4559",
+			"references": [
+				{
+					"name": "CVE-2007-4559",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
 				}
 			]
 		}
