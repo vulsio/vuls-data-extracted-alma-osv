@@ -386,9 +386,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2018-13405"
-		},
-		{
 			"cve": "CVE-2022-0358",
 			"references": [
 				{
@@ -400,6 +397,9 @@
 					"url": "https://vulners.com/cve/CVE-2022-0358"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2018-13405"
 		}
 	],
 	"references": [
