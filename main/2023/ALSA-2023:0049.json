@@ -394,6 +394,14 @@
 	],
 	"references": [
 		{
+			"name": "2112975",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2112975"
+		},
+		{
 			"name": "2138880",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -432,14 +440,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-3775"
-		},
-		{
-			"name": "2112975",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2112975"
 		}
 	],
 	"published": "2023-01-09T00:00:00Z",

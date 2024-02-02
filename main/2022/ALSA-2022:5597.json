@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-24724",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-24724"
+		},
+		{
 			"name": "2060662",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -83,14 +91,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:5597"
-		},
-		{
-			"name": "CVE-2022-24724",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-24724"
 		}
 	],
 	"published": "2022-07-18T00:00:00Z",

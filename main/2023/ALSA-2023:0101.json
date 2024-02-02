@@ -514,6 +514,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-4139",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4139"
+		},
+		{
 			"name": "2067482",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -552,14 +560,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-2964"
-		},
-		{
-			"name": "CVE-2022-4139",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-4139"
 		}
 	],
 	"published": "2023-01-12T00:00:00Z",
