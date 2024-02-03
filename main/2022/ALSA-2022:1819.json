@@ -282,6 +282,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-23772",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-23772"
+		},
+		{
 			"name": "CVE-2022-23773",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -336,14 +344,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-41772"
-		},
-		{
-			"name": "CVE-2022-23772",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-23772"
 		}
 	],
 	"published": "2022-05-10T06:29:31Z",
