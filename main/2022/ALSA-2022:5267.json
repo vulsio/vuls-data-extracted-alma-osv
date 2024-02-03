@@ -316,6 +316,14 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1966"
 		},
 		{
+			"name": "CVE-2022-27666",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-27666"
+		},
+		{
 			"name": "2086753",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -354,14 +362,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1729"
-		},
-		{
-			"name": "CVE-2022-27666",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-27666"
 		},
 		{
 			"name": "2061633",

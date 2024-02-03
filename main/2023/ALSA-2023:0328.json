@@ -207,14 +207,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-41715",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-41715"
-		},
-		{
 			"name": "2132867",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -269,6 +261,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-2880"
+		},
+		{
+			"name": "CVE-2022-41715",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-41715"
 		}
 	],
 	"published": "2023-01-23T00:00:00Z",

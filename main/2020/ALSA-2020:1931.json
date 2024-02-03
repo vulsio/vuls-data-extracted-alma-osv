@@ -441,20 +441,20 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2020-1931",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2020-1931.html"
-		},
-		{
 			"name": "CVE-2020-10696",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-10696"
+		},
+		{
+			"name": "ALSA-2020-1931",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2020-1931.html"
 		}
 	],
 	"published": "2020-04-28T16:07:22Z",

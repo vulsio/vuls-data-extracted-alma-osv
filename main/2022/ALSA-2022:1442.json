@@ -466,6 +466,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-21496",
+			"references": [
+				{
+					"name": "CVE-2022-21496",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-21496"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-21426",
+			"references": [
+				{
+					"name": "CVE-2022-21426",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-21426"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-21434",
 			"references": [
 				{
@@ -501,32 +527,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2022-21476"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-21496",
-			"references": [
-				{
-					"name": "CVE-2022-21496",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-21496"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-21426",
-			"references": [
-				{
-					"name": "CVE-2022-21426",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-21426"
 				}
 			]
 		}
