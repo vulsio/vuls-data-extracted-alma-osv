@@ -46,45 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-0466",
-			"references": [
-				{
-					"name": "CVE-2020-0466",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-0466"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-27152",
-			"references": [
-				{
-					"name": "CVE-2020-27152",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-27152"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-28374",
-			"references": [
-				{
-					"name": "CVE-2020-28374",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-28374"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-26708",
 			"references": [
 				{
@@ -148,9 +109,56 @@
 					"url": "https://vulners.com/cve/CVE-2021-3347"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-0466",
+			"references": [
+				{
+					"name": "CVE-2020-0466",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-0466"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-27152",
+			"references": [
+				{
+					"name": "CVE-2020-27152",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-27152"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-28374",
+			"references": [
+				{
+					"name": "CVE-2020-28374",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-28374"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2021-27363",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-27363"
+		},
 		{
 			"name": "CVE-2021-27364",
 			"source": "errata.almalinux.org",
@@ -206,14 +214,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-26708"
-		},
-		{
-			"name": "CVE-2021-27363",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-27363"
 		}
 	],
 	"published": "2021-04-06T13:33:17Z",

@@ -281,14 +281,6 @@
 	],
 	"references": [
 		{
-			"name": "2247169",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2247169"
-		},
-		{
 			"name": "ALSA-2023-7790",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -311,6 +303,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-5869"
+		},
+		{
+			"name": "2247169",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2247169"
 		}
 	],
 	"published": "2023-12-13T00:00:00Z",

@@ -326,32 +326,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-8492",
-			"references": [
-				{
-					"name": "CVE-2020-8492",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-8492"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-20477",
-			"references": [
-				{
-					"name": "CVE-2019-20477",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-20477"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2019-20907",
 			"references": [
 				{
@@ -389,9 +363,43 @@
 					"url": "https://vulners.com/cve/CVE-2020-1747"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-8492",
+			"references": [
+				{
+					"name": "CVE-2020-8492",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-8492"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-20477",
+			"references": [
+				{
+					"name": "CVE-2019-20477",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-20477"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "ALSA-2020-4641",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2020-4641.html"
+		},
 		{
 			"name": "CVE-2019-20477",
 			"source": "errata.almalinux.org",
@@ -431,14 +439,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-8492"
-		},
-		{
-			"name": "ALSA-2020-4641",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2020-4641.html"
 		}
 	],
 	"published": "2020-11-03T12:23:02Z",
