@@ -367,14 +367,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-35937",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-35937"
-		},
-		{
 			"name": "CVE-2021-35938",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -429,6 +421,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2024:0463"
+		},
+		{
+			"name": "CVE-2021-35937",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-35937"
 		}
 	],
 	"published": "2024-01-25T00:00:00Z",

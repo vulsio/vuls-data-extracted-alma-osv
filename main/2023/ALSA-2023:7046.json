@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "2178948",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2178948"
+		},
+		{
 			"name": "ALSA-2023-7046",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -83,14 +91,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-28450"
-		},
-		{
-			"name": "2178948",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2178948"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",
