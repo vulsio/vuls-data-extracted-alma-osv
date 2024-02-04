@@ -1246,6 +1246,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-36327",
+			"references": [
+				{
+					"name": "CVE-2020-36327",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-36327"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-31799",
 			"references": [
 				{
@@ -1309,22 +1322,17 @@
 					"url": "https://vulners.com/cve/CVE-2021-41819"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2020-36327",
-			"references": [
-				{
-					"name": "CVE-2020-36327",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-36327"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2021-41819",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-41819"
+		},
 		{
 			"name": "ALSA-2022-0543",
 			"source": "errata.almalinux.org",
@@ -1372,14 +1380,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-41817"
-		},
-		{
-			"name": "CVE-2021-41819",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-41819"
 		}
 	],
 	"published": "2022-02-16T08:26:13Z",

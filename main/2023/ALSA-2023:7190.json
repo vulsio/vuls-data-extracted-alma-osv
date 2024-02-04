@@ -361,14 +361,6 @@
 	],
 	"references": [
 		{
-			"name": "2185911",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2185911"
-		},
-		{
 			"name": "ALSA-2023-7190",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -391,6 +383,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-1981"
+		},
+		{
+			"name": "2185911",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2185911"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",

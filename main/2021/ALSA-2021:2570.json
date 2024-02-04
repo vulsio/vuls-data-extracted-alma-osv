@@ -54,20 +54,20 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-33034",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-33034"
-		},
-		{
 			"name": "CVE-2020-26541",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-26541"
+		},
+		{
+			"name": "CVE-2021-33034",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-33034"
 		}
 	],
 	"published": "2021-06-29T13:42:37Z",
