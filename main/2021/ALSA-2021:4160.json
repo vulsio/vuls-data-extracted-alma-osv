@@ -819,6 +819,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-29921",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-29921"
+		},
+		{
 			"name": "CVE-2021-33503",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -873,14 +881,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-28957"
-		},
-		{
-			"name": "CVE-2021-29921",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-29921"
 		}
 	],
 	"published": "2021-11-09T08:26:25Z",

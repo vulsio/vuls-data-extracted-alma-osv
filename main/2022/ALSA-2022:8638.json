@@ -161,6 +161,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-42898",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-42898"
+		},
+		{
 			"name": "2140960",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -183,14 +191,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:8638"
-		},
-		{
-			"name": "CVE-2022-42898",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-42898"
 		}
 	],
 	"published": "2022-11-28T00:00:00Z",
