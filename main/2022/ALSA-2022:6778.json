@@ -374,6 +374,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-38177",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-38177"
+		},
+		{
 			"name": "CVE-2022-38178",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -412,14 +420,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:6778"
-		},
-		{
-			"name": "CVE-2022-38177",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-38177"
 		}
 	],
 	"published": "2022-10-04T00:00:00Z",

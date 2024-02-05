@@ -46,6 +46,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2019-1010317",
+			"references": [
+				{
+					"name": "CVE-2019-1010317",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-1010317"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-1010319",
+			"references": [
+				{
+					"name": "CVE-2019-1010319",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-1010319"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2019-11498",
 			"references": [
 				{
@@ -96,35 +122,25 @@
 					"url": "https://vulners.com/cve/CVE-2019-1010315"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2019-1010317",
-			"references": [
-				{
-					"name": "CVE-2019-1010317",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-1010317"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-1010319",
-			"references": [
-				{
-					"name": "CVE-2019-1010319",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-1010319"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2018-19840",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-19840"
+		},
+		{
+			"name": "CVE-2018-19841",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-19841"
+		},
 		{
 			"name": "CVE-2019-1010315",
 			"source": "errata.almalinux.org",
@@ -164,22 +180,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2020-1581.html"
-		},
-		{
-			"name": "CVE-2018-19840",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-19840"
-		},
-		{
-			"name": "CVE-2018-19841",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-19841"
 		}
 	],
 	"published": "2020-04-28T08:53:05Z",
