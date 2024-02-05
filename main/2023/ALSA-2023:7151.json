@@ -161,6 +161,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:7151",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:7151"
+		},
+		{
 			"name": "CVE-2007-4559",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -183,14 +191,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-7151.html"
-		},
-		{
-			"name": "RHSA-2023:7151",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:7151"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",

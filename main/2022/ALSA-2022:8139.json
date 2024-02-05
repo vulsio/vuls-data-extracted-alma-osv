@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-44269",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-44269"
+		},
+		{
 			"name": "2064457",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -83,14 +91,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:8139"
-		},
-		{
-			"name": "CVE-2021-44269",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-44269"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

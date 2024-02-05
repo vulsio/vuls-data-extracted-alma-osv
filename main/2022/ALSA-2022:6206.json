@@ -181,22 +181,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2022-6206",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-6206.html"
-		},
-		{
-			"name": "RHSA-2022:6206",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6206"
-		},
-		{
 			"name": "CVE-2022-2526",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -211,6 +195,22 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2109926"
+		},
+		{
+			"name": "ALSA-2022-6206",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-6206.html"
+		},
+		{
+			"name": "RHSA-2022:6206",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6206"
 		}
 	],
 	"published": "2022-08-29T00:00:00Z",
