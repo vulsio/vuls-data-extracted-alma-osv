@@ -147,14 +147,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-29499",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-29499"
-		},
-		{
 			"name": "CVE-2023-32611",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -209,6 +201,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:6631"
+		},
+		{
+			"name": "CVE-2023-29499",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-29499"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

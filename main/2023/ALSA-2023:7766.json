@@ -26,6 +26,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-29409",
+			"references": [
+				{
+					"name": "CVE-2023-29409",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-29409"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-39318",
 			"references": [
 				{
@@ -76,19 +89,6 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-39322"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-29409",
-			"references": [
-				{
-					"name": "CVE-2023-29409",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-29409"
-				}
-			]
 		}
 	],
 	"references": [
@@ -101,12 +101,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-39321"
 		},
 		{
-			"name": "2237776",
+			"name": "2228743",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2237776"
+			"url": "https://bugzilla.redhat.com/2228743"
+		},
+		{
+			"name": "2237778",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2237778"
 		},
 		{
 			"name": "ALSA-2023-7766",
@@ -149,14 +157,6 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-39322"
 		},
 		{
-			"name": "2228743",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2228743"
-		},
-		{
 			"name": "2237773",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -165,20 +165,20 @@
 			"url": "https://bugzilla.redhat.com/2237773"
 		},
 		{
+			"name": "2237776",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2237776"
+		},
+		{
 			"name": "2237777",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2237777"
-		},
-		{
-			"name": "2237778",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2237778"
 		},
 		{
 			"name": "RHSA-2023:7766",
