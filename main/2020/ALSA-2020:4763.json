@@ -74,20 +74,20 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-10967",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-10967"
-		},
-		{
 			"name": "CVE-2020-10958",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-10958"
+		},
+		{
+			"name": "CVE-2020-10967",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-10967"
 		}
 	],
 	"published": "2020-11-03T12:33:59Z",

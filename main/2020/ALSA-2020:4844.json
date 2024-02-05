@@ -26,6 +26,9 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-5395"
+		},
+		{
 			"cve": "CVE-2020-25690",
 			"references": [
 				{
@@ -37,9 +40,6 @@
 					"url": "https://vulners.com/cve/CVE-2020-25690"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2020-5395"
 		}
 	],
 	"references": [

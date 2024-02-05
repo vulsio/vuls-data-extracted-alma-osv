@@ -208,14 +208,6 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-6816"
 		},
 		{
-			"name": "2256540",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2256540"
-		},
-		{
 			"name": "2256542",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -224,12 +216,12 @@
 			"url": "https://bugzilla.redhat.com/2256542"
 		},
 		{
-			"name": "ALSA-2024-0557",
+			"name": "2257691",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"bugzilla"
 			],
-			"url": "https://errata.almalinux.org/9/ALSA-2024-0557.html"
+			"url": "https://bugzilla.redhat.com/2257691"
 		},
 		{
 			"name": "RHSA-2024:0557",
@@ -256,6 +248,14 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2024-21886"
 		},
 		{
+			"name": "2256540",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2256540"
+		},
+		{
 			"name": "2256690",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -264,12 +264,12 @@
 			"url": "https://bugzilla.redhat.com/2256690"
 		},
 		{
-			"name": "2257691",
+			"name": "ALSA-2024-0557",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"vendor-advisory"
 			],
-			"url": "https://bugzilla.redhat.com/2257691"
+			"url": "https://errata.almalinux.org/9/ALSA-2024-0557.html"
 		},
 		{
 			"name": "CVE-2024-0229",
