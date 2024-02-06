@@ -901,14 +901,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2022:8492",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:8492"
-		},
-		{
 			"name": "CVE-2022-42919",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -931,6 +923,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-8492.html"
+		},
+		{
+			"name": "RHSA-2022:8492",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:8492"
 		}
 	],
 	"published": "2022-11-16T00:00:00Z",
