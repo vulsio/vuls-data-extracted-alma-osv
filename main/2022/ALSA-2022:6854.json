@@ -121,14 +121,6 @@
 	],
 	"references": [
 		{
-			"name": "2108977",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2108977"
-		},
-		{
 			"name": "ALSA-2022-6854",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -151,6 +143,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-2509"
+		},
+		{
+			"name": "2108977",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2108977"
 		}
 	],
 	"published": "2022-10-11T00:00:00Z",
