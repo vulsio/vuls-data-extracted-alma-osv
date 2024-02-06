@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-31213",
-			"references": [
-				{
-					"name": "CVE-2022-31213",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-31213"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-31212",
 			"references": [
 				{
@@ -50,9 +37,30 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-31212"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-31213",
+			"references": [
+				{
+					"name": "CVE-2022-31213",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-31213"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "RHSA-2022:6608",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6608"
+		},
 		{
 			"name": "CVE-2022-31212",
 			"source": "errata.almalinux.org",
@@ -92,14 +100,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-6608.html"
-		},
-		{
-			"name": "RHSA-2022:6608",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6608"
 		}
 	],
 	"published": "2022-09-20T00:00:00Z",

@@ -132,6 +132,54 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-23602",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-23602"
+		},
+		{
+			"name": "CVE-2023-23603",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-23603"
+		},
+		{
+			"name": "CVE-2023-23605",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-23605"
+		},
+		{
+			"name": "2162340",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2162340"
+		},
+		{
+			"name": "2162343",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2162343"
+		},
+		{
+			"name": "CVE-2023-23601",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-23601"
+		},
+		{
 			"name": "2162338",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -148,22 +196,6 @@
 			"url": "https://bugzilla.redhat.com/2162339"
 		},
 		{
-			"name": "CVE-2022-46877",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-46877"
-		},
-		{
-			"name": "2162340",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2162340"
-		},
-		{
 			"name": "2162342",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -172,44 +204,20 @@
 			"url": "https://bugzilla.redhat.com/2162342"
 		},
 		{
-			"name": "CVE-2023-23603",
+			"name": "ALSA-2023-0285",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-23603"
+			"url": "https://errata.almalinux.org/9/ALSA-2023-0285.html"
 		},
 		{
-			"name": "CVE-2023-23599",
+			"name": "RHSA-2023:0285",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"third-party-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-23599"
-		},
-		{
-			"name": "CVE-2023-23601",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-23601"
-		},
-		{
-			"name": "2162343",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2162343"
-		},
-		{
-			"name": "CVE-2023-23598",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-23598"
+			"url": "https://access.redhat.com/errata/RHSA-2023:0285"
 		},
 		{
 			"name": "CVE-2022-46871",
@@ -220,20 +228,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-46871"
 		},
 		{
-			"name": "CVE-2023-23602",
+			"name": "CVE-2022-46877",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-23602"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-46877"
 		},
 		{
-			"name": "CVE-2023-23605",
+			"name": "CVE-2023-23599",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-23605"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-23599"
 		},
 		{
 			"name": "2162336",
@@ -260,20 +268,12 @@
 			"url": "https://bugzilla.redhat.com/2162344"
 		},
 		{
-			"name": "ALSA-2023-0285",
+			"name": "CVE-2023-23598",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"cve"
 			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-0285.html"
-		},
-		{
-			"name": "RHSA-2023:0285",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:0285"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-23598"
 		}
 	],
 	"published": "2023-01-23T00:00:00Z",

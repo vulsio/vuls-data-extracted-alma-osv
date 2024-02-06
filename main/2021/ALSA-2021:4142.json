@@ -74,20 +74,20 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-11023",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-11023"
-		},
-		{
 			"name": "CVE-2020-7656",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-7656"
+		},
+		{
+			"name": "CVE-2020-11023",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-11023"
 		}
 	],
 	"published": "2021-11-09T08:21:49Z",
