@@ -1134,22 +1134,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:7753",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:7753"
-		},
-		{
-			"name": "CVE-2023-37920",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-37920"
-		},
-		{
 			"name": "CVE-2023-43804",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -1180,6 +1164,22 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-7753.html"
+		},
+		{
+			"name": "RHSA-2023:7753",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:7753"
+		},
+		{
+			"name": "CVE-2023-37920",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-37920"
 		}
 	],
 	"published": "2023-12-12T00:00:00Z",
