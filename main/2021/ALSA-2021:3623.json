@@ -266,6 +266,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-22939",
+			"references": [
+				{
+					"name": "CVE-2021-22939",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-22939"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-22940",
 			"references": [
 				{
@@ -355,22 +368,17 @@
 					"url": "https://vulners.com/cve/CVE-2021-22931"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2021-22939",
-			"references": [
-				{
-					"name": "CVE-2021-22939",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-22939"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "ALSA-2021-3623",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2021-3623.html"
+		},
 		{
 			"name": "CVE-2021-22931",
 			"source": "errata.almalinux.org",
@@ -388,6 +396,22 @@
 			"url": "https://vulners.com/cve/CVE-2021-22939"
 		},
 		{
+			"name": "CVE-2021-22940",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-22940"
+		},
+		{
+			"name": "CVE-2021-32804",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-32804"
+		},
+		{
 			"name": "CVE-2021-3672",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -396,28 +420,12 @@
 			"url": "https://vulners.com/cve/CVE-2021-3672"
 		},
 		{
-			"name": "ALSA-2021-3623",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2021-3623.html"
-		},
-		{
 			"name": "CVE-2021-22930",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-22930"
-		},
-		{
-			"name": "CVE-2021-22940",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-22940"
 		},
 		{
 			"name": "CVE-2021-23343",
@@ -434,14 +442,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-32803"
-		},
-		{
-			"name": "CVE-2021-32804",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-32804"
 		}
 	],
 	"published": "2021-09-21T12:33:58Z",

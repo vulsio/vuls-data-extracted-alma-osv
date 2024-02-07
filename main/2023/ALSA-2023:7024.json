@@ -194,6 +194,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-41105",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-41105"
+		},
+		{
 			"name": "2235795",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -232,14 +240,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
-		},
-		{
-			"name": "CVE-2023-41105",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-41105"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",
