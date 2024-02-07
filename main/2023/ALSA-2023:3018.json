@@ -81,6 +81,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-36227",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-36227"
+		},
+		{
 			"name": "2144972",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -103,14 +111,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:3018"
-		},
-		{
-			"name": "CVE-2022-36227",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-36227"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",
