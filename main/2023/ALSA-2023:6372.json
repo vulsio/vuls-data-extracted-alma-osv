@@ -121,6 +121,14 @@
 	],
 	"references": [
 		{
+			"name": "2122627",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2122627"
+		},
+		{
 			"name": "ALSA-2023-6372",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -143,14 +151,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-3826"
-		},
-		{
-			"name": "2122627",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2122627"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",
