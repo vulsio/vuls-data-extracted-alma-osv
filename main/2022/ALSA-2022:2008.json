@@ -106,19 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-3660",
-			"references": [
-				{
-					"name": "CVE-2021-3660",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-3660"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-3698",
 			"references": [
 				{
@@ -130,17 +117,22 @@
 					"url": "https://vulners.com/cve/CVE-2021-3698"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-3660",
+			"references": [
+				{
+					"name": "CVE-2021-3660",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3660"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2021-3698",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3698"
-		},
 		{
 			"name": "ALSA-2022-2008",
 			"source": "errata.almalinux.org",
@@ -156,6 +148,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-3660"
+		},
+		{
+			"name": "CVE-2021-3698",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3698"
 		}
 	],
 	"published": "2022-05-10T06:44:59Z",

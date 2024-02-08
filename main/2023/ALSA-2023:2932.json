@@ -108,12 +108,20 @@
 			"url": "https://access.redhat.com/errata/RHSA-2023:2932"
 		},
 		{
-			"name": "CVE-2023-0286",
+			"name": "CVE-2022-4450",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0286"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4450"
+		},
+		{
+			"name": "CVE-2023-0215",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0215"
 		},
 		{
 			"name": "2164487",
@@ -140,20 +148,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-4304"
 		},
 		{
-			"name": "CVE-2022-4450",
+			"name": "CVE-2023-0286",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-4450"
-		},
-		{
-			"name": "CVE-2023-0215",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0215"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0286"
 		},
 		{
 			"name": "2164440",

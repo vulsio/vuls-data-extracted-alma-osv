@@ -214,20 +214,20 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-44717",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-44717"
-		},
-		{
 			"name": "CVE-2021-44716",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-44716"
+		},
+		{
+			"name": "CVE-2021-44717",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-44717"
 		}
 	],
 	"published": "2021-12-15T16:11:05Z",

@@ -570,14 +570,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-44141",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-44141"
-		},
-		{
 			"name": "2009673",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -632,6 +624,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-20316"
+		},
+		{
+			"name": "CVE-2021-44141",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-44141"
 		}
 	],
 	"published": "2022-05-10T00:00:00Z",
