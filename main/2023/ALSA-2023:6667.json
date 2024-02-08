@@ -740,14 +740,6 @@
 	],
 	"references": [
 		{
-			"name": "2222794",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2222794"
-		},
-		{
 			"name": "2222795",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -756,12 +748,36 @@
 			"url": "https://bugzilla.redhat.com/2222795"
 		},
 		{
-			"name": "RHSA-2023:6667",
+			"name": "ALSA-2023-6667",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:6667"
+			"url": "https://errata.almalinux.org/9/ALSA-2023-6667.html"
+		},
+		{
+			"name": "CVE-2023-34966",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-34966"
+		},
+		{
+			"name": "CVE-2022-2127",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2127"
+		},
+		{
+			"name": "CVE-2023-34967",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-34967"
 		},
 		{
 			"name": "CVE-2023-34968",
@@ -788,36 +804,20 @@
 			"url": "https://bugzilla.redhat.com/2222793"
 		},
 		{
-			"name": "ALSA-2023-6667",
+			"name": "2222794",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"bugzilla"
 			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-6667.html"
+			"url": "https://bugzilla.redhat.com/2222794"
 		},
 		{
-			"name": "CVE-2022-2127",
+			"name": "RHSA-2023:6667",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"third-party-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2127"
-		},
-		{
-			"name": "CVE-2023-34966",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-34966"
-		},
-		{
-			"name": "CVE-2023-34967",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-34967"
+			"url": "https://access.redhat.com/errata/RHSA-2023:6667"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

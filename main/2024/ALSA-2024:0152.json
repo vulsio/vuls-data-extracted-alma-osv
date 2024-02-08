@@ -226,19 +226,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2024-21319",
-			"references": [
-				{
-					"name": "CVE-2024-21319",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2024-21319"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2024-0056",
 			"references": [
 				{
@@ -263,41 +250,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2024-0057"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2024-21319",
+			"references": [
+				{
+					"name": "CVE-2024-21319",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2024-21319"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "2255386",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2255386"
-		},
-		{
-			"name": "2257566",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2257566"
-		},
-		{
-			"name": "ALSA-2024-0152",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2024-0152.html"
-		},
-		{
-			"name": "RHSA-2024:0152",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0152"
-		},
 		{
 			"name": "CVE-2024-0056",
 			"source": "errata.almalinux.org",
@@ -329,6 +297,38 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2255384"
+		},
+		{
+			"name": "2255386",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2255386"
+		},
+		{
+			"name": "2257566",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2257566"
+		},
+		{
+			"name": "ALSA-2024-0152",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2024-0152.html"
+		},
+		{
+			"name": "RHSA-2024:0152",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0152"
 		}
 	],
 	"published": "2024-01-10T00:00:00Z",

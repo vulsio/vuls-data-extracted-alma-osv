@@ -101,14 +101,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2022:8022",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:8022"
-		},
-		{
 			"name": "CVE-2022-25255",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -131,6 +123,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-8022.html"
+		},
+		{
+			"name": "RHSA-2022:8022",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:8022"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

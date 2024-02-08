@@ -466,19 +466,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-22025",
-			"references": [
-				{
-					"name": "CVE-2023-22025",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-22025"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-22081",
 			"references": [
 				{
@@ -488,6 +475,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2023-22081"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-22025",
+			"references": [
+				{
+					"name": "CVE-2023-22025",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-22025"
 				}
 			]
 		}
