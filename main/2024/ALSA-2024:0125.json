@@ -166,19 +166,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-45648",
-			"references": [
-				{
-					"name": "CVE-2023-45648",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-45648"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-41080",
 			"references": [
 				{
@@ -216,9 +203,46 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-42795"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-45648",
+			"references": [
+				{
+					"name": "CVE-2023-45648",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45648"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2023-45648",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-45648"
+		},
+		{
+			"name": "2235370",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2235370"
+		},
+		{
+			"name": "2243749",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2243749"
+		},
 		{
 			"name": "2243752",
 			"source": "errata.almalinux.org",
@@ -244,30 +268,6 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-41080"
 		},
 		{
-			"name": "CVE-2023-42795",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-42795"
-		},
-		{
-			"name": "2235370",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2235370"
-		},
-		{
-			"name": "2243749",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2243749"
-		},
-		{
 			"name": "CVE-2023-42794",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -276,12 +276,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-42794"
 		},
 		{
-			"name": "CVE-2023-45648",
+			"name": "CVE-2023-42795",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-45648"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-42795"
 		},
 		{
 			"name": "2243751",

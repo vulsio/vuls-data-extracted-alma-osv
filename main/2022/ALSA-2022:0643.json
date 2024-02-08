@@ -86,19 +86,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-22816",
-			"references": [
-				{
-					"name": "CVE-2022-22816",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-22816"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-22817",
 			"references": [
 				{
@@ -110,9 +97,30 @@
 					"url": "https://vulners.com/cve/CVE-2022-22817"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-22816",
+			"references": [
+				{
+					"name": "CVE-2022-22816",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-22816"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2022-22817",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-22817"
+		},
 		{
 			"name": "ALSA-2022-0643",
 			"source": "errata.almalinux.org",
@@ -136,14 +144,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2022-22816"
-		},
-		{
-			"name": "CVE-2022-22817",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-22817"
 		}
 	],
 	"published": "2022-02-22T17:25:31Z",

@@ -446,19 +446,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-3507",
-			"references": [
-				{
-					"name": "CVE-2021-3507",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-3507"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-3611",
 			"references": [
 				{
@@ -496,9 +483,38 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2021-4158"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-3507",
+			"references": [
+				{
+					"name": "CVE-2021-3507",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-3507"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "RHSA-2022:7967",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:7967"
+		},
+		{
+			"name": "CVE-2021-3507",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-3507"
+		},
 		{
 			"name": "CVE-2021-3611",
 			"source": "errata.almalinux.org",
@@ -506,30 +522,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-3611"
-		},
-		{
-			"name": "CVE-2021-3750",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-3750"
-		},
-		{
-			"name": "1973784",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1973784"
-		},
-		{
-			"name": "1999073",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1999073"
 		},
 		{
 			"name": "2035002",
@@ -548,20 +540,12 @@
 			"url": "https://errata.almalinux.org/9/ALSA-2022-7967.html"
 		},
 		{
-			"name": "RHSA-2022:7967",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:7967"
-		},
-		{
-			"name": "CVE-2021-3507",
+			"name": "CVE-2021-3750",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-3507"
+			"url": "https://access.redhat.com/security/cve/CVE-2021-3750"
 		},
 		{
 			"name": "CVE-2021-4158",
@@ -578,6 +562,22 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/1951118"
+		},
+		{
+			"name": "1973784",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1973784"
+		},
+		{
+			"name": "1999073",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1999073"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",
