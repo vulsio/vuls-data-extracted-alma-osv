@@ -61,14 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-33460",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-33460"
-		},
-		{
 			"name": "2221249",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +83,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:6551"
+		},
+		{
+			"name": "CVE-2023-33460",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-33460"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

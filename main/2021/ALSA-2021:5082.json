@@ -86,19 +86,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2016-2124",
-			"references": [
-				{
-					"name": "CVE-2016-2124",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2016-2124"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-25717",
 			"references": [
 				{
@@ -123,9 +110,30 @@
 					"url": "https://vulners.com/cve/CVE-2021-23192"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2016-2124",
+			"references": [
+				{
+					"name": "CVE-2016-2124",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2016-2124"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-25717",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-25717"
+		},
 		{
 			"name": "CVE-2021-23192",
 			"source": "errata.almalinux.org",
@@ -141,14 +149,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2016-2124"
-		},
-		{
-			"name": "CVE-2020-25717",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-25717"
 		}
 	],
 	"published": "2021-12-13T08:15:38Z",

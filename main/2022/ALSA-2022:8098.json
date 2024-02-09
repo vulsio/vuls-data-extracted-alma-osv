@@ -46,6 +46,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-30632",
+			"references": [
+				{
+					"name": "CVE-2022-30632",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-30632"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-1705",
 			"references": [
 				{
@@ -83,29 +96,24 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-30631"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-30632",
-			"references": [
-				{
-					"name": "CVE-2022-30632",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-30632"
-				}
-			]
 		}
 	],
 	"references": [
 		{
-			"name": "RHSA-2022:8098",
+			"name": "2107371",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:8098"
+			"url": "https://bugzilla.redhat.com/2107371"
+		},
+		{
+			"name": "CVE-2022-30630",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-30630"
 		},
 		{
 			"name": "CVE-2022-30631",
@@ -140,12 +148,20 @@
 			"url": "https://bugzilla.redhat.com/2107374"
 		},
 		{
-			"name": "ALSA-2022-8098",
+			"name": "2107386",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"bugzilla"
 			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-8098.html"
+			"url": "https://bugzilla.redhat.com/2107386"
+		},
+		{
+			"name": "RHSA-2022:8098",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:8098"
 		},
 		{
 			"name": "CVE-2022-1705",
@@ -156,28 +172,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1705"
 		},
 		{
-			"name": "CVE-2022-30630",
+			"name": "ALSA-2022-8098",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-30630"
-		},
-		{
-			"name": "2107371",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2107371"
-		},
-		{
-			"name": "2107386",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2107386"
+			"url": "https://errata.almalinux.org/9/ALSA-2022-8098.html"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",
