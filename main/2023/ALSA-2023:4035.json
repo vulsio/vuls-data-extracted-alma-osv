@@ -166,32 +166,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-31147",
-			"references": [
-				{
-					"name": "CVE-2023-31147",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2023-32067",
-			"references": [
-				{
-					"name": "CVE-2023-32067",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-32067"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-4904",
 			"references": [
 				{
@@ -229,25 +203,35 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-31147",
+			"references": [
+				{
+					"name": "CVE-2023-31147",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-32067",
+			"references": [
+				{
+					"name": "CVE-2023-32067",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-32067"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2022-4904",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
-		},
-		{
-			"name": "CVE-2023-31124",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-31124"
-		},
 		{
 			"name": "CVE-2023-31130",
 			"source": "errata.almalinux.org",
@@ -255,14 +239,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
-		},
-		{
-			"name": "CVE-2023-32067",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32067"
 		},
 		{
 			"name": "2168631",
@@ -281,22 +257,6 @@
 			"url": "https://bugzilla.redhat.com/2209494"
 		},
 		{
-			"name": "2209497",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2209497"
-		},
-		{
-			"name": "RHSA-2023:4035",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:4035"
-		},
-		{
 			"name": "ALSA-2023-4035",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -305,12 +265,44 @@
 			"url": "https://errata.almalinux.org/8/ALSA-2023-4035.html"
 		},
 		{
-			"name": "2209502",
+			"name": "CVE-2023-31124",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-31124"
+		},
+		{
+			"name": "CVE-2022-4904",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
+		},
+		{
+			"name": "CVE-2023-31147",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
+		},
+		{
+			"name": "CVE-2023-32067",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32067"
+		},
+		{
+			"name": "2209497",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2209502"
+			"url": "https://bugzilla.redhat.com/2209497"
 		},
 		{
 			"name": "2209501",
@@ -321,12 +313,20 @@
 			"url": "https://bugzilla.redhat.com/2209501"
 		},
 		{
-			"name": "CVE-2023-31147",
+			"name": "2209502",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
+			"url": "https://bugzilla.redhat.com/2209502"
+		},
+		{
+			"name": "RHSA-2023:4035",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:4035"
 		}
 	],
 	"published": "2023-07-12T00:00:00Z",
