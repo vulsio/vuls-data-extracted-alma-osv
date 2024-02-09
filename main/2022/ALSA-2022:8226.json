@@ -41,6 +41,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-2309",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2309"
+		},
+		{
 			"name": "2107571",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -63,14 +71,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:8226"
-		},
-		{
-			"name": "CVE-2022-2309",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2309"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

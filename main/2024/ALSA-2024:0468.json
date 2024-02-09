@@ -321,14 +321,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-4001",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-4001"
-		},
-		{
 			"name": "2224951",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -351,6 +343,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2024:0468"
+		},
+		{
+			"name": "CVE-2023-4001",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-4001"
 		}
 	],
 	"published": "2024-01-25T00:00:00Z",

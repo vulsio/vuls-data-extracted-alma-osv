@@ -1171,38 +1171,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-31799",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-31799"
-		},
-		{
-			"name": "1980126",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1980126"
-		},
-		{
-			"name": "CVE-2021-31810",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-31810"
-		},
-		{
-			"name": "CVE-2021-32066",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-32066"
-		},
-		{
 			"name": "RHSA-2022:0672",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -1211,20 +1179,20 @@
 			"url": "https://access.redhat.com/errata/RHSA-2022:0672"
 		},
 		{
+			"name": "CVE-2021-31799",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-31799"
+		},
+		{
 			"name": "CVE-2021-31810",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-31810"
-		},
-		{
-			"name": "CVE-2021-32066",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-32066"
 		},
 		{
 			"name": "1980128",
@@ -1251,12 +1219,44 @@
 			"url": "https://errata.almalinux.org/8/ALSA-2022-0672.html"
 		},
 		{
+			"name": "CVE-2021-31810",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-31810"
+		},
+		{
+			"name": "CVE-2021-32066",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-32066"
+		},
+		{
+			"name": "1980126",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1980126"
+		},
+		{
 			"name": "CVE-2021-31799",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-31799"
+		},
+		{
+			"name": "CVE-2021-32066",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-32066"
 		}
 	],
 	"published": "2022-02-24T00:00:00Z",
