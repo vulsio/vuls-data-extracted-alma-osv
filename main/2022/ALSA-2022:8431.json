@@ -146,19 +146,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-2990",
-			"references": [
-				{
-					"name": "CVE-2022-2990",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-2990"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-2989",
 			"references": [
 				{
@@ -170,33 +157,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-2989"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-2990",
+			"references": [
+				{
+					"name": "CVE-2022-2990",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2990"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "ALSA-2022-8431",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-8431.html"
-		},
-		{
-			"name": "RHSA-2022:8431",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:8431"
-		},
-		{
-			"name": "CVE-2022-2989",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2989"
-		},
 		{
 			"name": "CVE-2022-2990",
 			"source": "errata.almalinux.org",
@@ -220,6 +196,30 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2121453"
+		},
+		{
+			"name": "ALSA-2022-8431",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-8431.html"
+		},
+		{
+			"name": "RHSA-2022:8431",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:8431"
+		},
+		{
+			"name": "CVE-2022-2989",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2989"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

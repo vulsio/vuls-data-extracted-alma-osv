@@ -174,14 +174,6 @@
 	],
 	"references": [
 		{
-			"name": "2230178",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2230178"
-		},
-		{
 			"name": "2232682",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -220,6 +212,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-39975"
+		},
+		{
+			"name": "2230178",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2230178"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

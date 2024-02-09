@@ -2274,14 +2274,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-3930",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3930"
-		},
-		{
 			"name": "ALSA-2021-5238",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -2296,6 +2288,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-20257"
+		},
+		{
+			"name": "CVE-2021-3930",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3930"
 		}
 	],
 	"published": "2021-12-21T09:11:21Z",
