@@ -101,6 +101,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-5363",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5363"
+		},
+		{
 			"name": "2243839",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -123,14 +131,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2024:0310"
-		},
-		{
-			"name": "CVE-2023-5363",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-5363"
 		}
 	],
 	"published": "2024-01-22T00:00:00Z",

@@ -41,14 +41,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-3128",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-3128"
-		},
-		{
 			"name": "2213626",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -71,6 +63,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:6972"
+		},
+		{
+			"name": "CVE-2023-3128",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-3128"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",

@@ -127,14 +127,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2023-7877",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-7877.html"
-		},
-		{
 			"name": "RHSA-2023:7877",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -189,6 +181,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2248616"
+		},
+		{
+			"name": "ALSA-2023-7877",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-7877.html"
 		}
 	],
 	"published": "2023-12-19T00:00:00Z",

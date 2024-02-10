@@ -94,6 +94,22 @@
 	],
 	"references": [
 		{
+			"name": "ALSA-2022-8096",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-8096.html"
+		},
+		{
+			"name": "RHSA-2022:8096",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:8096"
+		},
+		{
 			"name": "CVE-2022-24735",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -124,22 +140,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2080289"
-		},
-		{
-			"name": "ALSA-2022-8096",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-8096.html"
-		},
-		{
-			"name": "RHSA-2022:8096",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:8096"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

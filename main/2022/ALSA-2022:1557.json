@@ -666,6 +666,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-2154",
+			"references": [
+				{
+					"name": "CVE-2021-2154",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-2154"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-2166",
 			"references": [
 				{
@@ -688,45 +701,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-2372"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-35604",
-			"references": [
-				{
-					"name": "CVE-2021-35604",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-35604"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-46658",
-			"references": [
-				{
-					"name": "CVE-2021-46658",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-46658"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-2154",
-			"references": [
-				{
-					"name": "CVE-2021-2154",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-2154"
 				}
 			]
 		},
@@ -757,6 +731,19 @@
 			]
 		},
 		{
+			"cve": "CVE-2021-46658",
+			"references": [
+				{
+					"name": "CVE-2021-46658",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-46658"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-46662",
 			"references": [
 				{
@@ -766,6 +753,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-46662"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-35604",
+			"references": [
+				{
+					"name": "CVE-2021-35604",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-35604"
 				}
 			]
 		},
@@ -798,36 +798,12 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-21451",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-21451"
-		},
-		{
 			"name": "ALSA-2022-1557",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-1557.html"
-		},
-		{
-			"name": "CVE-2021-2154",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-2154"
-		},
-		{
-			"name": "CVE-2021-46657",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-46657"
 		},
 		{
 			"name": "CVE-2021-46662",
@@ -838,28 +814,12 @@
 			"url": "https://vulners.com/cve/CVE-2021-46662"
 		},
 		{
-			"name": "CVE-2021-46667",
+			"name": "CVE-2021-2166",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2021-46667"
-		},
-		{
-			"name": "CVE-2021-35604",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-35604"
-		},
-		{
-			"name": "CVE-2021-46658",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-46658"
+			"url": "https://vulners.com/cve/CVE-2021-2166"
 		},
 		{
 			"name": "CVE-2021-2372",
@@ -870,6 +830,54 @@
 			"url": "https://vulners.com/cve/CVE-2021-2372"
 		},
 		{
+			"name": "CVE-2021-2389",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-2389"
+		},
+		{
+			"name": "CVE-2021-46657",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-46657"
+		},
+		{
+			"name": "CVE-2021-46658",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-46658"
+		},
+		{
+			"name": "CVE-2022-21451",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-21451"
+		},
+		{
+			"name": "CVE-2021-2154",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-2154"
+		},
+		{
+			"name": "CVE-2021-35604",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-35604"
+		},
+		{
 			"name": "CVE-2021-46666",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -878,20 +886,12 @@
 			"url": "https://vulners.com/cve/CVE-2021-46666"
 		},
 		{
-			"name": "CVE-2021-2166",
+			"name": "CVE-2021-46667",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2021-2166"
-		},
-		{
-			"name": "CVE-2021-2389",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-2389"
+			"url": "https://vulners.com/cve/CVE-2021-46667"
 		},
 		{
 			"name": "CVE-2022-27385",
