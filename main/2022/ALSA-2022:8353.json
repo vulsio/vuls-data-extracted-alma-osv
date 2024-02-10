@@ -166,19 +166,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2015-20107",
-			"references": [
-				{
-					"name": "CVE-2015-20107",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2015-20107"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-28861",
 			"references": [
 				{
@@ -190,25 +177,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2021-28861"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2015-20107",
+			"references": [
+				{
+					"name": "CVE-2015-20107",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2015-20107"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "2075390",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2075390"
-		},
-		{
-			"name": "2120642",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2120642"
-		},
 		{
 			"name": "ALSA-2022-8353",
 			"source": "errata.almalinux.org",
@@ -240,6 +224,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-28861"
+		},
+		{
+			"name": "2075390",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2075390"
+		},
+		{
+			"name": "2120642",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2120642"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

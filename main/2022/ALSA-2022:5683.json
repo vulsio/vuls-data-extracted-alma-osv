@@ -507,6 +507,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-21540",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-21540"
+		},
+		{
 			"name": "CVE-2022-21541",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -561,14 +569,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:5683"
-		},
-		{
-			"name": "CVE-2022-21540",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-21540"
 		}
 	],
 	"published": "2022-07-21T00:00:00Z",

@@ -86,19 +86,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-28204",
-			"references": [
-				{
-					"name": "CVE-2023-28204",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-28204"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-32373",
 			"references": [
 				{
@@ -110,33 +97,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-32373"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-28204",
+			"references": [
+				{
+					"name": "CVE-2023-28204",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-28204"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "ALSA-2023-3433",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-3433.html"
-		},
-		{
-			"name": "RHSA-2023:3433",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:3433"
-		},
-		{
-			"name": "CVE-2023-28204",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-28204"
-		},
 		{
 			"name": "CVE-2023-32373",
 			"source": "errata.almalinux.org",
@@ -160,6 +136,30 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2209214"
+		},
+		{
+			"name": "ALSA-2023-3433",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-3433.html"
+		},
+		{
+			"name": "RHSA-2023:3433",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:3433"
+		},
+		{
+			"name": "CVE-2023-28204",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-28204"
 		}
 	],
 	"published": "2023-06-05T00:00:00Z",

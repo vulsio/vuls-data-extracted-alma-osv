@@ -326,20 +326,12 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-43945",
+			"name": "CVE-2022-30594",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-43945"
-		},
-		{
-			"name": "2067482",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2067482"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-30594"
 		},
 		{
 			"name": "2141752",
@@ -366,20 +358,20 @@
 			"url": "https://access.redhat.com/errata/RHSA-2023:0300"
 		},
 		{
-			"name": "CVE-2022-30594",
+			"name": "CVE-2022-2964",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-30594"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2964"
 		},
 		{
-			"name": "CVE-2022-3077",
+			"name": "CVE-2022-43945",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-3077"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-43945"
 		},
 		{
 			"name": "2123309",
@@ -388,6 +380,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2123309"
+		},
+		{
+			"name": "CVE-2022-3077",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3077"
 		},
 		{
 			"name": "2103681",
@@ -406,20 +406,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-2959"
 		},
 		{
-			"name": "CVE-2022-2964",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2964"
-		},
-		{
 			"name": "CVE-2022-4139",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-4139"
+		},
+		{
+			"name": "2067482",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2067482"
 		},
 		{
 			"name": "2085300",

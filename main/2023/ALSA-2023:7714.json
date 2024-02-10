@@ -440,20 +440,36 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:7714",
+			"name": "CVE-2023-39417",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"cve"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:7714"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-39417"
 		},
 		{
-			"name": "2247169",
+			"name": "CVE-2023-5869",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5869"
+		},
+		{
+			"name": "2247168",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2247169"
+			"url": "https://bugzilla.redhat.com/2247168"
+		},
+		{
+			"name": "2247170",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2247170"
 		},
 		{
 			"name": "ALSA-2023-7714",
@@ -464,28 +480,12 @@
 			"url": "https://errata.almalinux.org/8/ALSA-2023-7714.html"
 		},
 		{
-			"name": "CVE-2023-39417",
+			"name": "RHSA-2023:7714",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"third-party-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-39417"
-		},
-		{
-			"name": "CVE-2023-5868",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-5868"
-		},
-		{
-			"name": "CVE-2023-5869",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-5869"
+			"url": "https://access.redhat.com/errata/RHSA-2023:7714"
 		},
 		{
 			"name": "CVE-2023-5870",
@@ -504,20 +504,20 @@
 			"url": "https://bugzilla.redhat.com/2228111"
 		},
 		{
-			"name": "2247168",
+			"name": "2247169",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2247168"
+			"url": "https://bugzilla.redhat.com/2247169"
 		},
 		{
-			"name": "2247170",
+			"name": "CVE-2023-5868",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2247170"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5868"
 		}
 	],
 	"published": "2023-12-11T00:00:00Z",

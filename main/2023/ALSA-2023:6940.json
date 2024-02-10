@@ -94,6 +94,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:6940",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:6940"
+		},
+		{
 			"name": "CVE-2022-23527",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -132,14 +140,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-6940.html"
-		},
-		{
-			"name": "RHSA-2023:6940",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:6940"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",
