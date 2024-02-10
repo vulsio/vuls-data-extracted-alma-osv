@@ -1446,6 +1446,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-28948",
+			"references": [
+				{
+					"name": "CVE-2020-28948",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2020-28948"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-28949",
 			"references": [
 				{
@@ -1470,30 +1483,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2020-36193"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2020-28948",
-			"references": [
-				{
-					"name": "CVE-2020-28948",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2020-28948"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2020-28949",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2020-28949"
-		},
 		{
 			"name": "CVE-2020-36193",
 			"source": "errata.almalinux.org",
@@ -1549,6 +1541,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2020-28948"
+		},
+		{
+			"name": "CVE-2020-28949",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2020-28949"
 		}
 	],
 	"published": "2022-09-15T00:00:00Z",

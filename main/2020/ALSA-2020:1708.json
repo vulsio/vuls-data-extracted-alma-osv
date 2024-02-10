@@ -100,22 +100,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2018-11684",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-11684"
-		},
-		{
-			"name": "CVE-2018-11685",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-11685"
-		},
-		{
 			"name": "CVE-2018-12085",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -138,6 +122,22 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2018-11577"
+		},
+		{
+			"name": "CVE-2018-11684",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-11684"
+		},
+		{
+			"name": "CVE-2018-11685",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-11685"
 		}
 	],
 	"published": "2020-04-28T09:07:17Z",
