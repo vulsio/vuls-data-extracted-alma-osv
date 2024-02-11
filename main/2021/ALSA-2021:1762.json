@@ -1386,19 +1386,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-29443",
-			"references": [
-				{
-					"name": "CVE-2020-29443",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-29443"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-11947",
 			"references": [
 				{
@@ -1412,28 +1399,15 @@
 			]
 		},
 		{
-			"cve": "CVE-2020-28916",
+			"cve": "CVE-2020-16092",
 			"references": [
 				{
-					"name": "CVE-2020-28916",
+					"name": "CVE-2020-16092",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2020-28916"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-29129",
-			"references": [
-				{
-					"name": "CVE-2020-29129",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-29129"
+					"url": "https://vulners.com/cve/CVE-2020-16092"
 				}
 			]
 		},
@@ -1464,28 +1438,15 @@
 			]
 		},
 		{
-			"cve": "CVE-2020-29130",
+			"cve": "CVE-2020-28916",
 			"references": [
 				{
-					"name": "CVE-2020-29130",
+					"name": "CVE-2020-28916",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2020-29130"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-16092",
-			"references": [
-				{
-					"name": "CVE-2020-16092",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-16092"
+					"url": "https://vulners.com/cve/CVE-2020-28916"
 				}
 			]
 		},
@@ -1514,48 +1475,63 @@
 					"url": "https://vulners.com/cve/CVE-2020-25707"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-29129",
+			"references": [
+				{
+					"name": "CVE-2020-29129",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-29129"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-29130",
+			"references": [
+				{
+					"name": "CVE-2020-29130",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-29130"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-29443",
+			"references": [
+				{
+					"name": "CVE-2020-29443",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-29443"
+				}
+			]
 		}
 	],
 	"references": [
 		{
-			"name": "ALSA-2021-1762",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2021-1762.html"
-		},
-		{
-			"name": "CVE-2020-16092",
+			"name": "CVE-2020-28916",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2020-16092"
+			"url": "https://vulners.com/cve/CVE-2020-28916"
 		},
 		{
-			"name": "CVE-2020-25723",
+			"name": "CVE-2020-29130",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2020-25723"
-		},
-		{
-			"name": "CVE-2020-27821",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-27821"
-		},
-		{
-			"name": "CVE-2020-11947",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-11947"
+			"url": "https://vulners.com/cve/CVE-2020-29130"
 		},
 		{
 			"name": "CVE-2020-25637",
@@ -1574,12 +1550,20 @@
 			"url": "https://vulners.com/cve/CVE-2020-25707"
 		},
 		{
-			"name": "CVE-2020-28916",
+			"name": "CVE-2020-25723",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2020-28916"
+			"url": "https://vulners.com/cve/CVE-2020-25723"
+		},
+		{
+			"name": "CVE-2020-27821",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-27821"
 		},
 		{
 			"name": "CVE-2020-29129",
@@ -1590,20 +1574,36 @@
 			"url": "https://vulners.com/cve/CVE-2020-29129"
 		},
 		{
-			"name": "CVE-2020-29130",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-29130"
-		},
-		{
 			"name": "CVE-2020-29443",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-29443"
+		},
+		{
+			"name": "ALSA-2021-1762",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2021-1762.html"
+		},
+		{
+			"name": "CVE-2020-11947",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-11947"
+		},
+		{
+			"name": "CVE-2020-16092",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-16092"
 		}
 	],
 	"published": "2021-05-18T06:02:26Z",

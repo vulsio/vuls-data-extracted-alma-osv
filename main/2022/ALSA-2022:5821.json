@@ -2660,22 +2660,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-4206",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-4206"
-		},
-		{
-			"name": "CVE-2022-26354",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-26354"
-		},
-		{
 			"name": "2036998",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -2692,12 +2676,20 @@
 			"url": "https://bugzilla.redhat.com/2063197"
 		},
 		{
-			"name": "RHSA-2022:5821",
+			"name": "2063257",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:5821"
+			"url": "https://bugzilla.redhat.com/2063257"
+		},
+		{
+			"name": "CVE-2021-4207",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-4207"
 		},
 		{
 			"name": "CVE-2022-26353",
@@ -2708,20 +2700,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-26353"
 		},
 		{
-			"name": "2036966",
+			"name": "CVE-2022-26354",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2036966"
-		},
-		{
-			"name": "2063257",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2063257"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-26354"
 		},
 		{
 			"name": "ALSA-2022-5821",
@@ -2732,12 +2716,28 @@
 			"url": "https://errata.almalinux.org/8/ALSA-2022-5821.html"
 		},
 		{
-			"name": "CVE-2021-4207",
+			"name": "RHSA-2022:5821",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5821"
+		},
+		{
+			"name": "CVE-2021-4206",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-4207"
+			"url": "https://access.redhat.com/security/cve/CVE-2021-4206"
+		},
+		{
+			"name": "2036966",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2036966"
 		}
 	],
 	"published": "2022-08-02T00:00:00Z",
