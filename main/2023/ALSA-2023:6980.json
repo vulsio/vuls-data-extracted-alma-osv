@@ -3026,19 +3026,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-3750",
-			"references": [
-				{
-					"name": "CVE-2021-3750",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-3750"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-3301",
 			"references": [
 				{
@@ -3050,9 +3037,38 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-3301"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-3750",
+			"references": [
+				{
+					"name": "CVE-2021-3750",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-3750"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "RHSA-2023:6980",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:6980"
+		},
+		{
+			"name": "CVE-2021-3750",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-3750"
+		},
 		{
 			"name": "CVE-2023-3301",
 			"source": "errata.almalinux.org",
@@ -3084,22 +3100,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-6980.html"
-		},
-		{
-			"name": "RHSA-2023:6980",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:6980"
-		},
-		{
-			"name": "CVE-2021-3750",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-3750"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",

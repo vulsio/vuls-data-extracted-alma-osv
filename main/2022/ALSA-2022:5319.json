@@ -134,6 +134,22 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2022:5319",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5319"
+		},
+		{
+			"name": "CVE-2022-1621",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1621"
+		},
+		{
 			"name": "CVE-2022-1629",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -164,22 +180,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-5319.html"
-		},
-		{
-			"name": "RHSA-2022:5319",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:5319"
-		},
-		{
-			"name": "CVE-2022-1621",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1621"
 		}
 	],
 	"published": "2022-06-30T00:00:00Z",
