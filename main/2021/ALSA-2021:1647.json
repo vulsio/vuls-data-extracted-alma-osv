@@ -86,19 +86,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-14318",
-			"references": [
-				{
-					"name": "CVE-2020-14318",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-14318"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-14323",
 			"references": [
 				{
@@ -123,17 +110,22 @@
 					"url": "https://vulners.com/cve/CVE-2020-1472"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-14318",
+			"references": [
+				{
+					"name": "CVE-2020-14318",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-14318"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2020-14318",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-14318"
-		},
 		{
 			"name": "CVE-2020-14323",
 			"source": "errata.almalinux.org",
@@ -149,6 +141,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-1472"
+		},
+		{
+			"name": "CVE-2020-14318",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-14318"
 		}
 	],
 	"published": "2021-05-18T05:44:25Z",

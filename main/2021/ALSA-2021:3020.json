@@ -1066,32 +1066,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-31810",
-			"references": [
-				{
-					"name": "CVE-2021-31810",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-31810"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-32066",
-			"references": [
-				{
-					"name": "CVE-2021-32066",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-32066"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-36327",
 			"references": [
 				{
@@ -1116,25 +1090,35 @@
 					"url": "https://vulners.com/cve/CVE-2021-31799"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-31810",
+			"references": [
+				{
+					"name": "CVE-2021-31810",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-31810"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-32066",
+			"references": [
+				{
+					"name": "CVE-2021-32066",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-32066"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2021-31810",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-31810"
-		},
-		{
-			"name": "CVE-2021-32066",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-32066"
-		},
 		{
 			"name": "ALSA-2021-3020",
 			"source": "errata.almalinux.org",
@@ -1158,6 +1142,22 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-31799"
+		},
+		{
+			"name": "CVE-2021-31810",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-31810"
+		},
+		{
+			"name": "CVE-2021-32066",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-32066"
 		}
 	],
 	"published": "2021-08-05T14:06:16Z",

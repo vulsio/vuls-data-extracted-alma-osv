@@ -860,6 +860,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2020-26137",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-26137"
+		},
+		{
 			"name": "CVE-2020-27783",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -890,14 +898,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-26116"
-		},
-		{
-			"name": "CVE-2020-26137",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-26137"
 		}
 	],
 	"published": "2021-05-18T06:02:07Z",
