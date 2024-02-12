@@ -81,6 +81,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-25255",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-25255"
+		},
+		{
 			"name": "2055505",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -103,14 +111,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:7482"
-		},
-		{
-			"name": "CVE-2022-25255",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-25255"
 		}
 	],
 	"published": "2022-11-08T00:00:00Z",

@@ -681,20 +681,20 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-30465",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-30465"
-		},
-		{
 			"name": "ALSA-2021-2291",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2021-2291.html"
+		},
+		{
+			"name": "CVE-2021-30465",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-30465"
 		}
 	],
 	"published": "2021-06-08T11:20:15Z",
