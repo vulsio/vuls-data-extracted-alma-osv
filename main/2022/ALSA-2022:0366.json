@@ -173,14 +173,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-4019",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-4019"
-		},
-		{
 			"name": "CVE-2021-4192",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -219,6 +211,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-3984"
+		},
+		{
+			"name": "CVE-2021-4019",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-4019"
 		}
 	],
 	"published": "2022-02-01T20:12:46Z",
