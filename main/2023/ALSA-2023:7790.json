@@ -281,6 +281,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-5869",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5869"
+		},
+		{
 			"name": "2247169",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -303,14 +311,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:7790"
-		},
-		{
-			"name": "CVE-2023-5869",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-5869"
 		}
 	],
 	"published": "2023-12-13T00:00:00Z",

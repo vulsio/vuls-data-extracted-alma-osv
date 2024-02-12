@@ -81,6 +81,14 @@
 	],
 	"references": [
 		{
+			"name": "2256194",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2256194"
+		},
+		{
 			"name": "ALSA-2024-0465",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -103,14 +111,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-7104"
-		},
-		{
-			"name": "2256194",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2256194"
 		}
 	],
 	"published": "2024-01-25T00:00:00Z",

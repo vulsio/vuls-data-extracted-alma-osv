@@ -620,6 +620,14 @@
 	],
 	"references": [
 		{
+			"name": "ALSA-2022-5249",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-5249.html"
+		},
+		{
 			"name": "RHSA-2022:5249",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -636,12 +644,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1729"
 		},
 		{
-			"name": "2061633",
+			"name": "CVE-2022-1966",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2061633"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1966"
 		},
 		{
 			"name": "2092427",
@@ -652,12 +660,12 @@
 			"url": "https://bugzilla.redhat.com/2092427"
 		},
 		{
-			"name": "ALSA-2022-5249",
+			"name": "2086753",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"bugzilla"
 			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-5249.html"
+			"url": "https://bugzilla.redhat.com/2086753"
 		},
 		{
 			"name": "CVE-2022-1012",
@@ -668,14 +676,6 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1012"
 		},
 		{
-			"name": "CVE-2022-1966",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1966"
-		},
-		{
 			"name": "CVE-2022-27666",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -684,20 +684,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-27666"
 		},
 		{
+			"name": "2061633",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2061633"
+		},
+		{
 			"name": "2064604",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2064604"
-		},
-		{
-			"name": "2086753",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2086753"
 		}
 	],
 	"published": "2022-07-01T00:00:00Z",

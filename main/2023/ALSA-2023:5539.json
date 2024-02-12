@@ -74,6 +74,14 @@
 	],
 	"references": [
 		{
+			"name": "2241191",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2241191"
+		},
+		{
 			"name": "2241806",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -112,14 +120,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-5217"
-		},
-		{
-			"name": "2241191",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2241191"
 		}
 	],
 	"published": "2023-10-09T00:00:00Z",
