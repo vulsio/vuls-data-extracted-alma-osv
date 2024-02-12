@@ -106,45 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-41099",
-			"references": [
-				{
-					"name": "CVE-2021-41099",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-41099"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-32626",
-			"references": [
-				{
-					"name": "CVE-2021-32626",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-32626"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-32627",
-			"references": [
-				{
-					"name": "CVE-2021-32627",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-32627"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-32628",
 			"references": [
 				{
@@ -182,9 +143,56 @@
 					"url": "https://vulners.com/cve/CVE-2021-32687"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-41099",
+			"references": [
+				{
+					"name": "CVE-2021-41099",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-41099"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-32626",
+			"references": [
+				{
+					"name": "CVE-2021-32626",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-32626"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-32627",
+			"references": [
+				{
+					"name": "CVE-2021-32627",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-32627"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2021-32626",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-32626"
+		},
 		{
 			"name": "CVE-2021-32627",
 			"source": "errata.almalinux.org",
@@ -232,14 +240,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2021-3945.html"
-		},
-		{
-			"name": "CVE-2021-32626",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-32626"
 		}
 	],
 	"published": "2021-10-20T12:46:40Z",

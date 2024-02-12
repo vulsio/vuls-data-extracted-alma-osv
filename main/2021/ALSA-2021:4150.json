@@ -914,14 +914,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-27291",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-27291"
-		},
-		{
 			"name": "ALSA-2021-4150",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -936,6 +928,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-20270"
+		},
+		{
+			"name": "CVE-2021-27291",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-27291"
 		}
 	],
 	"published": "2021-11-09T08:24:37Z",
