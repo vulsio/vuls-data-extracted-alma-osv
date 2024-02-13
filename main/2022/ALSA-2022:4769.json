@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-1802",
-			"references": [
-				{
-					"name": "CVE-2022-1802",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-1802"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-1529",
 			"references": [
 				{
@@ -48,6 +35,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2022-1529"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-1802",
+			"references": [
+				{
+					"name": "CVE-2022-1802",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-1802"
 				}
 			]
 		}

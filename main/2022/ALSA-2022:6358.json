@@ -101,6 +101,14 @@
 	],
 	"references": [
 		{
+			"name": "2118714",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2118714"
+		},
+		{
 			"name": "ALSA-2022-6358",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -123,14 +131,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-31676"
-		},
-		{
-			"name": "2118714",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2118714"
 		}
 	],
 	"published": "2022-09-06T00:00:00Z",

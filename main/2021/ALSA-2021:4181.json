@@ -54,6 +54,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-3181",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3181"
+		},
+		{
 			"name": "ALSA-2021-4181",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -68,14 +76,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-28896"
-		},
-		{
-			"name": "CVE-2021-3181",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3181"
 		}
 	],
 	"published": "2021-11-09T08:33:45Z",

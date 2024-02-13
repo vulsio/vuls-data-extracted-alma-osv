@@ -81,6 +81,14 @@
 	],
 	"references": [
 		{
+			"name": "2104427",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2104427"
+		},
+		{
 			"name": "ALSA-2022-7329",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -103,14 +111,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-33099"
-		},
-		{
-			"name": "2104427",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2104427"
 		}
 	],
 	"published": "2022-11-02T00:00:00Z",
