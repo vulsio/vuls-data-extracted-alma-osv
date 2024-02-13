@@ -41,6 +41,14 @@
 	],
 	"references": [
 		{
+			"name": "2113814",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2113814"
+		},
+		{
 			"name": "ALSA-2022-7548",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -63,14 +71,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-32189"
-		},
-		{
-			"name": "2113814",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2113814"
 		}
 	],
 	"published": "2022-11-08T00:00:00Z",

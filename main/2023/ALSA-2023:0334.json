@@ -546,6 +546,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-4139",
+			"references": [
+				{
+					"name": "CVE-2022-4139",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-4139"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-43945",
+			"references": [
+				{
+					"name": "CVE-2022-43945",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-43945"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-2959",
 			"references": [
 				{
@@ -596,82 +622,16 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-3077"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-4139",
-			"references": [
-				{
-					"name": "CVE-2022-4139",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-4139"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-43945",
-			"references": [
-				{
-					"name": "CVE-2022-43945",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-43945"
-				}
-			]
 		}
 	],
 	"references": [
 		{
-			"name": "2067482",
+			"name": "2085300",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2067482"
-		},
-		{
-			"name": "2147572",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2147572"
-		},
-		{
-			"name": "CVE-2022-3077",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-3077"
-		},
-		{
-			"name": "CVE-2022-2959",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2959"
-		},
-		{
-			"name": "CVE-2022-2964",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2964"
-		},
-		{
-			"name": "2103681",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2103681"
+			"url": "https://bugzilla.redhat.com/2085300"
 		},
 		{
 			"name": "2141752",
@@ -680,22 +640,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2141752"
-		},
-		{
-			"name": "ALSA-2023-0334",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-0334.html"
-		},
-		{
-			"name": "RHSA-2023:0334",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:0334"
 		},
 		{
 			"name": "CVE-2022-30594",
@@ -722,12 +666,68 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-43945"
 		},
 		{
-			"name": "2085300",
+			"name": "2067482",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2085300"
+			"url": "https://bugzilla.redhat.com/2067482"
+		},
+		{
+			"name": "ALSA-2023-0334",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-0334.html"
+		},
+		{
+			"name": "RHSA-2023:0334",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:0334"
+		},
+		{
+			"name": "CVE-2022-3077",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3077"
+		},
+		{
+			"name": "2147572",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2147572"
+		},
+		{
+			"name": "CVE-2022-2959",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2959"
+		},
+		{
+			"name": "CVE-2022-2964",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2964"
+		},
+		{
+			"name": "2103681",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2103681"
 		},
 		{
 			"name": "2123309",

@@ -194,14 +194,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2007-4559",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
-		},
-		{
 			"name": "CVE-2023-41105",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -240,6 +232,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:7024"
+		},
+		{
+			"name": "CVE-2007-4559",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",

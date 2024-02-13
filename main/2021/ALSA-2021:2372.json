@@ -100,6 +100,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-3393",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3393"
+		},
+		{
 			"name": "ALSA-2021-2372",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -130,14 +138,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-32029"
-		},
-		{
-			"name": "CVE-2021-3393",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3393"
 		}
 	],
 	"published": "2021-06-10T08:45:14Z",
