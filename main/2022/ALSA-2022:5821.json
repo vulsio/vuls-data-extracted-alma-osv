@@ -2660,12 +2660,20 @@
 	],
 	"references": [
 		{
-			"name": "2063257",
+			"name": "2063197",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2063257"
+			"url": "https://bugzilla.redhat.com/2063197"
+		},
+		{
+			"name": "ALSA-2022-5821",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-5821.html"
 		},
 		{
 			"name": "RHSA-2022:5821",
@@ -2676,36 +2684,12 @@
 			"url": "https://access.redhat.com/errata/RHSA-2022:5821"
 		},
 		{
-			"name": "CVE-2021-4206",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-4206"
-		},
-		{
 			"name": "CVE-2021-4207",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-4207"
-		},
-		{
-			"name": "CVE-2022-26354",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-26354"
-		},
-		{
-			"name": "2036966",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2036966"
 		},
 		{
 			"name": "CVE-2022-26353",
@@ -2724,20 +2708,36 @@
 			"url": "https://bugzilla.redhat.com/2036998"
 		},
 		{
-			"name": "2063197",
+			"name": "CVE-2021-4206",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-4206"
+		},
+		{
+			"name": "CVE-2022-26354",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-26354"
+		},
+		{
+			"name": "2036966",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2063197"
+			"url": "https://bugzilla.redhat.com/2036966"
 		},
 		{
-			"name": "ALSA-2022-5821",
+			"name": "2063257",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"bugzilla"
 			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-5821.html"
+			"url": "https://bugzilla.redhat.com/2063257"
 		}
 	],
 	"published": "2022-08-02T00:00:00Z",
