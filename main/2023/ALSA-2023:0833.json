@@ -187,6 +187,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:0833",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:0833"
+		},
+		{
 			"name": "CVE-2020-10735",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -241,14 +249,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-0833.html"
-		},
-		{
-			"name": "RHSA-2023:0833",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:0833"
 		}
 	],
 	"published": "2023-02-21T00:00:00Z",

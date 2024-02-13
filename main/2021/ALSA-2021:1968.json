@@ -286,6 +286,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-13630",
+			"references": [
+				{
+					"name": "CVE-2020-13630",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-13630"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-13631",
 			"references": [
 				{
@@ -334,19 +347,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2020-13434"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-13630",
-			"references": [
-				{
-					"name": "CVE-2020-13630",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-13630"
 				}
 			]
 		}
