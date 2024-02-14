@@ -686,6 +686,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-42669",
+			"references": [
+				{
+					"name": "CVE-2023-42669",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-42669"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-3961",
 			"references": [
 				{
@@ -710,38 +723,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-4091"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-42669",
-			"references": [
-				{
-					"name": "CVE-2023-42669",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-42669"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "2241881",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2241881"
-		},
-		{
-			"name": "2241882",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2241882"
-		},
 		{
 			"name": "2241884",
 			"source": "errata.almalinux.org",
@@ -789,6 +773,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-42669"
+		},
+		{
+			"name": "2241881",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2241881"
+		},
+		{
+			"name": "2241882",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2241882"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

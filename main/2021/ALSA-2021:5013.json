@@ -26,15 +26,28 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-43538",
+			"cve": "CVE-2021-43536",
 			"references": [
 				{
-					"name": "CVE-2021-43538",
+					"name": "CVE-2021-43536",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2021-43538"
+					"url": "https://vulners.com/cve/CVE-2021-43536"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-43539",
+			"references": [
+				{
+					"name": "CVE-2021-43539",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-43539"
 				}
 			]
 		},
@@ -52,6 +65,19 @@
 			]
 		},
 		{
+			"cve": "CVE-2021-43545",
+			"references": [
+				{
+					"name": "CVE-2021-43545",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-43545"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-43546",
 			"references": [
 				{
@@ -61,19 +87,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-43546"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-43536",
-			"references": [
-				{
-					"name": "CVE-2021-43536",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-43536"
 				}
 			]
 		},
@@ -91,15 +104,15 @@
 			]
 		},
 		{
-			"cve": "CVE-2021-43539",
+			"cve": "CVE-2021-43538",
 			"references": [
 				{
-					"name": "CVE-2021-43539",
+					"name": "CVE-2021-43538",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2021-43539"
+					"url": "https://vulners.com/cve/CVE-2021-43538"
 				}
 			]
 		},
@@ -128,62 +141,9 @@
 					"url": "https://vulners.com/cve/CVE-2021-43542"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2021-43545",
-			"references": [
-				{
-					"name": "CVE-2021-43545",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-43545"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2021-43537",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-43537"
-		},
-		{
-			"name": "CVE-2021-43539",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-43539"
-		},
-		{
-			"name": "CVE-2021-43541",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-43541"
-		},
-		{
-			"name": "CVE-2021-43545",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-43545"
-		},
-		{
-			"name": "CVE-2021-43546",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-43546"
-		},
 		{
 			"name": "CVE-2021-43536",
 			"source": "errata.almalinux.org",
@@ -201,6 +161,14 @@
 			"url": "https://vulners.com/cve/CVE-2021-43538"
 		},
 		{
+			"name": "CVE-2021-43541",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-43541"
+		},
+		{
 			"name": "CVE-2021-43542",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -215,6 +183,38 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-43543"
+		},
+		{
+			"name": "CVE-2021-43546",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-43546"
+		},
+		{
+			"name": "CVE-2021-43537",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-43537"
+		},
+		{
+			"name": "CVE-2021-43539",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-43539"
+		},
+		{
+			"name": "CVE-2021-43545",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-43545"
 		}
 	],
 	"published": "2021-12-08T09:42:58Z",
