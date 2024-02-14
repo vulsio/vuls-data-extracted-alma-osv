@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-36386",
-			"references": [
-				{
-					"name": "CVE-2021-36386",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-36386"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-39272",
 			"references": [
 				{
@@ -50,17 +37,22 @@
 					"url": "https://vulners.com/cve/CVE-2021-39272"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-36386",
+			"references": [
+				{
+					"name": "CVE-2021-36386",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-36386"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2021-39272",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-39272"
-		},
 		{
 			"name": "ALSA-2022-1964",
 			"source": "errata.almalinux.org",
@@ -76,6 +68,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-36386"
+		},
+		{
+			"name": "CVE-2021-39272",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-39272"
 		}
 	],
 	"published": "2022-05-10T06:41:48Z",
