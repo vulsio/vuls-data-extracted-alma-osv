@@ -66,19 +66,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2018-10393",
-			"references": [
-				{
-					"name": "CVE-2018-10393",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-10393"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2018-10392",
 			"references": [
 				{
@@ -90,9 +77,30 @@
 					"url": "https://vulners.com/cve/CVE-2018-10392"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2018-10393",
+			"references": [
+				{
+					"name": "CVE-2018-10393",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-10393"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2018-10393",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-10393"
+		},
 		{
 			"name": "ALSA-2019-3703",
 			"source": "errata.almalinux.org",
@@ -108,14 +116,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2018-10392"
-		},
-		{
-			"name": "CVE-2018-10393",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-10393"
 		}
 	],
 	"published": "2019-11-05T20:52:55Z",
