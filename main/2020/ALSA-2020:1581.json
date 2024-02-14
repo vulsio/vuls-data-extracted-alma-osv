@@ -46,6 +46,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2018-19840",
+			"references": [
+				{
+					"name": "CVE-2018-19840",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-19840"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2018-19841",
+			"references": [
+				{
+					"name": "CVE-2018-19841",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-19841"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2019-1010315",
 			"references": [
 				{
@@ -94,32 +120,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2019-11498"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2018-19840",
-			"references": [
-				{
-					"name": "CVE-2018-19840",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-19840"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2018-19841",
-			"references": [
-				{
-					"name": "CVE-2018-19841",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-19841"
 				}
 			]
 		}

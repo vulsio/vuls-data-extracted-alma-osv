@@ -93,30 +93,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-27664",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-27664"
-		},
-		{
-			"name": "CVE-2022-41715",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-41715"
-		},
-		{
-			"name": "2131149",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2131149"
-		},
-		{
 			"name": "RHSA-2023:2167",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -141,22 +117,6 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-35957"
 		},
 		{
-			"name": "CVE-2022-39229",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-39229"
-		},
-		{
-			"name": "2124669",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2124669"
-		},
-		{
 			"name": "2125514",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -179,6 +139,46 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2132872"
+		},
+		{
+			"name": "CVE-2022-27664",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-27664"
+		},
+		{
+			"name": "CVE-2022-39229",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-39229"
+		},
+		{
+			"name": "CVE-2022-41715",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-41715"
+		},
+		{
+			"name": "2124669",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2124669"
+		},
+		{
+			"name": "2131149",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2131149"
 		},
 		{
 			"name": "ALSA-2023-2167",
