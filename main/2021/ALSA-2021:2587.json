@@ -552,6 +552,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2019-15845",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-15845"
+		},
+		{
 			"name": "CVE-2019-16254",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -590,14 +598,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2021-2587.html"
-		},
-		{
-			"name": "CVE-2019-15845",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-15845"
 		},
 		{
 			"name": "CVE-2019-16201",
