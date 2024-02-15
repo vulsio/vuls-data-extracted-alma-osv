@@ -686,6 +686,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-42669",
+			"references": [
+				{
+					"name": "CVE-2023-42669",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-42669"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-3961",
 			"references": [
 				{
@@ -708,19 +721,6 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2023-4091"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2023-42669",
-			"references": [
-				{
-					"name": "CVE-2023-42669",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-42669"
 				}
 			]
 		}

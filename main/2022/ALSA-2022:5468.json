@@ -221,14 +221,6 @@
 	],
 	"references": [
 		{
-			"name": "2098523",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2098523"
-		},
-		{
 			"name": "ALSA-2022-5468",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -251,6 +243,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-31626"
+		},
+		{
+			"name": "2098523",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2098523"
 		}
 	],
 	"published": "2022-06-30T00:00:00Z",

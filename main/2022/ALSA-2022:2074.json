@@ -555,7 +555,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-44141"
+					"url": "https://vulners.com/cve/CVE-2021-44141"
 				},
 				{
 					"name": "CVE-2021-44141",
@@ -563,36 +563,12 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2021-44141"
+					"url": "https://access.redhat.com/security/cve/CVE-2021-44141"
 				}
 			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2021-44141",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-44141"
-		},
-		{
-			"name": "RHSA-2022:2074",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:2074"
-		},
-		{
-			"name": "CVE-2021-20316",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-20316"
-		},
 		{
 			"name": "CVE-2021-44141",
 			"source": "errata.almalinux.org",
@@ -632,6 +608,30 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-20316"
+		},
+		{
+			"name": "CVE-2021-44141",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-44141"
+		},
+		{
+			"name": "RHSA-2022:2074",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:2074"
+		},
+		{
+			"name": "CVE-2021-20316",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-20316"
 		}
 	],
 	"published": "2022-05-10T00:00:00Z",
