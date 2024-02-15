@@ -486,6 +486,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-43945",
+			"references": [
+				{
+					"name": "CVE-2022-43945",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-43945"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-2873",
 			"references": [
 				{
@@ -510,46 +523,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-41222"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-43945",
-			"references": [
-				{
-					"name": "CVE-2022-43945",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-43945"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2022-2873",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2873"
-		},
-		{
-			"name": "CVE-2022-41222",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-41222"
-		},
-		{
-			"name": "CVE-2022-43945",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-43945"
-		},
 		{
 			"name": "2119048",
 			"source": "errata.almalinux.org",
@@ -589,6 +565,30 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:0832"
+		},
+		{
+			"name": "CVE-2022-2873",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2873"
+		},
+		{
+			"name": "CVE-2022-41222",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-41222"
+		},
+		{
+			"name": "CVE-2022-43945",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-43945"
 		}
 	],
 	"published": "2023-02-21T00:00:00Z",

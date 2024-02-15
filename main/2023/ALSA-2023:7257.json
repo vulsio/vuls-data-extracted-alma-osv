@@ -186,19 +186,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-36049",
-			"references": [
-				{
-					"name": "CVE-2023-36049",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-36049"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-36558",
 			"references": [
 				{
@@ -210,25 +197,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-36558"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-36049",
+			"references": [
+				{
+					"name": "CVE-2023-36049",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-36049"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2023:7257",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:7257"
-		},
-		{
-			"name": "CVE-2023-36049",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-36049"
-		},
 		{
 			"name": "CVE-2023-36558",
 			"source": "errata.almalinux.org",
@@ -260,6 +244,22 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-7257.html"
+		},
+		{
+			"name": "RHSA-2023:7257",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:7257"
+		},
+		{
+			"name": "CVE-2023-36049",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-36049"
 		}
 	],
 	"published": "2023-11-15T00:00:00Z",
