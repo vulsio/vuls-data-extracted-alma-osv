@@ -186,19 +186,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-0392",
-			"references": [
-				{
-					"name": "CVE-2022-0392",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-0392"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-0413",
 			"references": [
 				{
@@ -260,6 +247,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2022-0361"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-0392",
+			"references": [
+				{
+					"name": "CVE-2022-0392",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-0392"
 				}
 			]
 		}

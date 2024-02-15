@@ -147,14 +147,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2019-15605",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-15605"
-		},
-		{
 			"name": "CVE-2019-15606",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -177,6 +169,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-15604"
+		},
+		{
+			"name": "CVE-2019-15605",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-15605"
 		}
 	],
 	"published": "2020-02-25T13:06:23Z",

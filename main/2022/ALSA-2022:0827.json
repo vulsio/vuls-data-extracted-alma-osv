@@ -186,19 +186,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-24512",
-			"references": [
-				{
-					"name": "CVE-2022-24512",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-24512"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-8927",
 			"references": [
 				{
@@ -221,6 +208,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2022-24464"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-24512",
+			"references": [
+				{
+					"name": "CVE-2022-24512",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-24512"
 				}
 			]
 		}
