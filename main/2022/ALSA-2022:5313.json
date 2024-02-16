@@ -86,6 +86,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-22576",
+			"references": [
+				{
+					"name": "CVE-2022-22576",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-22576"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-27774",
 			"references": [
 				{
@@ -123,19 +136,6 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-27782"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-22576",
-			"references": [
-				{
-					"name": "CVE-2022-22576",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-22576"
-				}
-			]
 		}
 	],
 	"references": [
@@ -154,22 +154,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:5313"
-		},
-		{
-			"name": "CVE-2022-22576",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-22576"
-		},
-		{
-			"name": "CVE-2022-27776",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-27776"
 		},
 		{
 			"name": "CVE-2022-27782",
@@ -204,12 +188,28 @@
 			"url": "https://bugzilla.redhat.com/2082215"
 		},
 		{
+			"name": "CVE-2022-22576",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-22576"
+		},
+		{
 			"name": "CVE-2022-27774",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-27774"
+		},
+		{
+			"name": "CVE-2022-27776",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-27776"
 		},
 		{
 			"name": "2077541",
