@@ -246,6 +246,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-29117",
+			"references": [
+				{
+					"name": "CVE-2022-29117",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-29117"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-29145",
 			"references": [
 				{
@@ -268,19 +281,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2022-23267"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-29117",
-			"references": [
-				{
-					"name": "CVE-2022-29117",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-29117"
 				}
 			]
 		}
