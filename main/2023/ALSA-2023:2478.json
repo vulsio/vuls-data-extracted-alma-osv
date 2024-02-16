@@ -106,19 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-43552",
-			"references": [
-				{
-					"name": "CVE-2022-43552",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-43552"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-35252",
 			"references": [
 				{
@@ -130,9 +117,38 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-35252"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-43552",
+			"references": [
+				{
+					"name": "CVE-2022-43552",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-43552"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2022-43552",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-43552"
+		},
+		{
+			"name": "2120718",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2120718"
+		},
 		{
 			"name": "2152652",
 			"source": "errata.almalinux.org",
@@ -164,22 +180,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-35252"
-		},
-		{
-			"name": "CVE-2022-43552",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-43552"
-		},
-		{
-			"name": "2120718",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2120718"
 		}
 	],
 	"published": "2023-05-09T00:00:00Z",
