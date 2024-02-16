@@ -61,14 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-38802",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-38802"
-		},
-		{
 			"name": "2230983",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +83,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:5219"
+		},
+		{
+			"name": "CVE-2023-38802",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-38802"
 		}
 	],
 	"published": "2023-09-19T00:00:00Z",
