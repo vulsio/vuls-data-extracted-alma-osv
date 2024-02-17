@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "2024250",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2024250"
+		},
+		{
 			"name": "ALSA-2022-7979",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -83,14 +91,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2020-23903"
-		},
-		{
-			"name": "2024250",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2024250"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

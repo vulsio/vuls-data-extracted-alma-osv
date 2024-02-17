@@ -486,19 +486,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-20569",
-			"references": [
-				{
-					"name": "CVE-2023-20569",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-20569"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-2162",
 			"references": [
 				{
@@ -549,6 +536,19 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-5633"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-20569",
+			"references": [
+				{
+					"name": "CVE-2023-20569",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-20569"
+				}
+			]
 		}
 	],
 	"references": [
@@ -567,22 +567,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2207625"
-		},
-		{
-			"name": "2245663",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2245663"
-		},
-		{
-			"name": "ALSA-2024-0113",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2024-0113.html"
 		},
 		{
 			"name": "RHSA-2024:0113",
@@ -609,20 +593,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-2162"
 		},
 		{
-			"name": "CVE-2023-4622",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-4622"
-		},
-		{
 			"name": "CVE-2023-42753",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-42753"
+		},
+		{
+			"name": "CVE-2023-4622",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-4622"
 		},
 		{
 			"name": "CVE-2023-5633",
@@ -647,6 +631,22 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2239843"
+		},
+		{
+			"name": "2245663",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2245663"
+		},
+		{
+			"name": "ALSA-2024-0113",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2024-0113.html"
 		}
 	],
 	"published": "2024-01-10T00:00:00Z",

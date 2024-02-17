@@ -346,6 +346,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-1726",
+			"references": [
+				{
+					"name": "CVE-2020-1726",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-1726"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2019-19921",
 			"references": [
 				{
@@ -370,22 +383,17 @@
 					"url": "https://vulners.com/cve/CVE-2020-1702"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2020-1726",
-			"references": [
-				{
-					"name": "CVE-2020-1726",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-1726"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-1726",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-1726"
+		},
 		{
 			"name": "ALSA-2020-1650",
 			"source": "errata.almalinux.org",
@@ -409,14 +417,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-1702"
-		},
-		{
-			"name": "CVE-2020-1726",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-1726"
 		}
 	],
 	"published": "2020-04-28T09:01:00Z",
