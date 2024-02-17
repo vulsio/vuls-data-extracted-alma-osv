@@ -46,19 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-26769",
-			"references": [
-				{
-					"name": "CVE-2023-26769",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-26769"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-26767",
 			"references": [
 				{
@@ -83,9 +70,30 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-26768"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-26769",
+			"references": [
+				{
+					"name": "CVE-2023-26769",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-26769"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "ALSA-2023-6385",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-6385.html"
+		},
 		{
 			"name": "RHSA-2023:6385",
 			"source": "errata.almalinux.org",
@@ -141,14 +149,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2181143"
-		},
-		{
-			"name": "ALSA-2023-6385",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-6385.html"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",
