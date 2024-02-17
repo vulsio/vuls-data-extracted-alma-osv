@@ -481,14 +481,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:5744",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:5744"
-		},
-		{
 			"name": "CVE-2023-22081",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -511,6 +503,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-5744.html"
+		},
+		{
+			"name": "RHSA-2023:5744",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:5744"
 		}
 	],
 	"published": "2023-10-18T00:00:00Z",

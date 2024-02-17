@@ -116,14 +116,6 @@
 			"url": "https://bugzilla.redhat.com/2196088"
 		},
 		{
-			"name": "2196090",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2196090"
-		},
-		{
 			"name": "2196091",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -138,6 +130,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-6434.html"
+		},
+		{
+			"name": "2196090",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2196090"
 		},
 		{
 			"name": "RHSA-2023:6434",

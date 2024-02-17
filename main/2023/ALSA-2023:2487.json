@@ -120,22 +120,6 @@
 	],
 	"references": [
 		{
-			"name": "2120701",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2120701"
-		},
-		{
-			"name": "CVE-2022-3287",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-3287"
-		},
-		{
 			"name": "CVE-2022-34302",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -144,28 +128,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-34302"
 		},
 		{
-			"name": "CVE-2022-34303",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-34303"
-		},
-		{
-			"name": "2120699",
+			"name": "2120701",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2120699"
-		},
-		{
-			"name": "2129904",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2129904"
+			"url": "https://bugzilla.redhat.com/2120701"
 		},
 		{
 			"name": "ALSA-2023-2487",
@@ -192,12 +160,44 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-34301"
 		},
 		{
+			"name": "CVE-2022-34303",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-34303"
+		},
+		{
 			"name": "2120687",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2120687"
+		},
+		{
+			"name": "2120699",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2120699"
+		},
+		{
+			"name": "2129904",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2129904"
+		},
+		{
+			"name": "CVE-2022-3287",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3287"
 		}
 	],
 	"published": "2023-05-09T00:00:00Z",
