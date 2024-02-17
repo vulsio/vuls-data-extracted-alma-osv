@@ -146,19 +146,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2007-4559",
-			"references": [
-				{
-					"name": "CVE-2007-4559",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-41105",
 			"references": [
 				{
@@ -170,9 +157,30 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-41105"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2007-4559",
+			"references": [
+				{
+					"name": "CVE-2007-4559",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2007-4559",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
+		},
 		{
 			"name": "CVE-2023-41105",
 			"source": "errata.almalinux.org",
@@ -212,14 +220,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:6494"
-		},
-		{
-			"name": "CVE-2007-4559",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

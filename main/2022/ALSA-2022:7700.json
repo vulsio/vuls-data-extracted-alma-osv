@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-0308",
-			"references": [
-				{
-					"name": "CVE-2021-0308",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-0308"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-0256",
 			"references": [
 				{
@@ -48,6 +35,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2020-0256"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-0308",
+			"references": [
+				{
+					"name": "CVE-2021-0308",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-0308"
 				}
 			]
 		}
