@@ -886,6 +886,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-3504",
+			"references": [
+				{
+					"name": "CVE-2021-3504",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3504"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-13754",
+			"references": [
+				{
+					"name": "CVE-2020-13754",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-13754"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-27617",
 			"references": [
 				{
@@ -923,59 +949,9 @@
 					"url": "https://vulners.com/cve/CVE-2021-3416"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2021-3504",
-			"references": [
-				{
-					"name": "CVE-2021-3504",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-3504"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-13754",
-			"references": [
-				{
-					"name": "CVE-2020-13754",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-13754"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2021-3416",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3416"
-		},
-		{
-			"name": "CVE-2021-3504",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3504"
-		},
-		{
-			"name": "ALSA-2021-3061",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2021-3061.html"
-		},
 		{
 			"name": "CVE-2020-13754",
 			"source": "errata.almalinux.org",
@@ -999,6 +975,30 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-20221"
+		},
+		{
+			"name": "CVE-2021-3416",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3416"
+		},
+		{
+			"name": "CVE-2021-3504",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3504"
+		},
+		{
+			"name": "ALSA-2021-3061",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2021-3061.html"
 		}
 	],
 	"published": "2021-08-10T11:58:46Z",

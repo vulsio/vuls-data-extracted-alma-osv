@@ -86,32 +86,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-2068",
-			"references": [
-				{
-					"name": "CVE-2022-2068",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-2068"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-2097",
-			"references": [
-				{
-					"name": "CVE-2022-2097",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-2097"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-1292",
 			"references": [
 				{
@@ -149,17 +123,35 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-1473"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-2068",
+			"references": [
+				{
+					"name": "CVE-2022-2068",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2068"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-2097",
+			"references": [
+				{
+					"name": "CVE-2022-2097",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2097"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2022:6224",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6224"
-		},
 		{
 			"name": "CVE-2022-1292",
 			"source": "errata.almalinux.org",
@@ -175,14 +167,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1343"
-		},
-		{
-			"name": "CVE-2022-1473",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1473"
 		},
 		{
 			"name": "2087911",
@@ -215,6 +199,22 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2104905"
+		},
+		{
+			"name": "RHSA-2022:6224",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6224"
+		},
+		{
+			"name": "CVE-2022-1473",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1473"
 		},
 		{
 			"name": "CVE-2022-2068",

@@ -41,14 +41,6 @@
 	],
 	"references": [
 		{
-			"name": "2142707",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2142707"
-		},
-		{
 			"name": "ALSA-2023-0005",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -71,6 +63,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-42920"
+		},
+		{
+			"name": "2142707",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2142707"
 		}
 	],
 	"published": "2023-01-02T00:00:00Z",

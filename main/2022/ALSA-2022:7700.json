@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-0256",
-			"references": [
-				{
-					"name": "CVE-2020-0256",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2020-0256"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-0308",
 			"references": [
 				{
@@ -50,9 +37,38 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2021-0308"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-0256",
+			"references": [
+				{
+					"name": "CVE-2020-0256",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2020-0256"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "2051939",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2051939"
+		},
+		{
+			"name": "2051943",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2051943"
+		},
 		{
 			"name": "ALSA-2022-7700",
 			"source": "errata.almalinux.org",
@@ -84,22 +100,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-0308"
-		},
-		{
-			"name": "2051939",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2051939"
-		},
-		{
-			"name": "2051943",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2051943"
 		}
 	],
 	"published": "2022-11-08T00:00:00Z",

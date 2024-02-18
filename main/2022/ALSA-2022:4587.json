@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "2081096",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2081096"
+		},
+		{
 			"name": "ALSA-2022-4587",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -83,14 +91,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-29970"
-		},
-		{
-			"name": "2081096",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2081096"
 		}
 	],
 	"published": "2022-05-18T00:00:00Z",
