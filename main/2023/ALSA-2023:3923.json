@@ -166,19 +166,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-29404",
-			"references": [
-				{
-					"name": "CVE-2023-29404",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-29404"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-29405",
 			"references": [
 				{
@@ -216,32 +203,29 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-29403"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-29404",
+			"references": [
+				{
+					"name": "CVE-2023-29404",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-29404"
+				}
+			]
 		}
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:3923",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:3923"
-		},
-		{
-			"name": "CVE-2023-29404",
+			"name": "CVE-2023-29402",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-29404"
-		},
-		{
-			"name": "ALSA-2023-3923",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-3923.html"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-29402"
 		},
 		{
 			"name": "2217562",
@@ -268,12 +252,20 @@
 			"url": "https://bugzilla.redhat.com/2217569"
 		},
 		{
-			"name": "CVE-2023-29402",
+			"name": "ALSA-2023-3923",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-29402"
+			"url": "https://errata.almalinux.org/9/ALSA-2023-3923.html"
+		},
+		{
+			"name": "RHSA-2023:3923",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:3923"
 		},
 		{
 			"name": "CVE-2023-29403",
@@ -282,6 +274,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-29403"
+		},
+		{
+			"name": "CVE-2023-29404",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-29404"
 		},
 		{
 			"name": "CVE-2023-29405",

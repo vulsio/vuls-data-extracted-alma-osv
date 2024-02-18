@@ -26,6 +26,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-42927",
+			"references": [
+				{
+					"name": "CVE-2022-42927",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42927"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-42928",
 			"references": [
 				{
@@ -63,22 +76,17 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-42932"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-42927",
-			"references": [
-				{
-					"name": "CVE-2022-42927",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-42927"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "2136156",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2136156"
+		},
 		{
 			"name": "2136157",
 			"source": "errata.almalinux.org",
@@ -96,20 +104,12 @@
 			"url": "https://bugzilla.redhat.com/2136158"
 		},
 		{
-			"name": "2136159",
+			"name": "CVE-2022-42928",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2136159"
-		},
-		{
-			"name": "ALSA-2022-7071",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-7071.html"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-42928"
 		},
 		{
 			"name": "CVE-2022-42927",
@@ -118,14 +118,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-42927"
-		},
-		{
-			"name": "CVE-2022-42928",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-42928"
 		},
 		{
 			"name": "CVE-2022-42929",
@@ -144,12 +136,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-42932"
 		},
 		{
-			"name": "2136156",
+			"name": "2136159",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2136156"
+			"url": "https://bugzilla.redhat.com/2136159"
+		},
+		{
+			"name": "ALSA-2022-7071",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-7071.html"
 		},
 		{
 			"name": "RHSA-2022:7071",

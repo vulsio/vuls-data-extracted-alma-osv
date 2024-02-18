@@ -527,22 +527,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2019-7548",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-7548"
-		},
-		{
-			"name": "CVE-2019-9636",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-9636"
-		},
-		{
 			"name": "ALSA-2019-0981",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -557,6 +541,22 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-7164"
+		},
+		{
+			"name": "CVE-2019-7548",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-7548"
+		},
+		{
+			"name": "CVE-2019-9636",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-9636"
 		}
 	],
 	"published": "2019-05-07T03:40:00Z",
