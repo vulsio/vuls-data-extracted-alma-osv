@@ -1446,19 +1446,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-36193",
-			"references": [
-				{
-					"name": "CVE-2020-36193",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2020-36193"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-28948",
 			"references": [
 				{
@@ -1483,9 +1470,38 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2020-28949"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-36193",
+			"references": [
+				{
+					"name": "CVE-2020-36193",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2020-36193"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-36193",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2020-36193"
+		},
+		{
+			"name": "1904001",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1904001"
+		},
 		{
 			"name": "1910323",
 			"source": "errata.almalinux.org",
@@ -1533,22 +1549,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2020-28949"
-		},
-		{
-			"name": "CVE-2020-36193",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2020-36193"
-		},
-		{
-			"name": "1904001",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1904001"
 		}
 	],
 	"published": "2022-09-15T00:00:00Z",

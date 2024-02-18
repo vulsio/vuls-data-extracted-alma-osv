@@ -141,14 +141,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-1304",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1304"
-		},
-		{
 			"name": "2069726",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -171,6 +163,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:8361"
+		},
+		{
+			"name": "CVE-2022-1304",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1304"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",
