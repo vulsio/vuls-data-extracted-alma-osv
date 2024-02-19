@@ -234,6 +234,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-39275",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-39275"
+		},
+		{
 			"name": "ALSA-2022-0891",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -248,14 +256,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-34798"
-		},
-		{
-			"name": "CVE-2021-39275",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-39275"
 		}
 	],
 	"published": "2022-03-15T09:10:44Z",

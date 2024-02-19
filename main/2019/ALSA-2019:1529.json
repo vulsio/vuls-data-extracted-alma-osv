@@ -1006,6 +1006,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2018-11784",
+			"references": [
+				{
+					"name": "CVE-2018-11784",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-11784"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2018-8014",
 			"references": [
 				{
@@ -1043,30 +1056,9 @@
 					"url": "https://vulners.com/cve/CVE-2018-8037"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2018-11784",
-			"references": [
-				{
-					"name": "CVE-2018-11784",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-11784"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2018-8037",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-8037"
-		},
 		{
 			"name": "ALSA-2019-1529",
 			"source": "errata.almalinux.org",
@@ -1098,6 +1090,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2018-8034"
+		},
+		{
+			"name": "CVE-2018-8037",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-8037"
 		}
 	],
 	"published": "2019-06-18T16:36:21Z",

@@ -146,6 +146,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-42010",
+			"references": [
+				{
+					"name": "CVE-2022-42010",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42010"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-42011",
 			"references": [
 				{
@@ -170,30 +183,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-42012"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-42010",
-			"references": [
-				{
-					"name": "CVE-2022-42010",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-42010"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2022-42010",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-42010"
-		},
 		{
 			"name": "CVE-2022-42011",
 			"source": "errata.almalinux.org",
@@ -249,6 +241,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:0335"
+		},
+		{
+			"name": "CVE-2022-42010",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-42010"
 		}
 	],
 	"published": "2023-01-23T00:00:00Z",

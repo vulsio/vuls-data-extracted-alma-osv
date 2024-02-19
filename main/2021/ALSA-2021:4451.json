@@ -146,19 +146,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-3580",
-			"references": [
-				{
-					"name": "CVE-2021-3580",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-3580"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-20231",
 			"references": [
 				{
@@ -181,6 +168,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-20232"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-3580",
+			"references": [
+				{
+					"name": "CVE-2021-3580",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3580"
 				}
 			]
 		}
