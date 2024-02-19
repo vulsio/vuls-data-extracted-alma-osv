@@ -94,6 +94,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-30641",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-30641"
+		},
+		{
 			"name": "ALSA-2021-4257",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -108,14 +116,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-26690"
-		},
-		{
-			"name": "CVE-2021-30641",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-30641"
 		}
 	],
 	"published": "2021-11-09T08:52:38Z",

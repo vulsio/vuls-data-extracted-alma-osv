@@ -774,14 +774,6 @@
 	],
 	"references": [
 		{
-			"name": "2016535",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2016535"
-		},
-		{
 			"name": "ALSA-2022-1935",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -820,6 +812,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/1978755"
+		},
+		{
+			"name": "2016535",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2016535"
 		}
 	],
 	"published": "2022-05-10T00:00:00Z",

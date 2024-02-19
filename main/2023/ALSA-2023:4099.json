@@ -221,22 +221,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2023-4099",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-4099.html"
-		},
-		{
-			"name": "RHSA-2023:4099",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:4099"
-		},
-		{
 			"name": "CVE-2023-2828",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -251,6 +235,22 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2216227"
+		},
+		{
+			"name": "ALSA-2023-4099",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-4099.html"
+		},
+		{
+			"name": "RHSA-2023:4099",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:4099"
 		}
 	],
 	"published": "2023-07-17T00:00:00Z",

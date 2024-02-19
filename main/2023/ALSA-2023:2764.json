@@ -1206,6 +1206,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-28861",
+			"references": [
+				{
+					"name": "CVE-2021-28861",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-28861"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-45061",
 			"references": [
 				{
@@ -1228,19 +1241,6 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2020-10735"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-28861",
-			"references": [
-				{
-					"name": "CVE-2021-28861",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-28861"
 				}
 			]
 		}
