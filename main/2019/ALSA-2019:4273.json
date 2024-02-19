@@ -426,19 +426,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2019-9512",
-			"references": [
-				{
-					"name": "CVE-2019-9512",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-9512"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2019-9514",
 			"references": [
 				{
@@ -448,6 +435,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2019-9514"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-9512",
+			"references": [
+				{
+					"name": "CVE-2019-9512",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-9512"
 				}
 			]
 		}

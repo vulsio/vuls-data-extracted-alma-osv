@@ -86,6 +86,9 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-28205"
+		},
+		{
 			"cve": "CVE-2023-2203",
 			"references": [
 				{
@@ -97,12 +100,17 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-2203"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-28205"
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2023-2203",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-2203"
+		},
 		{
 			"name": "2188543",
 			"source": "errata.almalinux.org",
@@ -126,14 +134,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:2653"
-		},
-		{
-			"name": "CVE-2023-2203",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-2203"
 		}
 	],
 	"published": "2023-05-09T00:00:00Z",
