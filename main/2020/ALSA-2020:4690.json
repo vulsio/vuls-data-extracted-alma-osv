@@ -46,6 +46,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2015-9541",
+			"references": [
+				{
+					"name": "CVE-2015-9541",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2015-9541"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2018-21035",
 			"references": [
 				{
@@ -96,22 +109,25 @@
 					"url": "https://vulners.com/cve/CVE-2020-13962"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2015-9541",
-			"references": [
-				{
-					"name": "CVE-2015-9541",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2015-9541"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-0570",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-0570"
+		},
+		{
+			"name": "CVE-2020-13962",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-13962"
+		},
 		{
 			"name": "CVE-2015-9541",
 			"source": "errata.almalinux.org",
@@ -135,22 +151,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-0569"
-		},
-		{
-			"name": "CVE-2020-0570",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-0570"
-		},
-		{
-			"name": "CVE-2020-13962",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-13962"
 		}
 	],
 	"published": "2020-11-03T12:27:18Z",

@@ -227,6 +227,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2018-19872",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-19872"
+		},
+		{
 			"name": "CVE-2018-19869",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -241,14 +249,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2018-19871"
-		},
-		{
-			"name": "CVE-2018-19872",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-19872"
 		}
 	],
 	"published": "2020-04-28T09:02:52Z",

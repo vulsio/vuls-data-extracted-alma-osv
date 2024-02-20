@@ -340,20 +340,12 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2023-7784",
+			"name": "2228111",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"bugzilla"
 			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-7784.html"
-		},
-		{
-			"name": "CVE-2023-5868",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-5868"
+			"url": "https://bugzilla.redhat.com/2228111"
 		},
 		{
 			"name": "2247169",
@@ -364,12 +356,20 @@
 			"url": "https://bugzilla.redhat.com/2247169"
 		},
 		{
-			"name": "CVE-2023-5869",
+			"name": "2247170",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-5869"
+			"url": "https://bugzilla.redhat.com/2247170"
+		},
+		{
+			"name": "ALSA-2023-7784",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-7784.html"
 		},
 		{
 			"name": "CVE-2023-5870",
@@ -380,28 +380,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-5870"
 		},
 		{
-			"name": "2228111",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2228111"
-		},
-		{
 			"name": "2247168",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2247168"
-		},
-		{
-			"name": "2247170",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2247170"
 		},
 		{
 			"name": "RHSA-2023:7784",
@@ -418,6 +402,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-39417"
+		},
+		{
+			"name": "CVE-2023-5868",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5868"
+		},
+		{
+			"name": "CVE-2023-5869",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5869"
 		}
 	],
 	"published": "2023-12-13T00:00:00Z",
