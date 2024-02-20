@@ -546,19 +546,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-34918",
-			"references": [
-				{
-					"name": "CVE-2022-34918",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-34918"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-2078",
 			"references": [
 				{
@@ -570,33 +557,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-2078"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-34918",
+			"references": [
+				{
+					"name": "CVE-2022-34918",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-34918"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2022:6610",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6610"
-		},
-		{
-			"name": "CVE-2022-2078",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2078"
-		},
-		{
-			"name": "CVE-2022-34918",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-34918"
-		},
 		{
 			"name": "2096178",
 			"source": "errata.almalinux.org",
@@ -620,6 +596,30 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-6610.html"
+		},
+		{
+			"name": "RHSA-2022:6610",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6610"
+		},
+		{
+			"name": "CVE-2022-2078",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2078"
+		},
+		{
+			"name": "CVE-2022-34918",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-34918"
 		}
 	],
 	"published": "2022-09-20T00:00:00Z",

@@ -594,6 +594,22 @@
 	],
 	"references": [
 		{
+			"name": "2039448",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2039448"
+		},
+		{
+			"name": "2070220",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2070220"
+		},
+		{
 			"name": "ALSA-2022-6003",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -624,22 +640,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1055"
-		},
-		{
-			"name": "2039448",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2039448"
-		},
-		{
-			"name": "2070220",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2070220"
 		}
 	],
 	"published": "2022-08-09T00:00:00Z",

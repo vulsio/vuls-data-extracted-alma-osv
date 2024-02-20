@@ -166,6 +166,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-31124",
+			"references": [
+				{
+					"name": "CVE-2023-31124",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-31124"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-31130",
 			"references": [
 				{
@@ -203,19 +216,6 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-32067"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-31124",
-			"references": [
-				{
-					"name": "CVE-2023-31124",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-31124"
-				}
-			]
 		}
 	],
 	"references": [
@@ -228,12 +228,12 @@
 			"url": "https://access.redhat.com/errata/RHSA-2023:3577"
 		},
 		{
-			"name": "CVE-2023-31147",
+			"name": "CVE-2023-31130",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
 		},
 		{
 			"name": "CVE-2023-32067",
@@ -242,6 +242,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-32067"
+		},
+		{
+			"name": "CVE-2023-31124",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-31124"
+		},
+		{
+			"name": "CVE-2023-31147",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
 		},
 		{
 			"name": "2209494",
@@ -282,22 +298,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-3577.html"
-		},
-		{
-			"name": "CVE-2023-31124",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-31124"
-		},
-		{
-			"name": "CVE-2023-31130",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
 		}
 	],
 	"published": "2023-06-14T00:00:00Z",
