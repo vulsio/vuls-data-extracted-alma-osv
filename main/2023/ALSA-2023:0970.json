@@ -226,19 +226,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2006-20001",
-			"references": [
-				{
-					"name": "CVE-2006-20001",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2006-20001"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-36760",
 			"references": [
 				{
@@ -261,6 +248,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2022-37436"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2006-20001",
+			"references": [
+				{
+					"name": "CVE-2006-20001",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2006-20001"
 				}
 			]
 		}

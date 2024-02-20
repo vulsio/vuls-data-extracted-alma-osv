@@ -41,6 +41,14 @@
 	],
 	"references": [
 		{
+			"name": "2104367",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2104367"
+		},
+		{
 			"name": "ALSA-2022-5716",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -63,14 +71,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-31107"
-		},
-		{
-			"name": "2104367",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2104367"
 		}
 	],
 	"published": "2022-07-26T00:00:00Z",
