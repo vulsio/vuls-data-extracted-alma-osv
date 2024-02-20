@@ -146,19 +146,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-39975",
-			"references": [
-				{
-					"name": "CVE-2023-39975",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-39975"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-36054",
 			"references": [
 				{
@@ -170,25 +157,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-36054"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-39975",
+			"references": [
+				{
+					"name": "CVE-2023-39975",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-39975"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2023:6699",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:6699"
-		},
-		{
-			"name": "CVE-2023-36054",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-36054"
-		},
 		{
 			"name": "CVE-2023-39975",
 			"source": "errata.almalinux.org",
@@ -220,6 +204,22 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-6699.html"
+		},
+		{
+			"name": "RHSA-2023:6699",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:6699"
+		},
+		{
+			"name": "CVE-2023-36054",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-36054"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

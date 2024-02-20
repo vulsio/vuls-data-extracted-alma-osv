@@ -106,6 +106,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-8252",
+			"references": [
+				{
+					"name": "CVE-2020-8252",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-8252"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-15095",
 			"references": [
 				{
@@ -143,30 +156,9 @@
 					"url": "https://vulners.com/cve/CVE-2020-8201"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2020-8252",
-			"references": [
-				{
-					"name": "CVE-2020-8252",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-8252"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2020-8201",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-8201"
-		},
 		{
 			"name": "CVE-2020-8252",
 			"source": "errata.almalinux.org",
@@ -198,6 +190,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-8116"
+		},
+		{
+			"name": "CVE-2020-8201",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-8201"
 		}
 	],
 	"published": "2020-10-19T07:13:10Z",

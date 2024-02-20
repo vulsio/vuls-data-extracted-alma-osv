@@ -121,14 +121,6 @@
 	],
 	"references": [
 		{
-			"name": "2058465",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2058465"
-		},
-		{
 			"name": "ALSA-2023-0303",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -151,6 +143,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2019-25058"
+		},
+		{
+			"name": "2058465",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2058465"
 		}
 	],
 	"published": "2023-01-23T00:00:00Z",

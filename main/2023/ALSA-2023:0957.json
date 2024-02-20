@@ -94,6 +94,22 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-43519",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-43519"
+		},
+		{
+			"name": "CVE-2021-44964",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-44964"
+		},
+		{
 			"name": "2047672",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -124,22 +140,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:0957"
-		},
-		{
-			"name": "CVE-2021-43519",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-43519"
-		},
-		{
-			"name": "CVE-2021-44964",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-44964"
 		}
 	],
 	"published": "2023-02-28T00:00:00Z",
