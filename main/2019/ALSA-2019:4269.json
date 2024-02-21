@@ -167,6 +167,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2019-18466",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-18466"
+		},
+		{
 			"name": "CVE-2019-9512",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -197,14 +205,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-16884"
-		},
-		{
-			"name": "CVE-2019-18466",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-18466"
 		}
 	],
 	"published": "2019-12-17T09:19:28Z",
