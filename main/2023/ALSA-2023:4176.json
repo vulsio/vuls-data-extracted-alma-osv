@@ -434,6 +434,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-22049",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-22049"
+		},
+		{
 			"name": "2221645",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -472,14 +480,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-22045"
-		},
-		{
-			"name": "CVE-2023-22049",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-22049"
 		}
 	],
 	"published": "2023-07-20T00:00:00Z",

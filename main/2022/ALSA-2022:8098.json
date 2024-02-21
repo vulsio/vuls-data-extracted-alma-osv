@@ -100,20 +100,12 @@
 	],
 	"references": [
 		{
-			"name": "2107386",
+			"name": "CVE-2022-1705",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2107386"
-		},
-		{
-			"name": "RHSA-2022:8098",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:8098"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1705"
 		},
 		{
 			"name": "CVE-2022-30630",
@@ -140,20 +132,28 @@
 			"url": "https://bugzilla.redhat.com/2107371"
 		},
 		{
-			"name": "2107374",
+			"name": "2107386",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2107374"
+			"url": "https://bugzilla.redhat.com/2107386"
 		},
 		{
-			"name": "CVE-2022-1705",
+			"name": "ALSA-2022-8098",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1705"
+			"url": "https://errata.almalinux.org/9/ALSA-2022-8098.html"
+		},
+		{
+			"name": "RHSA-2022:8098",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:8098"
 		},
 		{
 			"name": "CVE-2022-30631",
@@ -172,12 +172,12 @@
 			"url": "https://bugzilla.redhat.com/2107342"
 		},
 		{
-			"name": "ALSA-2022-8098",
+			"name": "2107374",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"bugzilla"
 			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-8098.html"
+			"url": "https://bugzilla.redhat.com/2107374"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

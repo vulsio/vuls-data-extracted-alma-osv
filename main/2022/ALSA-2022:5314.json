@@ -74,6 +74,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-25314",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-25314"
+		},
+		{
 			"name": "2056350",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -112,14 +120,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-25313"
-		},
-		{
-			"name": "CVE-2022-25314",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-25314"
 		}
 	],
 	"published": "2022-06-30T00:00:00Z",
