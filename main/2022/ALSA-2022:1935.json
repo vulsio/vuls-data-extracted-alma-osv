@@ -774,6 +774,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-21703",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-21703"
+		},
+		{
 			"name": "CVE-2021-21705",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -812,14 +820,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:1935"
-		},
-		{
-			"name": "CVE-2021-21703",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-21703"
 		}
 	],
 	"published": "2022-05-10T00:00:00Z",

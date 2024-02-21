@@ -106,32 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-0554",
-			"references": [
-				{
-					"name": "CVE-2022-0554",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-0554"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-0943",
-			"references": [
-				{
-					"name": "CVE-2022-0943",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-0943"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-1154",
 			"references": [
 				{
@@ -182,9 +156,51 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-1629"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-0554",
+			"references": [
+				{
+					"name": "CVE-2022-0554",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-0554"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-0943",
+			"references": [
+				{
+					"name": "CVE-2022-0943",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-0943"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2022-0554",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-0554"
+		},
+		{
+			"name": "2058483",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2058483"
+		},
 		{
 			"name": "2083931",
 			"source": "errata.almalinux.org",
@@ -194,12 +210,36 @@
 			"url": "https://bugzilla.redhat.com/2083931"
 		},
 		{
-			"name": "2058483",
+			"name": "ALSA-2022-5242",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"vendor-advisory"
 			],
-			"url": "https://bugzilla.redhat.com/2058483"
+			"url": "https://errata.almalinux.org/9/ALSA-2022-5242.html"
+		},
+		{
+			"name": "CVE-2022-0943",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-0943"
+		},
+		{
+			"name": "CVE-2022-1154",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1154"
+		},
+		{
+			"name": "CVE-2022-1621",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1621"
 		},
 		{
 			"name": "2064064",
@@ -226,36 +266,12 @@
 			"url": "https://access.redhat.com/errata/RHSA-2022:5242"
 		},
 		{
-			"name": "CVE-2022-0554",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-0554"
-		},
-		{
-			"name": "CVE-2022-1154",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1154"
-		},
-		{
 			"name": "CVE-2022-1420",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1420"
-		},
-		{
-			"name": "CVE-2022-1629",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1629"
 		},
 		{
 			"name": "2083924",
@@ -266,28 +282,12 @@
 			"url": "https://bugzilla.redhat.com/2083924"
 		},
 		{
-			"name": "ALSA-2022-5242",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-5242.html"
-		},
-		{
-			"name": "CVE-2022-0943",
+			"name": "CVE-2022-1629",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-0943"
-		},
-		{
-			"name": "CVE-2022-1621",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1621"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1629"
 		},
 		{
 			"name": "2077734",
