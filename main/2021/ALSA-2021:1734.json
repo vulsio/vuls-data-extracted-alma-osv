@@ -106,32 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-27749",
-			"references": [
-				{
-					"name": "CVE-2020-27749",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-27749"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-27779",
-			"references": [
-				{
-					"name": "CVE-2020-27779",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-27779"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-20225",
 			"references": [
 				{
@@ -195,9 +169,43 @@
 					"url": "https://vulners.com/cve/CVE-2020-25647"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-27749",
+			"references": [
+				{
+					"name": "CVE-2020-27749",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-27749"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-27779",
+			"references": [
+				{
+					"name": "CVE-2020-27779",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-27779"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-14372",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-14372"
+		},
 		{
 			"name": "CVE-2020-25632",
 			"source": "errata.almalinux.org",
@@ -253,14 +261,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2021-1734.html"
-		},
-		{
-			"name": "CVE-2020-14372",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-14372"
 		}
 	],
 	"published": "2021-05-18T05:57:10Z",

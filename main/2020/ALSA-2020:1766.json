@@ -386,6 +386,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2019-3825",
+			"references": [
+				{
+					"name": "CVE-2019-3825",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-3825"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2018-20337",
 			"references": [
 				{
@@ -436,22 +449,17 @@
 					"url": "https://vulners.com/cve/CVE-2019-12449"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2019-3825",
-			"references": [
-				{
-					"name": "CVE-2019-3825",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-3825"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2019-3825",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-3825"
+		},
 		{
 			"name": "ALSA-2020-1766",
 			"source": "errata.almalinux.org",
@@ -491,14 +499,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-12449"
-		},
-		{
-			"name": "CVE-2019-3825",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-3825"
 		}
 	],
 	"published": "2020-04-28T09:13:23Z",
