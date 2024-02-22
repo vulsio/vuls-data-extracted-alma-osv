@@ -26,32 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-41715",
-			"references": [
-				{
-					"name": "CVE-2022-41715",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-41715"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-27664",
-			"references": [
-				{
-					"name": "CVE-2022-27664",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-27664"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-2880",
 			"references": [
 				{
@@ -89,9 +63,59 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-39229"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-41715",
+			"references": [
+				{
+					"name": "CVE-2022-41715",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41715"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-27664",
+			"references": [
+				{
+					"name": "CVE-2022-27664",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-27664"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "RHSA-2023:2167",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:2167"
+		},
+		{
+			"name": "CVE-2022-2880",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2880"
+		},
+		{
+			"name": "2125514",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2125514"
+		},
 		{
 			"name": "2132872",
 			"source": "errata.almalinux.org",
@@ -155,30 +179,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2131149"
-		},
-		{
-			"name": "RHSA-2023:2167",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:2167"
-		},
-		{
-			"name": "CVE-2022-2880",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2880"
-		},
-		{
-			"name": "2125514",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2125514"
 		},
 		{
 			"name": "2132868",
