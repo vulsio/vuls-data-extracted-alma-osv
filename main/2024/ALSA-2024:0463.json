@@ -326,19 +326,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-35939",
-			"references": [
-				{
-					"name": "CVE-2021-35939",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-35939"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-35937",
 			"references": [
 				{
@@ -361,6 +348,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2021-35938"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-35939",
+			"references": [
+				{
+					"name": "CVE-2021-35939",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-35939"
 				}
 			]
 		}

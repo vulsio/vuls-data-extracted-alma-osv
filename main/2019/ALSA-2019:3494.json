@@ -214,14 +214,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2019-14378",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-14378"
-		},
-		{
 			"name": "ALSA-2019-3494",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -236,6 +228,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-10214"
+		},
+		{
+			"name": "CVE-2019-14378",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-14378"
 		}
 	],
 	"published": "2019-11-05T17:52:13Z",

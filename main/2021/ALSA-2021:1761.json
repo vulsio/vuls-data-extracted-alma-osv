@@ -806,32 +806,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-27783",
-			"references": [
-				{
-					"name": "CVE-2020-27783",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-27783"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-3177",
-			"references": [
-				{
-					"name": "CVE-2021-3177",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-3177"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-26116",
 			"references": [
 				{
@@ -856,9 +830,43 @@
 					"url": "https://vulners.com/cve/CVE-2020-26137"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-27783",
+			"references": [
+				{
+					"name": "CVE-2020-27783",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-27783"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-3177",
+			"references": [
+				{
+					"name": "CVE-2021-3177",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3177"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2021-3177",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3177"
+		},
 		{
 			"name": "ALSA-2021-1761",
 			"source": "errata.almalinux.org",
@@ -890,14 +898,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-27783"
-		},
-		{
-			"name": "CVE-2021-3177",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3177"
 		}
 	],
 	"published": "2021-05-18T06:02:07Z",
