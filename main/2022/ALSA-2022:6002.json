@@ -274,6 +274,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2022:6002",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6002"
+		},
+		{
 			"name": "CVE-2022-0494",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -312,14 +320,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-6002.html"
-		},
-		{
-			"name": "RHSA-2022:6002",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6002"
 		}
 	],
 	"published": "2022-08-09T00:00:00Z",

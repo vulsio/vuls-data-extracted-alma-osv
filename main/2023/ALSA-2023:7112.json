@@ -81,6 +81,14 @@
 	],
 	"references": [
 		{
+			"name": "2215945",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2215945"
+		},
+		{
 			"name": "ALSA-2023-7112",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -103,14 +111,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-4641"
-		},
-		{
-			"name": "2215945",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2215945"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",

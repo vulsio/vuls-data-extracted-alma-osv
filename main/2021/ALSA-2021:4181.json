@@ -54,14 +54,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-28896",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-28896"
-		},
-		{
 			"name": "CVE-2021-3181",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -76,6 +68,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2021-4181.html"
+		},
+		{
+			"name": "CVE-2020-28896",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-28896"
 		}
 	],
 	"published": "2021-11-09T08:33:45Z",
