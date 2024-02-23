@@ -94,30 +94,6 @@
 	],
 	"references": [
 		{
-			"name": "2189736",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2189736"
-		},
-		{
-			"name": "ALSA-2023-6643",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-6643.html"
-		},
-		{
-			"name": "RHSA-2023:6643",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:6643"
-		},
-		{
 			"name": "CVE-2023-1667",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -140,6 +116,30 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2182199"
+		},
+		{
+			"name": "2189736",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2189736"
+		},
+		{
+			"name": "ALSA-2023-6643",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-6643.html"
+		},
+		{
+			"name": "RHSA-2023:6643",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:6643"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",
