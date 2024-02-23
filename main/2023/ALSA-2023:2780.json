@@ -173,28 +173,12 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-27664",
+			"name": "CVE-2022-41717",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-27664"
-		},
-		{
-			"name": "2132868",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2132868"
-		},
-		{
-			"name": "ALSA-2023-2780",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-2780.html"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-41717"
 		},
 		{
 			"name": "2124669",
@@ -213,20 +197,28 @@
 			"url": "https://bugzilla.redhat.com/2132867"
 		},
 		{
-			"name": "2132872",
+			"name": "2132868",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2132872"
+			"url": "https://bugzilla.redhat.com/2132868"
 		},
 		{
-			"name": "RHSA-2023:2780",
+			"name": "2161274",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:2780"
+			"url": "https://bugzilla.redhat.com/2161274"
+		},
+		{
+			"name": "CVE-2022-27664",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-27664"
 		},
 		{
 			"name": "CVE-2022-2879",
@@ -253,20 +245,28 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-41715"
 		},
 		{
-			"name": "CVE-2022-41717",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-41717"
-		},
-		{
-			"name": "2161274",
+			"name": "2132872",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2161274"
+			"url": "https://bugzilla.redhat.com/2132872"
+		},
+		{
+			"name": "ALSA-2023-2780",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-2780.html"
+		},
+		{
+			"name": "RHSA-2023:2780",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:2780"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",

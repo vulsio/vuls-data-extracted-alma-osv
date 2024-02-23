@@ -106,19 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-32207",
-			"references": [
-				{
-					"name": "CVE-2022-32207",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-32207"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-32208",
 			"references": [
 				{
@@ -143,9 +130,46 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-32206"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-32207",
+			"references": [
+				{
+					"name": "CVE-2022-32207",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-32207"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "RHSA-2022:6157",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6157"
+		},
+		{
+			"name": "CVE-2022-32206",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32206"
+		},
+		{
+			"name": "CVE-2022-32207",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32207"
+		},
 		{
 			"name": "CVE-2022-32208",
 			"source": "errata.almalinux.org",
@@ -185,30 +209,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-6157.html"
-		},
-		{
-			"name": "RHSA-2022:6157",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6157"
-		},
-		{
-			"name": "CVE-2022-32206",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-32206"
-		},
-		{
-			"name": "CVE-2022-32207",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-32207"
 		}
 	],
 	"published": "2022-08-24T00:00:00Z",

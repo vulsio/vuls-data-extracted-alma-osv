@@ -106,19 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-14372",
-			"references": [
-				{
-					"name": "CVE-2020-14372",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-14372"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-25632",
 			"references": [
 				{
@@ -193,6 +180,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-20233"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-14372",
+			"references": [
+				{
+					"name": "CVE-2020-14372",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-14372"
 				}
 			]
 		}
