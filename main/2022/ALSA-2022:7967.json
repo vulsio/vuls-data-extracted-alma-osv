@@ -540,14 +540,6 @@
 			"url": "https://bugzilla.redhat.com/1951118"
 		},
 		{
-			"name": "1973784",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1973784"
-		},
-		{
 			"name": "2035002",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -562,6 +554,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-4158"
+		},
+		{
+			"name": "1973784",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1973784"
 		},
 		{
 			"name": "1999073",

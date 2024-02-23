@@ -570,38 +570,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-44141",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-44141"
-		},
-		{
-			"name": "2009673",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2009673"
-		},
-		{
-			"name": "2046120",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2046120"
-		},
-		{
-			"name": "ALSA-2022-2074",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-2074.html"
-		},
-		{
 			"name": "CVE-2021-20316",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -632,6 +600,38 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-20316"
+		},
+		{
+			"name": "CVE-2021-44141",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-44141"
+		},
+		{
+			"name": "2009673",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2009673"
+		},
+		{
+			"name": "2046120",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2046120"
+		},
+		{
+			"name": "ALSA-2022-2074",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-2074.html"
 		}
 	],
 	"published": "2022-05-10T00:00:00Z",
