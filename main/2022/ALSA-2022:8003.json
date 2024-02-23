@@ -521,14 +521,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-0897",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-0897"
-		},
-		{
 			"name": "2063883",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -551,6 +543,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:8003"
+		},
+		{
+			"name": "CVE-2022-0897",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-0897"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

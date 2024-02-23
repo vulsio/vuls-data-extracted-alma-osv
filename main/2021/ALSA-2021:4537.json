@@ -246,6 +246,9 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-26691"
+		},
+		{
 			"cve": "CVE-2021-40438"
 		},
 		{
@@ -260,9 +263,6 @@
 					"url": "https://vulners.com/cve/CVE-2021-20325"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2021-26691"
 		}
 	],
 	"references": [

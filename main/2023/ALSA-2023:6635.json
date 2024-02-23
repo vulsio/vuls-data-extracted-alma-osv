@@ -124,6 +124,14 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
 		},
 		{
+			"name": "2168631",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2168631"
+		},
+		{
 			"name": "2209494",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -154,14 +162,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
-		},
-		{
-			"name": "2168631",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2168631"
 		},
 		{
 			"name": "2209501",
