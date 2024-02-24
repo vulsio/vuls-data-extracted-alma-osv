@@ -2046,19 +2046,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-15859",
-			"references": [
-				{
-					"name": "CVE-2020-15859",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-15859"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-3592",
 			"references": [
 				{
@@ -2133,6 +2120,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-3667"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-15859",
+			"references": [
+				{
+					"name": "CVE-2020-15859",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-15859"
 				}
 			]
 		}

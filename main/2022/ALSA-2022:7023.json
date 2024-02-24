@@ -61,14 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "2130769",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2130769"
-		},
-		{
 			"name": "ALSA-2022-7023",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +83,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-40674"
+		},
+		{
+			"name": "2130769",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2130769"
 		}
 	],
 	"published": "2022-10-18T00:00:00Z",
