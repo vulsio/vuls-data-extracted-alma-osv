@@ -88,6 +88,14 @@
 			"url": "https://bugzilla.redhat.com/2131149"
 		},
 		{
+			"name": "2132868",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2132868"
+		},
+		{
 			"name": "2132872",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -126,14 +134,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-2880"
-		},
-		{
-			"name": "2132868",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2132868"
 		},
 		{
 			"name": "CVE-2022-39229",
