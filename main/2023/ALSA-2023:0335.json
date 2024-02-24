@@ -146,19 +146,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-42012",
-			"references": [
-				{
-					"name": "CVE-2022-42012",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-42012"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-42010",
 			"references": [
 				{
@@ -183,9 +170,46 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-42011"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-42012",
+			"references": [
+				{
+					"name": "CVE-2022-42012",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42012"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "RHSA-2023:0335",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:0335"
+		},
+		{
+			"name": "CVE-2022-42010",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-42010"
+		},
+		{
+			"name": "CVE-2022-42011",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-42011"
+		},
 		{
 			"name": "CVE-2022-42012",
 			"source": "errata.almalinux.org",
@@ -225,30 +249,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-0335.html"
-		},
-		{
-			"name": "RHSA-2023:0335",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:0335"
-		},
-		{
-			"name": "CVE-2022-42010",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-42010"
-		},
-		{
-			"name": "CVE-2022-42011",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-42011"
 		}
 	],
 	"published": "2023-01-23T00:00:00Z",

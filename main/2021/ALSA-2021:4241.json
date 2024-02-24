@@ -66,6 +66,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-35523",
+			"references": [
+				{
+					"name": "CVE-2020-35523",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-35523"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-35524",
 			"references": [
 				{
@@ -101,19 +114,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2020-35522"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-35523",
-			"references": [
-				{
-					"name": "CVE-2020-35523",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-35523"
 				}
 			]
 		}

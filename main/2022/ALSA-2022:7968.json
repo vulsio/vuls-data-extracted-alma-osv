@@ -101,6 +101,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-2211",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2211"
+		},
+		{
 			"name": "2100862",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -123,14 +131,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:7968"
-		},
-		{
-			"name": "CVE-2022-2211",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2211"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

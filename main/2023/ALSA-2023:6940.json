@@ -94,6 +94,14 @@
 	],
 	"references": [
 		{
+			"name": "2153655",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2153655"
+		},
+		{
 			"name": "2184118",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -132,14 +140,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-28625"
-		},
-		{
-			"name": "2153655",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2153655"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",

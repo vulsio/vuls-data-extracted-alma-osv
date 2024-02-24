@@ -41,14 +41,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-32189",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-32189"
-		},
-		{
 			"name": "2113814",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -71,6 +63,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:7950"
+		},
+		{
+			"name": "CVE-2022-32189",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32189"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",
