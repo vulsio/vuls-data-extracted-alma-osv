@@ -146,19 +146,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-48560",
-			"references": [
-				{
-					"name": "CVE-2022-48560",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-48560"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-48564",
 			"references": [
 				{
@@ -170,9 +157,30 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-48564"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-48560",
+			"references": [
+				{
+					"name": "CVE-2022-48560",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-48560"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "ALSA-2024-0114",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2024-0114.html"
+		},
 		{
 			"name": "RHSA-2024:0114",
 			"source": "errata.almalinux.org",
@@ -212,14 +220,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2249755"
-		},
-		{
-			"name": "ALSA-2024-0114",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2024-0114.html"
 		}
 	],
 	"published": "2024-01-10T00:00:00Z",

@@ -86,6 +86,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-3446",
+			"references": [
+				{
+					"name": "CVE-2023-3446",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-3446"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-3817",
 			"references": [
 				{
@@ -110,54 +123,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-5678"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-3446",
-			"references": [
-				{
-					"name": "CVE-2023-3446",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-3446"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "2248616",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2248616"
-		},
-		{
-			"name": "ALSA-2023-7877",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-7877.html"
-		},
-		{
-			"name": "RHSA-2023:7877",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:7877"
-		},
-		{
-			"name": "CVE-2023-3446",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-3446"
-		},
 		{
 			"name": "CVE-2023-3817",
 			"source": "errata.almalinux.org",
@@ -189,6 +157,38 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2227852"
+		},
+		{
+			"name": "2248616",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2248616"
+		},
+		{
+			"name": "ALSA-2023-7877",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-7877.html"
+		},
+		{
+			"name": "RHSA-2023:7877",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:7877"
+		},
+		{
+			"name": "CVE-2023-3446",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-3446"
 		}
 	],
 	"published": "2023-12-19T00:00:00Z",

@@ -41,6 +41,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:6167",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:6167"
+		},
+		{
 			"name": "CVE-2022-40284",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -63,14 +71,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-6167.html"
-		},
-		{
-			"name": "RHSA-2023:6167",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:6167"
 		}
 	],
 	"published": "2023-10-30T00:00:00Z",

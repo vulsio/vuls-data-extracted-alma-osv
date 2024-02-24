@@ -87,6 +87,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2019-6977",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-6977"
+		},
+		{
 			"name": "CVE-2019-6978",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -109,14 +117,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2018-14553"
-		},
-		{
-			"name": "CVE-2019-6977",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-6977"
 		}
 	],
 	"published": "2020-11-03T12:24:40Z",

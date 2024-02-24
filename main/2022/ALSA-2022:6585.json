@@ -474,14 +474,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-28738",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-28738"
-		},
-		{
 			"name": "CVE-2022-28739",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -520,6 +512,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:6585"
+		},
+		{
+			"name": "CVE-2022-28738",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-28738"
 		}
 	],
 	"published": "2022-09-20T00:00:00Z",

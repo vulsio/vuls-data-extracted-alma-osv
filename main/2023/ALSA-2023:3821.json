@@ -806,6 +806,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-33621",
+			"references": [
+				{
+					"name": "CVE-2021-33621",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-33621"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-28755",
 			"references": [
 				{
@@ -830,22 +843,17 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-28756"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2021-33621",
-			"references": [
-				{
-					"name": "CVE-2021-33621",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-33621"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "2149706",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2149706"
+		},
 		{
 			"name": "2184059",
 			"source": "errata.almalinux.org",
@@ -901,14 +909,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-28756"
-		},
-		{
-			"name": "2149706",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2149706"
 		}
 	],
 	"published": "2023-06-27T00:00:00Z",
