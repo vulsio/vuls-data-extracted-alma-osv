@@ -246,19 +246,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-27666",
-			"references": [
-				{
-					"name": "CVE-2022-27666",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-27666"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-28915",
 			"references": [
 				{
@@ -270,33 +257,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2020-28915"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-27666",
+			"references": [
+				{
+					"name": "CVE-2022-27666",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-27666"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2022:5344",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:5344"
-		},
-		{
-			"name": "CVE-2020-28915",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2020-28915"
-		},
-		{
-			"name": "CVE-2022-27666",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-27666"
-		},
 		{
 			"name": "1899177",
 			"source": "errata.almalinux.org",
@@ -320,6 +296,30 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-5344.html"
+		},
+		{
+			"name": "RHSA-2022:5344",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5344"
+		},
+		{
+			"name": "CVE-2020-28915",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2020-28915"
+		},
+		{
+			"name": "CVE-2022-27666",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-27666"
 		}
 	],
 	"published": "2022-06-28T00:00:00Z",

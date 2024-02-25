@@ -386,32 +386,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2019-12447",
-			"references": [
-				{
-					"name": "CVE-2019-12447",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-12447"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-12448",
-			"references": [
-				{
-					"name": "CVE-2019-12448",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-12448"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2019-12449",
 			"references": [
 				{
@@ -449,33 +423,35 @@
 					"url": "https://vulners.com/cve/CVE-2018-20337"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2019-12447",
+			"references": [
+				{
+					"name": "CVE-2019-12447",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-12447"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-12448",
+			"references": [
+				{
+					"name": "CVE-2019-12448",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-12448"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2019-12448",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-12448"
-		},
-		{
-			"name": "CVE-2019-12449",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-12449"
-		},
-		{
-			"name": "CVE-2019-3825",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-3825"
-		},
 		{
 			"name": "ALSA-2020-1766",
 			"source": "errata.almalinux.org",
@@ -499,6 +475,30 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-12447"
+		},
+		{
+			"name": "CVE-2019-12448",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-12448"
+		},
+		{
+			"name": "CVE-2019-12449",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-12449"
+		},
+		{
+			"name": "CVE-2019-3825",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-3825"
 		}
 	],
 	"published": "2020-04-28T09:13:23Z",
