@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-45442",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-45442"
+		},
+		{
 			"name": "2153363",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -83,14 +91,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:0855"
-		},
-		{
-			"name": "CVE-2022-45442",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-45442"
 		}
 	],
 	"published": "2023-02-21T00:00:00Z",
