@@ -134,6 +134,14 @@
 	],
 	"references": [
 		{
+			"name": "2122324",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2122324"
+		},
+		{
 			"name": "2122329",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -172,14 +180,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2020-35527"
-		},
-		{
-			"name": "2122324",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2122324"
 		}
 	],
 	"published": "2022-10-25T00:00:00Z",

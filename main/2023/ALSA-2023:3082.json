@@ -46,19 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-27530",
-			"references": [
-				{
-					"name": "CVE-2023-27530",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-27530"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-27539",
 			"references": [
 				{
@@ -70,33 +57,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-27539"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-27530",
+			"references": [
+				{
+					"name": "CVE-2023-27530",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-27530"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2023-27539",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-27539"
-		},
-		{
-			"name": "2176477",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2176477"
-		},
-		{
-			"name": "2179649",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2179649"
-		},
 		{
 			"name": "ALSA-2023-3082",
 			"source": "errata.almalinux.org",
@@ -120,6 +96,30 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-27530"
+		},
+		{
+			"name": "CVE-2023-27539",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-27539"
+		},
+		{
+			"name": "2176477",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2176477"
+		},
+		{
+			"name": "2179649",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2179649"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",
