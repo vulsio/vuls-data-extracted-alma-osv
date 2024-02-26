@@ -546,14 +546,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-21496",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-21496"
-		},
-		{
 			"name": "ALSA-2022-1445",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -600,6 +592,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2022-21476"
+		},
+		{
+			"name": "CVE-2022-21496",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-21496"
 		}
 	],
 	"published": "2022-04-20T12:21:21Z",

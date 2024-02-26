@@ -254,6 +254,14 @@
 	],
 	"references": [
 		{
+			"name": "2228621",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2228621"
+		},
+		{
 			"name": "2228622",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -292,14 +300,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-38180"
-		},
-		{
-			"name": "2228621",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2228621"
 		}
 	],
 	"published": "2023-08-14T00:00:00Z",

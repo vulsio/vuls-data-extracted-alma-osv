@@ -87,6 +87,30 @@
 	],
 	"references": [
 		{
+			"name": "2047890",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2047890"
+		},
+		{
+			"name": "2047896",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2047896"
+		},
+		{
+			"name": "2047923",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2047923"
+		},
+		{
 			"name": "ALSA-2022-7514",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -125,30 +149,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-25310"
-		},
-		{
-			"name": "2047890",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2047890"
-		},
-		{
-			"name": "2047896",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2047896"
-		},
-		{
-			"name": "2047923",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2047923"
 		}
 	],
 	"published": "2022-11-08T00:00:00Z",

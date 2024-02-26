@@ -46,6 +46,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-27406",
+			"references": [
+				{
+					"name": "CVE-2022-27406",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-27406"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-27404",
 			"references": [
 				{
@@ -70,30 +83,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-27405"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-27406",
-			"references": [
-				{
-					"name": "CVE-2022-27406",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-27406"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "2077991",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2077991"
-		},
 		{
 			"name": "ALSA-2022-8340",
 			"source": "errata.almalinux.org",
@@ -149,6 +141,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2077989"
+		},
+		{
+			"name": "2077991",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2077991"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",
