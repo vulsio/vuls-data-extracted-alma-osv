@@ -156,14 +156,6 @@
 			"url": "https://access.redhat.com/errata/RHSA-2023:2932"
 		},
 		{
-			"name": "CVE-2022-4450",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-4450"
-		},
-		{
 			"name": "CVE-2023-0286",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -178,6 +170,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2164440"
+		},
+		{
+			"name": "CVE-2022-4450",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4450"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",

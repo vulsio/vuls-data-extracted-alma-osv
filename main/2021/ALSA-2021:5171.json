@@ -379,6 +379,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-3918",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3918"
+		},
+		{
 			"name": "ALSA-2021-5171",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -433,14 +441,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-3807"
-		},
-		{
-			"name": "CVE-2021-3918",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3918"
 		}
 	],
 	"published": "2021-12-15T19:09:29Z",
