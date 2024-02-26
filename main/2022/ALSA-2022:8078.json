@@ -81,6 +81,14 @@
 	],
 	"references": [
 		{
+			"name": "2057776",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2057776"
+		},
+		{
 			"name": "ALSA-2022-8078",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -103,14 +111,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-0561"
-		},
-		{
-			"name": "2057776",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2057776"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

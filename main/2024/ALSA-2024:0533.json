@@ -106,19 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-5981",
-			"references": [
-				{
-					"name": "CVE-2023-5981",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-5981"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2024-0553",
 			"references": [
 				{
@@ -143,17 +130,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2024-0567"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-5981",
+			"references": [
+				{
+					"name": "CVE-2023-5981",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-5981"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "2258412",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2258412"
-		},
 		{
 			"name": "2258544",
 			"source": "errata.almalinux.org",
@@ -209,6 +201,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2248445"
+		},
+		{
+			"name": "2258412",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2258412"
 		}
 	],
 	"published": "2024-01-29T00:00:00Z",

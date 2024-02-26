@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-3181",
-			"references": [
-				{
-					"name": "CVE-2021-3181",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-3181"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-28896",
 			"references": [
 				{
@@ -48,6 +35,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2020-28896"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-3181",
+			"references": [
+				{
+					"name": "CVE-2021-3181",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3181"
 				}
 			]
 		}
