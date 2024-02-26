@@ -200,20 +200,12 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-30581",
+			"name": "ALSA-2023-4537",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-30581"
-		},
-		{
-			"name": "CVE-2023-30588",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-30588"
+			"url": "https://errata.almalinux.org/8/ALSA-2023-4537.html"
 		},
 		{
 			"name": "CVE-2023-30590",
@@ -232,28 +224,20 @@
 			"url": "https://bugzilla.redhat.com/2219824"
 		},
 		{
-			"name": "2219841",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2219841"
-		},
-		{
-			"name": "RHSA-2023:4537",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:4537"
-		},
-		{
 			"name": "2219838",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2219838"
+		},
+		{
+			"name": "2219841",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2219841"
 		},
 		{
 			"name": "2219842",
@@ -264,12 +248,28 @@
 			"url": "https://bugzilla.redhat.com/2219842"
 		},
 		{
-			"name": "ALSA-2023-4537",
+			"name": "RHSA-2023:4537",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"third-party-advisory"
 			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-4537.html"
+			"url": "https://access.redhat.com/errata/RHSA-2023:4537"
+		},
+		{
+			"name": "CVE-2023-30581",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-30581"
+		},
+		{
+			"name": "CVE-2023-30588",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-30588"
 		},
 		{
 			"name": "CVE-2023-30589",

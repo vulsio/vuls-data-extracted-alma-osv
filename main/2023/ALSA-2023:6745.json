@@ -134,6 +134,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-38545",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-38545"
+		},
+		{
 			"name": "CVE-2023-38546",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -172,14 +180,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:6745"
-		},
-		{
-			"name": "CVE-2023-38545",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-38545"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",
