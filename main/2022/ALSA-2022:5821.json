@@ -2606,19 +2606,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-4207",
-			"references": [
-				{
-					"name": "CVE-2021-4207",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-4207"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-26353",
 			"references": [
 				{
@@ -2656,9 +2643,54 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2021-4206"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-4207",
+			"references": [
+				{
+					"name": "CVE-2021-4207",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-4207"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2021-4206",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-4206"
+		},
+		{
+			"name": "CVE-2022-26353",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-26353"
+		},
+		{
+			"name": "ALSA-2022-5821",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-5821.html"
+		},
+		{
+			"name": "2063257",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2063257"
+		},
 		{
 			"name": "RHSA-2022:5821",
 			"source": "errata.almalinux.org",
@@ -2674,38 +2706,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-4207"
-		},
-		{
-			"name": "CVE-2022-26353",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-26353"
-		},
-		{
-			"name": "2063257",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2063257"
-		},
-		{
-			"name": "ALSA-2022-5821",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-5821.html"
-		},
-		{
-			"name": "CVE-2021-4206",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-4206"
 		},
 		{
 			"name": "CVE-2022-26354",

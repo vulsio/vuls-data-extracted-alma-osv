@@ -866,6 +866,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-29162",
+			"references": [
+				{
+					"name": "CVE-2022-29162",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-29162"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-1708",
 			"references": [
 				{
@@ -888,19 +901,6 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2022-27191"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-29162",
-			"references": [
-				{
-					"name": "CVE-2022-29162",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-29162"
 				}
 			]
 		}

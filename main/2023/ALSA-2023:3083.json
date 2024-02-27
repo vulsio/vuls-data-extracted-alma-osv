@@ -214,14 +214,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:3083",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:3083"
-		},
-		{
 			"name": "CVE-2022-41724",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -260,6 +252,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-3083.html"
+		},
+		{
+			"name": "RHSA-2023:3083",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:3083"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",

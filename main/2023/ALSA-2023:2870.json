@@ -307,22 +307,6 @@
 	],
 	"references": [
 		{
-			"name": "2078483",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2078483"
-		},
-		{
-			"name": "2078485",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2078485"
-		},
-		{
 			"name": "2078487",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -369,6 +353,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-41861"
+		},
+		{
+			"name": "2078483",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2078483"
+		},
+		{
+			"name": "2078485",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2078485"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",

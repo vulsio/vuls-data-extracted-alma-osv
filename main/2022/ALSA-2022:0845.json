@@ -46,6 +46,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-25315",
+			"references": [
+				{
+					"name": "CVE-2022-25315",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-25315"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-26381",
+			"references": [
+				{
+					"name": "CVE-2022-26381",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-26381"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-26384",
 			"references": [
 				{
@@ -55,6 +81,84 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2022-26384"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-0566",
+			"references": [
+				{
+					"name": "CVE-2022-0566",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-0566"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-25235",
+			"references": [
+				{
+					"name": "CVE-2022-25235",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-25235"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-25236",
+			"references": [
+				{
+					"name": "CVE-2022-25236",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-25236"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-26485",
+			"references": [
+				{
+					"name": "CVE-2022-26485",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-26485"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-26486",
+			"references": [
+				{
+					"name": "CVE-2022-26486",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-26486"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-26383",
+			"references": [
+				{
+					"name": "CVE-2022-26383",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-26383"
 				}
 			]
 		},
@@ -83,128 +187,16 @@
 					"url": "https://vulners.com/cve/CVE-2022-26387"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-26485",
-			"references": [
-				{
-					"name": "CVE-2022-26485",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-26485"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-0566",
-			"references": [
-				{
-					"name": "CVE-2022-0566",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-0566"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-25236",
-			"references": [
-				{
-					"name": "CVE-2022-25236",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-25236"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-25315",
-			"references": [
-				{
-					"name": "CVE-2022-25315",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-25315"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-26486",
-			"references": [
-				{
-					"name": "CVE-2022-26486",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-26486"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-25235",
-			"references": [
-				{
-					"name": "CVE-2022-25235",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-25235"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-26381",
-			"references": [
-				{
-					"name": "CVE-2022-26381",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-26381"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-26383",
-			"references": [
-				{
-					"name": "CVE-2022-26383",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-26383"
-				}
-			]
 		}
 	],
 	"references": [
 		{
-			"name": "CVE-2022-0566",
+			"name": "CVE-2022-26485",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2022-0566"
-		},
-		{
-			"name": "CVE-2022-25236",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-25236"
+			"url": "https://vulners.com/cve/CVE-2022-26485"
 		},
 		{
 			"name": "CVE-2022-25315",
@@ -213,6 +205,22 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2022-25315"
+		},
+		{
+			"name": "CVE-2022-26383",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-26383"
+		},
+		{
+			"name": "CVE-2022-26387",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-26387"
 		},
 		{
 			"name": "CVE-2022-26381",
@@ -231,12 +239,12 @@
 			"url": "https://vulners.com/cve/CVE-2022-26384"
 		},
 		{
-			"name": "CVE-2022-26387",
+			"name": "CVE-2022-26386",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2022-26387"
+			"url": "https://vulners.com/cve/CVE-2022-26386"
 		},
 		{
 			"name": "CVE-2022-26486",
@@ -247,6 +255,14 @@
 			"url": "https://vulners.com/cve/CVE-2022-26486"
 		},
 		{
+			"name": "CVE-2022-0566",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-0566"
+		},
+		{
 			"name": "CVE-2022-25235",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -255,28 +271,12 @@
 			"url": "https://vulners.com/cve/CVE-2022-25235"
 		},
 		{
-			"name": "CVE-2022-26383",
+			"name": "CVE-2022-25236",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2022-26383"
-		},
-		{
-			"name": "CVE-2022-26386",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-26386"
-		},
-		{
-			"name": "CVE-2022-26485",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-26485"
+			"url": "https://vulners.com/cve/CVE-2022-25236"
 		}
 	],
 	"published": "2022-03-14T09:49:10Z",
