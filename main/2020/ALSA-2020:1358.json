@@ -446,19 +446,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-1711",
-			"references": [
-				{
-					"name": "CVE-2020-1711",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-1711"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-7039",
 			"references": [
 				{
@@ -470,17 +457,22 @@
 					"url": "https://vulners.com/cve/CVE-2020-7039"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-1711",
+			"references": [
+				{
+					"name": "CVE-2020-1711",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-1711"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "ALSA-2020-1358",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2020-1358.html"
-		},
 		{
 			"name": "CVE-2020-1711",
 			"source": "errata.almalinux.org",
@@ -496,6 +488,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-7039"
+		},
+		{
+			"name": "ALSA-2020-1358",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2020-1358.html"
 		}
 	],
 	"published": "2020-04-07T12:58:04Z",

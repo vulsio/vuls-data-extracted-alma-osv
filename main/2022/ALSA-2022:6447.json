@@ -847,6 +847,22 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-41819",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-41819"
+		},
+		{
+			"name": "CVE-2022-28739",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-28739"
+		},
+		{
 			"name": "2025104",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -893,22 +909,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-41817"
-		},
-		{
-			"name": "CVE-2021-41819",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-41819"
-		},
-		{
-			"name": "CVE-2022-28739",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-28739"
 		}
 	],
 	"published": "2022-09-13T00:00:00Z",

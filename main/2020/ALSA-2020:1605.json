@@ -646,22 +646,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2020-1605",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2020-1605.html"
-		},
-		{
-			"name": "CVE-2018-18074",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-18074"
-		},
-		{
 			"name": "CVE-2018-20060",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -708,6 +692,22 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-16935"
+		},
+		{
+			"name": "ALSA-2020-1605",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2020-1605.html"
+		},
+		{
+			"name": "CVE-2018-18074",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2018-18074"
 		}
 	],
 	"published": "2020-04-28T08:55:59Z",
