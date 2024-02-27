@@ -1487,6 +1487,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2020-36193",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2020-36193"
+		},
+		{
 			"name": "1904001",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -1541,14 +1549,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2020-28949"
-		},
-		{
-			"name": "CVE-2020-36193",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2020-36193"
 		}
 	],
 	"published": "2022-09-15T00:00:00Z",
