@@ -46,6 +46,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-32027",
+			"references": [
+				{
+					"name": "CVE-2021-32027",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-32027"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-32028",
 			"references": [
 				{
@@ -81,19 +94,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-3393"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-32027",
-			"references": [
-				{
-					"name": "CVE-2021-32027",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-32027"
 				}
 			]
 		}

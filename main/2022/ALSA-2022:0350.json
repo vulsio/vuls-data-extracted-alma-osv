@@ -384,19 +384,6 @@
 			]
 		},
 		{
-			"cve": "CVE-2021-37701",
-			"references": [
-				{
-					"name": "CVE-2021-37701",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-37701"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-33502",
 			"references": [
 				{
@@ -406,6 +393,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-33502"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-37701",
+			"references": [
+				{
+					"name": "CVE-2021-37701",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-37701"
 				}
 			]
 		},
@@ -424,38 +424,6 @@
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2021-22959",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-22959"
-		},
-		{
-			"name": "CVE-2021-33502",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-33502"
-		},
-		{
-			"name": "CVE-2021-37701",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-37701"
-		},
-		{
-			"name": "CVE-2021-3807",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3807"
-		},
 		{
 			"name": "ALSA-2022-0350",
 			"source": "errata.almalinux.org",
@@ -481,12 +449,44 @@
 			"url": "https://vulners.com/cve/CVE-2020-7788"
 		},
 		{
+			"name": "CVE-2021-22959",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-22959"
+		},
+		{
 			"name": "CVE-2021-22960",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-22960"
+		},
+		{
+			"name": "CVE-2021-3807",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3807"
+		},
+		{
+			"name": "CVE-2021-33502",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-33502"
+		},
+		{
+			"name": "CVE-2021-37701",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-37701"
 		},
 		{
 			"name": "CVE-2021-37712",

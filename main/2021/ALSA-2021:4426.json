@@ -146,19 +146,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2019-17594",
-			"references": [
-				{
-					"name": "CVE-2019-17594",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-17594"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2019-17595",
 			"references": [
 				{
@@ -170,17 +157,22 @@
 					"url": "https://vulners.com/cve/CVE-2019-17595"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2019-17594",
+			"references": [
+				{
+					"name": "CVE-2019-17594",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-17594"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2019-17595",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-17595"
-		},
 		{
 			"name": "ALSA-2021-4426",
 			"source": "errata.almalinux.org",
@@ -196,6 +188,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-17594"
+		},
+		{
+			"name": "CVE-2019-17595",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-17595"
 		}
 	],
 	"published": "2021-11-09T09:21:17Z",
