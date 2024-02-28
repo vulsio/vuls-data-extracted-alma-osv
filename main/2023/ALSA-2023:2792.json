@@ -186,19 +186,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-3094",
-			"references": [
-				{
-					"name": "CVE-2022-3094",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-3094"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-3736",
 			"references": [
 				{
@@ -236,16 +223,29 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-2795"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-3094",
+			"references": [
+				{
+					"name": "CVE-2022-3094",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-3094"
+				}
+			]
 		}
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:2792",
+			"name": "CVE-2022-3094",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"cve"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:2792"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3094"
 		},
 		{
 			"name": "CVE-2022-3924",
@@ -288,6 +288,14 @@
 			"url": "https://bugzilla.redhat.com/2164039"
 		},
 		{
+			"name": "RHSA-2023:2792",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:2792"
+		},
+		{
 			"name": "CVE-2022-2795",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -296,12 +304,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-2795"
 		},
 		{
-			"name": "CVE-2022-3094",
+			"name": "ALSA-2023-2792",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-3094"
+			"url": "https://errata.almalinux.org/8/ALSA-2023-2792.html"
 		},
 		{
 			"name": "CVE-2022-3736",
@@ -310,14 +318,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-3736"
-		},
-		{
-			"name": "ALSA-2023-2792",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-2792.html"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",
