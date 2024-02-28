@@ -86,32 +86,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-8287",
-			"references": [
-				{
-					"name": "CVE-2020-8287",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-8287"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-10746",
-			"references": [
-				{
-					"name": "CVE-2019-10746",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-10746"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2019-10747",
 			"references": [
 				{
@@ -162,9 +136,59 @@
 					"url": "https://vulners.com/cve/CVE-2020-8265"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-8287",
+			"references": [
+				{
+					"name": "CVE-2020-8287",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-8287"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-10746",
+			"references": [
+				{
+					"name": "CVE-2019-10746",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-10746"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-7788",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-7788"
+		},
+		{
+			"name": "CVE-2020-8265",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-8265"
+		},
+		{
+			"name": "CVE-2020-8287",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-8287"
+		},
 		{
 			"name": "ALSA-2021-0549",
 			"source": "errata.almalinux.org",
@@ -204,30 +228,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-7754"
-		},
-		{
-			"name": "CVE-2020-7788",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-7788"
-		},
-		{
-			"name": "CVE-2020-8265",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-8265"
-		},
-		{
-			"name": "CVE-2020-8287",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-8287"
 		}
 	],
 	"published": "2021-02-16T07:34:29Z",

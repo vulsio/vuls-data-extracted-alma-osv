@@ -446,6 +446,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2019-9824",
+			"references": [
+				{
+					"name": "CVE-2019-9824",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-9824"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2019-12155",
 			"references": [
 				{
@@ -470,22 +483,17 @@
 					"url": "https://vulners.com/cve/CVE-2019-9755"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2019-9824",
-			"references": [
-				{
-					"name": "CVE-2019-9824",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-9824"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2019-9824",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-9824"
+		},
 		{
 			"name": "ALSA-2019-3345",
 			"source": "errata.almalinux.org",
@@ -509,14 +517,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-9755"
-		},
-		{
-			"name": "CVE-2019-9824",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-9824"
 		}
 	],
 	"published": "2019-11-05T17:33:34Z",
