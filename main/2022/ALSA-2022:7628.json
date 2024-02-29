@@ -906,6 +906,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-21708",
+			"references": [
+				{
+					"name": "CVE-2021-21708",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-21708"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-32610",
 			"references": [
 				{
@@ -928,19 +941,6 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2021-21707"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-21708",
-			"references": [
-				{
-					"name": "CVE-2021-21708",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-21708"
 				}
 			]
 		}

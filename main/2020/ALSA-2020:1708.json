@@ -46,32 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2018-11685",
-			"references": [
-				{
-					"name": "CVE-2018-11685",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-11685"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2018-12085",
-			"references": [
-				{
-					"name": "CVE-2018-12085",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-12085"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2018-11577",
 			"references": [
 				{
@@ -94,6 +68,32 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2018-11684"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2018-11685",
+			"references": [
+				{
+					"name": "CVE-2018-11685",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-11685"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2018-12085",
+			"references": [
+				{
+					"name": "CVE-2018-12085",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-12085"
 				}
 			]
 		}

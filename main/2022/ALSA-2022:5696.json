@@ -406,19 +406,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-21540",
-			"references": [
-				{
-					"name": "CVE-2022-21540",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-21540"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-21541",
 			"references": [
 				{
@@ -441,6 +428,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2022-34169"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-21540",
+			"references": [
+				{
+					"name": "CVE-2022-21540",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21540"
 				}
 			]
 		}
