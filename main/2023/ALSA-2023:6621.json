@@ -81,6 +81,14 @@
 	],
 	"references": [
 		{
+			"name": "2186673",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2186673"
+		},
+		{
 			"name": "ALSA-2023-6621",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -103,14 +111,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-48468"
-		},
-		{
-			"name": "2186673",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2186673"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",
