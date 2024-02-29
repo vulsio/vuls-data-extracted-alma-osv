@@ -166,6 +166,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-32559",
+			"references": [
+				{
+					"name": "CVE-2023-32559",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-32559"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-25883",
 			"references": [
 				{
@@ -203,29 +216,16 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-32006"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-32559",
-			"references": [
-				{
-					"name": "CVE-2023-32559",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-32559"
-				}
-			]
 		}
 	],
 	"references": [
 		{
-			"name": "CVE-2022-25883",
+			"name": "RHSA-2023:5363",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"third-party-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-25883"
+			"url": "https://access.redhat.com/errata/RHSA-2023:5363"
 		},
 		{
 			"name": "CVE-2023-32002",
@@ -236,6 +236,14 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-32002"
 		},
 		{
+			"name": "CVE-2023-32006",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32006"
+		},
+		{
 			"name": "2230956",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -244,12 +252,12 @@
 			"url": "https://bugzilla.redhat.com/2230956"
 		},
 		{
-			"name": "RHSA-2023:5363",
+			"name": "CVE-2022-25883",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"cve"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:5363"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-25883"
 		},
 		{
 			"name": "CVE-2023-32559",
@@ -290,14 +298,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-5363.html"
-		},
-		{
-			"name": "CVE-2023-32006",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32006"
 		}
 	],
 	"published": "2023-09-26T00:00:00Z",

@@ -86,19 +86,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-5678",
-			"references": [
-				{
-					"name": "CVE-2023-5678",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-5678"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-3446",
 			"references": [
 				{
@@ -121,6 +108,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2023-3817"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-5678",
+			"references": [
+				{
+					"name": "CVE-2023-5678",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-5678"
 				}
 			]
 		}

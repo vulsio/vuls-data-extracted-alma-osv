@@ -86,6 +86,9 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-25717"
+		},
+		{
 			"cve": "CVE-2021-44142",
 			"references": [
 				{
@@ -97,9 +100,6 @@
 					"url": "https://vulners.com/cve/CVE-2021-44142"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2020-25717"
 		}
 	],
 	"references": [

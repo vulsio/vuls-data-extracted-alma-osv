@@ -1,0 +1,79 @@
+{
+	"id": "ALSA-2024:0769",
+	"title": "Moderate: tcpdump security update",
+	"description": "The tcpdump packages contain the tcpdump utility for monitoring network traffic. The tcpdump utility can capture and display the packet headers on a particular network interface or on all interfaces.\n\nSecurity Fix(es):\n\n* tcpslice: use-after-free in extract_slice() (CVE-2021-41043)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "tcpdump"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "14:4.9.3-3.el8_9.1.alma.1"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2021-41043",
+			"references": [
+				{
+					"name": "CVE-2021-41043",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-41043"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "2040392",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2040392"
+		},
+		{
+			"name": "ALSA-2024-0769",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2024-0769.html"
+		},
+		{
+			"name": "RHSA-2024:0769",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0769"
+		},
+		{
+			"name": "CVE-2021-41043",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-41043"
+		}
+	],
+	"published": "2024-02-12T00:00:00Z",
+	"modified": "2024-02-12T12:35:42Z",
+	"data_source": "alma-osv"
+}

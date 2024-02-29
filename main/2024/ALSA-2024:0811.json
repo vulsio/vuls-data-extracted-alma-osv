@@ -1,0 +1,157 @@
+{
+	"id": "ALSA-2024:0811",
+	"title": "Moderate: sudo security update",
+	"description": "The sudo packages contain the sudo utility which allows system\nadministrators to provide certain users with the permission to execute\nprivileged commands, which are used for system management purposes, without\nhaving to log in as root.\n\nBug Fix(es) and Enhancement(s):\n\n* CVE-2023-28487 sudo: Sudo does not escape control characters in sudoreplay output\n* CVE-2023-28486 sudo: Sudo does not escape control characters in log messages\n* CVE-2023-42465 sudo: Targeted Corruption of Register and Stack Variables",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "sudo"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.5p2-10.el9_3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:9",
+				"name": "sudo-python-plugin"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.9.5p2-10.el9_3"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2023-28486",
+			"references": [
+				{
+					"name": "CVE-2023-28486",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-28486"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-28487",
+			"references": [
+				{
+					"name": "CVE-2023-28487",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-28487"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-42465",
+			"references": [
+				{
+					"name": "CVE-2023-42465",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-42465"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "2179272",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2179272"
+		},
+		{
+			"name": "2179273",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2179273"
+		},
+		{
+			"name": "2255568",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2255568"
+		},
+		{
+			"name": "ALSA-2024-0811",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2024-0811.html"
+		},
+		{
+			"name": "RHSA-2024:0811",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0811"
+		},
+		{
+			"name": "CVE-2023-28486",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-28486"
+		},
+		{
+			"name": "CVE-2023-28487",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-28487"
+		},
+		{
+			"name": "CVE-2023-42465",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-42465"
+		}
+	],
+	"published": "2024-02-14T00:00:00Z",
+	"modified": "2024-02-14T10:26:35Z",
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,99 @@
+{
+	"id": "ALSA-2024:0888",
+	"title": "Low: edk2 security update",
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* openssl: Excessive time spent checking DH keys and parameters (CVE-2023-3446)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"affected": [
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "edk2-aarch64"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "20220126gitbb1bba3d77-6.el8_9.3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "edk2-ovmf"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "20220126gitbb1bba3d77-6.el8_9.3"
+						}
+					]
+				}
+			]
+		}
+	],
+	"vulnerabilities": [
+		{
+			"cve": "CVE-2023-3446",
+			"references": [
+				{
+					"name": "CVE-2023-3446",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-3446"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "RHSA-2024:0888",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0888"
+		},
+		{
+			"name": "CVE-2023-3446",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-3446"
+		},
+		{
+			"name": "2224962",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2224962"
+		},
+		{
+			"name": "ALSA-2024-0888",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2024-0888.html"
+		}
+	],
+	"published": "2024-02-20T00:00:00Z",
+	"modified": "2024-02-22T19:52:37Z",
+	"data_source": "alma-osv"
+}

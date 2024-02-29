@@ -326,6 +326,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-35937",
+			"references": [
+				{
+					"name": "CVE-2021-35937",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-35937"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-35938",
 			"references": [
 				{
@@ -350,22 +363,25 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2021-35939"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2021-35937",
-			"references": [
-				{
-					"name": "CVE-2021-35937",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-35937"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "1964125",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1964125"
+		},
+		{
+			"name": "1964129",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1964129"
+		},
 		{
 			"name": "ALSA-2024-0463",
 			"source": "errata.almalinux.org",
@@ -413,22 +429,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/1964114"
-		},
-		{
-			"name": "1964125",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1964125"
-		},
-		{
-			"name": "1964129",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1964129"
 		}
 	],
 	"published": "2024-01-25T00:00:00Z",

@@ -134,6 +134,22 @@
 	],
 	"references": [
 		{
+			"name": "2246096",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2246096"
+		},
+		{
+			"name": "ALSA-2023-7277",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-7277.html"
+		},
+		{
 			"name": "RHSA-2023:7277",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -164,22 +180,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2246080"
-		},
-		{
-			"name": "2246096",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2246096"
-		},
-		{
-			"name": "ALSA-2023-7277",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-7277.html"
 		}
 	],
 	"published": "2023-11-15T00:00:00Z",
