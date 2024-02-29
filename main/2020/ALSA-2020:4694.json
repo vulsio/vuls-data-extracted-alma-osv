@@ -86,6 +86,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-10756",
+			"references": [
+				{
+					"name": "CVE-2020-10756",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-10756"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-14040",
 			"references": [
 				{
@@ -108,19 +121,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2020-10749"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-10756",
-			"references": [
-				{
-					"name": "CVE-2020-10756",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-10756"
 				}
 			]
 		}

@@ -566,19 +566,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-0494",
-			"references": [
-				{
-					"name": "CVE-2022-0494",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-0494"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-1055",
 			"references": [
 				{
@@ -590,33 +577,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-1055"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-0494",
+			"references": [
+				{
+					"name": "CVE-2022-0494",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-0494"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "ALSA-2022-6003",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-6003.html"
-		},
-		{
-			"name": "RHSA-2022:6003",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6003"
-		},
-		{
-			"name": "CVE-2022-0494",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-0494"
-		},
 		{
 			"name": "CVE-2022-1055",
 			"source": "errata.almalinux.org",
@@ -640,6 +616,30 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2070220"
+		},
+		{
+			"name": "ALSA-2022-6003",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-6003.html"
+		},
+		{
+			"name": "RHSA-2022:6003",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6003"
+		},
+		{
+			"name": "CVE-2022-0494",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-0494"
 		}
 	],
 	"published": "2022-08-09T00:00:00Z",
