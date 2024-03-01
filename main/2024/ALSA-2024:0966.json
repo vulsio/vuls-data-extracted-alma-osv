@@ -41,22 +41,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2024-0966",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2024-0966.html"
-		},
-		{
-			"name": "RHSA-2024:0966",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0966"
-		},
-		{
 			"name": "CVE-2023-5992",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -71,6 +55,22 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2248685"
+		},
+		{
+			"name": "ALSA-2024-0966",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2024-0966.html"
+		},
+		{
+			"name": "RHSA-2024:0966",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0966"
 		}
 	],
 	"published": "2024-02-26T00:00:00Z",

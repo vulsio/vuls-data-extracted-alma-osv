@@ -186,19 +186,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2024-21404",
-			"references": [
-				{
-					"name": "CVE-2024-21404",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2024-21404"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2024-21386",
 			"references": [
 				{
@@ -210,17 +197,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2024-21386"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2024-21404",
+			"references": [
+				{
+					"name": "CVE-2024-21404",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2024-21404"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2024:0805",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0805"
-		},
 		{
 			"name": "CVE-2024-21386",
 			"source": "errata.almalinux.org",
@@ -260,6 +252,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2024-0805.html"
+		},
+		{
+			"name": "RHSA-2024:0805",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0805"
 		}
 	],
 	"published": "2024-02-13T00:00:00Z",

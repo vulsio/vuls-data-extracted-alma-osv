@@ -181,14 +181,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2024:0466",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0466"
-		},
-		{
 			"name": "CVE-2023-27043",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -211,6 +203,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2024-0466.html"
+		},
+		{
+			"name": "RHSA-2024:0466",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0466"
 		}
 	],
 	"published": "2024-01-25T00:00:00Z",

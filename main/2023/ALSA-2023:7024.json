@@ -194,6 +194,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:7024",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:7024"
+		},
+		{
 			"name": "CVE-2007-4559",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -232,14 +240,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-7024.html"
-		},
-		{
-			"name": "RHSA-2023:7024",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:7024"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",
