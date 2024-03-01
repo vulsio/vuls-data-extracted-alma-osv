@@ -706,19 +706,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-41817",
-			"references": [
-				{
-					"name": "CVE-2021-41817",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-41817"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-41819",
 			"references": [
 				{
@@ -728,6 +715,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2021-41819"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-41817",
+			"references": [
+				{
+					"name": "CVE-2021-41817",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-41817"
 				}
 			]
 		}

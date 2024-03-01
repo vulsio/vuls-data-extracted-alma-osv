@@ -69,6 +69,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-1117",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-1117"
+		},
+		{
 			"name": "RHSA-2022:1898",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -99,14 +107,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-1898.html"
-		},
-		{
-			"name": "CVE-2022-1117",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-1117"
 		}
 	],
 	"published": "2022-05-10T00:00:00Z",

@@ -146,19 +146,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2024-21886",
-			"references": [
-				{
-					"name": "CVE-2024-21886",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2024-21886"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-6816",
 			"references": [
 				{
@@ -196,25 +183,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2024-21885"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2024-21886",
+			"references": [
+				{
+					"name": "CVE-2024-21886",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2024-21886"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2024-21886",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-21886"
-		},
-		{
-			"name": "2257691",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2257691"
-		},
 		{
 			"name": "RHSA-2024:0607",
 			"source": "errata.almalinux.org",
@@ -230,14 +214,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2024-0229"
-		},
-		{
-			"name": "CVE-2024-21885",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-21885"
 		},
 		{
 			"name": "2256540",
@@ -264,6 +240,14 @@
 			"url": "https://bugzilla.redhat.com/2256690"
 		},
 		{
+			"name": "2257691",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2257691"
+		},
+		{
 			"name": "ALSA-2024-0607",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -278,6 +262,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-6816"
+		},
+		{
+			"name": "CVE-2024-21885",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2024-21885"
+		},
+		{
+			"name": "CVE-2024-21886",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2024-21886"
 		}
 	],
 	"published": "2024-01-30T00:00:00Z",

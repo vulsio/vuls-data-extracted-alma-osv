@@ -314,6 +314,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:3714",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:3714"
+		},
+		{
 			"name": "CVE-2023-2454",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -352,14 +360,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-3714.html"
-		},
-		{
-			"name": "RHSA-2023:3714",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:3714"
 		}
 	],
 	"published": "2023-06-21T00:00:00Z",

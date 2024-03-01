@@ -146,19 +146,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-28861",
-			"references": [
-				{
-					"name": "CVE-2021-28861",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-28861"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-45061",
 			"references": [
 				{
@@ -183,41 +170,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2020-10735"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-28861",
+			"references": [
+				{
+					"name": "CVE-2021-28861",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-28861"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "ALSA-2023-0833",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-0833.html"
-		},
-		{
-			"name": "RHSA-2023:0833",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:0833"
-		},
-		{
-			"name": "CVE-2020-10735",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2020-10735"
-		},
-		{
-			"name": "CVE-2021-28861",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-28861"
-		},
 		{
 			"name": "CVE-2022-45061",
 			"source": "errata.almalinux.org",
@@ -249,6 +217,38 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2144072"
+		},
+		{
+			"name": "ALSA-2023-0833",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-0833.html"
+		},
+		{
+			"name": "RHSA-2023:0833",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:0833"
+		},
+		{
+			"name": "CVE-2020-10735",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2020-10735"
+		},
+		{
+			"name": "CVE-2021-28861",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-28861"
 		}
 	],
 	"published": "2023-02-21T00:00:00Z",
