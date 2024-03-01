@@ -46,45 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-27152",
-			"references": [
-				{
-					"name": "CVE-2020-27152",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-27152"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-28374",
-			"references": [
-				{
-					"name": "CVE-2020-28374",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-28374"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-26708",
-			"references": [
-				{
-					"name": "CVE-2021-26708",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-26708"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-27363",
 			"references": [
 				{
@@ -148,9 +109,64 @@
 					"url": "https://vulners.com/cve/CVE-2020-0466"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-27152",
+			"references": [
+				{
+					"name": "CVE-2020-27152",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-27152"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-28374",
+			"references": [
+				{
+					"name": "CVE-2020-28374",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-28374"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-26708",
+			"references": [
+				{
+					"name": "CVE-2021-26708",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-26708"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-27152",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-27152"
+		},
+		{
+			"name": "CVE-2020-28374",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-28374"
+		},
 		{
 			"name": "CVE-2021-26708",
 			"source": "errata.almalinux.org",
@@ -198,22 +214,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-0466"
-		},
-		{
-			"name": "CVE-2020-27152",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-27152"
-		},
-		{
-			"name": "CVE-2020-28374",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-28374"
 		}
 	],
 	"published": "2021-04-06T13:33:17Z",

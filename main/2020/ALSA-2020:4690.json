@@ -113,14 +113,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-0570",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-0570"
-		},
-		{
 			"name": "CVE-2020-13962",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -151,6 +143,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-0569"
+		},
+		{
+			"name": "CVE-2020-0570",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-0570"
 		}
 	],
 	"published": "2020-11-03T12:27:18Z",
