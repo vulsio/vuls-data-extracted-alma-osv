@@ -126,9 +126,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-28617"
-		},
-		{
 			"cve": "CVE-2023-2491",
 			"references": [
 				{
@@ -140,6 +137,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-2491"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-28617"
 		}
 	],
 	"references": [

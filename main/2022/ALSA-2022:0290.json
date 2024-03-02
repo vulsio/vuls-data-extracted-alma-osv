@@ -660,14 +660,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-23305",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-23305"
-		},
-		{
 			"name": "CVE-2022-23307",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -698,6 +690,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2022-23302"
+		},
+		{
+			"name": "CVE-2022-23305",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-23305"
 		}
 	],
 	"published": "2022-01-26T14:27:19Z",

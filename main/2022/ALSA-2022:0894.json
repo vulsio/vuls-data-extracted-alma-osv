@@ -266,14 +266,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-0361",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2022-0361"
-		},
-		{
 			"name": "CVE-2022-0392",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -320,6 +312,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2022-0359"
+		},
+		{
+			"name": "CVE-2022-0361",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2022-0361"
 		}
 	],
 	"published": "2022-03-15T09:11:53Z",
