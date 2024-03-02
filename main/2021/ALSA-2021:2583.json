@@ -766,6 +766,9 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-1747"
+		},
+		{
 			"cve": "CVE-2020-14343",
 			"references": [
 				{
@@ -777,20 +780,9 @@
 					"url": "https://vulners.com/cve/CVE-2020-14343"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2020-1747"
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2020-14343",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-14343"
-		},
 		{
 			"name": "ALSA-2021-2583",
 			"source": "errata.almalinux.org",
@@ -798,6 +790,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2021-2583.html"
+		},
+		{
+			"name": "CVE-2020-14343",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-14343"
 		}
 	],
 	"published": "2021-06-29T13:57:32Z",

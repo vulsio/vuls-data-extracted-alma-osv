@@ -526,6 +526,27 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-44141",
+			"references": [
+				{
+					"name": "CVE-2021-44141",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-44141"
+				},
+				{
+					"name": "CVE-2021-44141",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-44141"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-20316",
 			"references": [
 				{
@@ -543,27 +564,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-20316"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-44141",
-			"references": [
-				{
-					"name": "CVE-2021-44141",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-44141"
-				},
-				{
-					"name": "CVE-2021-44141",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-44141"
 				}
 			]
 		}

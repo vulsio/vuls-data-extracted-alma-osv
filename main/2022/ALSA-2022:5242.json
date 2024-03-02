@@ -186,20 +186,20 @@
 	],
 	"references": [
 		{
-			"name": "2083924",
+			"name": "CVE-2022-1629",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2083924"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1629"
 		},
 		{
-			"name": "2083931",
+			"name": "ALSA-2022-5242",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"vendor-advisory"
 			],
-			"url": "https://bugzilla.redhat.com/2083931"
+			"url": "https://errata.almalinux.org/9/ALSA-2022-5242.html"
 		},
 		{
 			"name": "CVE-2022-1154",
@@ -216,6 +216,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1621"
+		},
+		{
+			"name": "CVE-2022-1420",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1420"
 		},
 		{
 			"name": "2058483",
@@ -242,20 +250,12 @@
 			"url": "https://bugzilla.redhat.com/2073013"
 		},
 		{
-			"name": "2077734",
+			"name": "2083924",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2077734"
-		},
-		{
-			"name": "RHSA-2022:5242",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:5242"
+			"url": "https://bugzilla.redhat.com/2083924"
 		},
 		{
 			"name": "CVE-2022-0554",
@@ -274,28 +274,28 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-0943"
 		},
 		{
-			"name": "CVE-2022-1420",
+			"name": "2077734",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1420"
+			"url": "https://bugzilla.redhat.com/2077734"
 		},
 		{
-			"name": "CVE-2022-1629",
+			"name": "2083931",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1629"
+			"url": "https://bugzilla.redhat.com/2083931"
 		},
 		{
-			"name": "ALSA-2022-5242",
+			"name": "RHSA-2022:5242",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"third-party-advisory"
 			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-5242.html"
+			"url": "https://access.redhat.com/errata/RHSA-2022:5242"
 		}
 	],
 	"published": "2022-07-01T00:00:00Z",
