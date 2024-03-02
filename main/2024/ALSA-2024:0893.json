@@ -101,6 +101,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-50447",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-50447"
+		},
+		{
 			"name": "2259479",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -123,14 +131,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2024:0893"
-		},
-		{
-			"name": "CVE-2023-50447",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-50447"
 		}
 	],
 	"published": "2024-02-20T00:00:00Z",

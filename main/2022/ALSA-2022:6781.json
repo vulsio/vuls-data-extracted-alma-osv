@@ -227,14 +227,6 @@
 	],
 	"references": [
 		{
-			"name": "2128600",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2128600"
-		},
-		{
 			"name": "2128601",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -289,6 +281,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-38178"
+		},
+		{
+			"name": "2128600",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2128600"
 		}
 	],
 	"published": "2022-10-04T00:00:00Z",

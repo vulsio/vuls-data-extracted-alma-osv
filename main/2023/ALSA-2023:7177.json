@@ -361,14 +361,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-3094",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-3094"
-		},
-		{
 			"name": "2164032",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -391,6 +383,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:7177"
+		},
+		{
+			"name": "CVE-2022-3094",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3094"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",
