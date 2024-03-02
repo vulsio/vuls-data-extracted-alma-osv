@@ -237,6 +237,14 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-32213"
 		},
 		{
+			"name": "CVE-2022-33987",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-33987"
+		},
+		{
 			"name": "2105422",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -267,14 +275,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-32215"
-		},
-		{
-			"name": "CVE-2022-33987",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-33987"
 		},
 		{
 			"name": "2102001",

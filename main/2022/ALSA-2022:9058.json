@@ -101,14 +101,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-1471",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1471"
-		},
-		{
 			"name": "2150009",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -131,6 +123,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:9058"
+		},
+		{
+			"name": "CVE-2022-1471",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1471"
 		}
 	],
 	"published": "2022-12-15T00:00:00Z",

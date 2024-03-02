@@ -66,19 +66,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-42096",
-			"references": [
-				{
-					"name": "CVE-2021-42096",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-42096"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-42097",
 			"references": [
 				{
@@ -90,9 +77,30 @@
 					"url": "https://vulners.com/cve/CVE-2021-42097"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-42096",
+			"references": [
+				{
+					"name": "CVE-2021-42096",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-42096"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2021-42097",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-42097"
+		},
 		{
 			"name": "ALSA-2021-4826",
 			"source": "errata.almalinux.org",
@@ -108,14 +116,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-42096"
-		},
-		{
-			"name": "CVE-2021-42097",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-42097"
 		}
 	],
 	"published": "2021-11-23T20:17:35Z",

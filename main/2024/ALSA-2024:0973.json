@@ -381,14 +381,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2024:0973",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0973"
-		},
-		{
 			"name": "CVE-2024-0985",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -411,6 +403,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2024-0973.html"
+		},
+		{
+			"name": "RHSA-2024:0973",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0973"
 		}
 	],
 	"published": "2024-02-26T00:00:00Z",

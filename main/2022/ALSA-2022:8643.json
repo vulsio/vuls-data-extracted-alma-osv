@@ -81,14 +81,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2022:8643",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:8643"
-		},
-		{
 			"name": "CVE-2022-45060",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -111,6 +103,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-8643.html"
+		},
+		{
+			"name": "RHSA-2022:8643",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:8643"
 		}
 	],
 	"published": "2022-11-28T00:00:00Z",

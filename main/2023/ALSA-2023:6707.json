@@ -247,14 +247,6 @@
 	],
 	"references": [
 		{
-			"name": "1939614",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1939614"
-		},
-		{
 			"name": "1946914",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -309,6 +301,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-1981"
+		},
+		{
+			"name": "1939614",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1939614"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

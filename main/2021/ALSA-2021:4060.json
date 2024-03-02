@@ -100,14 +100,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-33928",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-33928"
-		},
-		{
 			"name": "CVE-2021-33929",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -130,6 +122,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-33938"
+		},
+		{
+			"name": "CVE-2021-33928",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-33928"
 		}
 	],
 	"published": "2021-11-02T07:49:29Z",
