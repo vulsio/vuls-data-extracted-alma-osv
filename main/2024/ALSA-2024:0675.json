@@ -46,6 +46,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-44441",
+			"references": [
+				{
+					"name": "CVE-2023-44441",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-44441"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-44442",
 			"references": [
 				{
@@ -83,30 +96,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-44444"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-44441",
-			"references": [
-				{
-					"name": "CVE-2023-44441",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-44441"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2023-44442",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-44442"
-		},
 		{
 			"name": "CVE-2023-44444",
 			"source": "errata.almalinux.org",
@@ -116,12 +108,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-44444"
 		},
 		{
-			"name": "2249938",
+			"name": "2249942",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2249938"
+			"url": "https://bugzilla.redhat.com/2249942"
 		},
 		{
 			"name": "2249946",
@@ -130,6 +122,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2249946"
+		},
+		{
+			"name": "2249938",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2249938"
 		},
 		{
 			"name": "2249944",
@@ -164,20 +164,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-44441"
 		},
 		{
+			"name": "CVE-2023-44442",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-44442"
+		},
+		{
 			"name": "CVE-2023-44443",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-44443"
-		},
-		{
-			"name": "2249942",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2249942"
 		}
 	],
 	"published": "2024-02-05T00:00:00Z",

@@ -87,6 +87,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2020-11945",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-11945"
+		},
+		{
 			"name": "ALSA-2020-2041",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -109,14 +117,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-12525"
-		},
-		{
-			"name": "CVE-2020-11945",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-11945"
 		}
 	],
 	"published": "2020-05-06T12:52:10Z",

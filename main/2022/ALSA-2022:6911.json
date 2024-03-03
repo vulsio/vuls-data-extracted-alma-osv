@@ -261,14 +261,6 @@
 	],
 	"references": [
 		{
-			"name": "2132614",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2132614"
-		},
-		{
 			"name": "ALSA-2022-6911",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -291,6 +283,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-41032"
+		},
+		{
+			"name": "2132614",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2132614"
 		}
 	],
 	"published": "2022-10-12T00:00:00Z",
