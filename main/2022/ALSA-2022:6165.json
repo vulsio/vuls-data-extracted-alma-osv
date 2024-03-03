@@ -26,32 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-38472",
-			"references": [
-				{
-					"name": "CVE-2022-38472",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-38472"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2022-38473",
-			"references": [
-				{
-					"name": "CVE-2022-38473",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-38473"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-38476",
 			"references": [
 				{
@@ -89,25 +63,35 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-38478"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-38472",
+			"references": [
+				{
+					"name": "CVE-2022-38472",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-38472"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-38473",
+			"references": [
+				{
+					"name": "CVE-2022-38473",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-38473"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2022-38478",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-38478"
-		},
-		{
-			"name": "2120673",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2120673"
-		},
 		{
 			"name": "2120674",
 			"source": "errata.almalinux.org",
@@ -141,6 +125,14 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-38473"
 		},
 		{
+			"name": "2120673",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2120673"
+		},
+		{
 			"name": "CVE-2022-38476",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -155,6 +147,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-38477"
+		},
+		{
+			"name": "CVE-2022-38478",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-38478"
 		},
 		{
 			"name": "2120678",
