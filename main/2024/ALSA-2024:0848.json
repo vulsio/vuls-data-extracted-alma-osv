@@ -314,14 +314,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2024-0848",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2024-0848.html"
-		},
-		{
 			"name": "RHSA-2024:0848",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -360,6 +352,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2263086"
+		},
+		{
+			"name": "ALSA-2024-0848",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2024-0848.html"
 		}
 	],
 	"published": "2024-02-15T00:00:00Z",

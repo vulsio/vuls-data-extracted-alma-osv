@@ -66,19 +66,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-24736",
-			"references": [
-				{
-					"name": "CVE-2022-24736",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-24736"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-24735",
 			"references": [
 				{
@@ -88,6 +75,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2022-24735"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-24736",
+			"references": [
+				{
+					"name": "CVE-2022-24736",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-24736"
 				}
 			]
 		}

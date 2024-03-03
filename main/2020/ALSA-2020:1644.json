@@ -606,6 +606,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2019-17531",
+			"references": [
+				{
+					"name": "CVE-2019-17531",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-17531"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-14540",
+			"references": [
+				{
+					"name": "CVE-2019-14540",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-14540"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2019-16335",
 			"references": [
 				{
@@ -643,32 +669,6 @@
 					"url": "https://vulners.com/cve/CVE-2019-16943"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2019-17531",
-			"references": [
-				{
-					"name": "CVE-2019-17531",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-17531"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-14540",
-			"references": [
-				{
-					"name": "CVE-2019-14540",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-14540"
-				}
-			]
 		}
 	],
 	"references": [
@@ -689,62 +689,6 @@
 			"url": "https://vulners.com/cve/CVE-2019-16942"
 		},
 		{
-			"name": "CVE-2019-16943",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-16943"
-		},
-		{
-			"name": "CVE-2020-8840",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-8840"
-		},
-		{
-			"name": "CVE-2019-14540",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-14540"
-		},
-		{
-			"name": "CVE-2020-10672",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-10672"
-		},
-		{
-			"name": "CVE-2020-9547",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-9547"
-		},
-		{
-			"name": "CVE-2019-16335",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-16335"
-		},
-		{
-			"name": "CVE-2019-17531",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-17531"
-		},
-		{
 			"name": "CVE-2019-20330",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -761,12 +705,12 @@
 			"url": "https://vulners.com/cve/CVE-2020-10673"
 		},
 		{
-			"name": "CVE-2020-9546",
+			"name": "CVE-2020-8840",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2020-9546"
+			"url": "https://vulners.com/cve/CVE-2020-8840"
 		},
 		{
 			"name": "CVE-2020-9548",
@@ -775,6 +719,62 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-9548"
+		},
+		{
+			"name": "CVE-2019-16335",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-16335"
+		},
+		{
+			"name": "CVE-2019-16943",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-16943"
+		},
+		{
+			"name": "CVE-2020-10672",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-10672"
+		},
+		{
+			"name": "CVE-2019-14540",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-14540"
+		},
+		{
+			"name": "CVE-2019-17531",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-17531"
+		},
+		{
+			"name": "CVE-2020-9546",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-9546"
+		},
+		{
+			"name": "CVE-2020-9547",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-9547"
 		}
 	],
 	"published": "2020-04-28T09:00:20Z",
