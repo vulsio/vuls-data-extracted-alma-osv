@@ -114,6 +114,22 @@
 	],
 	"references": [
 		{
+			"name": "2218626",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2218626"
+		},
+		{
+			"name": "2218640",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2218640"
+		},
+		{
 			"name": "ALSA-2023-4202",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -144,22 +160,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-32439"
-		},
-		{
-			"name": "2218626",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2218626"
-		},
-		{
-			"name": "2218640",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2218640"
 		}
 	],
 	"published": "2023-07-18T00:00:00Z",
