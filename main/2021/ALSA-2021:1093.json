@@ -152,6 +152,22 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-27365",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-27365"
+		},
+		{
+			"name": "CVE-2021-3347",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3347"
+		},
+		{
 			"name": "CVE-2020-0466",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -198,22 +214,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-27364"
-		},
-		{
-			"name": "CVE-2021-27365",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-27365"
-		},
-		{
-			"name": "CVE-2021-3347",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3347"
 		}
 	],
 	"published": "2021-04-06T13:33:17Z",

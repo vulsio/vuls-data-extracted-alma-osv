@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2022:6878",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6878"
+		},
+		{
 			"name": "CVE-2022-40674",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -83,14 +91,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-6878.html"
-		},
-		{
-			"name": "RHSA-2022:6878",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6878"
 		}
 	],
 	"published": "2022-10-11T00:00:00Z",
