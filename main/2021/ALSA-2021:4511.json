@@ -86,6 +86,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-22898",
+			"references": [
+				{
+					"name": "CVE-2021-22898",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-22898"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-22925",
 			"references": [
 				{
@@ -108,19 +121,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-22876"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-22898",
-			"references": [
-				{
-					"name": "CVE-2021-22898",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-22898"
 				}
 			]
 		}

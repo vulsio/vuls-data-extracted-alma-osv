@@ -181,6 +181,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-40217",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-40217"
+		},
+		{
 			"name": "2235789",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -203,14 +211,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:5463"
-		},
-		{
-			"name": "CVE-2023-40217",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-40217"
 		}
 	],
 	"published": "2023-10-05T00:00:00Z",

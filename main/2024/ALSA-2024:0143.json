@@ -694,6 +694,14 @@
 	],
 	"references": [
 		{
+			"name": "2025721",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2025721"
+		},
+		{
 			"name": "2242828",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -732,14 +740,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-5455"
-		},
-		{
-			"name": "2025721",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2025721"
 		}
 	],
 	"published": "2024-01-10T00:00:00Z",
