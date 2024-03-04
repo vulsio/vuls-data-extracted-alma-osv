@@ -41,22 +41,6 @@
 	],
 	"references": [
 		{
-			"name": "2239920",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2239920"
-		},
-		{
-			"name": "ALSA-2023-5790",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-5790.html"
-		},
-		{
 			"name": "RHSA-2023:5790",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -71,6 +55,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2019-19450"
+		},
+		{
+			"name": "2239920",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2239920"
+		},
+		{
+			"name": "ALSA-2023-5790",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-5790.html"
 		}
 	],
 	"published": "2023-10-17T00:00:00Z",

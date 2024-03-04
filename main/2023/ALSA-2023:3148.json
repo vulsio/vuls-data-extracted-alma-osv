@@ -26,9 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-30570"
-		},
-		{
 			"cve": "CVE-2023-2295",
 			"references": [
 				{
@@ -40,6 +37,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-2295"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-30570"
 		}
 	],
 	"references": [

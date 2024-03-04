@@ -361,14 +361,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-1981",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-1981"
-		},
-		{
 			"name": "2185911",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -391,6 +383,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:7190"
+		},
+		{
+			"name": "CVE-2023-1981",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-1981"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",

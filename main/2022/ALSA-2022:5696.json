@@ -447,14 +447,6 @@
 	],
 	"references": [
 		{
-			"name": "2108554",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2108554"
-		},
-		{
 			"name": "ALSA-2022-5696",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -509,6 +501,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2108543"
+		},
+		{
+			"name": "2108554",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2108554"
 		}
 	],
 	"published": "2022-07-25T00:00:00Z",

@@ -654,6 +654,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2019-20916",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-20916"
+		},
+		{
 			"name": "ALSA-2020-4654",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -668,14 +676,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-20907"
-		},
-		{
-			"name": "CVE-2019-20916",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-20916"
 		}
 	],
 	"published": "2020-11-03T12:24:08Z",
