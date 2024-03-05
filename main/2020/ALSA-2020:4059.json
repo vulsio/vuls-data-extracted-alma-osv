@@ -446,19 +446,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-14364",
-			"references": [
-				{
-					"name": "CVE-2020-14364",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-14364"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-10756",
 			"references": [
 				{
@@ -470,9 +457,30 @@
 					"url": "https://vulners.com/cve/CVE-2020-10756"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-14364",
+			"references": [
+				{
+					"name": "CVE-2020-14364",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-14364"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-14364",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-14364"
+		},
 		{
 			"name": "ALSA-2020-4059",
 			"source": "errata.almalinux.org",
@@ -488,14 +496,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-10756"
-		},
-		{
-			"name": "CVE-2020-14364",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-14364"
 		}
 	],
 	"published": "2020-09-29T08:09:34Z",

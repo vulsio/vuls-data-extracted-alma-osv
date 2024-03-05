@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-26572",
-			"references": [
-				{
-					"name": "CVE-2020-26572",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-26572"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-26570",
 			"references": [
 				{
@@ -61,6 +48,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2020-26571"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-26572",
+			"references": [
+				{
+					"name": "CVE-2020-26572",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-26572"
 				}
 			]
 		}
