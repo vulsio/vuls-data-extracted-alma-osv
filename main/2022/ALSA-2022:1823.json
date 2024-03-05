@@ -66,6 +66,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-32786",
+			"references": [
+				{
+					"name": "CVE-2021-32786",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-32786"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-32791",
 			"references": [
 				{
@@ -101,19 +114,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-39191"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-32786",
-			"references": [
-				{
-					"name": "CVE-2021-32786",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-32786"
 				}
 			]
 		}
