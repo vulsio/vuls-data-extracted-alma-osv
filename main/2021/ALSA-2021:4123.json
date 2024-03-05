@@ -106,6 +106,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-38503",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-38503"
+		},
+		{
 			"name": "CVE-2021-38504",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -144,14 +152,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-38509"
-		},
-		{
-			"name": "CVE-2021-38503",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-38503"
 		}
 	],
 	"published": "2021-11-03T19:23:08Z",
