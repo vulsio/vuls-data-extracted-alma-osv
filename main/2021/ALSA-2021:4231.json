@@ -46,19 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2018-25013",
-			"references": [
-				{
-					"name": "CVE-2018-25013",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-25013"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2018-25014",
 			"references": [
 				{
@@ -148,9 +135,38 @@
 					"url": "https://vulners.com/cve/CVE-2018-25012"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2018-25013",
+			"references": [
+				{
+					"name": "CVE-2018-25013",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-25013"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-36330",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-36330"
+		},
+		{
+			"name": "CVE-2020-36332",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-36332"
+		},
 		{
 			"name": "ALSA-2021-4231",
 			"source": "errata.almalinux.org",
@@ -168,12 +184,12 @@
 			"url": "https://vulners.com/cve/CVE-2018-25010"
 		},
 		{
-			"name": "CVE-2020-36332",
+			"name": "CVE-2018-25012",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2020-36332"
+			"url": "https://vulners.com/cve/CVE-2018-25012"
 		},
 		{
 			"name": "CVE-2018-25014",
@@ -184,22 +200,6 @@
 			"url": "https://vulners.com/cve/CVE-2018-25014"
 		},
 		{
-			"name": "CVE-2020-36330",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-36330"
-		},
-		{
-			"name": "CVE-2020-36331",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-36331"
-		},
-		{
 			"name": "CVE-2018-25009",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -208,20 +208,20 @@
 			"url": "https://vulners.com/cve/CVE-2018-25009"
 		},
 		{
-			"name": "CVE-2018-25012",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2018-25012"
-		},
-		{
 			"name": "CVE-2018-25013",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2018-25013"
+		},
+		{
+			"name": "CVE-2020-36331",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-36331"
 		}
 	],
 	"published": "2021-11-09T08:47:24Z",

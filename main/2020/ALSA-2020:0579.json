@@ -106,6 +106,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2019-16775",
+			"references": [
+				{
+					"name": "CVE-2019-16775",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-16775"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-16776",
+			"references": [
+				{
+					"name": "CVE-2019-16776",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-16776"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2019-16777",
 			"references": [
 				{
@@ -156,59 +182,9 @@
 					"url": "https://vulners.com/cve/CVE-2019-15606"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2019-16775",
-			"references": [
-				{
-					"name": "CVE-2019-16775",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-16775"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-16776",
-			"references": [
-				{
-					"name": "CVE-2019-16776",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-16776"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2019-15606",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-15606"
-		},
-		{
-			"name": "CVE-2019-16775",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-16775"
-		},
-		{
-			"name": "CVE-2019-16776",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-16776"
-		},
 		{
 			"name": "CVE-2019-16777",
 			"source": "errata.almalinux.org",
@@ -240,6 +216,30 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-15605"
+		},
+		{
+			"name": "CVE-2019-15606",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-15606"
+		},
+		{
+			"name": "CVE-2019-16775",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-16775"
+		},
+		{
+			"name": "CVE-2019-16776",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-16776"
 		}
 	],
 	"published": "2020-02-25T07:57:02Z",

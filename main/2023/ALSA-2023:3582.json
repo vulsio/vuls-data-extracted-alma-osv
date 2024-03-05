@@ -186,6 +186,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-24936",
+			"references": [
+				{
+					"name": "CVE-2023-24936",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-24936"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-29331",
 			"references": [
 				{
@@ -223,30 +236,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-33128"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-24936",
-			"references": [
-				{
-					"name": "CVE-2023-24936",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-24936"
-				}
-			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2023:3582",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:3582"
-		},
 		{
 			"name": "CVE-2023-29337",
 			"source": "errata.almalinux.org",
@@ -254,6 +246,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-29337"
+		},
+		{
+			"name": "2192438",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2192438"
 		},
 		{
 			"name": "2212617",
@@ -280,12 +280,12 @@
 			"url": "https://bugzilla.redhat.com/2213703"
 		},
 		{
-			"name": "ALSA-2023-3582",
+			"name": "RHSA-2023:3582",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"third-party-advisory"
 			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-3582.html"
+			"url": "https://access.redhat.com/errata/RHSA-2023:3582"
 		},
 		{
 			"name": "CVE-2023-24936",
@@ -312,12 +312,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-33128"
 		},
 		{
-			"name": "2192438",
+			"name": "ALSA-2023-3582",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"vendor-advisory"
 			],
-			"url": "https://bugzilla.redhat.com/2192438"
+			"url": "https://errata.almalinux.org/8/ALSA-2023-3582.html"
 		}
 	],
 	"published": "2023-06-14T00:00:00Z",
