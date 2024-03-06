@@ -201,14 +201,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2022:7326",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:7326"
-		},
-		{
 			"name": "CVE-2022-2414",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -231,6 +223,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-7326.html"
+		},
+		{
+			"name": "RHSA-2022:7326",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:7326"
 		}
 	],
 	"published": "2022-11-02T00:00:00Z",

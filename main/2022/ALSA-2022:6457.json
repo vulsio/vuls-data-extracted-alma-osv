@@ -146,19 +146,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2015-20107",
-			"references": [
-				{
-					"name": "CVE-2015-20107",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2015-20107"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-0391",
 			"references": [
 				{
@@ -170,33 +157,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-0391"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2015-20107",
+			"references": [
+				{
+					"name": "CVE-2015-20107",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2015-20107"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2022:6457",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6457"
-		},
-		{
-			"name": "CVE-2015-20107",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2015-20107"
-		},
-		{
-			"name": "CVE-2022-0391",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-0391"
-		},
 		{
 			"name": "2047376",
 			"source": "errata.almalinux.org",
@@ -220,6 +196,30 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-6457.html"
+		},
+		{
+			"name": "RHSA-2022:6457",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6457"
+		},
+		{
+			"name": "CVE-2015-20107",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2015-20107"
+		},
+		{
+			"name": "CVE-2022-0391",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-0391"
 		}
 	],
 	"published": "2022-09-13T00:00:00Z",

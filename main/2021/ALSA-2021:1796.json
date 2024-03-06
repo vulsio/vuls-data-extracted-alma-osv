@@ -254,14 +254,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-20199",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-20199"
-		},
-		{
 			"name": "ALSA-2021-1796",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -276,6 +268,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-29652"
+		},
+		{
+			"name": "CVE-2021-20199",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-20199"
 		}
 	],
 	"published": "2021-05-18T06:06:39Z",

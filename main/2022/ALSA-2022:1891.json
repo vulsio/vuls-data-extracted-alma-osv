@@ -61,20 +61,20 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2022-1891",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-1891.html"
-		},
-		{
 			"name": "CVE-2021-23222",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-23222"
+		},
+		{
+			"name": "ALSA-2022-1891",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-1891.html"
 		}
 	],
 	"published": "2022-05-10T06:36:04Z",

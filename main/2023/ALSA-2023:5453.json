@@ -4360,52 +4360,12 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:5453",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:5453"
-		},
-		{
-			"name": "CVE-2023-4911",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-4911"
-		},
-		{
-			"name": "2234712",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2234712"
-		},
-		{
-			"name": "2237798",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2237798"
-		},
-		{
 			"name": "CVE-2023-4527",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-4527"
-		},
-		{
-			"name": "CVE-2023-4806",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-4806"
 		},
 		{
 			"name": "CVE-2023-4813",
@@ -4438,6 +4398,46 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2023-5453.html"
+		},
+		{
+			"name": "RHSA-2023:5453",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:5453"
+		},
+		{
+			"name": "CVE-2023-4806",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-4806"
+		},
+		{
+			"name": "CVE-2023-4911",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-4911"
+		},
+		{
+			"name": "2234712",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2234712"
+		},
+		{
+			"name": "2237798",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2237798"
 		}
 	],
 	"published": "2023-10-05T00:00:00Z",
