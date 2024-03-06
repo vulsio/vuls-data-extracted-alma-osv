@@ -566,19 +566,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-30594",
-			"references": [
-				{
-					"name": "CVE-2022-30594",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-30594"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-2585",
 			"references": [
 				{
@@ -588,6 +575,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2022-2585"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-30594",
+			"references": [
+				{
+					"name": "CVE-2022-30594",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-30594"
 				}
 			]
 		}

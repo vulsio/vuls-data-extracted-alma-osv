@@ -141,14 +141,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2022-8649",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-8649.html"
-		},
-		{
 			"name": "RHSA-2022:8649",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -171,6 +163,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2141844"
+		},
+		{
+			"name": "ALSA-2022-8649",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-8649.html"
 		}
 	],
 	"published": "2022-11-28T00:00:00Z",

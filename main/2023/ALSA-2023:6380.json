@@ -96,6 +96,30 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:6380",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:6380"
+		},
+		{
+			"name": "CVE-2023-25809",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-25809"
+		},
+		{
+			"name": "2029439",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2029439"
+		},
+		{
 			"name": "2178492",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -112,12 +136,12 @@
 			"url": "https://bugzilla.redhat.com/2182883"
 		},
 		{
-			"name": "RHSA-2023:6380",
+			"name": "2182884",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:6380"
+			"url": "https://bugzilla.redhat.com/2182884"
 		},
 		{
 			"name": "CVE-2021-43784",
@@ -128,12 +152,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2021-43784"
 		},
 		{
-			"name": "CVE-2023-25809",
+			"name": "CVE-2022-41724",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-25809"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-41724"
 		},
 		{
 			"name": "CVE-2023-27561",
@@ -158,30 +182,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2175721"
-		},
-		{
-			"name": "CVE-2022-41724",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-41724"
-		},
-		{
-			"name": "2029439",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2029439"
-		},
-		{
-			"name": "2182884",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2182884"
 		},
 		{
 			"name": "ALSA-2023-6380",
