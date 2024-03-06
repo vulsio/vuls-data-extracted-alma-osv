@@ -61,20 +61,20 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2021-4339",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2021-4339.html"
-		},
-		{
 			"name": "CVE-2021-39365",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-39365"
+		},
+		{
+			"name": "ALSA-2021-4339",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2021-4339.html"
 		}
 	],
 	"published": "2021-11-09T09:02:57Z",

@@ -201,6 +201,14 @@
 	],
 	"references": [
 		{
+			"name": "2087190",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2087190"
+		},
+		{
 			"name": "ALSA-2022-8151",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -223,14 +231,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-27337"
-		},
-		{
-			"name": "2087190",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2087190"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

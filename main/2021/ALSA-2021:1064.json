@@ -1386,9 +1386,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-10756"
-		},
-		{
 			"cve": "CVE-2021-20295",
 			"references": [
 				{
@@ -1400,6 +1397,9 @@
 					"url": "https://vulners.com/cve/CVE-2021-20295"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-10756"
 		}
 	],
 	"references": [

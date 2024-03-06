@@ -186,23 +186,65 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2019-2627",
+			"cve": "CVE-2019-2537",
 			"references": [
 				{
-					"name": "CVE-2019-2627",
+					"name": "CVE-2019-2537",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2019-2627"
+					"url": "https://access.redhat.com/security/cve/CVE-2019-2537"
 				},
 				{
-					"name": "CVE-2019-2627",
+					"name": "CVE-2019-2537",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2019-2627"
+					"url": "https://vulners.com/cve/CVE-2019-2537"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-2614",
+			"references": [
+				{
+					"name": "CVE-2019-2614",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2019-2614"
+				},
+				{
+					"name": "CVE-2019-2614",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-2614"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-2737",
+			"references": [
+				{
+					"name": "CVE-2019-2737",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2019-2737"
+				},
+				{
+					"name": "CVE-2019-2737",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-2737"
 				}
 			]
 		},
@@ -215,7 +257,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2019-2739"
+					"url": "https://access.redhat.com/security/cve/CVE-2019-2739"
 				},
 				{
 					"name": "CVE-2019-2739",
@@ -223,28 +265,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2019-2739"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-2740",
-			"references": [
-				{
-					"name": "CVE-2019-2740",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-2740"
-				},
-				{
-					"name": "CVE-2019-2740",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2019-2740"
+					"url": "https://vulners.com/cve/CVE-2019-2739"
 				}
 			]
 		},
@@ -278,7 +299,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2019-2805"
+					"url": "https://access.redhat.com/security/cve/CVE-2019-2805"
 				},
 				{
 					"name": "CVE-2019-2805",
@@ -286,49 +307,28 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2019-2805"
+					"url": "https://vulners.com/cve/CVE-2019-2805"
 				}
 			]
 		},
 		{
-			"cve": "CVE-2019-2614",
+			"cve": "CVE-2019-2510",
 			"references": [
 				{
-					"name": "CVE-2019-2614",
+					"name": "CVE-2019-2510",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2019-2614"
+					"url": "https://access.redhat.com/security/cve/CVE-2019-2510"
 				},
 				{
-					"name": "CVE-2019-2614",
+					"name": "CVE-2019-2510",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2019-2614"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-2537",
-			"references": [
-				{
-					"name": "CVE-2019-2537",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2019-2537"
-				},
-				{
-					"name": "CVE-2019-2537",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-2537"
+					"url": "https://vulners.com/cve/CVE-2019-2510"
 				}
 			]
 		},
@@ -354,72 +354,72 @@
 			]
 		},
 		{
-			"cve": "CVE-2019-2737",
+			"cve": "CVE-2019-2740",
 			"references": [
 				{
-					"name": "CVE-2019-2737",
+					"name": "CVE-2019-2740",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2019-2737"
+					"url": "https://vulners.com/cve/CVE-2019-2740"
 				},
 				{
-					"name": "CVE-2019-2737",
+					"name": "CVE-2019-2740",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2019-2737"
+					"url": "https://access.redhat.com/security/cve/CVE-2019-2740"
 				}
 			]
 		},
 		{
-			"cve": "CVE-2019-2510",
+			"cve": "CVE-2019-2627",
 			"references": [
 				{
-					"name": "CVE-2019-2510",
+					"name": "CVE-2019-2627",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2019-2510"
+					"url": "https://vulners.com/cve/CVE-2019-2627"
 				},
 				{
-					"name": "CVE-2019-2510",
+					"name": "CVE-2019-2627",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2019-2510"
+					"url": "https://access.redhat.com/security/cve/CVE-2019-2627"
 				}
 			]
 		}
 	],
 	"references": [
 		{
-			"name": "CVE-2019-2510",
+			"name": "CVE-2019-2614",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-2510"
+			"url": "https://access.redhat.com/security/cve/CVE-2019-2614"
 		},
 		{
-			"name": "CVE-2019-2739",
+			"name": "CVE-2019-2628",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-2739"
+			"url": "https://access.redhat.com/security/cve/CVE-2019-2628"
 		},
 		{
-			"name": "CVE-2019-2758",
+			"name": "1666751",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-2758"
+			"url": "https://bugzilla.redhat.com/1666751"
 		},
 		{
 			"name": "1702976",
@@ -430,12 +430,68 @@
 			"url": "https://bugzilla.redhat.com/1702976"
 		},
 		{
+			"name": "CVE-2019-2628",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-2628"
+		},
+		{
+			"name": "CVE-2019-2737",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-2737"
+		},
+		{
+			"name": "CVE-2019-2739",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2019-2739"
+		},
+		{
+			"name": "CVE-2019-2740",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2019-2740"
+		},
+		{
+			"name": "CVE-2021-2007",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-2007"
+		},
+		{
+			"name": "1702977",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1702977"
+		},
+		{
 			"name": "1732000",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/1732000"
+		},
+		{
+			"name": "CVE-2019-2758",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2019-2758"
 		},
 		{
 			"name": "1702969",
@@ -454,12 +510,20 @@
 			"url": "https://bugzilla.redhat.com/1732025"
 		},
 		{
-			"name": "CVE-2019-2628",
+			"name": "CVE-2019-2614",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-2628"
+			"url": "https://vulners.com/cve/CVE-2019-2614"
+		},
+		{
+			"name": "CVE-2019-2739",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-2739"
 		},
 		{
 			"name": "RHSA-2019:3708",
@@ -470,100 +534,12 @@
 			"url": "https://access.redhat.com/errata/RHSA-2019:3708"
 		},
 		{
-			"name": "CVE-2019-2628",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2019-2628"
-		},
-		{
-			"name": "CVE-2020-2922",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-2922"
-		},
-		{
-			"name": "CVE-2019-2614",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2019-2614"
-		},
-		{
-			"name": "CVE-2019-2805",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-2805"
-		},
-		{
-			"name": "1835850",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1835850"
-		},
-		{
-			"name": "CVE-2019-2740",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-2740"
-		},
-		{
-			"name": "CVE-2021-2007",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-2007"
-		},
-		{
 			"name": "CVE-2019-2537",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2019-2537"
-		},
-		{
-			"name": "CVE-2021-2007",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-2007"
-		},
-		{
-			"name": "CVE-2019-2758",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2019-2758"
-		},
-		{
-			"name": "1666751",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1666751"
-		},
-		{
-			"name": "1702977",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1702977"
 		},
 		{
 			"name": "1732008",
@@ -574,36 +550,28 @@
 			"url": "https://bugzilla.redhat.com/1732008"
 		},
 		{
-			"name": "CVE-2019-2614",
+			"name": "CVE-2019-2537",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-2614"
+			"url": "https://vulners.com/cve/CVE-2019-2537"
 		},
 		{
-			"name": "CVE-2019-2510",
+			"name": "CVE-2019-2758",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2019-2510"
+			"url": "https://vulners.com/cve/CVE-2019-2758"
 		},
 		{
-			"name": "CVE-2019-2739",
+			"name": "CVE-2019-2737",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2019-2739"
-		},
-		{
-			"name": "1731997",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1731997"
+			"url": "https://access.redhat.com/security/cve/CVE-2019-2737"
 		},
 		{
 			"name": "1922382",
@@ -614,52 +582,20 @@
 			"url": "https://bugzilla.redhat.com/1922382"
 		},
 		{
-			"name": "CVE-2019-2537",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-2537"
-		},
-		{
-			"name": "CVE-2019-2627",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-2627"
-		},
-		{
-			"name": "CVE-2019-2805",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2019-2805"
-		},
-		{
 			"name": "CVE-2020-2922",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2020-2922"
+			"url": "https://vulners.com/cve/CVE-2020-2922"
 		},
 		{
-			"name": "1731999",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1731999"
-		},
-		{
-			"name": "CVE-2019-2740",
+			"name": "CVE-2019-2510",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2019-2740"
+			"url": "https://access.redhat.com/security/cve/CVE-2019-2510"
 		},
 		{
 			"name": "1666763",
@@ -678,12 +614,28 @@
 			"url": "https://errata.almalinux.org/8/ALSA-2019-3708.html"
 		},
 		{
-			"name": "CVE-2019-2737",
+			"name": "CVE-2019-2510",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-2737"
+			"url": "https://vulners.com/cve/CVE-2019-2510"
+		},
+		{
+			"name": "CVE-2019-2627",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-2627"
+		},
+		{
+			"name": "CVE-2021-2007",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-2007"
 		},
 		{
 			"name": "CVE-2019-2627",
@@ -694,12 +646,60 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2019-2627"
 		},
 		{
-			"name": "CVE-2019-2737",
+			"name": "1731999",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1731999"
+		},
+		{
+			"name": "1835850",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1835850"
+		},
+		{
+			"name": "CVE-2019-2740",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2019-2737"
+			"url": "https://vulners.com/cve/CVE-2019-2740"
+		},
+		{
+			"name": "CVE-2019-2805",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2019-2805"
+		},
+		{
+			"name": "CVE-2020-2922",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2020-2922"
+		},
+		{
+			"name": "1731997",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1731997"
+		},
+		{
+			"name": "CVE-2019-2805",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-2805"
 		}
 	],
 	"published": "2019-11-05T00:00:00Z",
