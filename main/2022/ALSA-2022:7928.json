@@ -26,6 +26,9 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-41974"
+		},
+		{
 			"cve": "CVE-2022-3787",
 			"references": [
 				{
@@ -37,9 +40,6 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-3787"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-41974"
 		}
 	],
 	"references": [

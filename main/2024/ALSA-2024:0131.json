@@ -61,22 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "2139988",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2139988"
-		},
-		{
-			"name": "ALSA-2024-0131",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2024-0131.html"
-		},
-		{
 			"name": "RHSA-2024:0131",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +75,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-44638"
+		},
+		{
+			"name": "2139988",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2139988"
+		},
+		{
+			"name": "ALSA-2024-0131",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2024-0131.html"
 		}
 	],
 	"published": "2024-01-10T00:00:00Z",

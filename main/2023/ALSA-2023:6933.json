@@ -3500,6 +3500,14 @@
 	],
 	"references": [
 		{
+			"name": "ALSA-2023-6933",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-6933.html"
+		},
+		{
 			"name": "RHSA-2023:6933",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -3508,28 +3516,12 @@
 			"url": "https://access.redhat.com/errata/RHSA-2023:6933"
 		},
 		{
-			"name": "CVE-2022-38745",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-38745"
-		},
-		{
 			"name": "CVE-2023-0950",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-0950"
-		},
-		{
-			"name": "CVE-2023-1183",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-1183"
 		},
 		{
 			"name": "CVE-2023-2255",
@@ -3548,6 +3540,30 @@
 			"url": "https://bugzilla.redhat.com/2182044"
 		},
 		{
+			"name": "2210186",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2210186"
+		},
+		{
+			"name": "CVE-2022-38745",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-38745"
+		},
+		{
+			"name": "CVE-2023-1183",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-1183"
+		},
+		{
 			"name": "2208506",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -3562,22 +3578,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2210185"
-		},
-		{
-			"name": "2210186",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2210186"
-		},
-		{
-			"name": "ALSA-2023-6933",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-6933.html"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",
