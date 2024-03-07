@@ -94,20 +94,20 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-12803",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-12803"
-		},
-		{
 			"name": "CVE-2020-12802",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-12802"
+		},
+		{
+			"name": "CVE-2020-12803",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-12803"
 		}
 	],
 	"published": "2020-11-03T12:21:42Z",

@@ -201,14 +201,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-38784",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-38784"
-		},
-		{
 			"name": "2124527",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -231,6 +223,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:2259"
+		},
+		{
+			"name": "CVE-2022-38784",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-38784"
 		}
 	],
 	"published": "2023-05-09T00:00:00Z",
