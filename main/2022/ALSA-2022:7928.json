@@ -26,9 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-41974"
-		},
-		{
 			"cve": "CVE-2022-3787",
 			"references": [
 				{
@@ -40,17 +37,12 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-3787"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-41974"
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2022:7928",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:7928"
-		},
 		{
 			"name": "CVE-2022-3787",
 			"source": "errata.almalinux.org",
@@ -74,6 +66,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-7928.html"
+		},
+		{
+			"name": "RHSA-2022:7928",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:7928"
 		}
 	],
 	"published": "2022-11-14T00:00:00Z",

@@ -274,6 +274,14 @@
 	],
 	"references": [
 		{
+			"name": "ALSA-2022-5834",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-5834.html"
+		},
+		{
 			"name": "RHSA-2022:5834",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -312,14 +320,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2092427"
-		},
-		{
-			"name": "ALSA-2022-5834",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-5834.html"
 		}
 	],
 	"published": "2022-08-02T00:00:00Z",
