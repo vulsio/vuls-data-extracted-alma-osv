@@ -186,6 +186,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-2795",
+			"references": [
+				{
+					"name": "CVE-2022-2795",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2795"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-3094",
 			"references": [
 				{
@@ -223,29 +236,32 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-3924"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-2795",
-			"references": [
-				{
-					"name": "CVE-2022-2795",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-2795"
-				}
-			]
 		}
 	],
 	"references": [
 		{
-			"name": "CVE-2022-3924",
+			"name": "CVE-2022-2795",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-3924"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-2795"
+		},
+		{
+			"name": "CVE-2022-3094",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3094"
+		},
+		{
+			"name": "CVE-2022-3736",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3736"
 		},
 		{
 			"name": "2164038",
@@ -264,12 +280,12 @@
 			"url": "https://access.redhat.com/errata/RHSA-2023:2792"
 		},
 		{
-			"name": "CVE-2022-2795",
+			"name": "CVE-2022-3924",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-2795"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-3924"
 		},
 		{
 			"name": "2128584",
@@ -302,22 +318,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-2792.html"
-		},
-		{
-			"name": "CVE-2022-3094",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-3094"
-		},
-		{
-			"name": "CVE-2022-3736",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-3736"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",

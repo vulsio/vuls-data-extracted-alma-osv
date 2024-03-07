@@ -234,30 +234,6 @@
 	],
 	"references": [
 		{
-			"name": "2064512",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2064512"
-		},
-		{
-			"name": "2064513",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2064513"
-		},
-		{
-			"name": "ALSA-2022-8068",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-8068.html"
-		},
-		{
 			"name": "RHSA-2022:8068",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -280,6 +256,30 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-0396"
+		},
+		{
+			"name": "2064512",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2064512"
+		},
+		{
+			"name": "2064513",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2064513"
+		},
+		{
+			"name": "ALSA-2022-8068",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-8068.html"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

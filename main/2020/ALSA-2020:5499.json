@@ -147,6 +147,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2020-7774",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-7774"
+		},
+		{
 			"name": "CVE-2020-8277",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -177,14 +185,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-7608"
-		},
-		{
-			"name": "CVE-2020-7774",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-7774"
 		}
 	],
 	"published": "2020-12-15T16:03:21Z",
