@@ -26,6 +26,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-11095",
+			"references": [
+				{
+					"name": "CVE-2020-11095",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-11095"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-11096",
+			"references": [
+				{
+					"name": "CVE-2020-11096",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-11096"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-11097",
 			"references": [
 				{
@@ -102,35 +128,25 @@
 					"url": "https://vulners.com/cve/CVE-2020-4033"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2020-11095",
-			"references": [
-				{
-					"name": "CVE-2020-11095",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-11095"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-11096",
-			"references": [
-				{
-					"name": "CVE-2020-11096",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-11096"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-4030",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-4030"
+		},
+		{
+			"name": "CVE-2020-4033",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-4033"
+		},
 		{
 			"name": "CVE-2020-11095",
 			"source": "errata.almalinux.org",
@@ -178,22 +194,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-15103"
-		},
-		{
-			"name": "CVE-2020-4030",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-4030"
-		},
-		{
-			"name": "CVE-2020-4033",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-4033"
 		}
 	],
 	"published": "2021-05-18T06:14:36Z",

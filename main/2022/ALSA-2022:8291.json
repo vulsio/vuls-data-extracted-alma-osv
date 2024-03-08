@@ -61,22 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2022-8291",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-8291.html"
-		},
-		{
-			"name": "RHSA-2022:8291",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:8291"
-		},
-		{
 			"name": "CVE-2022-37434",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +75,22 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2116639"
+		},
+		{
+			"name": "ALSA-2022-8291",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-8291.html"
+		},
+		{
+			"name": "RHSA-2022:8291",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:8291"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

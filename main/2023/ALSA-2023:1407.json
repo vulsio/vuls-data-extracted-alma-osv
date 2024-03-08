@@ -93,20 +93,12 @@
 	],
 	"references": [
 		{
-			"name": "2178466",
+			"name": "CVE-2023-25751",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2178466"
-		},
-		{
-			"name": "2178470",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2178470"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-25751"
 		},
 		{
 			"name": "CVE-2023-28164",
@@ -133,12 +125,28 @@
 			"url": "https://bugzilla.redhat.com/2178458"
 		},
 		{
-			"name": "2178460",
+			"name": "2178466",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2178460"
+			"url": "https://bugzilla.redhat.com/2178466"
+		},
+		{
+			"name": "2178470",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2178470"
+		},
+		{
+			"name": "ALSA-2023-1407",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-1407.html"
 		},
 		{
 			"name": "RHSA-2023:1407",
@@ -147,14 +155,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:1407"
-		},
-		{
-			"name": "CVE-2023-25751",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-25751"
 		},
 		{
 			"name": "CVE-2023-25752",
@@ -173,20 +173,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-28162"
 		},
 		{
+			"name": "2178460",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2178460"
+		},
+		{
 			"name": "2178472",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2178472"
-		},
-		{
-			"name": "ALSA-2023-1407",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-1407.html"
 		}
 	],
 	"published": "2023-03-22T00:00:00Z",
