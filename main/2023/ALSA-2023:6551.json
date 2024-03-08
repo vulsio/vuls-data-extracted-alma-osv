@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "2221249",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2221249"
+		},
+		{
 			"name": "ALSA-2023-6551",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -83,14 +91,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-33460"
-		},
-		{
-			"name": "2221249",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2221249"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

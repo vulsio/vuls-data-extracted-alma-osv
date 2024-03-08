@@ -761,6 +761,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2022:6158",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6158"
+		},
+		{
 			"name": "CVE-2022-31625",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -783,14 +791,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-6158.html"
-		},
-		{
-			"name": "RHSA-2022:6158",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6158"
 		}
 	],
 	"published": "2022-08-24T00:00:00Z",

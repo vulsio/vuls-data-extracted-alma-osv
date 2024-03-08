@@ -605,20 +605,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-37454"
 		},
 		{
+			"name": "2133688",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2133688"
+		},
+		{
 			"name": "2139280",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2139280"
-		},
-		{
-			"name": "2140200",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2140200"
 		},
 		{
 			"name": "CVE-2022-31630",
@@ -645,12 +645,12 @@
 			"url": "https://bugzilla.redhat.com/2133687"
 		},
 		{
-			"name": "2133688",
+			"name": "2140200",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2133688"
+			"url": "https://bugzilla.redhat.com/2140200"
 		},
 		{
 			"name": "2158791",

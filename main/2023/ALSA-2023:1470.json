@@ -546,6 +546,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-4269",
+			"references": [
+				{
+					"name": "CVE-2022-4269",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-4269"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-4744",
 			"references": [
 				{
@@ -570,22 +583,17 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-0266"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-4269",
-			"references": [
-				{
-					"name": "CVE-2022-4269",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-4269"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2022-4269",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4269"
+		},
 		{
 			"name": "CVE-2022-4744",
 			"source": "errata.almalinux.org",
@@ -641,14 +649,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:1470"
-		},
-		{
-			"name": "CVE-2022-4269",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-4269"
 		}
 	],
 	"published": "2023-03-27T00:00:00Z",

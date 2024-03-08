@@ -3426,6 +3426,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-25635",
+			"references": [
+				{
+					"name": "CVE-2021-25635",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-25635"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-25633",
 			"references": [
 				{
@@ -3450,22 +3463,17 @@
 					"url": "https://vulners.com/cve/CVE-2021-25634"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2021-25635",
-			"references": [
-				{
-					"name": "CVE-2021-25635",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-25635"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2021-25635",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-25635"
+		},
 		{
 			"name": "ALSA-2022-1766",
 			"source": "errata.almalinux.org",
@@ -3489,14 +3497,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-25634"
-		},
-		{
-			"name": "CVE-2021-25635",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-25635"
 		}
 	],
 	"published": "2022-05-10T08:00:06Z",
