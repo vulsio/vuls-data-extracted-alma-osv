@@ -41,20 +41,20 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2019-18874",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-18874"
-		},
-		{
 			"name": "ALSA-2021-4324",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2021-4324.html"
+		},
+		{
+			"name": "CVE-2019-18874",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-18874"
 		}
 	],
 	"published": "2021-11-09T09:01:04Z",

@@ -346,6 +346,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-3468",
+			"references": [
+				{
+					"name": "CVE-2021-3468",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-3468"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-38469",
+			"references": [
+				{
+					"name": "CVE-2023-38469",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38469"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-38470",
 			"references": [
 				{
@@ -396,35 +422,25 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-38473"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2021-3468",
-			"references": [
-				{
-					"name": "CVE-2021-3468",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-3468"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2023-38469",
-			"references": [
-				{
-					"name": "CVE-2023-38469",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-38469"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2021-3468",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-3468"
+		},
+		{
+			"name": "2191690",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2191690"
+		},
 		{
 			"name": "CVE-2023-38470",
 			"source": "errata.almalinux.org",
@@ -432,6 +448,30 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-38470"
+		},
+		{
+			"name": "CVE-2023-38471",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-38471"
+		},
+		{
+			"name": "2191687",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2191687"
+		},
+		{
+			"name": "CVE-2023-38469",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-38469"
 		},
 		{
 			"name": "CVE-2023-38472",
@@ -450,36 +490,20 @@
 			"url": "https://bugzilla.redhat.com/2191691"
 		},
 		{
-			"name": "ALSA-2023-7836",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-7836.html"
-		},
-		{
-			"name": "CVE-2021-3468",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-3468"
-		},
-		{
-			"name": "CVE-2023-38469",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-38469"
-		},
-		{
 			"name": "2191694",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2191694"
+		},
+		{
+			"name": "ALSA-2023-7836",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-7836.html"
 		},
 		{
 			"name": "RHSA-2023:7836",
@@ -506,36 +530,12 @@
 			"url": "https://bugzilla.redhat.com/1939614"
 		},
 		{
-			"name": "2191687",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2191687"
-		},
-		{
-			"name": "2191690",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2191690"
-		},
-		{
 			"name": "2191692",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2191692"
-		},
-		{
-			"name": "CVE-2023-38471",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-38471"
 		}
 	],
 	"published": "2023-12-14T00:00:00Z",
