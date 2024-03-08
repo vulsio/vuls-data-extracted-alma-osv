@@ -1194,22 +1194,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2007-4559",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
-		},
-		{
-			"name": "CVE-2023-32681",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32681"
-		},
-		{
 			"name": "2209469",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -1240,6 +1224,22 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:7050"
+		},
+		{
+			"name": "CVE-2007-4559",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
+		},
+		{
+			"name": "CVE-2023-32681",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32681"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",

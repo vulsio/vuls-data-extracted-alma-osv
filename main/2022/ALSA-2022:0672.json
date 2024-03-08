@@ -1114,7 +1114,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-31799"
+					"url": "https://vulners.com/cve/CVE-2021-31799"
 				},
 				{
 					"name": "CVE-2021-31799",
@@ -1122,7 +1122,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2021-31799"
+					"url": "https://access.redhat.com/security/cve/CVE-2021-31799"
 				}
 			]
 		},
@@ -1171,6 +1171,30 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-31799",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-31799"
+		},
+		{
+			"name": "1980126",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1980126"
+		},
+		{
+			"name": "1980128",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1980128"
+		},
+		{
 			"name": "ALSA-2022-0672",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -1195,28 +1219,12 @@
 			"url": "https://vulners.com/cve/CVE-2021-32066"
 		},
 		{
-			"name": "1980128",
+			"name": "RHSA-2022:0672",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"third-party-advisory"
 			],
-			"url": "https://bugzilla.redhat.com/1980128"
-		},
-		{
-			"name": "CVE-2021-31799",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-31799"
-		},
-		{
-			"name": "CVE-2021-31810",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-31810"
+			"url": "https://access.redhat.com/errata/RHSA-2022:0672"
 		},
 		{
 			"name": "CVE-2021-32066",
@@ -1225,14 +1233,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-32066"
-		},
-		{
-			"name": "1980126",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1980126"
 		},
 		{
 			"name": "1980132",
@@ -1251,12 +1251,12 @@
 			"url": "https://vulners.com/cve/CVE-2021-31799"
 		},
 		{
-			"name": "RHSA-2022:0672",
+			"name": "CVE-2021-31810",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"cve"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:0672"
+			"url": "https://access.redhat.com/security/cve/CVE-2021-31810"
 		}
 	],
 	"published": "2022-02-24T00:00:00Z",

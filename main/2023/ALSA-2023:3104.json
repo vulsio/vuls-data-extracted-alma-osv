@@ -126,6 +126,9 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-28617"
+		},
+		{
 			"cve": "CVE-2023-2491",
 			"references": [
 				{
@@ -137,12 +140,17 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-2491"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-28617"
 		}
 	],
 	"references": [
+		{
+			"name": "2192873",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2192873"
+		},
 		{
 			"name": "ALSA-2023-3104",
 			"source": "errata.almalinux.org",
@@ -166,14 +174,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-2491"
-		},
-		{
-			"name": "2192873",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2192873"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",
