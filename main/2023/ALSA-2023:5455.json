@@ -4340,12 +4340,44 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2023-5455",
+			"name": "RHSA-2023:5455",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"third-party-advisory"
 			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-5455.html"
+			"url": "https://access.redhat.com/errata/RHSA-2023:5455"
+		},
+		{
+			"name": "CVE-2023-4813",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-4813"
+		},
+		{
+			"name": "2237798",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2237798"
+		},
+		{
+			"name": "2238352",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2238352"
+		},
+		{
+			"name": "CVE-2023-4527",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-4527"
 		},
 		{
 			"name": "CVE-2023-4806",
@@ -4372,52 +4404,20 @@
 			"url": "https://bugzilla.redhat.com/2234712"
 		},
 		{
-			"name": "2238352",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2238352"
-		},
-		{
-			"name": "2237798",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2237798"
-		},
-		{
-			"name": "RHSA-2023:5455",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:5455"
-		},
-		{
-			"name": "CVE-2023-4527",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-4527"
-		},
-		{
-			"name": "CVE-2023-4813",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-4813"
-		},
-		{
 			"name": "2237782",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2237782"
+		},
+		{
+			"name": "ALSA-2023-5455",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-5455.html"
 		}
 	],
 	"published": "2023-10-05T00:00:00Z",

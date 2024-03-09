@@ -61,22 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "263261",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/263261"
-		},
-		{
-			"name": "ALSA-2023-6914",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-6914.html"
-		},
-		{
 			"name": "RHSA-2023:6914",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +75,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
+		},
+		{
+			"name": "263261",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/263261"
+		},
+		{
+			"name": "ALSA-2023-6914",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2023-6914.html"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",
