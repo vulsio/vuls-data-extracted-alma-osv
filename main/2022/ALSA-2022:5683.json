@@ -507,6 +507,14 @@
 	],
 	"references": [
 		{
+			"name": "2108543",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2108543"
+		},
+		{
 			"name": "2108554",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -561,14 +569,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2108540"
-		},
-		{
-			"name": "2108543",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2108543"
 		}
 	],
 	"published": "2022-07-21T00:00:00Z",
