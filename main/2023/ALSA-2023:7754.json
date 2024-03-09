@@ -61,22 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-44638",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-44638"
-		},
-		{
-			"name": "2139988",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2139988"
-		},
-		{
 			"name": "ALSA-2023-7754",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +75,22 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:7754"
+		},
+		{
+			"name": "CVE-2022-44638",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-44638"
+		},
+		{
+			"name": "2139988",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2139988"
 		}
 	],
 	"published": "2023-12-12T00:00:00Z",

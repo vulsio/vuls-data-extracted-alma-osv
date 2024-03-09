@@ -141,6 +141,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-32746",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32746"
+		},
+		{
 			"name": "2108215",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -163,14 +171,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:7730"
-		},
-		{
-			"name": "CVE-2022-32746",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-32746"
 		}
 	],
 	"published": "2022-11-08T00:00:00Z",

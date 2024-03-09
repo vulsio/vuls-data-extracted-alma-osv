@@ -240,36 +240,20 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:3922",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:3922"
-		},
-		{
-			"name": "CVE-2023-29402",
+			"name": "CVE-2023-29404",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-29402"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-29404"
 		},
 		{
-			"name": "CVE-2023-29403",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-29403"
-		},
-		{
-			"name": "2217562",
+			"name": "2217565",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2217562"
+			"url": "https://bugzilla.redhat.com/2217565"
 		},
 		{
 			"name": "2217569",
@@ -280,12 +264,20 @@
 			"url": "https://bugzilla.redhat.com/2217569"
 		},
 		{
-			"name": "CVE-2023-29404",
+			"name": "CVE-2023-29403",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-29404"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-29403"
+		},
+		{
+			"name": "CVE-2023-29402",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-29402"
 		},
 		{
 			"name": "CVE-2023-29405",
@@ -304,12 +296,12 @@
 			"url": "https://bugzilla.redhat.com/2216965"
 		},
 		{
-			"name": "2217565",
+			"name": "2217562",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2217565"
+			"url": "https://bugzilla.redhat.com/2217562"
 		},
 		{
 			"name": "ALSA-2023-3922",
@@ -318,6 +310,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-3922.html"
+		},
+		{
+			"name": "RHSA-2023:3922",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:3922"
 		}
 	],
 	"published": "2023-06-29T00:00:00Z",

@@ -221,6 +221,14 @@
 	],
 	"references": [
 		{
+			"name": "2170377",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2170377"
+		},
+		{
 			"name": "ALSA-2023-1252",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -243,14 +251,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-0767"
-		},
-		{
-			"name": "2170377",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2170377"
 		}
 	],
 	"published": "2023-03-15T00:00:00Z",

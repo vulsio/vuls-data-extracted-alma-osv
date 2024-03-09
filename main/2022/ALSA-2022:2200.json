@@ -186,6 +186,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-29145",
+			"references": [
+				{
+					"name": "CVE-2022-29145",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-29145"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-23267",
 			"references": [
 				{
@@ -210,22 +223,17 @@
 					"url": "https://vulners.com/cve/CVE-2022-29117"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-29145",
-			"references": [
-				{
-					"name": "CVE-2022-29145",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-29145"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "ALSA-2022-2200",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-2200.html"
+		},
 		{
 			"name": "CVE-2022-23267",
 			"source": "errata.almalinux.org",
@@ -249,14 +257,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2022-29145"
-		},
-		{
-			"name": "ALSA-2022-2200",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-2200.html"
 		}
 	],
 	"published": "2022-05-11T13:22:02Z",
