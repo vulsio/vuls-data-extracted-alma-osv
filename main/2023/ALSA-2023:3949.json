@@ -101,14 +101,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:3949",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:3949"
-		},
-		{
 			"name": "CVE-2023-20867",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -131,6 +123,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-3949.html"
+		},
+		{
+			"name": "RHSA-2023:3949",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:3949"
 		}
 	],
 	"published": "2023-06-29T00:00:00Z",

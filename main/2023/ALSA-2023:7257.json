@@ -214,14 +214,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2023-7257",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-7257.html"
-		},
-		{
 			"name": "RHSA-2023:7257",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -260,6 +252,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2248883"
+		},
+		{
+			"name": "ALSA-2023-7257",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-7257.html"
 		}
 	],
 	"published": "2023-11-15T00:00:00Z",
