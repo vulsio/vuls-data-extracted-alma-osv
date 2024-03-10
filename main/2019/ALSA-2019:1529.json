@@ -1006,6 +1006,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2018-8037",
+			"references": [
+				{
+					"name": "CVE-2018-8037",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-8037"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2018-11784",
 			"references": [
 				{
@@ -1041,19 +1054,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2018-8034"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2018-8037",
-			"references": [
-				{
-					"name": "CVE-2018-8037",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-8037"
 				}
 			]
 		}

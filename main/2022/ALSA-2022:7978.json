@@ -74,14 +74,6 @@
 	],
 	"references": [
 		{
-			"name": "2103202",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2103202"
-		},
-		{
 			"name": "ALSA-2022-7978",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -120,6 +112,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2087591"
+		},
+		{
+			"name": "2103202",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2103202"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",
