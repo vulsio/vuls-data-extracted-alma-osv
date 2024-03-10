@@ -1886,19 +1886,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2020-14339",
-			"references": [
-				{
-					"name": "CVE-2020-14339",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-14339"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-1983",
 			"references": [
 				{
@@ -1960,6 +1947,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2020-14301"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-14339",
+			"references": [
+				{
+					"name": "CVE-2020-14339",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-14339"
 				}
 			]
 		}

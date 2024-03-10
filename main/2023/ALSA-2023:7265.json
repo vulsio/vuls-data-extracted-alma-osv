@@ -114,14 +114,6 @@
 	],
 	"references": [
 		{
-			"name": "2246080",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2246080"
-		},
-		{
 			"name": "2246096",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -160,6 +152,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-34059"
+		},
+		{
+			"name": "2246080",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2246080"
 		}
 	],
 	"published": "2023-11-15T00:00:00Z",

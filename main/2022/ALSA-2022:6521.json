@@ -241,22 +241,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-38013",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-38013"
-		},
-		{
-			"name": "2125124",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2125124"
-		},
-		{
 			"name": "ALSA-2022-6521",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -271,6 +255,22 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:6521"
+		},
+		{
+			"name": "CVE-2022-38013",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-38013"
+		},
+		{
+			"name": "2125124",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2125124"
 		}
 	],
 	"published": "2022-09-14T00:00:00Z",

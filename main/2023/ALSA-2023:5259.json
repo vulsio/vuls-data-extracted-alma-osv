@@ -380,12 +380,44 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:5259",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:5259"
+		},
+		{
+			"name": "CVE-2022-32084",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32084"
+		},
+		{
 			"name": "CVE-2022-47015",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-47015"
+		},
+		{
+			"name": "CVE-2022-32091",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32091"
+		},
+		{
+			"name": "CVE-2022-38791",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-38791"
 		},
 		{
 			"name": "2106034",
@@ -404,6 +436,14 @@
 			"url": "https://bugzilla.redhat.com/2106042"
 		},
 		{
+			"name": "2130105",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2130105"
+		},
+		{
 			"name": "2163609",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -418,46 +458,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-5259.html"
-		},
-		{
-			"name": "CVE-2022-32084",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-32084"
-		},
-		{
-			"name": "CVE-2022-32091",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-32091"
-		},
-		{
-			"name": "2130105",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2130105"
-		},
-		{
-			"name": "RHSA-2023:5259",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:5259"
-		},
-		{
-			"name": "CVE-2022-38791",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-38791"
 		}
 	],
 	"published": "2023-09-19T00:00:00Z",
