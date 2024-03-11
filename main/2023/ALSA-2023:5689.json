@@ -221,6 +221,14 @@
 	],
 	"references": [
 		{
+			"name": "ALSA-2023-5689",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-5689.html"
+		},
+		{
 			"name": "RHSA-2023:5689",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -243,14 +251,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2239621"
-		},
-		{
-			"name": "ALSA-2023-5689",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-5689.html"
 		}
 	],
 	"published": "2023-10-12T00:00:00Z",

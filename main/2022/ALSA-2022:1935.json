@@ -746,19 +746,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-21703",
-			"references": [
-				{
-					"name": "CVE-2021-21703",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-21703"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-21705",
 			"references": [
 				{
@@ -770,17 +757,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2021-21705"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-21703",
+			"references": [
+				{
+					"name": "CVE-2021-21703",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-21703"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2022:1935",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:1935"
-		},
 		{
 			"name": "CVE-2021-21703",
 			"source": "errata.almalinux.org",
@@ -820,6 +812,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-1935.html"
+		},
+		{
+			"name": "RHSA-2022:1935",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:1935"
 		}
 	],
 	"published": "2022-05-10T00:00:00Z",

@@ -81,6 +81,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2022:5526",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5526"
+		},
+		{
 			"name": "CVE-2021-46784",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -103,14 +111,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-5526.html"
-		},
-		{
-			"name": "RHSA-2022:5526",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:5526"
 		}
 	],
 	"published": "2022-07-07T00:00:00Z",

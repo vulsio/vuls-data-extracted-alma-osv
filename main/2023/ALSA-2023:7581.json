@@ -456,6 +456,14 @@
 			"url": "https://bugzilla.redhat.com/2247169"
 		},
 		{
+			"name": "2247170",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2247170"
+		},
+		{
 			"name": "RHSA-2023:7581",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -494,14 +502,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2247168"
-		},
-		{
-			"name": "2247170",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2247170"
 		},
 		{
 			"name": "ALSA-2023-7581",

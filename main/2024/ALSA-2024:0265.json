@@ -6,7 +6,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk"
 			},
 			"ranges": [
@@ -17,7 +17,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -26,7 +26,67 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-1.8.0-openjdk-accessibility"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:1.8.0.402.b06-2.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-1.8.0-openjdk-accessibility-fastdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:1.8.0.402.b06-2.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
+				"name": "java-1.8.0-openjdk-accessibility-slowdebug"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1:1.8.0.402.b06-2.el8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"vulnerable": true,
+			"package": {
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-demo"
 			},
 			"ranges": [
@@ -37,7 +97,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -46,7 +106,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-demo-fastdebug"
 			},
 			"ranges": [
@@ -57,7 +117,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -66,7 +126,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-demo-slowdebug"
 			},
 			"ranges": [
@@ -77,7 +137,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -86,7 +146,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-devel"
 			},
 			"ranges": [
@@ -97,7 +157,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -106,7 +166,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-devel-fastdebug"
 			},
 			"ranges": [
@@ -117,7 +177,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -126,7 +186,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-devel-slowdebug"
 			},
 			"ranges": [
@@ -137,7 +197,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -146,7 +206,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-fastdebug"
 			},
 			"ranges": [
@@ -157,7 +217,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -166,7 +226,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-headless"
 			},
 			"ranges": [
@@ -177,7 +237,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -186,7 +246,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-headless-fastdebug"
 			},
 			"ranges": [
@@ -197,7 +257,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -206,7 +266,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-headless-slowdebug"
 			},
 			"ranges": [
@@ -217,7 +277,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -226,7 +286,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-javadoc"
 			},
 			"ranges": [
@@ -237,7 +297,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -246,7 +306,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-javadoc-zip"
 			},
 			"ranges": [
@@ -257,7 +317,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -266,7 +326,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-slowdebug"
 			},
 			"ranges": [
@@ -277,7 +337,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -286,7 +346,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-src"
 			},
 			"ranges": [
@@ -297,7 +357,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -306,7 +366,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-src-fastdebug"
 			},
 			"ranges": [
@@ -317,7 +377,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -326,7 +386,7 @@
 		{
 			"vulnerable": true,
 			"package": {
-				"ecosystem": "AlmaLinux:9",
+				"ecosystem": "AlmaLinux:8",
 				"name": "java-1.8.0-openjdk-src-slowdebug"
 			},
 			"ranges": [
@@ -337,7 +397,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "1:1.8.0.402.b06-2.el9"
+							"fixed": "1:1.8.0.402.b06-2.el8"
 						}
 					]
 				}
@@ -345,6 +405,32 @@
 		}
 	],
 	"vulnerabilities": [
+		{
+			"cve": "CVE-2024-20952",
+			"references": [
+				{
+					"name": "CVE-2024-20952",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2024-20952"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2024-20918",
+			"references": [
+				{
+					"name": "CVE-2024-20918",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2024-20918"
+				}
+			]
+		},
 		{
 			"cve": "CVE-2024-20919",
 			"references": [
@@ -396,66 +482,16 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2024-20945"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2024-20952",
-			"references": [
-				{
-					"name": "CVE-2024-20952",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2024-20952"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2024-20918",
-			"references": [
-				{
-					"name": "CVE-2024-20918",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2024-20918"
-				}
-			]
 		}
 	],
 	"references": [
 		{
-			"name": "2257853",
+			"name": "2257859",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2257853"
-		},
-		{
-			"name": "CVE-2024-20919",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-20919"
-		},
-		{
-			"name": "2257837",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2257837"
-		},
-		{
-			"name": "2257850",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2257850"
+			"url": "https://bugzilla.redhat.com/2257859"
 		},
 		{
 			"name": "2257874",
@@ -466,12 +502,12 @@
 			"url": "https://bugzilla.redhat.com/2257874"
 		},
 		{
-			"name": "ALSA-2024-0265",
+			"name": "2257850",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"vendor-advisory"
+				"bugzilla"
 			],
-			"url": "https://errata.almalinux.org/9/ALSA-2024-0265.html"
+			"url": "https://bugzilla.redhat.com/2257850"
 		},
 		{
 			"name": "CVE-2024-20918",
@@ -482,20 +518,28 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2024-20918"
 		},
 		{
-			"name": "CVE-2024-20926",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-20926"
-		},
-		{
 			"name": "CVE-2024-20945",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2024-20945"
+		},
+		{
+			"name": "RHSA-2024:0265",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0265"
+		},
+		{
+			"name": "CVE-2024-20926",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2024-20926"
 		},
 		{
 			"name": "CVE-2024-20952",
@@ -514,12 +558,12 @@
 			"url": "https://bugzilla.redhat.com/2257728"
 		},
 		{
-			"name": "RHSA-2024:0265",
+			"name": "2257853",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0265"
+			"url": "https://bugzilla.redhat.com/2257853"
 		},
 		{
 			"name": "CVE-2024-20921",
@@ -530,15 +574,31 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2024-20921"
 		},
 		{
-			"name": "2257859",
+			"name": "2257837",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2257859"
+			"url": "https://bugzilla.redhat.com/2257837"
+		},
+		{
+			"name": "ALSA-2024-0265",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2024-0265.html"
+		},
+		{
+			"name": "CVE-2024-20919",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2024-20919"
 		}
 	],
 	"published": "2024-01-17T00:00:00Z",
-	"modified": "2024-01-20T14:52:21Z",
+	"modified": "2024-03-05T10:02:30Z",
 	"data_source": "alma-osv"
 }
