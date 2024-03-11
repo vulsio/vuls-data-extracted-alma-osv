@@ -46,6 +46,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2019-13224",
+			"references": [
+				{
+					"name": "CVE-2019-13224",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2019-13224"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2019-16163",
 			"references": [
 				{
@@ -96,19 +109,6 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2019-19204"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2019-13224",
-			"references": [
-				{
-					"name": "CVE-2019-13224",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2019-13224"
-				}
-			]
 		}
 	],
 	"references": [
@@ -121,20 +121,36 @@
 			"url": "https://bugzilla.redhat.com/1768997"
 		},
 		{
-			"name": "1802051",
+			"name": "1802061",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/1802051"
+			"url": "https://bugzilla.redhat.com/1802061"
 		},
 		{
-			"name": "1802068",
+			"name": "ALSA-2024-0889",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2024-0889.html"
+		},
+		{
+			"name": "CVE-2019-19203",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2019-19203"
+		},
+		{
+			"name": "1728970",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/1802068"
+			"url": "https://bugzilla.redhat.com/1728970"
 		},
 		{
 			"name": "CVE-2019-16163",
@@ -161,28 +177,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2019-19204"
 		},
 		{
-			"name": "1728970",
+			"name": "1802051",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/1728970"
+			"url": "https://bugzilla.redhat.com/1802051"
 		},
 		{
-			"name": "1802061",
+			"name": "1802068",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/1802061"
-		},
-		{
-			"name": "ALSA-2024-0889",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2024-0889.html"
+			"url": "https://bugzilla.redhat.com/1802068"
 		},
 		{
 			"name": "RHSA-2024:0889",
@@ -199,14 +207,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2019-13224"
-		},
-		{
-			"name": "CVE-2019-19203",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2019-19203"
 		}
 	],
 	"published": "2024-02-20T00:00:00Z",
