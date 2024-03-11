@@ -700,28 +700,12 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-41817",
+			"name": "RHSA-2022:6450",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"third-party-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-41817"
-		},
-		{
-			"name": "CVE-2021-41819",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-41819"
-		},
-		{
-			"name": "CVE-2022-28739",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-28739"
+			"url": "https://access.redhat.com/errata/RHSA-2022:6450"
 		},
 		{
 			"name": "2025104",
@@ -738,22 +722,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2026757"
-		},
-		{
-			"name": "RHSA-2022:6450",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6450"
-		},
-		{
-			"name": "CVE-2022-28738",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-28738"
 		},
 		{
 			"name": "2075685",
@@ -778,6 +746,38 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2022-6450.html"
+		},
+		{
+			"name": "CVE-2021-41817",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-41817"
+		},
+		{
+			"name": "CVE-2021-41819",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-41819"
+		},
+		{
+			"name": "CVE-2022-28738",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-28738"
+		},
+		{
+			"name": "CVE-2022-28739",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-28739"
 		}
 	],
 	"published": "2022-09-13T00:00:00Z",

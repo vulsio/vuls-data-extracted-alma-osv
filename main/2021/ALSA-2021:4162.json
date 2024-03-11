@@ -806,6 +806,58 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-23336",
+			"references": [
+				{
+					"name": "CVE-2021-23336",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-23336"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-28957",
+			"references": [
+				{
+					"name": "CVE-2021-28957",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-28957"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-29921",
+			"references": [
+				{
+					"name": "CVE-2021-29921",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-29921"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-3572",
+			"references": [
+				{
+					"name": "CVE-2021-3572",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3572"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-42771",
 			"references": [
 				{
@@ -828,58 +880,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2019-18874"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-28957",
-			"references": [
-				{
-					"name": "CVE-2021-28957",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-28957"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-3426",
-			"references": [
-				{
-					"name": "CVE-2021-3426",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-3426"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-3572",
-			"references": [
-				{
-					"name": "CVE-2021-3572",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-3572"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-33503",
-			"references": [
-				{
-					"name": "CVE-2021-33503",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-33503"
 				}
 			]
 		},
@@ -910,28 +910,28 @@
 			]
 		},
 		{
-			"cve": "CVE-2021-23336",
+			"cve": "CVE-2021-33503",
 			"references": [
 				{
-					"name": "CVE-2021-23336",
+					"name": "CVE-2021-33503",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2021-23336"
+					"url": "https://vulners.com/cve/CVE-2021-33503"
 				}
 			]
 		},
 		{
-			"cve": "CVE-2021-29921",
+			"cve": "CVE-2021-3426",
 			"references": [
 				{
-					"name": "CVE-2021-29921",
+					"name": "CVE-2021-3426",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2021-29921"
+					"url": "https://vulners.com/cve/CVE-2021-3426"
 				}
 			]
 		}
@@ -954,20 +954,20 @@
 			"url": "https://vulners.com/cve/CVE-2021-20095"
 		},
 		{
+			"name": "CVE-2021-23336",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-23336"
+		},
+		{
 			"name": "CVE-2021-33503",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-33503"
-		},
-		{
-			"name": "CVE-2021-3426",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-3426"
 		},
 		{
 			"name": "CVE-2021-3572",
@@ -1010,14 +1010,6 @@
 			"url": "https://vulners.com/cve/CVE-2020-27619"
 		},
 		{
-			"name": "CVE-2021-23336",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-23336"
-		},
-		{
 			"name": "CVE-2021-28957",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -1032,6 +1024,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-29921"
+		},
+		{
+			"name": "CVE-2021-3426",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-3426"
 		}
 	],
 	"published": "2021-11-09T12:47:54Z",

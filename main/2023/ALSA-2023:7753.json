@@ -1134,14 +1134,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-43804",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-43804"
-		},
-		{
 			"name": "2226586",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -1180,6 +1172,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-37920"
+		},
+		{
+			"name": "CVE-2023-43804",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-43804"
 		}
 	],
 	"published": "2023-12-12T00:00:00Z",
