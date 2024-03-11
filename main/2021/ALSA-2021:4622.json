@@ -106,19 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-41160",
-			"references": [
-				{
-					"name": "CVE-2021-41160",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-41160"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-41159",
 			"references": [
 				{
@@ -130,17 +117,22 @@
 					"url": "https://vulners.com/cve/CVE-2021-41159"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-41160",
+			"references": [
+				{
+					"name": "CVE-2021-41160",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-41160"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "ALSA-2021-4622",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2021-4622.html"
-		},
 		{
 			"name": "CVE-2021-41159",
 			"source": "errata.almalinux.org",
@@ -156,6 +148,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-41160"
+		},
+		{
+			"name": "ALSA-2021-4622",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2021-4622.html"
 		}
 	],
 	"published": "2021-11-11T09:34:33Z",
