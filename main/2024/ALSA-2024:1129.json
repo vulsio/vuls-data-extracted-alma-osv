@@ -121,14 +121,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-46218",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-46218"
-		},
-		{
 			"name": "2252030",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -151,6 +143,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2024:1129"
+		},
+		{
+			"name": "CVE-2023-46218",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-46218"
 		}
 	],
 	"published": "2024-03-05T00:00:00Z",

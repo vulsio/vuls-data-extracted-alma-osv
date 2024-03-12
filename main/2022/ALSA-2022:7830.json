@@ -213,6 +213,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2022:7830",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:7830"
+		},
+		{
 			"name": "CVE-2021-44532",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -229,20 +237,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2021-44533"
 		},
 		{
-			"name": "2040862",
+			"name": "CVE-2022-21824",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2040862"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-21824"
 		},
 		{
-			"name": "2130518",
+			"name": "2040856",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2130518"
+			"url": "https://bugzilla.redhat.com/2040856"
 		},
 		{
 			"name": "ALSA-2022-7830",
@@ -253,28 +261,12 @@
 			"url": "https://errata.almalinux.org/8/ALSA-2022-7830.html"
 		},
 		{
-			"name": "RHSA-2022:7830",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:7830"
-		},
-		{
 			"name": "CVE-2021-44531",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-44531"
-		},
-		{
-			"name": "CVE-2022-21824",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-21824"
 		},
 		{
 			"name": "CVE-2022-35256",
@@ -301,12 +293,20 @@
 			"url": "https://bugzilla.redhat.com/2040846"
 		},
 		{
-			"name": "2040856",
+			"name": "2040862",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2040856"
+			"url": "https://bugzilla.redhat.com/2040862"
+		},
+		{
+			"name": "2130518",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2130518"
 		}
 	],
 	"published": "2022-11-08T00:00:00Z",

@@ -121,14 +121,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-46822",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-46822"
-		},
-		{
 			"name": "2100044",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -151,6 +143,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:1068"
+		},
+		{
+			"name": "CVE-2021-46822",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-46822"
 		}
 	],
 	"published": "2023-03-06T00:00:00Z",

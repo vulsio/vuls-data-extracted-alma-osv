@@ -87,6 +87,22 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-26768",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-26768"
+		},
+		{
+			"name": "CVE-2023-26769",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-26769"
+		},
+		{
 			"name": "2181135",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -133,22 +149,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-26767"
-		},
-		{
-			"name": "CVE-2023-26768",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-26768"
-		},
-		{
-			"name": "CVE-2023-26769",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-26769"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",
