@@ -100,12 +100,12 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2024:0130",
+			"name": "CVE-2023-38406",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"cve"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0130"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-38406"
 		},
 		{
 			"name": "CVE-2023-38407",
@@ -148,12 +148,12 @@
 			"url": "https://errata.almalinux.org/8/ALSA-2024-0130.html"
 		},
 		{
-			"name": "CVE-2023-38406",
+			"name": "RHSA-2024:0130",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"third-party-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-38406"
+			"url": "https://access.redhat.com/errata/RHSA-2024:0130"
 		},
 		{
 			"name": "CVE-2023-47235",

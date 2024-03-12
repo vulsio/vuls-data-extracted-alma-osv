@@ -221,6 +221,14 @@
 	],
 	"references": [
 		{
+			"name": "2243644",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2243644"
+		},
+		{
 			"name": "ALSA-2024-0105",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -243,14 +251,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-5388"
-		},
-		{
-			"name": "2243644",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2243644"
 		}
 	],
 	"published": "2024-01-10T00:00:00Z",

@@ -46,19 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2018-14553",
-			"references": [
-				{
-					"name": "CVE-2018-14553",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2018-14553"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2019-6977",
 			"references": [
 				{
@@ -83,17 +70,22 @@
 					"url": "https://vulners.com/cve/CVE-2019-6978"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2018-14553",
+			"references": [
+				{
+					"name": "CVE-2018-14553",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2018-14553"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2019-6978",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-6978"
-		},
 		{
 			"name": "ALSA-2020-4659",
 			"source": "errata.almalinux.org",
@@ -117,6 +109,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-6977"
+		},
+		{
+			"name": "CVE-2019-6978",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-6978"
 		}
 	],
 	"published": "2020-11-03T12:24:40Z",

@@ -174,14 +174,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-0391",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-0391"
-		},
-		{
 			"name": "2047376",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -220,6 +212,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2015-20107"
+		},
+		{
+			"name": "CVE-2022-0391",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-0391"
 		}
 	],
 	"published": "2022-09-13T00:00:00Z",

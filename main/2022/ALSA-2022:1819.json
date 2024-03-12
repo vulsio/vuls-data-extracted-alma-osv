@@ -186,6 +186,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-38297",
+			"references": [
+				{
+					"name": "CVE-2021-38297",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-38297"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-39293",
 			"references": [
 				{
@@ -265,19 +278,6 @@
 		},
 		{
 			"cve": "CVE-2021-33196"
-		},
-		{
-			"cve": "CVE-2021-38297",
-			"references": [
-				{
-					"name": "CVE-2021-38297",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-38297"
-				}
-			]
 		}
 	],
 	"references": [

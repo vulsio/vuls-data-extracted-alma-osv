@@ -93,20 +93,20 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-38476",
+			"name": "2120678",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-38476"
+			"url": "https://bugzilla.redhat.com/2120678"
 		},
 		{
-			"name": "CVE-2022-38477",
+			"name": "ALSA-2022-6165",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"vendor-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-38477"
+			"url": "https://errata.almalinux.org/9/ALSA-2022-6165.html"
 		},
 		{
 			"name": "2120673",
@@ -125,28 +125,12 @@
 			"url": "https://bugzilla.redhat.com/2120674"
 		},
 		{
-			"name": "2120678",
+			"name": "RHSA-2022:6165",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"third-party-advisory"
 			],
-			"url": "https://bugzilla.redhat.com/2120678"
-		},
-		{
-			"name": "2120696",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2120696"
-		},
-		{
-			"name": "ALSA-2022-6165",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-6165.html"
+			"url": "https://access.redhat.com/errata/RHSA-2022:6165"
 		},
 		{
 			"name": "CVE-2022-38472",
@@ -165,6 +149,22 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-38473"
 		},
 		{
+			"name": "CVE-2022-38476",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-38476"
+		},
+		{
+			"name": "CVE-2022-38477",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-38477"
+		},
+		{
 			"name": "CVE-2022-38478",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -181,12 +181,12 @@
 			"url": "https://bugzilla.redhat.com/2120695"
 		},
 		{
-			"name": "RHSA-2022:6165",
+			"name": "2120696",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6165"
+			"url": "https://bugzilla.redhat.com/2120696"
 		}
 	],
 	"published": "2022-08-24T00:00:00Z",

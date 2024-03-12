@@ -94,6 +94,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-2283",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-2283"
+		},
+		{
 			"name": "2182199",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -132,14 +140,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-1667"
-		},
-		{
-			"name": "CVE-2023-2283",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-2283"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",
