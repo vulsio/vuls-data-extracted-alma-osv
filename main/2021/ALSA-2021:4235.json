@@ -46,32 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-26927",
-			"references": [
-				{
-					"name": "CVE-2021-26927",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-26927"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-3272",
-			"references": [
-				{
-					"name": "CVE-2021-3272",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-3272"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2020-27828",
 			"references": [
 				{
@@ -96,9 +70,43 @@
 					"url": "https://vulners.com/cve/CVE-2021-26926"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-26927",
+			"references": [
+				{
+					"name": "CVE-2021-26927",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-26927"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-3272",
+			"references": [
+				{
+					"name": "CVE-2021-3272",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3272"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2020-27828",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-27828"
+		},
 		{
 			"name": "CVE-2021-26926",
 			"source": "errata.almalinux.org",
@@ -130,14 +138,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2021-4235.html"
-		},
-		{
-			"name": "CVE-2020-27828",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-27828"
 		}
 	],
 	"published": "2021-11-09T08:48:32Z",
