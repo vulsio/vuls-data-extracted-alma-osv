@@ -227,14 +227,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-8927",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-8927"
-		},
-		{
 			"name": "CVE-2022-24464",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -249,6 +241,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2022-24512"
+		},
+		{
+			"name": "CVE-2020-8927",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-8927"
 		}
 	],
 	"published": "2022-03-10T14:44:29Z",

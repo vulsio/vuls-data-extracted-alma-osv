@@ -81,6 +81,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-48281",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-48281"
+		},
+		{
 			"name": "2163606",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -103,14 +111,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:3827"
-		},
-		{
-			"name": "CVE-2022-48281",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-48281"
 		}
 	],
 	"published": "2023-06-27T00:00:00Z",

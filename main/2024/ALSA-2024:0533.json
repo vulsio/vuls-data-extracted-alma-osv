@@ -106,19 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2024-0567",
-			"references": [
-				{
-					"name": "CVE-2024-0567",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2024-0567"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-5981",
 			"references": [
 				{
@@ -143,9 +130,30 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2024-0553"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2024-0567",
+			"references": [
+				{
+					"name": "CVE-2024-0567",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2024-0567"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "RHSA-2024:0533",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0533"
+		},
 		{
 			"name": "CVE-2023-5981",
 			"source": "errata.almalinux.org",
@@ -201,14 +209,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2024-0533.html"
-		},
-		{
-			"name": "RHSA-2024:0533",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0533"
 		}
 	],
 	"published": "2024-01-29T00:00:00Z",

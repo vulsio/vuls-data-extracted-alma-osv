@@ -1081,14 +1081,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2023:7202",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:7202"
-		},
-		{
 			"name": "CVE-2023-29406",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -1111,6 +1103,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-7202.html"
+		},
+		{
+			"name": "RHSA-2023:7202",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:7202"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",

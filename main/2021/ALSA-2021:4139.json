@@ -86,19 +86,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-27291",
-			"references": [
-				{
-					"name": "CVE-2021-27291",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-27291"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-20270",
 			"references": [
 				{
@@ -108,6 +95,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-20270"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-27291",
+			"references": [
+				{
+					"name": "CVE-2021-27291",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-27291"
 				}
 			]
 		}

@@ -7441,6 +7441,14 @@
 	],
 	"references": [
 		{
+			"name": "ALSA-2023-3661",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-3661.html"
+		},
+		{
 			"name": "RHSA-2023:3661",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -7463,14 +7471,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2208943"
-		},
-		{
-			"name": "ALSA-2023-3661",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-3661.html"
 		}
 	],
 	"published": "2023-06-19T00:00:00Z",
