@@ -54,14 +54,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2022-4769",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2022-4769.html"
-		},
-		{
 			"name": "CVE-2022-1529",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -76,6 +68,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2022-1802"
+		},
+		{
+			"name": "ALSA-2022-4769",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2022-4769.html"
 		}
 	],
 	"published": "2022-05-27T18:24:54Z",

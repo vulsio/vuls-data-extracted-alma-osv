@@ -114,6 +114,14 @@
 	],
 	"references": [
 		{
+			"name": "ALSA-2022-7288",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-7288.html"
+		},
+		{
 			"name": "RHSA-2022:7288",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -152,14 +160,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2139104"
-		},
-		{
-			"name": "ALSA-2022-7288",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-7288.html"
 		}
 	],
 	"published": "2022-11-01T00:00:00Z",

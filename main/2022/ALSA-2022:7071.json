@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-42932",
-			"references": [
-				{
-					"name": "CVE-2022-42932",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-42932"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-42927",
 			"references": [
 				{
@@ -76,16 +63,37 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-42929"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-42932",
+			"references": [
+				{
+					"name": "CVE-2022-42932",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42932"
+				}
+			]
 		}
 	],
 	"references": [
 		{
-			"name": "2136156",
+			"name": "CVE-2022-42929",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2136156"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-42929"
+		},
+		{
+			"name": "CVE-2022-42932",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-42932"
 		},
 		{
 			"name": "2136157",
@@ -94,14 +102,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2136157"
-		},
-		{
-			"name": "2136158",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2136158"
 		},
 		{
 			"name": "RHSA-2022:7071",
@@ -136,20 +136,20 @@
 			"url": "https://errata.almalinux.org/9/ALSA-2022-7071.html"
 		},
 		{
-			"name": "CVE-2022-42929",
+			"name": "2136156",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-42929"
+			"url": "https://bugzilla.redhat.com/2136156"
 		},
 		{
-			"name": "CVE-2022-42932",
+			"name": "2136158",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-42932"
+			"url": "https://bugzilla.redhat.com/2136158"
 		},
 		{
 			"name": "2136159",

@@ -746,19 +746,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-21705",
-			"references": [
-				{
-					"name": "CVE-2021-21705",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2021-21705"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-21703",
 			"references": [
 				{
@@ -770,9 +757,30 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2021-21703"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-21705",
+			"references": [
+				{
+					"name": "CVE-2021-21705",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2021-21705"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "1978755",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/1978755"
+		},
 		{
 			"name": "2016535",
 			"source": "errata.almalinux.org",
@@ -812,14 +820,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-21705"
-		},
-		{
-			"name": "1978755",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/1978755"
 		}
 	],
 	"published": "2022-05-10T00:00:00Z",
