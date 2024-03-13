@@ -26,6 +26,71 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2019-19543",
+			"references": [
+				{
+					"name": "CVE-2019-19543",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-19543"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-20636",
+			"references": [
+				{
+					"name": "CVE-2019-20636",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-20636"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-12465",
+			"references": [
+				{
+					"name": "CVE-2020-12465",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-12465"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-12826",
+			"references": [
+				{
+					"name": "CVE-2020-12826",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-12826"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-19770",
+			"references": [
+				{
+					"name": "CVE-2019-19770",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-19770"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-12659",
 			"references": [
 				{
@@ -39,28 +104,80 @@
 			]
 		},
 		{
-			"cve": "CVE-2020-10942",
+			"cve": "CVE-2020-12770",
 			"references": [
 				{
-					"name": "CVE-2020-10942",
+					"name": "CVE-2020-12770",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2020-10942"
+					"url": "https://vulners.com/cve/CVE-2020-12770"
 				}
 			]
 		},
 		{
-			"cve": "CVE-2020-11565",
+			"cve": "CVE-2019-16231",
 			"references": [
 				{
-					"name": "CVE-2020-11565",
+					"name": "CVE-2019-16231",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2020-11565"
+					"url": "https://vulners.com/cve/CVE-2019-16231"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-19046",
+			"references": [
+				{
+					"name": "CVE-2019-19046",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-19046"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-19063",
+			"references": [
+				{
+					"name": "CVE-2019-19063",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-19063"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-19068",
+			"references": [
+				{
+					"name": "CVE-2019-19068",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-19068"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-9458",
+			"references": [
+				{
+					"name": "CVE-2019-9458",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-9458"
 				}
 			]
 		},
@@ -91,93 +208,15 @@
 			]
 		},
 		{
-			"cve": "CVE-2019-15925",
+			"cve": "CVE-2020-11668",
 			"references": [
 				{
-					"name": "CVE-2019-15925",
+					"name": "CVE-2020-11668",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2019-15925"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-19537",
-			"references": [
-				{
-					"name": "CVE-2019-19537",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-19537"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-9455",
-			"references": [
-				{
-					"name": "CVE-2019-9455",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-9455"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-10774",
-			"references": [
-				{
-					"name": "CVE-2020-10774",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-10774"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-8647",
-			"references": [
-				{
-					"name": "CVE-2020-8647",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-8647"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-8648",
-			"references": [
-				{
-					"name": "CVE-2020-8648",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-8648"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-8649",
-			"references": [
-				{
-					"name": "CVE-2020-8649",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-8649"
+					"url": "https://vulners.com/cve/CVE-2020-11668"
 				}
 			]
 		},
@@ -195,80 +234,15 @@
 			]
 		},
 		{
-			"cve": "CVE-2019-9458",
+			"cve": "CVE-2019-19072",
 			"references": [
 				{
-					"name": "CVE-2019-9458",
+					"name": "CVE-2019-19072",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2019-9458"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-11668",
-			"references": [
-				{
-					"name": "CVE-2020-11668",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-11668"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-12826",
-			"references": [
-				{
-					"name": "CVE-2020-12826",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-12826"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-10773",
-			"references": [
-				{
-					"name": "CVE-2020-10773",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-10773"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-19046",
-			"references": [
-				{
-					"name": "CVE-2019-19046",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-19046"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-19524",
-			"references": [
-				{
-					"name": "CVE-2019-19524",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-19524"
+					"url": "https://vulners.com/cve/CVE-2019-19072"
 				}
 			]
 		},
@@ -286,54 +260,80 @@
 			]
 		},
 		{
-			"cve": "CVE-2020-0305",
+			"cve": "CVE-2019-9455",
 			"references": [
 				{
-					"name": "CVE-2020-0305",
+					"name": "CVE-2019-9455",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2020-0305"
+					"url": "https://vulners.com/cve/CVE-2019-9455"
 				}
 			]
 		},
 		{
-			"cve": "CVE-2019-19447",
+			"cve": "CVE-2019-19056",
 			"references": [
 				{
-					"name": "CVE-2019-19447",
+					"name": "CVE-2019-19056",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2019-19447"
+					"url": "https://vulners.com/cve/CVE-2019-19056"
 				}
 			]
 		},
 		{
-			"cve": "CVE-2019-19543",
+			"cve": "CVE-2020-10751",
 			"references": [
 				{
-					"name": "CVE-2019-19543",
+					"name": "CVE-2020-10751",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2019-19543"
+					"url": "https://vulners.com/cve/CVE-2020-10751"
 				}
 			]
 		},
 		{
-			"cve": "CVE-2020-12465",
+			"cve": "CVE-2020-10774",
 			"references": [
 				{
-					"name": "CVE-2020-12465",
+					"name": "CVE-2020-10774",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2020-12465"
+					"url": "https://vulners.com/cve/CVE-2020-10774"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-10942",
+			"references": [
+				{
+					"name": "CVE-2020-10942",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-10942"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-15925",
+			"references": [
+				{
+					"name": "CVE-2019-15925",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-15925"
 				}
 			]
 		},
@@ -377,80 +377,28 @@
 			]
 		},
 		{
-			"cve": "CVE-2019-19063",
+			"cve": "CVE-2019-19062",
 			"references": [
 				{
-					"name": "CVE-2019-19063",
+					"name": "CVE-2019-19062",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2019-19063"
+					"url": "https://vulners.com/cve/CVE-2019-19062"
 				}
 			]
 		},
 		{
-			"cve": "CVE-2020-12770",
+			"cve": "CVE-2019-19524",
 			"references": [
 				{
-					"name": "CVE-2020-12770",
+					"name": "CVE-2019-19524",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2020-12770"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-19072",
-			"references": [
-				{
-					"name": "CVE-2019-19072",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-19072"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-19770",
-			"references": [
-				{
-					"name": "CVE-2019-19770",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-19770"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-10732",
-			"references": [
-				{
-					"name": "CVE-2020-10732",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-10732"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-12655",
-			"references": [
-				{
-					"name": "CVE-2020-12655",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-12655"
+					"url": "https://vulners.com/cve/CVE-2019-19524"
 				}
 			]
 		},
@@ -468,15 +416,67 @@
 			]
 		},
 		{
-			"cve": "CVE-2020-10751",
+			"cve": "CVE-2020-0305",
 			"references": [
 				{
-					"name": "CVE-2020-10751",
+					"name": "CVE-2020-0305",
 					"source": "errata.almalinux.org",
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2020-10751"
+					"url": "https://vulners.com/cve/CVE-2020-0305"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-10732",
+			"references": [
+				{
+					"name": "CVE-2020-10732",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-10732"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-10773",
+			"references": [
+				{
+					"name": "CVE-2020-10773",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-10773"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-8647",
+			"references": [
+				{
+					"name": "CVE-2020-8647",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-8647"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-8649",
+			"references": [
+				{
+					"name": "CVE-2020-8649",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-8649"
 				}
 			]
 		},
@@ -490,71 +490,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2019-15917"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-16231",
-			"references": [
-				{
-					"name": "CVE-2019-16231",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-16231"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-19056",
-			"references": [
-				{
-					"name": "CVE-2019-19056",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-19056"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-19062",
-			"references": [
-				{
-					"name": "CVE-2019-19062",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-19062"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-20636",
-			"references": [
-				{
-					"name": "CVE-2019-20636",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-20636"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-19068",
-			"references": [
-				{
-					"name": "CVE-2019-19068",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-19068"
 				}
 			]
 		},
@@ -585,6 +520,45 @@
 			]
 		},
 		{
+			"cve": "CVE-2019-19447",
+			"references": [
+				{
+					"name": "CVE-2019-19447",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-19447"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-8648",
+			"references": [
+				{
+					"name": "CVE-2020-8648",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-8648"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-19537",
+			"references": [
+				{
+					"name": "CVE-2019-19537",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-19537"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2019-19767",
 			"references": [
 				{
@@ -596,16 +570,58 @@
 					"url": "https://vulners.com/cve/CVE-2019-19767"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2020-11565",
+			"references": [
+				{
+					"name": "CVE-2020-11565",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-11565"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2020-12655",
+			"references": [
+				{
+					"name": "CVE-2020-12655",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-12655"
+				}
+			]
 		}
 	],
 	"references": [
 		{
-			"name": "CVE-2019-9455",
+			"name": "CVE-2019-19062",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-9455"
+			"url": "https://vulners.com/cve/CVE-2019-19062"
+		},
+		{
+			"name": "CVE-2019-19332",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19332"
+		},
+		{
+			"name": "CVE-2019-19537",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19537"
 		},
 		{
 			"name": "CVE-2020-10942",
@@ -624,38 +640,6 @@
 			"url": "https://vulners.com/cve/CVE-2020-12465"
 		},
 		{
-			"name": "CVE-2020-8649",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-8649"
-		},
-		{
-			"name": "CVE-2019-19063",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-19063"
-		},
-		{
-			"name": "CVE-2019-19319",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-19319"
-		},
-		{
-			"name": "CVE-2019-20054",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-20054"
-		},
-		{
 			"name": "CVE-2020-12770",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -664,12 +648,12 @@
 			"url": "https://vulners.com/cve/CVE-2020-12770"
 		},
 		{
-			"name": "CVE-2019-16233",
+			"name": "CVE-2020-8647",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-16233"
+			"url": "https://vulners.com/cve/CVE-2020-8647"
 		},
 		{
 			"name": "CVE-2019-19072",
@@ -680,28 +664,20 @@
 			"url": "https://vulners.com/cve/CVE-2019-19072"
 		},
 		{
-			"name": "CVE-2019-19046",
+			"name": "CVE-2019-19543",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-19046"
+			"url": "https://vulners.com/cve/CVE-2019-19543"
 		},
 		{
-			"name": "CVE-2019-19332",
+			"name": "CVE-2019-9455",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-19332"
-		},
-		{
-			"name": "CVE-2019-19602",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-19602"
+			"url": "https://vulners.com/cve/CVE-2019-9455"
 		},
 		{
 			"name": "CVE-2020-0305",
@@ -712,22 +688,6 @@
 			"url": "https://vulners.com/cve/CVE-2020-0305"
 		},
 		{
-			"name": "CVE-2019-15925",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-15925"
-		},
-		{
-			"name": "CVE-2019-16231",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-16231"
-		},
-		{
 			"name": "CVE-2020-10773",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -736,20 +696,12 @@
 			"url": "https://vulners.com/cve/CVE-2020-10773"
 		},
 		{
-			"name": "CVE-2020-11565",
+			"name": "CVE-2020-25641",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2020-11565"
-		},
-		{
-			"name": "CVE-2019-19770",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-19770"
+			"url": "https://vulners.com/cve/CVE-2020-25641"
 		},
 		{
 			"name": "CVE-2019-20636",
@@ -760,12 +712,132 @@
 			"url": "https://vulners.com/cve/CVE-2019-20636"
 		},
 		{
-			"name": "CVE-2019-19062",
+			"name": "CVE-2020-14381",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-19062"
+			"url": "https://vulners.com/cve/CVE-2020-14381"
+		},
+		{
+			"name": "CVE-2019-16231",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-16231"
+		},
+		{
+			"name": "CVE-2019-18808",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-18808"
+		},
+		{
+			"name": "CVE-2019-19056",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19056"
+		},
+		{
+			"name": "CVE-2019-19068",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19068"
+		},
+		{
+			"name": "CVE-2019-19602",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19602"
+		},
+		{
+			"name": "CVE-2019-19770",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19770"
+		},
+		{
+			"name": "CVE-2019-15917",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-15917"
+		},
+		{
+			"name": "CVE-2019-19524",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19524"
+		},
+		{
+			"name": "CVE-2019-19533",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19533"
+		},
+		{
+			"name": "CVE-2020-12659",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-12659"
+		},
+		{
+			"name": "CVE-2019-15925",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-15925"
+		},
+		{
+			"name": "CVE-2019-16233",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-16233"
+		},
+		{
+			"name": "CVE-2019-19046",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19046"
+		},
+		{
+			"name": "CVE-2019-19063",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19063"
+		},
+		{
+			"name": "CVE-2020-12655",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-12655"
 		},
 		{
 			"name": "CVE-2019-19447",
@@ -776,12 +848,84 @@
 			"url": "https://vulners.com/cve/CVE-2019-19447"
 		},
 		{
-			"name": "CVE-2019-19537",
+			"name": "CVE-2019-20054",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-19537"
+			"url": "https://vulners.com/cve/CVE-2019-20054"
+		},
+		{
+			"name": "CVE-2019-9458",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-9458"
+		},
+		{
+			"name": "CVE-2020-8648",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-8648"
+		},
+		{
+			"name": "CVE-2020-8649",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-8649"
+		},
+		{
+			"name": "CVE-2020-10774",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-10774"
+		},
+		{
+			"name": "CVE-2020-12826",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-12826"
+		},
+		{
+			"name": "CVE-2019-18809",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-18809"
+		},
+		{
+			"name": "CVE-2019-19319",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19319"
+		},
+		{
+			"name": "CVE-2019-19767",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19767"
+		},
+		{
+			"name": "CVE-2020-0444",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-0444"
 		},
 		{
 			"name": "CVE-2020-10732",
@@ -800,14 +944,6 @@
 			"url": "https://vulners.com/cve/CVE-2020-10751"
 		},
 		{
-			"name": "CVE-2020-12659",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-12659"
-		},
-		{
 			"name": "CVE-2019-12614",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -816,60 +952,12 @@
 			"url": "https://vulners.com/cve/CVE-2019-12614"
 		},
 		{
-			"name": "CVE-2019-19056",
+			"name": "CVE-2020-11565",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://vulners.com/cve/CVE-2019-19056"
-		},
-		{
-			"name": "CVE-2020-14381",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-14381"
-		},
-		{
-			"name": "CVE-2020-25641",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-25641"
-		},
-		{
-			"name": "CVE-2020-12655",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-12655"
-		},
-		{
-			"name": "CVE-2020-12826",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-12826"
-		},
-		{
-			"name": "CVE-2020-8648",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-8648"
-		},
-		{
-			"name": "CVE-2020-10774",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-10774"
+			"url": "https://vulners.com/cve/CVE-2020-11565"
 		},
 		{
 			"name": "CVE-2020-11668",
@@ -878,94 +966,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-11668"
-		},
-		{
-			"name": "CVE-2019-18809",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-18809"
-		},
-		{
-			"name": "CVE-2019-19767",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-19767"
-		},
-		{
-			"name": "CVE-2019-15917",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-15917"
-		},
-		{
-			"name": "CVE-2019-18808",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-18808"
-		},
-		{
-			"name": "CVE-2019-19533",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-19533"
-		},
-		{
-			"name": "CVE-2019-19543",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-19543"
-		},
-		{
-			"name": "CVE-2019-9458",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-9458"
-		},
-		{
-			"name": "CVE-2020-0444",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-0444"
-		},
-		{
-			"name": "CVE-2020-8647",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-8647"
-		},
-		{
-			"name": "CVE-2019-19068",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-19068"
-		},
-		{
-			"name": "CVE-2019-19524",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-19524"
 		}
 	],
 	"published": "2020-11-03T12:03:57Z",

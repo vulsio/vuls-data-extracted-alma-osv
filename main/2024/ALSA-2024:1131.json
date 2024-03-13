@@ -174,14 +174,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2024:1131",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:1131"
-		},
-		{
 			"name": "CVE-2023-39326",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -220,6 +212,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2024-1131.html"
+		},
+		{
+			"name": "RHSA-2024:1131",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:1131"
 		}
 	],
 	"published": "2024-03-05T00:00:00Z",

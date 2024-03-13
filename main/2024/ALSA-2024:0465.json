@@ -81,14 +81,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2024:0465",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0465"
-		},
-		{
 			"name": "CVE-2023-7104",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -111,6 +103,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2024-0465.html"
+		},
+		{
+			"name": "RHSA-2024:0465",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:0465"
 		}
 	],
 	"published": "2024-01-25T00:00:00Z",

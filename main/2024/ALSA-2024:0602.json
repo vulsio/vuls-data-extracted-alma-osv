@@ -46,6 +46,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2024-0741",
+			"references": [
+				{
+					"name": "CVE-2024-0741",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2024-0741"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2024-0742",
+			"references": [
+				{
+					"name": "CVE-2024-0742",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2024-0742"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2024-0747",
 			"references": [
 				{
@@ -55,6 +81,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2024-0747"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2024-0749",
+			"references": [
+				{
+					"name": "CVE-2024-0749",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2024-0749"
 				}
 			]
 		},
@@ -85,6 +124,19 @@
 			]
 		},
 		{
+			"cve": "CVE-2024-0746",
+			"references": [
+				{
+					"name": "CVE-2024-0746",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2024-0746"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2024-0753",
 			"references": [
 				{
@@ -109,68 +161,16 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2024-0755"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2024-0741",
-			"references": [
-				{
-					"name": "CVE-2024-0741",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2024-0741"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2024-0742",
-			"references": [
-				{
-					"name": "CVE-2024-0742",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2024-0742"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2024-0746",
-			"references": [
-				{
-					"name": "CVE-2024-0746",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2024-0746"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2024-0749",
-			"references": [
-				{
-					"name": "CVE-2024-0749",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2024-0749"
-				}
-			]
 		}
 	],
 	"references": [
 		{
-			"name": "RHSA-2024:0602",
+			"name": "CVE-2024-0742",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"cve"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:0602"
+			"url": "https://access.redhat.com/security/cve/CVE-2024-0742"
 		},
 		{
 			"name": "CVE-2024-0747",
@@ -181,36 +181,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2024-0747"
 		},
 		{
-			"name": "CVE-2024-0751",
+			"name": "CVE-2024-0749",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-0751"
-		},
-		{
-			"name": "CVE-2024-0755",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-0755"
-		},
-		{
-			"name": "CVE-2024-0746",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-0746"
-		},
-		{
-			"name": "2259926",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2259926"
+			"url": "https://access.redhat.com/security/cve/CVE-2024-0749"
 		},
 		{
 			"name": "2259927",
@@ -229,6 +205,14 @@
 			"url": "https://bugzilla.redhat.com/2259931"
 		},
 		{
+			"name": "2259932",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2259932"
+		},
+		{
 			"name": "2259933",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -237,12 +221,12 @@
 			"url": "https://bugzilla.redhat.com/2259933"
 		},
 		{
-			"name": "CVE-2024-0749",
+			"name": "RHSA-2024:0602",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"third-party-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-0749"
+			"url": "https://access.redhat.com/errata/RHSA-2024:0602"
 		},
 		{
 			"name": "CVE-2024-0750",
@@ -253,12 +237,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2024-0750"
 		},
 		{
-			"name": "CVE-2024-0753",
+			"name": "CVE-2024-0755",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-0753"
+			"url": "https://access.redhat.com/security/cve/CVE-2024-0755"
+		},
+		{
+			"name": "2259926",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2259926"
 		},
 		{
 			"name": "2259928",
@@ -267,14 +259,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2259928"
-		},
-		{
-			"name": "2259932",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2259932"
 		},
 		{
 			"name": "2259934",
@@ -293,12 +277,20 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2024-0741"
 		},
 		{
-			"name": "CVE-2024-0742",
+			"name": "CVE-2024-0751",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-0742"
+			"url": "https://access.redhat.com/security/cve/CVE-2024-0751"
+		},
+		{
+			"name": "CVE-2024-0753",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2024-0753"
 		},
 		{
 			"name": "2259929",
@@ -307,6 +299,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2259929"
+		},
+		{
+			"name": "CVE-2024-0746",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2024-0746"
 		},
 		{
 			"name": "2259930",

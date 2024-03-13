@@ -247,6 +247,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-2341",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-2341"
+		},
+		{
 			"name": "CVE-2021-2369",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -261,14 +269,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-2388"
-		},
-		{
-			"name": "CVE-2021-2341",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-2341"
 		}
 	],
 	"published": "2021-07-21T07:31:58Z",
