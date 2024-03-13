@@ -41,22 +41,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2024-23301",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-23301"
-		},
-		{
-			"name": "2258396",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2258396"
-		},
-		{
 			"name": "ALSA-2024-1147",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -71,6 +55,22 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2024:1147"
+		},
+		{
+			"name": "CVE-2024-23301",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2024-23301"
+		},
+		{
+			"name": "2258396",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2258396"
 		}
 	],
 	"published": "2024-03-05T00:00:00Z",

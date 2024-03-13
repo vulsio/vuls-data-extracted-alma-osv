@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "2230983",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2230983"
+		},
+		{
 			"name": "ALSA-2023-5219",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -83,14 +91,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-38802"
-		},
-		{
-			"name": "2230983",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2230983"
 		}
 	],
 	"published": "2023-09-19T00:00:00Z",

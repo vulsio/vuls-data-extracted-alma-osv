@@ -447,14 +447,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2019-9516",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-9516"
-		},
-		{
 			"name": "ALSA-2019-2799",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -477,6 +469,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-9513"
+		},
+		{
+			"name": "CVE-2019-9516",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-9516"
 		}
 	],
 	"published": "2019-09-17T08:45:10Z",
