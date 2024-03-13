@@ -46,6 +46,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-11945",
+			"references": [
+				{
+					"name": "CVE-2020-11945",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-11945"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2019-12519",
 			"references": [
 				{
@@ -68,19 +81,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2019-12525"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2020-11945",
-			"references": [
-				{
-					"name": "CVE-2020-11945",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-11945"
 				}
 			]
 		}
