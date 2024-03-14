@@ -121,6 +121,14 @@
 	],
 	"references": [
 		{
+			"name": "2077976",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2077976"
+		},
+		{
 			"name": "ALSA-2022-5809",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -143,14 +151,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-1586"
-		},
-		{
-			"name": "2077976",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2077976"
 		}
 	],
 	"published": "2022-08-03T00:00:00Z",

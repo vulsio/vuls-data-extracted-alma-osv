@@ -421,6 +421,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2024-0985",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2024-0985"
+		},
+		{
 			"name": "2263384",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -443,14 +451,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2024:0974"
-		},
-		{
-			"name": "CVE-2024-0985",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-0985"
 		}
 	],
 	"published": "2024-02-26T00:00:00Z",
