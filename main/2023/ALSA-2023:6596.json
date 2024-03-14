@@ -194,14 +194,6 @@
 	],
 	"references": [
 		{
-			"name": "2209603",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2209603"
-		},
-		{
 			"name": "2214914",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -240,6 +232,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-34241"
+		},
+		{
+			"name": "2209603",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2209603"
 		}
 	],
 	"published": "2023-11-07T00:00:00Z",

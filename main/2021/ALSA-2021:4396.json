@@ -106,6 +106,32 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2020-13435",
+			"references": [
+				{
+					"name": "CVE-2020-13435",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2020-13435"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2019-13750",
+			"references": [
+				{
+					"name": "CVE-2019-13750",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2019-13750"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2019-13751",
 			"references": [
 				{
@@ -143,35 +169,25 @@
 					"url": "https://vulners.com/cve/CVE-2019-5827"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2020-13435",
-			"references": [
-				{
-					"name": "CVE-2020-13435",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2020-13435"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2019-13750",
-			"references": [
-				{
-					"name": "CVE-2019-13750",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2019-13750"
-				}
-			]
 		}
 	],
 	"references": [
+		{
+			"name": "CVE-2019-19603",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19603"
+		},
+		{
+			"name": "CVE-2019-5827",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-5827"
+		},
 		{
 			"name": "CVE-2020-13435",
 			"source": "errata.almalinux.org",
@@ -203,22 +219,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-13751"
-		},
-		{
-			"name": "CVE-2019-19603",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-19603"
-		},
-		{
-			"name": "CVE-2019-5827",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-5827"
 		}
 	],
 	"published": "2021-11-09T09:16:47Z",

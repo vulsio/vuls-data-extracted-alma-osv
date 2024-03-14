@@ -113,6 +113,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2019-20839",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-20839"
+		},
+		{
 			"name": "CVE-2020-14397",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -151,14 +159,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2018-21247"
-		},
-		{
-			"name": "CVE-2019-20839",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-20839"
 		}
 	],
 	"published": "2021-05-18T06:09:01Z",

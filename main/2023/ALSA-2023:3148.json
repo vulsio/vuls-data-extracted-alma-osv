@@ -26,6 +26,9 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-30570"
+		},
+		{
 			"cve": "CVE-2023-2295",
 			"references": [
 				{
@@ -37,28 +40,9 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-2295"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-30570"
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2023-2295",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-2295"
-		},
-		{
-			"name": "2189777",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2189777"
-		},
 		{
 			"name": "ALSA-2023-3148",
 			"source": "errata.almalinux.org",
@@ -74,6 +58,22 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:3148"
+		},
+		{
+			"name": "CVE-2023-2295",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-2295"
+		},
+		{
+			"name": "2189777",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2189777"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",
