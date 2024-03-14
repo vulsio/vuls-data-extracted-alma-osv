@@ -161,22 +161,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2024:1139",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:1139"
-		},
-		{
-			"name": "CVE-2023-3674",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-3674"
-		},
-		{
 			"name": "2222903",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -191,6 +175,22 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2024-1139.html"
+		},
+		{
+			"name": "RHSA-2024:1139",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:1139"
+		},
+		{
+			"name": "CVE-2023-3674",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-3674"
 		}
 	],
 	"published": "2024-03-05T00:00:00Z",

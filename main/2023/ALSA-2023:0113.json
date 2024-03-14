@@ -281,6 +281,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2023:0113",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:0113"
+		},
+		{
 			"name": "CVE-2022-2625",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -303,14 +311,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2023-0113.html"
-		},
-		{
-			"name": "RHSA-2023:0113",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:0113"
 		}
 	],
 	"published": "2023-01-12T00:00:00Z",

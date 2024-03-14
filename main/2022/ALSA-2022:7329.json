@@ -81,22 +81,6 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2022-7329",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-7329.html"
-		},
-		{
-			"name": "RHSA-2022:7329",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:7329"
-		},
-		{
 			"name": "CVE-2022-33099",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -111,6 +95,22 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2104427"
+		},
+		{
+			"name": "ALSA-2022-7329",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-7329.html"
+		},
+		{
+			"name": "RHSA-2022:7329",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:7329"
 		}
 	],
 	"published": "2022-11-02T00:00:00Z",
