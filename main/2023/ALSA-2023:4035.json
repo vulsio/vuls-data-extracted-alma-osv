@@ -233,14 +233,6 @@
 	],
 	"references": [
 		{
-			"name": "2209501",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2209501"
-		},
-		{
 			"name": "2209502",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -249,20 +241,12 @@
 			"url": "https://bugzilla.redhat.com/2209502"
 		},
 		{
-			"name": "CVE-2022-4904",
+			"name": "RHSA-2023:4035",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"cve"
+				"third-party-advisory"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
-		},
-		{
-			"name": "CVE-2023-31130",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
+			"url": "https://access.redhat.com/errata/RHSA-2023:4035"
 		},
 		{
 			"name": "CVE-2023-31147",
@@ -271,6 +255,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-31147"
+		},
+		{
+			"name": "CVE-2023-32067",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32067"
 		},
 		{
 			"name": "2168631",
@@ -297,12 +289,20 @@
 			"url": "https://bugzilla.redhat.com/2209497"
 		},
 		{
-			"name": "RHSA-2023:4035",
+			"name": "2209501",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"third-party-advisory"
+				"bugzilla"
 			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:4035"
+			"url": "https://bugzilla.redhat.com/2209501"
+		},
+		{
+			"name": "CVE-2022-4904",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
 		},
 		{
 			"name": "CVE-2023-31124",
@@ -313,12 +313,12 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-31124"
 		},
 		{
-			"name": "CVE-2023-32067",
+			"name": "CVE-2023-31130",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32067"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
 		},
 		{
 			"name": "ALSA-2023-4035",
