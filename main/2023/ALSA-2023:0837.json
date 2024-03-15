@@ -181,6 +181,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-4415",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-4415"
+		},
+		{
 			"name": "2155515",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -203,14 +211,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:0837"
-		},
-		{
-			"name": "CVE-2022-4415",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-4415"
 		}
 	],
 	"published": "2023-02-21T00:00:00Z",

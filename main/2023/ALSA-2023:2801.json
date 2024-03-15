@@ -61,22 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-37032",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-37032"
-		},
-		{
-			"name": "2128713",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2128713"
-		},
-		{
 			"name": "ALSA-2023-2801",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +75,22 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:2801"
+		},
+		{
+			"name": "CVE-2022-37032",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-37032"
+		},
+		{
+			"name": "2128713",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2128713"
 		}
 	],
 	"published": "2023-05-16T00:00:00Z",

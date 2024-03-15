@@ -326,19 +326,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-32084",
-			"references": [
-				{
-					"name": "CVE-2022-32084",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-32084"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-32091",
 			"references": [
 				{
@@ -376,25 +363,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-47015"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-32084",
+			"references": [
+				{
+					"name": "CVE-2022-32084",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-32084"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2022-32084",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-32084"
-		},
-		{
-			"name": "CVE-2022-32091",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-32091"
-		},
 		{
 			"name": "CVE-2022-38791",
 			"source": "errata.almalinux.org",
@@ -418,6 +402,30 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2106034"
+		},
+		{
+			"name": "2130105",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2130105"
+		},
+		{
+			"name": "CVE-2022-32084",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32084"
+		},
+		{
+			"name": "CVE-2022-32091",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-32091"
 		},
 		{
 			"name": "2106042",
@@ -450,14 +458,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:5259"
-		},
-		{
-			"name": "2130105",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2130105"
 		}
 	],
 	"published": "2023-09-19T00:00:00Z",
