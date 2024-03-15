@@ -346,19 +346,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-21540",
-			"references": [
-				{
-					"name": "CVE-2022-21540",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-21540"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2022-21541",
 			"references": [
 				{
@@ -383,9 +370,38 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2022-34169"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-21540",
+			"references": [
+				{
+					"name": "CVE-2022-21540",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21540"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "RHSA-2022:5709",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5709"
+		},
+		{
+			"name": "CVE-2022-21540",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-21540"
+		},
 		{
 			"name": "CVE-2022-21541",
 			"source": "errata.almalinux.org",
@@ -433,22 +449,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-5709.html"
-		},
-		{
-			"name": "RHSA-2022:5709",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:5709"
-		},
-		{
-			"name": "CVE-2022-21540",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-21540"
 		}
 	],
 	"published": "2022-07-25T00:00:00Z",

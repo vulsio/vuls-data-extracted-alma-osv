@@ -67,6 +67,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2022:5767",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:5767"
+		},
+		{
 			"name": "CVE-2022-2505",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -121,14 +129,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-5767.html"
-		},
-		{
-			"name": "RHSA-2022:5767",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:5767"
 		}
 	],
 	"published": "2022-08-01T00:00:00Z",
