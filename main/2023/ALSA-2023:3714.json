@@ -314,6 +314,14 @@
 	],
 	"references": [
 		{
+			"name": "2207568",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2207568"
+		},
+		{
 			"name": "2207569",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -352,14 +360,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-2455"
-		},
-		{
-			"name": "2207568",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2207568"
 		}
 	],
 	"published": "2023-06-21T00:00:00Z",

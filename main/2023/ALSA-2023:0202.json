@@ -494,6 +494,14 @@
 	],
 	"references": [
 		{
+			"name": "ALSA-2023-0202",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2023-0202.html"
+		},
+		{
 			"name": "RHSA-2023:0202",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -532,14 +540,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2160475"
-		},
-		{
-			"name": "ALSA-2023-0202",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2023-0202.html"
 		}
 	],
 	"published": "2023-01-18T00:00:00Z",

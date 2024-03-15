@@ -74,22 +74,6 @@
 	],
 	"references": [
 		{
-			"name": "2103202",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2103202"
-		},
-		{
-			"name": "ALSA-2022-7978",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2022-7978.html"
-		},
-		{
 			"name": "RHSA-2022:7978",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -120,6 +104,22 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2087591"
+		},
+		{
+			"name": "2103202",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2103202"
+		},
+		{
+			"name": "ALSA-2022-7978",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2022-7978.html"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",

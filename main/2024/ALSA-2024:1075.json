@@ -114,14 +114,6 @@
 	],
 	"references": [
 		{
-			"name": "RHSA-2024:1075",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:1075"
-		},
-		{
 			"name": "CVE-2023-45230",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -160,6 +152,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2024-1075.html"
+		},
+		{
+			"name": "RHSA-2024:1075",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:1075"
 		}
 	],
 	"published": "2024-03-05T00:00:00Z",

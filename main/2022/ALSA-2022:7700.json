@@ -54,6 +54,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-0308",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-0308"
+		},
+		{
 			"name": "2051939",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -92,14 +100,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2020-0256"
-		},
-		{
-			"name": "CVE-2021-0308",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-0308"
 		}
 	],
 	"published": "2022-11-08T00:00:00Z",

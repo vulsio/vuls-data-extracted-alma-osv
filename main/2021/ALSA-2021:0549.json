@@ -166,6 +166,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2019-10746",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-10746"
+		},
+		{
 			"name": "CVE-2019-10747",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -220,14 +228,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2018-3750"
-		},
-		{
-			"name": "CVE-2019-10746",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-10746"
 		}
 	],
 	"published": "2021-02-16T07:34:29Z",
