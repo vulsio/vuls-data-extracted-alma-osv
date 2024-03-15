@@ -181,22 +181,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-46195",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-46195"
-		},
-		{
-			"name": "2046300",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2046300"
-		},
-		{
 			"name": "ALSA-2022-8415",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -211,6 +195,22 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:8415"
+		},
+		{
+			"name": "CVE-2021-46195",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-46195"
+		},
+		{
+			"name": "2046300",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2046300"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",
