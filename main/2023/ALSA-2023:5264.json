@@ -3026,19 +3026,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-40284",
-			"references": [
-				{
-					"name": "CVE-2022-40284",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-40284"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-3354",
 			"references": [
 				{
@@ -3048,6 +3035,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2023-3354"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-40284",
+			"references": [
+				{
+					"name": "CVE-2022-40284",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-40284"
 				}
 			]
 		}
