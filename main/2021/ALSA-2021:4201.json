@@ -54,14 +54,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-42771",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-42771"
-		},
-		{
 			"name": "ALSA-2021-4201",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -76,6 +68,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-20095"
+		},
+		{
+			"name": "CVE-2021-42771",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-42771"
 		}
 	],
 	"published": "2021-11-09T08:37:19Z",

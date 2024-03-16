@@ -66,32 +66,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-28651",
-			"references": [
-				{
-					"name": "CVE-2021-28651",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-28651"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-28652",
-			"references": [
-				{
-					"name": "CVE-2021-28652",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-28652"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-28662",
 			"references": [
 				{
@@ -155,25 +129,35 @@
 					"url": "https://vulners.com/cve/CVE-2021-33620"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2021-28651",
+			"references": [
+				{
+					"name": "CVE-2021-28651",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-28651"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-28652",
+			"references": [
+				{
+					"name": "CVE-2021-28652",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-28652"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "ALSA-2021-4292",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2021-4292.html"
-		},
-		{
-			"name": "CVE-2021-28651",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2021-28651"
-		},
 		{
 			"name": "CVE-2021-28652",
 			"source": "errata.almalinux.org",
@@ -221,6 +205,22 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2021-33620"
+		},
+		{
+			"name": "ALSA-2021-4292",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2021-4292.html"
+		},
+		{
+			"name": "CVE-2021-28651",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2021-28651"
 		}
 	],
 	"published": "2021-11-09T08:56:14Z",

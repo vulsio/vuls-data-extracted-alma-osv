@@ -907,14 +907,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2022-1708",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-1708"
-		},
-		{
 			"name": "CVE-2022-27191",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -969,6 +961,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:7469"
+		},
+		{
+			"name": "CVE-2022-1708",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-1708"
 		}
 	],
 	"published": "2022-11-08T00:00:00Z",

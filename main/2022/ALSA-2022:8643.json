@@ -81,6 +81,14 @@
 	],
 	"references": [
 		{
+			"name": "2141844",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2141844"
+		},
+		{
 			"name": "ALSA-2022-8643",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -103,14 +111,6 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-45060"
-		},
-		{
-			"name": "2141844",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2141844"
 		}
 	],
 	"published": "2022-11-28T00:00:00Z",

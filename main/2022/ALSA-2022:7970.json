@@ -141,6 +141,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2021-22570",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-22570"
+		},
+		{
 			"name": "2049429",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -163,14 +171,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:7970"
-		},
-		{
-			"name": "CVE-2021-22570",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-22570"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",
