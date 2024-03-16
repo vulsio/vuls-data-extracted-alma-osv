@@ -66,19 +66,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-23527",
-			"references": [
-				{
-					"name": "CVE-2022-23527",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-23527"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-28625",
 			"references": [
 				{
@@ -90,25 +77,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-28625"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-23527",
+			"references": [
+				{
+					"name": "CVE-2022-23527",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-23527"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2022-23527",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-23527"
-		},
-		{
-			"name": "CVE-2023-28625",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-28625"
-		},
 		{
 			"name": "2153655",
 			"source": "errata.almalinux.org",
@@ -140,6 +124,22 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:6940"
+		},
+		{
+			"name": "CVE-2022-23527",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-23527"
+		},
+		{
+			"name": "CVE-2023-28625",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-28625"
 		}
 	],
 	"published": "2023-11-14T00:00:00Z",
