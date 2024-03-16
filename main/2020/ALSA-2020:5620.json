@@ -126,14 +126,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-14350",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-14350"
-		},
-		{
 			"name": "CVE-2020-1720",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -180,6 +172,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-14349"
+		},
+		{
+			"name": "CVE-2020-14350",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-14350"
 		}
 	],
 	"published": "2020-12-17T15:30:10Z",

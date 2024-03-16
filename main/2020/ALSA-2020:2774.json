@@ -474,14 +474,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2019-20382",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-20382"
-		},
-		{
 			"name": "CVE-2020-8608",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -496,6 +488,14 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2020-2774.html"
+		},
+		{
+			"name": "CVE-2019-20382",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-20382"
 		}
 	],
 	"published": "2020-06-30T13:38:53Z",
