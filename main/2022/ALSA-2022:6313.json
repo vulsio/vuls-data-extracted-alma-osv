@@ -61,6 +61,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2022:6313",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6313"
+		},
+		{
 			"name": "CVE-2022-2735",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -83,14 +91,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-6313.html"
-		},
-		{
-			"name": "RHSA-2022:6313",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6313"
 		}
 	],
 	"published": "2022-09-01T00:00:00Z",
