@@ -26,6 +26,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-3656",
+			"references": [
+				{
+					"name": "CVE-2021-3656",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-3656"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2020-36385",
 			"references": [
 				{
@@ -48,19 +61,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-0512"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-3656",
-			"references": [
-				{
-					"name": "CVE-2021-3656",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-3656"
 				}
 			]
 		}

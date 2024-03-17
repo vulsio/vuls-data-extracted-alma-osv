@@ -74,22 +74,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-44488",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-44488"
-		},
-		{
-			"name": "CVE-2023-5217",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-5217"
-		},
-		{
 			"name": "2241191",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -120,6 +104,22 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:5539"
+		},
+		{
+			"name": "CVE-2023-44488",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-44488"
+		},
+		{
+			"name": "CVE-2023-5217",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5217"
 		}
 	],
 	"published": "2023-10-09T00:00:00Z",

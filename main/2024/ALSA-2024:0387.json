@@ -626,6 +626,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2023-0568",
+			"references": [
+				{
+					"name": "CVE-2023-0568",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-0568"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2023-0662",
 			"references": [
 				{
@@ -689,37 +702,56 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-0567"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2023-0568",
-			"references": [
-				{
-					"name": "CVE-2023-0568",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-0568"
-				}
-			]
 		}
 	],
 	"references": [
 		{
-			"name": "2170771",
+			"name": "CVE-2023-0662",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"cve"
 			],
-			"url": "https://bugzilla.redhat.com/2170771"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0662"
 		},
 		{
-			"name": "2229396",
+			"name": "2170761",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2229396"
+			"url": "https://bugzilla.redhat.com/2170761"
+		},
+		{
+			"name": "2219290",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2219290"
+		},
+		{
+			"name": "2230101",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2230101"
+		},
+		{
+			"name": "ALSA-2024-0387",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2024-0387.html"
+		},
+		{
+			"name": "CVE-2023-0567",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0567"
 		},
 		{
 			"name": "CVE-2023-3823",
@@ -738,36 +770,20 @@
 			"url": "https://bugzilla.redhat.com/2170770"
 		},
 		{
-			"name": "2230101",
+			"name": "2170771",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2230101"
+			"url": "https://bugzilla.redhat.com/2170771"
 		},
 		{
-			"name": "CVE-2023-3824",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-3824"
-		},
-		{
-			"name": "2170761",
+			"name": "2229396",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2170761"
-		},
-		{
-			"name": "CVE-2023-0568",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0568"
+			"url": "https://bugzilla.redhat.com/2229396"
 		},
 		{
 			"name": "RHSA-2024:0387",
@@ -778,36 +794,12 @@
 			"url": "https://access.redhat.com/errata/RHSA-2024:0387"
 		},
 		{
-			"name": "CVE-2023-0567",
+			"name": "CVE-2023-0568",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0567"
-		},
-		{
-			"name": "2219290",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2219290"
-		},
-		{
-			"name": "ALSA-2024-0387",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2024-0387.html"
-		},
-		{
-			"name": "CVE-2023-0662",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-0662"
+			"url": "https://access.redhat.com/security/cve/CVE-2023-0568"
 		},
 		{
 			"name": "CVE-2023-3247",
@@ -816,6 +808,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-3247"
+		},
+		{
+			"name": "CVE-2023-3824",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-3824"
 		}
 	],
 	"published": "2024-01-24T00:00:00Z",

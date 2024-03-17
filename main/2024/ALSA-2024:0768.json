@@ -61,14 +61,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-28241",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2020-28241"
-		},
-		{
 			"name": "1895379",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -91,6 +83,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2024:0768"
+		},
+		{
+			"name": "CVE-2020-28241",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2020-28241"
 		}
 	],
 	"published": "2024-02-12T00:00:00Z",

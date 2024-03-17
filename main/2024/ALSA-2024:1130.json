@@ -154,6 +154,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2023-48795",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-48795"
+		},
+		{
 			"name": "CVE-2023-51385",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -192,14 +200,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2024:1130"
-		},
-		{
-			"name": "CVE-2023-48795",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-48795"
 		}
 	],
 	"published": "2024-03-05T00:00:00Z",
