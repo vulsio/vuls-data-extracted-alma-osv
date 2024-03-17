@@ -54,7 +54,7 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://vulners.com/cve/CVE-2020-10759"
+					"url": "https://access.redhat.com/security/cve/CVE-2020-10759"
 				},
 				{
 					"name": "CVE-2020-10759",
@@ -62,20 +62,12 @@
 					"tags": [
 						"cve"
 					],
-					"url": "https://access.redhat.com/security/cve/CVE-2020-10759"
+					"url": "https://vulners.com/cve/CVE-2020-10759"
 				}
 			]
 		}
 	],
 	"references": [
-		{
-			"name": "RHSA-2020:4436",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2020:4436"
-		},
 		{
 			"name": "CVE-2020-10759",
 			"source": "errata.almalinux.org",
@@ -107,6 +99,14 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-10759"
+		},
+		{
+			"name": "RHSA-2020:4436",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2020:4436"
 		}
 	],
 	"published": "2020-11-03T12:04:30Z",
