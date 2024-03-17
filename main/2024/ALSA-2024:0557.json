@@ -208,14 +208,6 @@
 			"url": "https://access.redhat.com/errata/RHSA-2024:0557"
 		},
 		{
-			"name": "2256540",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2256540"
-		},
-		{
 			"name": "2256690",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -270,6 +262,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2024-21886"
+		},
+		{
+			"name": "2256540",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2256540"
 		},
 		{
 			"name": "2256542",

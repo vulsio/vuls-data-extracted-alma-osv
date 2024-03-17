@@ -347,22 +347,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-35938",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-35938"
-		},
-		{
-			"name": "CVE-2021-35939",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-35939"
-		},
-		{
 			"name": "1964114",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -409,6 +393,22 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2021-35937"
+		},
+		{
+			"name": "CVE-2021-35938",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-35938"
+		},
+		{
+			"name": "CVE-2021-35939",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-35939"
 		}
 	],
 	"published": "2024-02-01T00:00:00Z",

@@ -106,19 +106,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-32559",
-			"references": [
-				{
-					"name": "CVE-2023-32559",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-32559"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-32002",
 			"references": [
 				{
@@ -143,33 +130,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-32006"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-32559",
+			"references": [
+				{
+					"name": "CVE-2023-32559",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-32559"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2023-32002",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32002"
-		},
-		{
-			"name": "CVE-2023-32006",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32006"
-		},
-		{
-			"name": "CVE-2023-32559",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-32559"
-		},
 		{
 			"name": "2230948",
 			"source": "errata.almalinux.org",
@@ -209,6 +185,30 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2023:5532"
+		},
+		{
+			"name": "CVE-2023-32002",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32002"
+		},
+		{
+			"name": "CVE-2023-32006",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32006"
+		},
+		{
+			"name": "CVE-2023-32559",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-32559"
 		}
 	],
 	"published": "2023-10-09T00:00:00Z",

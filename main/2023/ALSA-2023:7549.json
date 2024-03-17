@@ -486,6 +486,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2022-45884",
+			"references": [
+				{
+					"name": "CVE-2022-45884",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-45884"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2022-45886",
 			"references": [
 				{
@@ -562,53 +575,16 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-5178"
 				}
 			]
-		},
-		{
-			"cve": "CVE-2022-45884",
-			"references": [
-				{
-					"name": "CVE-2022-45884",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-45884"
-				}
-			]
 		}
 	],
 	"references": [
 		{
-			"name": "2148517",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2148517"
-		},
-		{
-			"name": "ALSA-2023-7549",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2023-7549.html"
-		},
-		{
-			"name": "CVE-2023-5178",
+			"name": "CVE-2022-45886",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-5178"
-		},
-		{
-			"name": "CVE-2022-45884",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-45884"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-45886"
 		},
 		{
 			"name": "CVE-2022-45919",
@@ -619,12 +595,28 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2022-45919"
 		},
 		{
-			"name": "2148510",
+			"name": "CVE-2023-5178",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-5178"
+		},
+		{
+			"name": "2148517",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
-			"url": "https://bugzilla.redhat.com/2148510"
+			"url": "https://bugzilla.redhat.com/2148517"
+		},
+		{
+			"name": "2151956",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2151956"
 		},
 		{
 			"name": "2224048",
@@ -633,6 +625,14 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2224048"
+		},
+		{
+			"name": "RHSA-2023:7549",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2023:7549"
 		},
 		{
 			"name": "CVE-2023-1192",
@@ -659,20 +659,28 @@
 			"url": "https://access.redhat.com/security/cve/CVE-2023-3812"
 		},
 		{
-			"name": "2151956",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2151956"
-		},
-		{
 			"name": "2154178",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2154178"
+		},
+		{
+			"name": "2241924",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2241924"
+		},
+		{
+			"name": "2148510",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2148510"
 		},
 		{
 			"name": "2240249",
@@ -683,28 +691,20 @@
 			"url": "https://bugzilla.redhat.com/2240249"
 		},
 		{
-			"name": "RHSA-2023:7549",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2023:7549"
-		},
-		{
-			"name": "CVE-2022-45886",
+			"name": "CVE-2022-45884",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-45886"
+			"url": "https://access.redhat.com/security/cve/CVE-2022-45884"
 		},
 		{
-			"name": "2241924",
+			"name": "ALSA-2023-7549",
 			"source": "errata.almalinux.org",
 			"tags": [
-				"bugzilla"
+				"vendor-advisory"
 			],
-			"url": "https://bugzilla.redhat.com/2241924"
+			"url": "https://errata.almalinux.org/8/ALSA-2023-7549.html"
 		}
 	],
 	"published": "2023-11-28T00:00:00Z",
