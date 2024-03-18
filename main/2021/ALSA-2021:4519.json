@@ -54,6 +54,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2019-19005",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-19005"
+		},
+		{
 			"name": "ALSA-2021-4519",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -68,14 +76,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-19004"
-		},
-		{
-			"name": "CVE-2019-19005",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-19005"
 		}
 	],
 	"published": "2021-11-09T09:40:34Z",

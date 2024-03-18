@@ -186,19 +186,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2024-21386",
-			"references": [
-				{
-					"name": "CVE-2024-21386",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2024-21386"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2024-21404",
 			"references": [
 				{
@@ -210,33 +197,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2024-21404"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2024-21386",
+			"references": [
+				{
+					"name": "CVE-2024-21386",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2024-21386"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "2263085",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2263085"
-		},
-		{
-			"name": "2263086",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2263086"
-		},
-		{
-			"name": "ALSA-2024-0805",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/9/ALSA-2024-0805.html"
-		},
 		{
 			"name": "RHSA-2024:0805",
 			"source": "errata.almalinux.org",
@@ -260,6 +236,30 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2024-21404"
+		},
+		{
+			"name": "2263085",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2263085"
+		},
+		{
+			"name": "2263086",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2263086"
+		},
+		{
+			"name": "ALSA-2024-0805",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/9/ALSA-2024-0805.html"
 		}
 	],
 	"published": "2024-02-13T00:00:00Z",
