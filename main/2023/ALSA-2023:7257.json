@@ -214,6 +214,14 @@
 	],
 	"references": [
 		{
+			"name": "2248883",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2248883"
+		},
+		{
 			"name": "ALSA-2023-7257",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -252,14 +260,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2247750"
-		},
-		{
-			"name": "2248883",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2248883"
 		}
 	],
 	"published": "2023-11-15T00:00:00Z",

@@ -372,22 +372,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2020-12458",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-12458"
-		},
-		{
-			"name": "CVE-2020-12459",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-12459"
-		},
-		{
 			"name": "CVE-2020-13430",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -434,6 +418,22 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-12245"
+		},
+		{
+			"name": "CVE-2020-12458",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-12458"
+		},
+		{
+			"name": "CVE-2020-12459",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-12459"
 		}
 	],
 	"published": "2020-11-03T12:26:41Z",

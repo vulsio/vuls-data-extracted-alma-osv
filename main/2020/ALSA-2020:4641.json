@@ -393,6 +393,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2020-8492",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2020-8492"
+		},
+		{
 			"name": "ALSA-2020-4641",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -431,14 +439,6 @@
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2020-1747"
-		},
-		{
-			"name": "CVE-2020-8492",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2020-8492"
 		}
 	],
 	"published": "2020-11-03T12:23:02Z",

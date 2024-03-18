@@ -61,20 +61,20 @@
 	],
 	"references": [
 		{
-			"name": "ALSA-2020-1616",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2020-1616.html"
-		},
-		{
 			"name": "CVE-2019-13045",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"cve"
 			],
 			"url": "https://vulners.com/cve/CVE-2019-13045"
+		},
+		{
+			"name": "ALSA-2020-1616",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2020-1616.html"
 		}
 	],
 	"published": "2020-04-28T08:56:59Z",

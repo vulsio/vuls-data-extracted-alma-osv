@@ -54,6 +54,22 @@
 	],
 	"references": [
 		{
+			"name": "2246840",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2246840"
+		},
+		{
+			"name": "ALSA-2024-0116",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"vendor-advisory"
+			],
+			"url": "https://errata.almalinux.org/8/ALSA-2024-0116.html"
+		},
+		{
 			"name": "RHSA-2024:0116",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -84,22 +100,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2242493"
-		},
-		{
-			"name": "2246840",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2246840"
-		},
-		{
-			"name": "ALSA-2024-0116",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"vendor-advisory"
-			],
-			"url": "https://errata.almalinux.org/8/ALSA-2024-0116.html"
 		}
 	],
 	"published": "2024-01-10T00:00:00Z",

@@ -41,6 +41,14 @@
 	],
 	"references": [
 		{
+			"name": "CVE-2022-0778",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2022-0778"
+		},
+		{
 			"name": "2062202",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -63,14 +71,6 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:5326"
-		},
-		{
-			"name": "CVE-2022-0778",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2022-0778"
 		}
 	],
 	"published": "2022-06-30T00:00:00Z",
