@@ -361,14 +361,6 @@
 	],
 	"references": [
 		{
-			"name": "2217845",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2217845"
-		},
-		{
 			"name": "ALSA-2023-5068",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -391,6 +383,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-20593"
+		},
+		{
+			"name": "2217845",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2217845"
 		}
 	],
 	"published": "2023-09-12T00:00:00Z",

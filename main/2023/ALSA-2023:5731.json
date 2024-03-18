@@ -406,19 +406,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-40433",
-			"references": [
-				{
-					"name": "CVE-2022-40433",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2022-40433"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-22067",
 			"references": [
 				{
@@ -443,17 +430,22 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-22081"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2022-40433",
+			"references": [
+				{
+					"name": "CVE-2022-40433",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2022-40433"
+				}
+			]
 		}
 	],
 	"references": [
-		{
-			"name": "CVE-2023-22067",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-22067"
-		},
 		{
 			"name": "CVE-2023-22081",
 			"source": "errata.almalinux.org",
@@ -509,6 +501,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2022-40433"
+		},
+		{
+			"name": "CVE-2023-22067",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-22067"
 		}
 	],
 	"published": "2023-10-18T00:00:00Z",
