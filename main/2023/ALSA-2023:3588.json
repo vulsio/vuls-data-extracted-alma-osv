@@ -46,19 +46,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-34414",
-			"references": [
-				{
-					"name": "CVE-2023-34414",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-34414"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-34416",
 			"references": [
 				{
@@ -68,6 +55,19 @@
 						"cve"
 					],
 					"url": "https://access.redhat.com/security/cve/CVE-2023-34416"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2023-34414",
+			"references": [
+				{
+					"name": "CVE-2023-34414",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-34414"
 				}
 			]
 		}

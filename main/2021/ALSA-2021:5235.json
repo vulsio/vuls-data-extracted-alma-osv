@@ -426,19 +426,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2021-23214",
-			"references": [
-				{
-					"name": "CVE-2021-23214",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-23214"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-3677",
 			"references": [
 				{
@@ -448,6 +435,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-3677"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2021-23214",
+			"references": [
+				{
+					"name": "CVE-2021-23214",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-23214"
 				}
 			]
 		}

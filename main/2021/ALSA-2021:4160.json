@@ -726,6 +726,19 @@
 	],
 	"vulnerabilities": [
 		{
+			"cve": "CVE-2021-28957",
+			"references": [
+				{
+					"name": "CVE-2021-28957",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2021-28957"
+				}
+			]
+		},
+		{
 			"cve": "CVE-2021-29921",
 			"references": [
 				{
@@ -800,19 +813,6 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2021-3737"
-				}
-			]
-		},
-		{
-			"cve": "CVE-2021-28957",
-			"references": [
-				{
-					"name": "CVE-2021-28957",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2021-28957"
 				}
 			]
 		}

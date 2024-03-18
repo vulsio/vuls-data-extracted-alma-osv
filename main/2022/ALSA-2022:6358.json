@@ -101,6 +101,14 @@
 	],
 	"references": [
 		{
+			"name": "RHSA-2022:6358",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2022:6358"
+		},
+		{
 			"name": "CVE-2022-31676",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -123,14 +131,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2022-6358.html"
-		},
-		{
-			"name": "RHSA-2022:6358",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2022:6358"
 		}
 	],
 	"published": "2022-09-06T00:00:00Z",
