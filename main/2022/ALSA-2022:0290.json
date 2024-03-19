@@ -606,19 +606,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2022-23307",
-			"references": [
-				{
-					"name": "CVE-2022-23307",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://vulners.com/cve/CVE-2022-23307"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2021-4104",
 			"references": [
 				{
@@ -654,6 +641,19 @@
 						"cve"
 					],
 					"url": "https://vulners.com/cve/CVE-2022-23305"
+				}
+			]
+		},
+		{
+			"cve": "CVE-2022-23307",
+			"references": [
+				{
+					"name": "CVE-2022-23307",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://vulners.com/cve/CVE-2022-23307"
 				}
 			]
 		}

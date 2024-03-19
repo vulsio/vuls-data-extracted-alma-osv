@@ -81,14 +81,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2021-0561",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2021-0561"
-		},
-		{
 			"name": "2057776",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -111,6 +103,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2022:8078"
+		},
+		{
+			"name": "CVE-2021-0561",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2021-0561"
 		}
 	],
 	"published": "2022-11-15T00:00:00Z",
