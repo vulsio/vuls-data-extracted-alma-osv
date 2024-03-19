@@ -1,0 +1,134 @@
+{
+	"id": "ALSA-2020:2848",
+	"advisories": [
+		{
+			"id": "ALSA-2020:2848",
+			"title": "Important: nodejs:10 security update",
+			"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (10.21.0).\n\nSecurity Fix(es):\n\n* nghttp2: overly large SETTINGS frames can lead to DoS (CVE-2020-11080)\n\n* nodejs-minimist: prototype pollution allows adding or modifying properties of Object.prototype using a constructor or __proto__ payload (CVE-2020-7598)\n\n* nodejs: memory corruption in napi_get_value_string_* functions (CVE-2020-8174)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2020-2848.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2020-11080"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2020-7598"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2020-8174"
+				}
+			],
+			"published": "2020-07-07T08:51:24Z",
+			"modified": "2020-07-07T08:51:24Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-11080"
+		},
+		{
+			"id": "CVE-2020-7598"
+		},
+		{
+			"id": "CVE-2020-8174"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-nodemon"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.18.3-1.module_el8.3.0+2023+d2377ea3"
+					}
+				],
+				"fixed": [
+					"1.18.3-1.module_el8.3.0+2023+d2377ea3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-nodemon"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.18.3-1.module_el8.3.0+2047+b07ac28e"
+					}
+				],
+				"fixed": [
+					"1.18.3-1.module_el8.3.0+2047+b07ac28e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17-3.module_el8.4.0+2224+b07ac28e"
+					}
+				],
+				"fixed": [
+					"17-3.module_el8.4.0+2224+b07ac28e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17-3.module_el8.4.0+2521+c668cc9f"
+					}
+				],
+				"fixed": [
+					"17-3.module_el8.4.0+2521+c668cc9f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17-3.module_el8.3.0+2023+d2377ea3"
+					}
+				],
+				"fixed": [
+					"17-3.module_el8.3.0+2023+d2377ea3"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

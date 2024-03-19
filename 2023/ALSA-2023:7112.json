@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2023:7112",
+	"advisories": [
+		{
+			"id": "ALSA-2023:7112",
+			"title": "Low: shadow-utils security and bug fix update",
+			"description": "The shadow-utils packages include programs for converting UNIX password files to the shadow password format, as well as utilities for managing user and group accounts. \n\nSecurity Fix(es):\n\n* shadow-utils: possible password leak during passwd(1) change (CVE-2023-4641)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:7112"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-4641"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2215945"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-7112.html"
+				}
+			],
+			"published": "2023-11-14T00:00:00Z",
+			"modified": "2023-11-23T10:19:58Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-4641"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "shadow-utils"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.6-19.el8"
+					}
+				],
+				"fixed": [
+					"2:4.6-19.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "shadow-utils-subid"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.6-19.el8"
+					}
+				],
+				"fixed": [
+					"2:4.6-19.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "shadow-utils-subid-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.6-19.el8"
+					}
+				],
+				"fixed": [
+					"2:4.6-19.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,56 @@
+{
+	"id": "ALSA-2023:6569",
+	"advisories": [
+		{
+			"id": "ALSA-2023:6569",
+			"title": "Moderate: sysstat security and bug fix update",
+			"description": "The sysstat packages provide the sar and iostat commands. These commands enable system monitoring of disk, network, and other I/O activity.\n\nSecurity Fix(es):\n\n* sysstat: check_overflow() function can work incorrectly, which could lead to an overflow (CVE-2023-33204)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:6569"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-33204"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2208270"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-6569.html"
+				}
+			],
+			"published": "2023-11-07T00:00:00Z",
+			"modified": "2023-11-14T12:05:16Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-33204"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sysstat"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "12.5.4-7.el9"
+					}
+				],
+				"fixed": [
+					"12.5.4-7.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

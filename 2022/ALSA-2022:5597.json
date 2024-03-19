@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2022:5597",
+	"advisories": [
+		{
+			"id": "ALSA-2022:5597",
+			"title": "Important: pandoc security update",
+			"description": "Pandoc is a markdown/markup conversion tool. The version of pandoc in AlmaLinux 8 CRB uses cmark-gfm (GitHub's extended version of the C reference implementation of CommonMark) for parts of its conversion. The update, fixes CVE-2022-24724: an integer overflow in cmark-gfm's table row parsing which may lead to heap memory corruption when parsing tables with more than UINT16_MAX columns.\nSecurity Fix(es):\n* cmark-gfm: possible RCE due to integer overflow (CVE-2022-24724)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:5597"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-24724"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2060662"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-5597.html"
+				}
+			],
+			"published": "2022-07-18T00:00:00Z",
+			"modified": "2022-07-20T15:01:31Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-24724"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pandoc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.6-6.el8_6"
+					}
+				],
+				"fixed": [
+					"2.0.6-6.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pandoc-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.6-6.el8_6"
+					}
+				],
+				"fixed": [
+					"2.0.6-6.el8_6"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

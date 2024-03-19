@@ -1,0 +1,193 @@
+{
+	"id": "ALSA-2022:8221",
+	"advisories": [
+		{
+			"id": "ALSA-2022:8221",
+			"title": "Moderate: xorg-x11-server security and bug fix update",
+			"description": "X.Org is an open-source implementation of the X Window System. It provides the basic low-level functionality that full-fledged graphical user interfaces are designed upon.\n\nSecurity Fix(es):\n\n* xorg-x11-server: X.Org Server ProcXkbSetGeometry out-of-bounds access (CVE-2022-2319)\n* xorg-x11-server: out-of-bounds access in ProcXkbSetDeviceInfo request handler of the Xkb extension (CVE-2022-2320)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:8221"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2319"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2320"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2106671"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2106683"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2022-8221.html"
+				}
+			],
+			"published": "2022-11-15T00:00:00Z",
+			"modified": "2022-11-18T13:12:08Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-2319"
+		},
+		{
+			"id": "CVE-2022-2320"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "xorg-x11-server-Xdmx"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.11-11.el9"
+					}
+				],
+				"fixed": [
+					"1.20.11-11.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "xorg-x11-server-Xephyr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.11-11.el9"
+					}
+				],
+				"fixed": [
+					"1.20.11-11.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "xorg-x11-server-Xnest"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.11-11.el9"
+					}
+				],
+				"fixed": [
+					"1.20.11-11.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "xorg-x11-server-Xorg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.11-11.el9"
+					}
+				],
+				"fixed": [
+					"1.20.11-11.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "xorg-x11-server-Xvfb"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.11-11.el9"
+					}
+				],
+				"fixed": [
+					"1.20.11-11.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "xorg-x11-server-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.11-11.el9"
+					}
+				],
+				"fixed": [
+					"1.20.11-11.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "xorg-x11-server-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.11-11.el9"
+					}
+				],
+				"fixed": [
+					"1.20.11-11.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "xorg-x11-server-source"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.11-11.el9"
+					}
+				],
+				"fixed": [
+					"1.20.11-11.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

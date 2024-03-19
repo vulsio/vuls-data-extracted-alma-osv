@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2022:8139",
+	"advisories": [
+		{
+			"id": "ALSA-2022:8139",
+			"title": "Low: wavpack security update",
+			"description": "WavPack is a completely open audio compression format providing lossless, high-quality lossy, and a unique hybrid compression mode. \n\nSecurity Fix(es):\n\n* wavpack: Heap out-of-bounds read in WavpackPackSamples() (CVE-2021-44269)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:8139"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2021-44269"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2064457"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2022-8139.html"
+				}
+			],
+			"published": "2022-11-15T00:00:00Z",
+			"modified": "2022-11-18T13:08:19Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-44269"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "wavpack"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.4.0-5.el9"
+					}
+				],
+				"fixed": [
+					"5.4.0-5.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "wavpack-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.4.0-5.el9"
+					}
+				],
+				"fixed": [
+					"5.4.0-5.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2023:0340",
+	"advisories": [
+		{
+			"id": "ALSA-2023:0340",
+			"title": "Moderate: bash security update",
+			"description": "The bash packages provide Bash (Bourne-again shell), which is the default shell for AlmaLinux.\n\nSecurity Fix(es):\n\n* bash: a heap-buffer-overflow in valid_parameter_transform (CVE-2022-3715)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:0340"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-3715"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2126720"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-0340.html"
+				}
+			],
+			"published": "2023-01-23T00:00:00Z",
+			"modified": "2023-01-24T10:46:39Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-3715"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "bash"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.8-6.el9_1"
+					}
+				],
+				"fixed": [
+					"5.1.8-6.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "bash-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.8-6.el9_1"
+					}
+				],
+				"fixed": [
+					"5.1.8-6.el9_1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

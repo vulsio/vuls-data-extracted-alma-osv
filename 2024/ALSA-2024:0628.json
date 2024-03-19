@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2024:0628",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0628",
+			"title": "Moderate: libssh security update",
+			"description": "libssh is a library which implements the SSH protocol. It can be used to implement client and server applications.\n\nSecurity Fix(es):\n\n* ssh: Prefix truncation attack on Binary Packet Protocol (BPP) (CVE-2023-48795)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0628"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-48795"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2254210"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-0628.html"
+				}
+			],
+			"published": "2024-01-31T00:00:00Z",
+			"modified": "2024-02-01T09:02:43Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-48795"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libssh"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.9.6-13.el8_9"
+					}
+				],
+				"fixed": [
+					"0.9.6-13.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libssh-config"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.9.6-13.el8_9"
+					}
+				],
+				"fixed": [
+					"0.9.6-13.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libssh-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.9.6-13.el8_9"
+					}
+				],
+				"fixed": [
+					"0.9.6-13.el8_9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

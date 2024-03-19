@@ -1,0 +1,222 @@
+{
+	"id": "ALSA-2024:0156",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0156",
+			"title": "Important: .NET 6.0 security update",
+			"description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 6.0.126 and .NET Runtime 6.0.26.\n\nSecurity Fix(es):\n\n* dotnet: Information Disclosure: MD.SqlClient(MDS) & System.data.SQLClient (SDS) (CVE-2024-0056)\n* dotnet: X509 Certificates - Validation Bypass across Azure (CVE-2024-0057)\n* dotnet: .NET Denial of Service Vulnerability (CVE-2024-21319)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0156"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-0056"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-0057"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-21319"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2255384"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2255386"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257566"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-0156.html"
+				}
+			],
+			"published": "2024-01-10T00:00:00Z",
+			"modified": "2024-01-11T22:19:35Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-0056"
+		},
+		{
+			"id": "CVE-2024-0057"
+		},
+		{
+			"id": "CVE-2024-21319"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "aspnetcore-runtime-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.26-1.el9_3"
+					}
+				],
+				"fixed": [
+					"6.0.26-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "aspnetcore-targeting-pack-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.26-1.el9_3"
+					}
+				],
+				"fixed": [
+					"6.0.26-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-apphost-pack-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.26-1.el9_3"
+					}
+				],
+				"fixed": [
+					"6.0.26-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-hostfxr-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.26-1.el9_3"
+					}
+				],
+				"fixed": [
+					"6.0.26-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-runtime-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.26-1.el9_3"
+					}
+				],
+				"fixed": [
+					"6.0.26-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-sdk-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.126-1.el9_3"
+					}
+				],
+				"fixed": [
+					"6.0.126-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-sdk-6.0-source-built-artifacts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.126-1.el9_3"
+					}
+				],
+				"fixed": [
+					"6.0.126-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-targeting-pack-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.26-1.el9_3"
+					}
+				],
+				"fixed": [
+					"6.0.26-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-templates-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.126-1.el9_3"
+					}
+				],
+				"fixed": [
+					"6.0.126-1.el9_3"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

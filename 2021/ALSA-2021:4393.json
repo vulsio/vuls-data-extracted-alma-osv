@@ -1,0 +1,134 @@
+{
+	"id": "ALSA-2021:4393",
+	"advisories": [
+		{
+			"id": "ALSA-2021:4393",
+			"title": "Moderate: cups security and bug fix update",
+			"description": "The Common UNIX Printing System (CUPS) provides a portable printing layer for Linux, UNIX, and similar operating systems.\n\nSecurity Fix(es):\n\n* cups: access to uninitialized buffer in ipp.c (CVE-2020-10001)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2020-10001"
+				}
+			],
+			"published": "2021-11-09T09:16:27Z",
+			"modified": "2021-11-12T10:20:56Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-10001"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "cups"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.2.6-40.el8"
+					}
+				],
+				"fixed": [
+					"1:2.2.6-40.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-client"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.2.6-40.el8"
+					}
+				],
+				"fixed": [
+					"1:2.2.6-40.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.2.6-40.el8"
+					}
+				],
+				"fixed": [
+					"1:2.2.6-40.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-filesystem"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.2.6-40.el8"
+					}
+				],
+				"fixed": [
+					"1:2.2.6-40.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-ipptool"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.2.6-40.el8"
+					}
+				],
+				"fixed": [
+					"1:2.2.6-40.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-lpd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.2.6-40.el8"
+					}
+				],
+				"fixed": [
+					"1:2.2.6-40.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

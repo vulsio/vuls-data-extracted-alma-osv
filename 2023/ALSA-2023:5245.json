@@ -1,0 +1,416 @@
+{
+	"id": "ALSA-2023:5245",
+	"advisories": [
+		{
+			"id": "ALSA-2023:5245",
+			"title": "Moderate: linux-firmware security update",
+			"description": "The linux-firmware packages contain all of the firmware files that are required by various devices to operate.\n\nSecurity Fix(es):\n\n* hw: amd: Cross-Process Information Leak (CVE-2023-20593)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:5245"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-20593"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2217845"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-5245.html"
+				}
+			],
+			"published": "2023-09-19T00:00:00Z",
+			"modified": "2023-10-05T21:49:38Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-20593"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl100-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "39.31.5.1-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"39.31.5.1-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl1000-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:39.31.5.1-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"1:39.31.5.1-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl105-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "18.168.6.1-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"18.168.6.1-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl135-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "18.168.6.1-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"18.168.6.1-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl2000-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "18.168.6.1-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"18.168.6.1-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl2030-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "18.168.6.1-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"18.168.6.1-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl3160-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:25.30.13.0-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"1:25.30.13.0-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl3945-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "15.32.2.9-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"15.32.2.9-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl4965-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "228.61.2.24-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"228.61.2.24-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl5000-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.83.5.1_1-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"8.83.5.1_1-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl5150-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.24.2.2-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"8.24.2.2-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl6000-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.221.4.1-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"9.221.4.1-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl6000g2a-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "18.168.6.1-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"18.168.6.1-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl6000g2b-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "18.168.6.1-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"18.168.6.1-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl6050-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "41.28.5.1-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"41.28.5.1-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "iwl7260-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:25.30.13.0-117.el8_8.1.alma.1"
+					}
+				],
+				"fixed": [
+					"1:25.30.13.0-117.el8_8.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libertas-sd8686-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20230404-117.git2e92a49f.el8_8.alma.1"
+					}
+				],
+				"fixed": [
+					"20230404-117.git2e92a49f.el8_8.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libertas-sd8787-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20230404-117.git2e92a49f.el8_8.alma.1"
+					}
+				],
+				"fixed": [
+					"20230404-117.git2e92a49f.el8_8.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libertas-usb8388-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:20230404-117.git2e92a49f.el8_8.alma.1"
+					}
+				],
+				"fixed": [
+					"2:20230404-117.git2e92a49f.el8_8.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libertas-usb8388-olpc-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20230404-117.git2e92a49f.el8_8.alma.1"
+					}
+				],
+				"fixed": [
+					"20230404-117.git2e92a49f.el8_8.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "linux-firmware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20230404-117.git2e92a49f.el8_8.alma.1"
+					}
+				],
+				"fixed": [
+					"20230404-117.git2e92a49f.el8_8.alma.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

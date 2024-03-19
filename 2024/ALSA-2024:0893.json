@@ -1,0 +1,110 @@
+{
+	"id": "ALSA-2024:0893",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0893",
+			"title": "Important: python-pillow security update",
+			"description": "The python-pillow packages contain a Python image processing library that provides extensive file format support, an efficient internal representation, and powerful image-processing capabilities.\n\nSecurity Fix(es):\n\n* pillow: Arbitrary Code Execution via the environment parameter (CVE-2023-50447)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0893"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-50447"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2259479"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-0893.html"
+				}
+			],
+			"published": "2024-02-20T00:00:00Z",
+			"modified": "2024-02-22T19:24:04Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-50447"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-pillow"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.1-18.el8_9.1.alma.1"
+					}
+				],
+				"fixed": [
+					"5.1.1-18.el8_9.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-pillow-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.1-18.el8_9.1.alma.1"
+					}
+				],
+				"fixed": [
+					"5.1.1-18.el8_9.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-pillow-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.1-18.el8_9.1.alma.1"
+					}
+				],
+				"fixed": [
+					"5.1.1-18.el8_9.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-pillow-tk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.1-18.el8_9.1.alma.1"
+					}
+				],
+				"fixed": [
+					"5.1.1-18.el8_9.1.alma.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

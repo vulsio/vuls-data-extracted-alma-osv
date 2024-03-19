@@ -1,0 +1,56 @@
+{
+	"id": "ALSA-2023:7022",
+	"advisories": [
+		{
+			"id": "ALSA-2023:7022",
+			"title": "Moderate: tang security and bug fix update",
+			"description": "Tang is a server for binding data to network presence. It includes a daemon which provides cryptographic operations for binding to a remote service. The tang package provides the server side of the Network Bound Disk Encryption (NBDE) project.\n\nSecurity Fix(es):\n\n* tang: Race condition exists in the key generation and rotation functionality (CVE-2023-1672)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:7022"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-1672"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2180999"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-7022.html"
+				}
+			],
+			"published": "2023-11-14T00:00:00Z",
+			"modified": "2023-11-23T10:18:45Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-1672"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tang"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7-8.el8"
+					}
+				],
+				"fixed": [
+					"7-8.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

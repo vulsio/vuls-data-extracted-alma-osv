@@ -1,0 +1,625 @@
+{
+	"id": "ALSA-2024:0861",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0861",
+			"title": "Important: gimp:2.8 security update",
+			"description": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.\n\nSecurity Fix(es):\n\n* gimp: PSD buffer overflow RCE (CVE-2023-44442)\n* gimp: psp off-by-one RCE (CVE-2023-44444)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0861"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-44442"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-44444"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2249942"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2249946"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-0861.html"
+				}
+			],
+			"published": "2024-02-19T00:00:00Z",
+			"modified": "2024-02-22T20:14:15Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-44442"
+		},
+		{
+			"id": "CVE-2023-44444"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gimp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:2.8.22-25.module_el8.9.0+3725+d1441900"
+					}
+				],
+				"fixed": [
+					"2:2.8.22-25.module_el8.9.0+3725+d1441900"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gimp-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:2.8.22-25.module_el8.9.0+3725+d1441900"
+					}
+				],
+				"fixed": [
+					"2:2.8.22-25.module_el8.9.0+3725+d1441900"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gimp-devel-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:2.8.22-25.module_el8.9.0+3725+d1441900"
+					}
+				],
+				"fixed": [
+					"2:2.8.22-25.module_el8.9.0+3725+d1441900"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gimp-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:2.8.22-25.module_el8.9.0+3725+d1441900"
+					}
+				],
+				"fixed": [
+					"2:2.8.22-25.module_el8.9.0+3725+d1441900"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.6.0+3053+ee77682c"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.6.0+3053+ee77682c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.5.0+17+826458aa"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.5.0+17+826458aa"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.0.0+6039+48ed2b14"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.0.0+6039+48ed2b14"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.4.0+2208+3d7d61b2"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.4.0+2208+3d7d61b2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-codegen"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.5.0+17+826458aa"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.5.0+17+826458aa"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-codegen"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.6.0+3053+ee77682c"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.6.0+3053+ee77682c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-codegen"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.0.0+6039+48ed2b14"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.0.0+6039+48ed2b14"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-codegen"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.4.0+2208+3d7d61b2"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.4.0+2208+3d7d61b2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.4.0+2208+3d7d61b2"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.4.0+2208+3d7d61b2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.5.0+17+826458aa"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.5.0+17+826458aa"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.0.0+6039+48ed2b14"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.0.0+6039+48ed2b14"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.6.0+3053+ee77682c"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.6.0+3053+ee77682c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.5.0+17+826458aa"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.5.0+17+826458aa"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.0.0+6039+48ed2b14"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.0.0+6039+48ed2b14"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.6.0+3053+ee77682c"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.6.0+3053+ee77682c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygobject2-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.28.7-4.module_el8.4.0+2208+3d7d61b2"
+					}
+				],
+				"fixed": [
+					"2.28.7-4.module_el8.4.0+2208+3d7d61b2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygtk2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.24.0-25.module_el8.9.0+3725+d1441900"
+					}
+				],
+				"fixed": [
+					"2.24.0-25.module_el8.9.0+3725+d1441900"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygtk2-codegen"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.24.0-25.module_el8.9.0+3725+d1441900"
+					}
+				],
+				"fixed": [
+					"2.24.0-25.module_el8.9.0+3725+d1441900"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygtk2-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.24.0-25.module_el8.9.0+3725+d1441900"
+					}
+				],
+				"fixed": [
+					"2.24.0-25.module_el8.9.0+3725+d1441900"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pygtk2-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.24.0-25.module_el8.9.0+3725+d1441900"
+					}
+				],
+				"fixed": [
+					"2.24.0-25.module_el8.9.0+3725+d1441900"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python2-cairo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.3-6.module_el8.5.0+17+826458aa"
+					}
+				],
+				"fixed": [
+					"1.16.3-6.module_el8.5.0+17+826458aa"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python2-cairo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.3-6.module_el8.4.0+2208+3d7d61b2"
+					}
+				],
+				"fixed": [
+					"1.16.3-6.module_el8.4.0+2208+3d7d61b2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python2-cairo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.3-6.module_el8.6.0+3053+ee77682c"
+					}
+				],
+				"fixed": [
+					"1.16.3-6.module_el8.6.0+3053+ee77682c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python2-cairo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.3-6.module_el8.0.0+6039+48ed2b14"
+					}
+				],
+				"fixed": [
+					"1.16.3-6.module_el8.0.0+6039+48ed2b14"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python2-cairo-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.3-6.module_el8.5.0+17+826458aa"
+					}
+				],
+				"fixed": [
+					"1.16.3-6.module_el8.5.0+17+826458aa"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python2-cairo-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.3-6.module_el8.0.0+6039+48ed2b14"
+					}
+				],
+				"fixed": [
+					"1.16.3-6.module_el8.0.0+6039+48ed2b14"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python2-cairo-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.3-6.module_el8.6.0+3053+ee77682c"
+					}
+				],
+				"fixed": [
+					"1.16.3-6.module_el8.6.0+3053+ee77682c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python2-cairo-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.3-6.module_el8.4.0+2208+3d7d61b2"
+					}
+				],
+				"fixed": [
+					"1.16.3-6.module_el8.4.0+2208+3d7d61b2"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

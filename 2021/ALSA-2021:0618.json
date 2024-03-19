@@ -1,0 +1,48 @@
+{
+	"id": "ALSA-2021:0618",
+	"advisories": [
+		{
+			"id": "ALSA-2021:0618",
+			"title": "Important: stunnel security update",
+			"description": "Stunnel is a wrapper for network connections. It can be used to tunnel an unencrypted network connection over an encrypted connection (encrypted using SSL or TLS) or to provide an encrypted means of connecting to services that do not natively support encryption.\n\nSecurity Fix(es):\n\n* stunnel: client certificate not correctly verified when redirect and verifyChain options are used (CVE-2021-20230)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2021-0618.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-20230"
+				}
+			],
+			"published": "2021-02-22T09:54:57Z",
+			"modified": "2021-02-22T09:54:57Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-20230"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "stunnel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.56-5.el8_3"
+					}
+				],
+				"fixed": [
+					"5.56-5.el8_3"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

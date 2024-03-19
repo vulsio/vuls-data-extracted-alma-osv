@@ -1,0 +1,215 @@
+{
+	"id": "ALSA-2024:0125",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0125",
+			"title": "Moderate: tomcat security update",
+			"description": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.\n\nSecurity Fix(es):\n\n* tomcat: Open Redirect vulnerability in FORM authentication (CVE-2023-41080)\n* tomcat: FileUpload: DoS due to accumulation of temporary files on Windows (CVE-2023-42794)\n* tomcat: improper cleaning of recycled objects could lead to information leak (CVE-2023-42795)\n* tomcat: incorrectly parsed http trailer headers can cause request smuggling (CVE-2023-45648)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0125"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-41080"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-42794"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-42795"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45648"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2235370"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2243749"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2243751"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2243752"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-0125.html"
+				}
+			],
+			"published": "2024-01-10T00:00:00Z",
+			"modified": "2024-01-16T16:57:24Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-41080"
+		},
+		{
+			"id": "CVE-2023-42794"
+		},
+		{
+			"id": "CVE-2023-42795"
+		},
+		{
+			"id": "CVE-2023-45648"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.62-27.el8_9.2"
+					}
+				],
+				"fixed": [
+					"1:9.0.62-27.el8_9.2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-admin-webapps"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.62-27.el8_9.2"
+					}
+				],
+				"fixed": [
+					"1:9.0.62-27.el8_9.2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-docs-webapp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.62-27.el8_9.2"
+					}
+				],
+				"fixed": [
+					"1:9.0.62-27.el8_9.2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-el-3.0-api"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.62-27.el8_9.2"
+					}
+				],
+				"fixed": [
+					"1:9.0.62-27.el8_9.2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-jsp-2.3-api"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.62-27.el8_9.2"
+					}
+				],
+				"fixed": [
+					"1:9.0.62-27.el8_9.2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-lib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.62-27.el8_9.2"
+					}
+				],
+				"fixed": [
+					"1:9.0.62-27.el8_9.2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-servlet-4.0-api"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.62-27.el8_9.2"
+					}
+				],
+				"fixed": [
+					"1:9.0.62-27.el8_9.2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-webapps"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.62-27.el8_9.2"
+					}
+				],
+				"fixed": [
+					"1:9.0.62-27.el8_9.2"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2023:0282",
+	"advisories": [
+		{
+			"id": "ALSA-2023:0282",
+			"title": "Important: sudo security update",
+			"description": "The sudo packages contain the sudo utility which allows system administrators to provide certain users with the permission to execute privileged commands, which are used for system management purposes, without having to log in as root.\n\nSecurity Fix(es):\n\n* sudo: arbitrary file write with privileges of the RunAs user (CVE-2023-22809)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:0282"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-22809"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2161142"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-0282.html"
+				}
+			],
+			"published": "2023-01-23T00:00:00Z",
+			"modified": "2023-01-24T07:20:47Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-22809"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sudo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.9.5p2-7.el9_1.1"
+					}
+				],
+				"fixed": [
+					"1.9.5p2-7.el9_1.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sudo-python-plugin"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.9.5p2-7.el9_1.1"
+					}
+				],
+				"fixed": [
+					"1.9.5p2-7.el9_1.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

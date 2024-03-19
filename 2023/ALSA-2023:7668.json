@@ -1,0 +1,128 @@
+{
+	"id": "ALSA-2023:7668",
+	"advisories": [
+		{
+			"id": "ALSA-2023:7668",
+			"title": "Important: squid:4 security update",
+			"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: DoS against HTTP and HTTPS (CVE-2023-5824)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:7668"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-5824"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2245914"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-7668.html"
+				}
+			],
+			"published": "2023-12-06T00:00:00Z",
+			"modified": "2023-12-14T08:59:00Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-5824"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+2741+01592ae8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+3048+383bc947"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+3048+383bc947"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+2741+01592ae8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+3048+383bc947"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+3048+383bc947"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "squid"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7:4.15-7.module_el8.9.0+3696+b881db49.3"
+					}
+				],
+				"fixed": [
+					"7:4.15-7.module_el8.9.0+3696+b881db49.3"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

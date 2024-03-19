@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2023:5838",
+	"advisories": [
+		{
+			"id": "ALSA-2023:5838",
+			"title": "Important: nghttp2 security update",
+			"description": "libnghttp2 is a library implementing the Hypertext Transfer Protocol version 2 (HTTP/2) protocol in C.\n\nSecurity Fix(es):\n\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:5838"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-44487"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2242803"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-5838.html"
+				}
+			],
+			"published": "2023-10-18T00:00:00Z",
+			"modified": "2023-10-19T06:29:05Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-44487"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libnghttp2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.43.0-5.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.43.0-5.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libnghttp2-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.43.0-5.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.43.0-5.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "nghttp2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.43.0-5.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.43.0-5.el9_2.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

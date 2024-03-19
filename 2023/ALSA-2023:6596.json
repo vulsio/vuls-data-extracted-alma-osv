@@ -1,0 +1,193 @@
+{
+	"id": "ALSA-2023:6596",
+	"advisories": [
+		{
+			"id": "ALSA-2023:6596",
+			"title": "Moderate: cups security and bug fix update",
+			"description": "The Common UNIX Printing System (CUPS) provides a portable printing layer for Linux, UNIX, and similar operating systems.\n\nSecurity Fix(es):\n\n* cups: heap buffer overflow may lead to DoS (CVE-2023-32324)\n* cups: use-after-free in cupsdAcceptClient() in scheduler/client.c (CVE-2023-34241)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:6596"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-32324"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-34241"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2209603"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2214914"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-6596.html"
+				}
+			],
+			"published": "2023-11-07T00:00:00Z",
+			"modified": "2023-11-14T12:11:43Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-32324"
+		},
+		{
+			"id": "CVE-2023-34241"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "cups"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.3.3op2-21.el9"
+					}
+				],
+				"fixed": [
+					"1:2.3.3op2-21.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-client"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.3.3op2-21.el9"
+					}
+				],
+				"fixed": [
+					"1:2.3.3op2-21.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.3.3op2-21.el9"
+					}
+				],
+				"fixed": [
+					"1:2.3.3op2-21.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-filesystem"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.3.3op2-21.el9"
+					}
+				],
+				"fixed": [
+					"1:2.3.3op2-21.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-ipptool"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.3.3op2-21.el9"
+					}
+				],
+				"fixed": [
+					"1:2.3.3op2-21.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.3.3op2-21.el9"
+					}
+				],
+				"fixed": [
+					"1:2.3.3op2-21.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-lpd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.3.3op2-21.el9"
+					}
+				],
+				"fixed": [
+					"1:2.3.3op2-21.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-printerapp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.3.3op2-21.el9"
+					}
+				],
+				"fixed": [
+					"1:2.3.3op2-21.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

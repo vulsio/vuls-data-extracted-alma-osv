@@ -1,0 +1,637 @@
+{
+	"id": "ALSA-2022:6590",
+	"advisories": [
+		{
+			"id": "ALSA-2022:6590",
+			"title": "Moderate: mysql security, bug fix, and enhancement update",
+			"description": "MySQL is a multi-user, multi-threaded SQL database server. It consists of the MySQL server daemon (mysqld) and many client programs and libraries.\n\nThe following packages have been upgraded to a later upstream version: mysql (8.0.30). (BZ#2122589)\n\nSecurity Fix(es):\n\n* mysql: Server: Optimizer multiple unspecified vulnerabilities (CPU Apr 2022) (CVE-2022-21412, CVE-2022-21414, CVE-2022-21435, CVE-2022-21436, CVE-2022-21437, CVE-2022-21438, CVE-2022-21440, CVE-2022-21452, CVE-2022-21459, CVE-2022-21462, CVE-2022-21478, CVE-2022-21479)\n* mysql: Server: DML unspecified vulnerability (CPU Apr 2022) (CVE-2022-21413)\n* mysql: Server: Replication unspecified vulnerability (CPU Apr 2022) (CVE-2022-21415)\n* mysql: InnoDB multiple unspecified vulnerabilities (CPU Apr 2022) (CVE-2022-21417, CVE-2022-21418, CVE-2022-21451, CVE-2022-21423)\n* mysql: Server: DDL multiple unspecified vulnerabilities (CPU Apr 2022) (CVE-2022-21425, CVE-2022-21444)\n* mysql: Server: FTS unspecified vulnerability (CPU Apr 2022) (CVE-2022-21427)\n* mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2022) (CVE-2022-21454)\n* mysql: Server: PAM Auth Plugin unspecified vulnerability (CPU Jul 2022) (CVE-2022-21455)\n* mysql: Server: PAM Auth Plugin unspecified vulnerability (CPU Apr 2022) (CVE-2022-21457)\n* mysql: Server: Logging unspecified vulnerability (CPU Apr 2022) (CVE-2022-21460)\n* mysql: Server: Optimizer multiple unspecified vulnerabilities (CPU Jul 2022) (CVE-2022-21509, CVE-2022-21525, CVE-2022-21526, CVE-2022-21527, CVE-2022-21528, CVE-2022-21529, CVE-2022-21530, CVE-2022-21531, CVE-2022-21553, CVE-2022-21556, CVE-2022-21569)\n* mysql: Server: Options unspecified vulnerability (CPU Jul 2022) (CVE-2022-21515)\n* mysql: InnoDB multiple unspecified vulnerabilities (CPU Jul 2022) (CVE-2022-21517, CVE-2022-21537, CVE-2022-21539)\n* mysql: Server: Stored Procedure multiple unspecified vulnerabilities (CPU Jul 2022) (CVE-2022-21522, CVE-2022-21534)\n* mysql: Server: Federated unspecified vulnerability (CPU Jul 2022) (CVE-2022-21547)\n* mysql: Server: Security: Encryption unspecified vulnerability (CPU Jul 2022) (CVE-2022-21538)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Default logrotate set to wrong log file (BZ#2122592)",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:6590"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21412"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21413"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21414"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21415"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21417"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21418"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21423"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21425"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21427"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21435"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21436"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21437"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21438"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21440"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21444"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21451"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21452"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21454"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21455"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21457"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21459"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21460"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21462"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21478"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21479"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21509"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21515"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21517"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21522"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21525"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21526"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21527"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21528"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21529"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21530"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21531"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21534"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21537"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21538"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21539"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21547"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21553"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21556"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21569"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082636"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082637"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082638"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082639"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082640"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082641"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082642"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082643"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082644"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082645"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082646"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082647"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082648"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082649"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082650"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082651"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082652"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082653"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082654"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082655"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082656"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082657"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082658"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2082659"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115282"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115283"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115284"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115285"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115286"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115287"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115288"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115289"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115290"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115291"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115292"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115293"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115294"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115295"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115296"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115297"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115298"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115299"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115300"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2115301"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2022-6590.html"
+				}
+			],
+			"published": "2022-09-20T00:00:00Z",
+			"modified": "2022-10-19T07:05:51Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-21412"
+		},
+		{
+			"id": "CVE-2022-21413"
+		},
+		{
+			"id": "CVE-2022-21414"
+		},
+		{
+			"id": "CVE-2022-21415"
+		},
+		{
+			"id": "CVE-2022-21417"
+		},
+		{
+			"id": "CVE-2022-21418"
+		},
+		{
+			"id": "CVE-2022-21423"
+		},
+		{
+			"id": "CVE-2022-21425"
+		},
+		{
+			"id": "CVE-2022-21427"
+		},
+		{
+			"id": "CVE-2022-21435"
+		},
+		{
+			"id": "CVE-2022-21436"
+		},
+		{
+			"id": "CVE-2022-21437"
+		},
+		{
+			"id": "CVE-2022-21438"
+		},
+		{
+			"id": "CVE-2022-21440"
+		},
+		{
+			"id": "CVE-2022-21444"
+		},
+		{
+			"id": "CVE-2022-21451"
+		},
+		{
+			"id": "CVE-2022-21452"
+		},
+		{
+			"id": "CVE-2022-21454"
+		},
+		{
+			"id": "CVE-2022-21455"
+		},
+		{
+			"id": "CVE-2022-21457"
+		},
+		{
+			"id": "CVE-2022-21459"
+		},
+		{
+			"id": "CVE-2022-21460"
+		},
+		{
+			"id": "CVE-2022-21462"
+		},
+		{
+			"id": "CVE-2022-21478"
+		},
+		{
+			"id": "CVE-2022-21479"
+		},
+		{
+			"id": "CVE-2022-21509"
+		},
+		{
+			"id": "CVE-2022-21515"
+		},
+		{
+			"id": "CVE-2022-21517"
+		},
+		{
+			"id": "CVE-2022-21522"
+		},
+		{
+			"id": "CVE-2022-21525"
+		},
+		{
+			"id": "CVE-2022-21526"
+		},
+		{
+			"id": "CVE-2022-21527"
+		},
+		{
+			"id": "CVE-2022-21528"
+		},
+		{
+			"id": "CVE-2022-21529"
+		},
+		{
+			"id": "CVE-2022-21530"
+		},
+		{
+			"id": "CVE-2022-21531"
+		},
+		{
+			"id": "CVE-2022-21534"
+		},
+		{
+			"id": "CVE-2022-21537"
+		},
+		{
+			"id": "CVE-2022-21538"
+		},
+		{
+			"id": "CVE-2022-21539"
+		},
+		{
+			"id": "CVE-2022-21547"
+		},
+		{
+			"id": "CVE-2022-21553"
+		},
+		{
+			"id": "CVE-2022-21556"
+		},
+		{
+			"id": "CVE-2022-21569"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mysql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0.30-3.el9_0"
+					}
+				],
+				"fixed": [
+					"8.0.30-3.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mysql-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0.30-3.el9_0"
+					}
+				],
+				"fixed": [
+					"8.0.30-3.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mysql-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0.30-3.el9_0"
+					}
+				],
+				"fixed": [
+					"8.0.30-3.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mysql-errmsg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0.30-3.el9_0"
+					}
+				],
+				"fixed": [
+					"8.0.30-3.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mysql-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0.30-3.el9_0"
+					}
+				],
+				"fixed": [
+					"8.0.30-3.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mysql-server"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0.30-3.el9_0"
+					}
+				],
+				"fixed": [
+					"8.0.30-3.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mysql-test"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0.30-3.el9_0"
+					}
+				],
+				"fixed": [
+					"8.0.30-3.el9_0"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

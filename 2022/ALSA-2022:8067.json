@@ -1,0 +1,335 @@
+{
+	"id": "ALSA-2022:8067",
+	"advisories": [
+		{
+			"id": "ALSA-2022:8067",
+			"title": "Moderate: httpd security, bug fix, and enhancement update",
+			"description": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nThe following packages have been upgraded to a later upstream version: httpd (2.4.53). (BZ#2079939)\n\nSecurity Fix(es):\n\n* httpd: mod_sed: Read/write beyond bounds (CVE-2022-23943)\n* httpd: mod_lua: Use of uninitialized value of in r:parsebody (CVE-2022-22719)\n* httpd: core: Possible buffer overflow with very large or unlimited LimitXMLRequestBody (CVE-2022-22721)\n* httpd: mod_proxy_ajp: Possible request smuggling (CVE-2022-26377)\n* httpd: mod_lua: DoS in r:parsebody (CVE-2022-29404)\n* httpd: mod_sed: DoS vulnerability (CVE-2022-30522)\n* httpd: mod_proxy: X-Forwarded-For dropped by hop-by-hop mechanism (CVE-2022-31813)\n* httpd: Out-of-bounds read via ap_rwrite() (CVE-2022-28614)\n* httpd: Out-of-bounds read in ap_strcmp_match() (CVE-2022-28615)\n* httpd: mod_lua: Information disclosure with websockets (CVE-2022-30556)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:8067"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-22719"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-22721"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-23943"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-26377"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-28614"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-28615"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-29404"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-30522"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-30556"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-31813"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2064319"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2064320"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2064322"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2094997"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2095002"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2095006"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2095012"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2095015"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2095018"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2095020"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2022-8067.html"
+				}
+			],
+			"published": "2022-11-15T00:00:00Z",
+			"modified": "2022-11-18T04:40:41Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-22719"
+		},
+		{
+			"id": "CVE-2022-22721"
+		},
+		{
+			"id": "CVE-2022-23943"
+		},
+		{
+			"id": "CVE-2022-26377"
+		},
+		{
+			"id": "CVE-2022-28614"
+		},
+		{
+			"id": "CVE-2022-28615"
+		},
+		{
+			"id": "CVE-2022-29404"
+		},
+		{
+			"id": "CVE-2022-30522"
+		},
+		{
+			"id": "CVE-2022-30556"
+		},
+		{
+			"id": "CVE-2022-31813"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.53-7.el9"
+					}
+				],
+				"fixed": [
+					"2.4.53-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-core"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.53-7.el9"
+					}
+				],
+				"fixed": [
+					"2.4.53-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.53-7.el9"
+					}
+				],
+				"fixed": [
+					"2.4.53-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-filesystem"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.53-7.el9"
+					}
+				],
+				"fixed": [
+					"2.4.53-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-manual"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.53-7.el9"
+					}
+				],
+				"fixed": [
+					"2.4.53-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.53-7.el9"
+					}
+				],
+				"fixed": [
+					"2.4.53-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_ldap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.53-7.el9"
+					}
+				],
+				"fixed": [
+					"2.4.53-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_lua"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.53-7.el9"
+					}
+				],
+				"fixed": [
+					"2.4.53-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_proxy_html"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.4.53-7.el9"
+					}
+				],
+				"fixed": [
+					"1:2.4.53-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_session"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.53-7.el9"
+					}
+				],
+				"fixed": [
+					"2.4.53-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_ssl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.4.53-7.el9"
+					}
+				],
+				"fixed": [
+					"1:2.4.53-7.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

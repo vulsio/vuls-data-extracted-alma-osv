@@ -1,0 +1,230 @@
+{
+	"id": "ALSA-2023:1743",
+	"advisories": [
+		{
+			"id": "ALSA-2023:1743",
+			"title": "Important: nodejs:14 security, bug fix, and enhancement update",
+			"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (14.21.3).\n\nSecurity Fix(es):\n\n* decode-uri-component: improper input validation resulting in DoS (CVE-2022-38900)\n* glob-parent: Regular Expression Denial of Service (CVE-2021-35065)\n* nodejs-minimatch: ReDoS via the braceExpand function (CVE-2022-3517)\n* c-ares: buffer overflow in config_sortlist() due to missing string length check (CVE-2022-4904)\n* http-cache-semantics: Regular Expression Denial of Service (ReDoS) vulnerability (CVE-2022-25881)\n* Node.js: Permissions policies can be bypassed via process.mainModule (CVE-2023-23918)\n* Node.js: insecure loading of ICU data through ICU_DATA environment variable (CVE-2023-23920)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:1743"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2021-35065"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-25881"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-3517"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-38900"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-4904"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-23918"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-23920"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2134609"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2156324"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2165824"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2168631"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2170644"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2171935"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2172217"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-1743.html"
+				}
+			],
+			"published": "2023-04-12T00:00:00Z",
+			"modified": "2023-04-20T13:00:15Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-35065"
+		},
+		{
+			"id": "CVE-2022-25881"
+		},
+		{
+			"id": "CVE-2022-3517"
+		},
+		{
+			"id": "CVE-2022-38900"
+		},
+		{
+			"id": "CVE-2022-4904"
+		},
+		{
+			"id": "CVE-2023-23918"
+		},
+		{
+			"id": "CVE-2023-23920"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+					}
+				],
+				"fixed": [
+					"1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+					}
+				],
+				"fixed": [
+					"1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-docs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+					}
+				],
+				"fixed": [
+					"1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-full-i18n"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+					}
+				],
+				"fixed": [
+					"1:14.21.3-1.module_el8.7.0+3551+53700ee8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-nodemon"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.20-3.module_el8.7.0+3551+53700ee8"
+					}
+				],
+				"fixed": [
+					"2.0.20-3.module_el8.7.0+3551+53700ee8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "23-3.module_el8.4.0+2522+3bd42762"
+					}
+				],
+				"fixed": [
+					"23-3.module_el8.4.0+2522+3bd42762"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "npm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.14.18-1.14.21.3.1.module_el8.7.0+3551+53700ee8"
+					}
+				],
+				"fixed": [
+					"1:6.14.18-1.14.21.3.1.module_el8.7.0+3551+53700ee8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,141 @@
+{
+	"id": "ALSA-2021:0549",
+	"advisories": [
+		{
+			"id": "ALSA-2021:0549",
+			"title": "Moderate: nodejs:12 security update",
+			"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (12.20.1), nodejs-nodemon (2.0.3).\n\nSecurity Fix(es):\n\n* nodejs-mixin-deep: prototype pollution in function mixin-deep (CVE-2019-10746)\n\n* nodejs-set-value: prototype pollution in function set-value (CVE-2019-10747)\n\n* nodejs-npm-user-validate: improper input validation when validating user emails leads to ReDoS (CVE-2020-7754)\n\n* nodejs-ini: prototype pollution via malicious INI file (CVE-2020-7788)\n\n* nodejs: use-after-free in the TLS implementation (CVE-2020-8265)\n\n* nodejs: HTTP request smuggling via two copies of a header field in an http request (CVE-2020-8287)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2021-0549.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2018-3750"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-10746"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-10747"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2020-7754"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2020-7788"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2020-8265"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2020-8287"
+				}
+			],
+			"published": "2021-02-16T07:34:29Z",
+			"modified": "2021-02-16T13:03:05Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-10746"
+		},
+		{
+			"id": "CVE-2019-10747"
+		},
+		{
+			"id": "CVE-2020-7754"
+		},
+		{
+			"id": "CVE-2020-7788"
+		},
+		{
+			"id": "CVE-2020-8265"
+		},
+		{
+			"id": "CVE-2020-8287"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-nodemon"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.3-1.module_el8.4.0+2521+c668cc9f"
+					}
+				],
+				"fixed": [
+					"2.0.3-1.module_el8.4.0+2521+c668cc9f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17-3.module_el8.4.0+2224+b07ac28e"
+					}
+				],
+				"fixed": [
+					"17-3.module_el8.4.0+2224+b07ac28e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17-3.module_el8.4.0+2521+c668cc9f"
+					}
+				],
+				"fixed": [
+					"17-3.module_el8.4.0+2521+c668cc9f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17-3.module_el8.3.0+2023+d2377ea3"
+					}
+				],
+				"fixed": [
+					"17-3.module_el8.3.0+2023+d2377ea3"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

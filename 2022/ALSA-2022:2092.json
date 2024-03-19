@@ -1,0 +1,336 @@
+{
+	"id": "ALSA-2022:2092",
+	"advisories": [
+		{
+			"id": "ALSA-2022:2092",
+			"title": "Moderate: bind security, bug fix, and enhancement update",
+			"description": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.\n\nThe following packages have been upgraded to a later upstream version: bind (9.11.36). (BZ#2013993)\n\nSecurity Fix(es):\n\n* bind: Lame cache can be abused to severely degrade resolver performance (CVE-2021-25219)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-2092.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-25219"
+				}
+			],
+			"published": "2022-05-10T06:53:47Z",
+			"modified": "2022-05-10T08:16:30Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-25219"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-chroot"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-export-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-export-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-libs-lite"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-license"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-lite-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-pkcs11"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-pkcs11-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-pkcs11-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-pkcs11-utils"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-sdb"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-sdb-chroot"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind-utils"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-bind"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.11.36-3.el8"
+					}
+				],
+				"fixed": [
+					"32:9.11.36-3.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

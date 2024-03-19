@@ -1,0 +1,146 @@
+{
+	"id": "ALSA-2022:7464",
+	"advisories": [
+		{
+			"id": "ALSA-2022:7464",
+			"title": "Moderate: protobuf security update",
+			"description": "The protobuf packages provide Protocol Buffers, Google's data interchange format. Protocol Buffers can encode structured data in an efficient yet extensible format, and provide a flexible, efficient, and automated mechanism for serializing structured data.\n\nSecurity Fix(es):\n\n* protobuf: Incorrect parsing of nullchar in the proto symbol leads to Nullptr dereference (CVE-2021-22570)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:7464"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2021-22570"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2049429"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-7464.html"
+				}
+			],
+			"published": "2022-11-08T00:00:00Z",
+			"modified": "2022-11-14T17:52:55Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-22570"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "protobuf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.5.0-15.el8"
+					}
+				],
+				"fixed": [
+					"3.5.0-15.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "protobuf-compiler"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.5.0-15.el8"
+					}
+				],
+				"fixed": [
+					"3.5.0-15.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "protobuf-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.5.0-15.el8"
+					}
+				],
+				"fixed": [
+					"3.5.0-15.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "protobuf-lite"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.5.0-15.el8"
+					}
+				],
+				"fixed": [
+					"3.5.0-15.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "protobuf-lite-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.5.0-15.el8"
+					}
+				],
+				"fixed": [
+					"3.5.0-15.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-protobuf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.5.0-15.el8"
+					}
+				],
+				"fixed": [
+					"3.5.0-15.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

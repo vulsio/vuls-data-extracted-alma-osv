@@ -1,0 +1,236 @@
+{
+	"id": "ALSA-2023:6246",
+	"advisories": [
+		{
+			"id": "ALSA-2023:6246",
+			"title": "Moderate: .NET 7.0 security update",
+			"description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 7.0.113 and .NET Runtime 7.0.13.\n\nSecurity Fix(es):\n\n* dotnet: Denial of Service with Client Certificates using .NET Kestrel (CVE-2023-36799)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:6246"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-36799"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2237317"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-6246.html"
+				}
+			],
+			"published": "2023-11-02T00:00:00Z",
+			"modified": "2023-11-03T11:04:44Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-36799"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "aspnetcore-runtime-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.13-1.el9_2"
+					}
+				],
+				"fixed": [
+					"7.0.13-1.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "aspnetcore-targeting-pack-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.13-1.el9_2"
+					}
+				],
+				"fixed": [
+					"7.0.13-1.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-apphost-pack-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.13-1.el9_2"
+					}
+				],
+				"fixed": [
+					"7.0.13-1.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-host"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.13-1.el9_2"
+					}
+				],
+				"fixed": [
+					"7.0.13-1.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-hostfxr-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.13-1.el9_2"
+					}
+				],
+				"fixed": [
+					"7.0.13-1.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-runtime-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.13-1.el9_2"
+					}
+				],
+				"fixed": [
+					"7.0.13-1.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-sdk-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.113-1.el9_2"
+					}
+				],
+				"fixed": [
+					"7.0.113-1.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-sdk-7.0-source-built-artifacts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.113-1.el9_2"
+					}
+				],
+				"fixed": [
+					"7.0.113-1.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-targeting-pack-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.13-1.el9_2"
+					}
+				],
+				"fixed": [
+					"7.0.13-1.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-templates-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.113-1.el9_2"
+					}
+				],
+				"fixed": [
+					"7.0.113-1.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "netstandard-targeting-pack-2.1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.113-1.el9_2"
+					}
+				],
+				"fixed": [
+					"7.0.113-1.el9_2"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

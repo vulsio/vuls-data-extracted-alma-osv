@@ -1,0 +1,107 @@
+{
+	"id": "ALSA-2024:0477",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0477",
+			"title": "Moderate: frr security update",
+			"description": "FRRouting is free software that manages TCP/IP based routing protocols. It supports BGP4, OSPFv2, OSPFv3, ISIS, RIP, RIPng, PIM, NHRP, PBR, EIGRP and BFD. \n\nSecurity Fix(es):\n\n* ffr: Flowspec overflow in bgpd/bgp_flowspec.c (CVE-2023-38406)\n* ffr: Out of bounds read in bgpd/bgp_label.c (CVE-2023-38407)\n* frr: crash from specially crafted MP_UNREACH_NLRI-containing BGP UPDATE message (CVE-2023-47234)\n* frr: crash from malformed EOR-containing BGP UPDATE message (CVE-2023-47235)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0477"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38406"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38407"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-47234"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-47235"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2248207"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2248208"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2248526"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2248528"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-0477.html"
+				}
+			],
+			"published": "2024-01-25T00:00:00Z",
+			"modified": "2024-01-25T21:18:33Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-38406"
+		},
+		{
+			"id": "CVE-2023-38407"
+		},
+		{
+			"id": "CVE-2023-47234"
+		},
+		{
+			"id": "CVE-2023-47235"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "frr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.3.1-11.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"8.3.1-11.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "frr-selinux"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.3.1-11.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"8.3.1-11.el9_3.2.alma.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

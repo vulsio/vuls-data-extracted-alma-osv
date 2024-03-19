@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2022:6314",
+	"advisories": [
+		{
+			"id": "ALSA-2022:6314",
+			"title": "Important: pcs security update",
+			"description": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nSecurity Fix(es):\n\n* pcs: obtaining an authentication token for hacluster user could lead to privilege escalation (CVE-2022-2735)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:6314"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2735"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2116815"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-6314.html"
+				}
+			],
+			"published": "2022-09-01T00:00:00Z",
+			"modified": "2022-10-07T07:53:52Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-2735"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.10.12-6.el8_6.2.alma"
+					}
+				],
+				"fixed": [
+					"0.10.12-6.el8_6.2.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcs-snmp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.10.12-6.el8_6.2.alma"
+					}
+				],
+				"fixed": [
+					"0.10.12-6.el8_6.2.alma"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

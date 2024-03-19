@@ -1,0 +1,200 @@
+{
+	"id": "ALSA-2022:6523",
+	"advisories": [
+		{
+			"id": "ALSA-2022:6523",
+			"title": "Moderate: .NET Core 3.1 security and bugfix update",
+			"description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 3.1.423 and .NET Runtime 3.1.29.\n\nSecurity Fix(es):\n\n* dotnet: DenialOfService - ASP.NET Core MVC vulnerable to stack overflow via ModelStateDictionary recursion. (CVE-2022-38013)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:6523"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-38013"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2125124"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-6523.html"
+				}
+			],
+			"published": "2022-09-14T00:00:00Z",
+			"modified": "2022-10-14T09:20:51Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-38013"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "aspnetcore-runtime-3.1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.1.29-1.el8_6"
+					}
+				],
+				"fixed": [
+					"3.1.29-1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "aspnetcore-targeting-pack-3.1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.1.29-1.el8_6"
+					}
+				],
+				"fixed": [
+					"3.1.29-1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-apphost-pack-3.1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.1.29-1.el8_6"
+					}
+				],
+				"fixed": [
+					"3.1.29-1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-hostfxr-3.1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.1.29-1.el8_6"
+					}
+				],
+				"fixed": [
+					"3.1.29-1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-runtime-3.1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.1.29-1.el8_6"
+					}
+				],
+				"fixed": [
+					"3.1.29-1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-sdk-3.1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.1.423-1.el8_6"
+					}
+				],
+				"fixed": [
+					"3.1.423-1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-sdk-3.1-source-built-artifacts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.1.423-1.el8_6"
+					}
+				],
+				"fixed": [
+					"3.1.423-1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-targeting-pack-3.1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.1.29-1.el8_6"
+					}
+				],
+				"fixed": [
+					"3.1.29-1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-templates-3.1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.1.423-1.el8_6"
+					}
+				],
+				"fixed": [
+					"3.1.423-1.el8_6"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

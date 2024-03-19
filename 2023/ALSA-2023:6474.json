@@ -1,0 +1,278 @@
+{
+	"id": "ALSA-2023:6474",
+	"advisories": [
+		{
+			"id": "ALSA-2023:6474",
+			"title": "Moderate: podman security, bug fix, and enhancement update",
+			"description": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.\n\nSecurity Fix(es):\n\n* golang: html/template: improper handling of JavaScript whitespace (CVE-2023-24540)\n* net/http, golang.org/x/net/http2: avoid quadratic complexity in HPACK decoding (CVE-2022-41723)\n* golang: crypto/tls: large handshake records may cause panics (CVE-2022-41724)\n* golang: net/http, mime/multipart: denial of service from excessive resource consumption (CVE-2022-41725)\n* golang.org/x/net/html: Cross site scripting (CVE-2023-3978)\n* golang: net/http, net/textproto: denial of service from excessive memory allocation (CVE-2023-24534)\n* golang: net/http, net/textproto, mime/multipart: denial of service from excessive resource consumption (CVE-2023-24536)\n* golang: go/parser: Infinite loop in parsing (CVE-2023-24537)\n* golang: html/template: backticks not treated as string delimiters (CVE-2023-24538)\n* golang: html/template: improper sanitization of CSS values (CVE-2023-24539)\n* containerd: Supplementary groups are not set up properly (CVE-2023-25173)\n* golang: html/template: improper handling of empty HTML attributes (CVE-2023-29400)\n* golang: net/http: insufficient sanitization of Host header (CVE-2023-29406)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:6474"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41723"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41724"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41725"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-24534"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-24536"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-24537"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-24538"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-24539"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-24540"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-25173"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-29400"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-29406"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-3978"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2174485"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2178358"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2178488"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2178492"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2184481"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2184482"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2184483"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2184484"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2196026"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2196027"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2196029"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2222167"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2228689"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-6474.html"
+				}
+			],
+			"published": "2023-11-07T00:00:00Z",
+			"modified": "2023-11-14T12:10:49Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-41723"
+		},
+		{
+			"id": "CVE-2022-41724"
+		},
+		{
+			"id": "CVE-2022-41725"
+		},
+		{
+			"id": "CVE-2023-24534"
+		},
+		{
+			"id": "CVE-2023-24536"
+		},
+		{
+			"id": "CVE-2023-24537"
+		},
+		{
+			"id": "CVE-2023-24538"
+		},
+		{
+			"id": "CVE-2023-24539"
+		},
+		{
+			"id": "CVE-2023-24540"
+		},
+		{
+			"id": "CVE-2023-25173"
+		},
+		{
+			"id": "CVE-2023-29400"
+		},
+		{
+			"id": "CVE-2023-29406"
+		},
+		{
+			"id": "CVE-2023-3978"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "podman"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.6.1-5.el9"
+					}
+				],
+				"fixed": [
+					"2:4.6.1-5.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-docker"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.6.1-5.el9"
+					}
+				],
+				"fixed": [
+					"2:4.6.1-5.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-gvproxy"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.6.1-5.el9"
+					}
+				],
+				"fixed": [
+					"2:4.6.1-5.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-plugins"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.6.1-5.el9"
+					}
+				],
+				"fixed": [
+					"2:4.6.1-5.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-remote"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.6.1-5.el9"
+					}
+				],
+				"fixed": [
+					"2:4.6.1-5.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-tests"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.6.1-5.el9"
+					}
+				],
+				"fixed": [
+					"2:4.6.1-5.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

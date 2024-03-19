@@ -1,0 +1,44 @@
+{
+	"id": "ALSA-2021:4158",
+	"advisories": [
+		{
+			"id": "ALSA-2021:4158",
+			"title": "Moderate: python-lxml security update",
+			"description": "lxml is an XML processing library providing access to libxml2 and libxslt libraries using the Python ElementTree API. \n\nSecurity Fix(es):\n\n* python-lxml: Missing input sanitization for formaction HTML5 attributes may lead to XSS (CVE-2021-28957)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-28957"
+				}
+			],
+			"published": "2021-11-09T08:26:20Z",
+			"modified": "2021-11-12T10:20:56Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-28957"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-lxml"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.2.3-3.el8"
+					}
+				],
+				"fixed": [
+					"4.2.3-3.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,56 @@
+{
+	"id": "ALSA-2024:0670",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0670",
+			"title": "Important: runc security update",
+			"description": "The runC tool is a lightweight, portable implementation of the Open Container Format (OCF) that provides container runtime.\n\nSecurity Fix(es):\n\n* runc: file descriptor leak (CVE-2024-21626)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0670"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-21626"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2258725"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-0670.html"
+				}
+			],
+			"published": "2024-02-02T00:00:00Z",
+			"modified": "2024-02-06T05:57:05Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-21626"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "runc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4:1.1.12-1.el9_3"
+					}
+				],
+				"fixed": [
+					"4:1.1.12-1.el9_3"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

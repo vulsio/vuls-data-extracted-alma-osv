@@ -1,0 +1,164 @@
+{
+	"id": "ALSA-2023:2570",
+	"advisories": [
+		{
+			"id": "ALSA-2023:2570",
+			"title": "Moderate: krb5 security, bug fix, and enhancement update",
+			"description": "Kerberos is a network authentication system, which can improve the security of your network by eliminating the insecure practice of sending passwords over the network in unencrypted form. It allows clients and servers to authenticate to each other with the help of a trusted third party, the Kerberos key distribution center (KDC).\n\nThe following packages have been upgraded to a later upstream version: krb5 (1.20.1). (BZ#2016312)\n\nSecurity Fix(es):\n\n* Kerberos: delegation constrain bypass in S4U2Proxy (CVE-2020-17049)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:2570"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2020-17049"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2025721"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-2570.html"
+				}
+			],
+			"published": "2023-05-09T00:00:00Z",
+			"modified": "2023-05-12T00:45:33Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-17049"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "krb5-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.20.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "krb5-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.20.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "krb5-pkinit"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.20.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "krb5-server"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.20.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "krb5-server-ldap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.20.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "krb5-workstation"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.20.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libkadm5"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.20.1-8.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

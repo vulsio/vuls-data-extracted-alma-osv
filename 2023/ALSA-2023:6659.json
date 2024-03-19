@@ -1,0 +1,182 @@
+{
+	"id": "ALSA-2023:6659",
+	"advisories": [
+		{
+			"id": "ALSA-2023:6659",
+			"title": "Moderate: python3.9 security update",
+			"description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nThe following packages have been upgraded to a later upstream version: python3.9 (3.9.18). (BZ#2210783)\n\nSecurity Fix(es):\n\n* python: tarfile module directory traversal (CVE-2007-4559)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:6659"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2007-4559"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/263261"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-6659.html"
+				}
+			],
+			"published": "2023-11-07T00:00:00Z",
+			"modified": "2023-11-14T12:11:13Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2007-4559"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python-unversioned-command"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.9.18-1.el9_3"
+					}
+				],
+				"fixed": [
+					"3.9.18-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.9.18-1.el9_3"
+					}
+				],
+				"fixed": [
+					"3.9.18-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-debug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.9.18-1.el9_3"
+					}
+				],
+				"fixed": [
+					"3.9.18-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.9.18-1.el9_3"
+					}
+				],
+				"fixed": [
+					"3.9.18-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-idle"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.9.18-1.el9_3"
+					}
+				],
+				"fixed": [
+					"3.9.18-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.9.18-1.el9_3"
+					}
+				],
+				"fixed": [
+					"3.9.18-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-test"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.9.18-1.el9_3"
+					}
+				],
+				"fixed": [
+					"3.9.18-1.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-tkinter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.9.18-1.el9_3"
+					}
+				],
+				"fixed": [
+					"3.9.18-1.el9_3"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,66 @@
+{
+	"id": "ALSA-2022:4661",
+	"advisories": [
+		{
+			"id": "ALSA-2022:4661",
+			"title": "Important: pcs security update",
+			"description": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nSecurity Fix(es):\n\n* sinatra: path traversal possible outside of public_dir when serving static files (CVE-2022-29970)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-4661.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2022-29970"
+				}
+			],
+			"published": "2022-05-18T13:52:10Z",
+			"modified": "2022-05-18T13:52:10Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-29970"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.10.12-6.el8.alma"
+					}
+				],
+				"fixed": [
+					"0.10.12-6.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcs-snmp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.10.12-6.el8.alma"
+					}
+				],
+				"fixed": [
+					"0.10.12-6.el8.alma"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

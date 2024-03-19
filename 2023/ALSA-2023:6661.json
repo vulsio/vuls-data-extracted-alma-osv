@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2023:6661",
+	"advisories": [
+		{
+			"id": "ALSA-2023:6661",
+			"title": "Low: gmp security and enhancement update",
+			"description": "The gmp packages contain GNU MP, a library for arbitrary precision arithmetics, signed integers operations, rational numbers, and floating point numbers. \n\nSecurity Fix(es):\n\n* gmp: Integer overflow and resultant buffer overflow via crafted input (CVE-2021-43618)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:6661"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2021-43618"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2024904"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-6661.html"
+				}
+			],
+			"published": "2023-11-07T00:00:00Z",
+			"modified": "2023-11-14T12:07:54Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-43618"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "gmp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.2.0-13.el9"
+					}
+				],
+				"fixed": [
+					"1:6.2.0-13.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "gmp-c++"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.2.0-13.el9"
+					}
+				],
+				"fixed": [
+					"1:6.2.0-13.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "gmp-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.2.0-13.el9"
+					}
+				],
+				"fixed": [
+					"1:6.2.0-13.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

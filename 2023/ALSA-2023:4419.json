@@ -1,0 +1,182 @@
+{
+	"id": "ALSA-2023:4419",
+	"advisories": [
+		{
+			"id": "ALSA-2023:4419",
+			"title": "Important: openssh security update",
+			"description": "OpenSSH is an SSH protocol implementation supported by a number of Linux, UNIX, and similar operating systems. It includes the core files necessary for both the OpenSSH client and server.\n\nSecurity Fix(es):\n\n* openssh: Remote code execution in ssh-agent PKCS#11 support (CVE-2023-38408)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:4419"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38408"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2224173"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-4419.html"
+				}
+			],
+			"published": "2023-08-01T00:00:00Z",
+			"modified": "2023-08-02T08:52:53Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-38408"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "openssh"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0p1-19.el8_8"
+					}
+				],
+				"fixed": [
+					"8.0p1-19.el8_8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "openssh-askpass"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0p1-19.el8_8"
+					}
+				],
+				"fixed": [
+					"8.0p1-19.el8_8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "openssh-cavs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0p1-19.el8_8"
+					}
+				],
+				"fixed": [
+					"8.0p1-19.el8_8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "openssh-clients"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0p1-19.el8_8"
+					}
+				],
+				"fixed": [
+					"8.0p1-19.el8_8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "openssh-keycat"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0p1-19.el8_8"
+					}
+				],
+				"fixed": [
+					"8.0p1-19.el8_8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "openssh-ldap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0p1-19.el8_8"
+					}
+				],
+				"fixed": [
+					"8.0p1-19.el8_8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "openssh-server"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.0p1-19.el8_8"
+					}
+				],
+				"fixed": [
+					"8.0p1-19.el8_8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pam_ssh_agent_auth"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.10.3-7.19.el8_8"
+					}
+				],
+				"fixed": [
+					"0.10.3-7.19.el8_8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

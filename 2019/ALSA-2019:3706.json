@@ -1,0 +1,62 @@
+{
+	"id": "ALSA-2019:3706",
+	"advisories": [
+		{
+			"id": "ALSA-2019:3706",
+			"title": "Moderate: lua security and bug fix update",
+			"description": "The lua packages provide support for Lua, a powerful light-weight programming language designed for extending applications. Lua is also frequently used as a general-purpose, stand-alone language.\n\nSecurity Fix(es):\n\n* lua: use-after-free in lua_upvaluejoin in lapi.c resulting in denial of service (CVE-2019-6706)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-6706"
+				}
+			],
+			"published": "2019-11-05T20:53:20Z",
+			"modified": "2021-08-11T08:54:00Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-6706"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "lua"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.4-11.el8"
+					}
+				],
+				"fixed": [
+					"5.3.4-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "lua-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.4-11.el8"
+					}
+				],
+				"fixed": [
+					"5.3.4-11.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,409 @@
+{
+	"id": "ALSA-2022:5819",
+	"advisories": [
+		{
+			"id": "ALSA-2022:5819",
+			"title": "Important: kernel security and bug fix update",
+			"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\nSecurity Fix(es):\n* kernel: Small table perturb size in the TCP source port generation algorithm can lead to information leak (CVE-2022-1012)\n* kernel: a use-after-free write in the netfilter subsystem can lead to privilege escalation to root (CVE-2022-32250)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nBug Fix(es):\n* Softirq hrtimers are being placed on the per-CPU softirq clocks on isolcpu’s. (BZ#2090484)\n* enable/disable multiqueues repeatedly while ping local host, guest kernel panic (BZ#2093416)\n* Backport kernel audit enhancements and fixes from v5.13-rc1 to v5.16-rc6 (BZ#2095434)\n* blk_update_request: I/O error, dev nvme0n3, during xfs creation (BZ#2100150)\n* SCSI updates for AlmaLinux 8.7 (BZ#2100254)\n* Kernel bug on mm/slub.c:314 (BZ#2102251)\n* Implement new tc action for check_pkt_len (BZ#2102333)\n* too long timeout value with TIME_WAIT status of conntrack entry (BZ#2104002)\n* Connectx6-DX, mlx5 , backport   087032ee7021 (\"net/mlx5e: TC, Fix ct_clear overwriting ct action metadata\") (BZ#2104012)\n* mlx5: Software steering memory allocation failure, netperf  TCP_CRR with ct(). (BZ#2104013)\n* tcp: request_sock leak in Calico OCP (BZ#2104670)",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:5819"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-1012"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-32250"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2064604"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2092427"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-5819.html"
+				}
+			],
+			"published": "2022-08-03T00:00:00Z",
+			"modified": "2022-08-10T17:51:45Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-1012"
+		},
+		{
+			"id": "CVE-2022-32250"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bpftool"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-abi-stablelists"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-core"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-cross-headers"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-debug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-debug-core"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-debug-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-debug-modules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-debug-modules-extra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-headers"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-modules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-modules-extra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-tools-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-tools-libs-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "perf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-perf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.19.1.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.19.1.el8_6"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,134 @@
+{
+	"id": "ALSA-2020:0598",
+	"advisories": [
+		{
+			"id": "ALSA-2020:0598",
+			"title": "Important: nodejs:12 security update",
+			"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.\n\nThe following packages have been upgraded to a later upstream version: nodejs (12.16.1).\n\nSecurity Fix(es):\n\n* nodejs: HTTP request smuggling using malformed Transfer-Encoding header (CVE-2019-15605)\n\n* nodejs: Remotely trigger an assertion on a TLS server with a malformed certificate string (CVE-2019-15604)\n\n* nodejs: HTTP header values do not have trailing optional whitespace trimmed (CVE-2019-15606)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2020-0598.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-15604"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-15605"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-15606"
+				}
+			],
+			"published": "2020-02-25T13:06:23Z",
+			"modified": "2020-02-25T13:06:23Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-15604"
+		},
+		{
+			"id": "CVE-2019-15605"
+		},
+		{
+			"id": "CVE-2019-15606"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-nodemon"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.18.3-1.module_el8.3.0+2023+d2377ea3"
+					}
+				],
+				"fixed": [
+					"1.18.3-1.module_el8.3.0+2023+d2377ea3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-nodemon"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.18.3-1.module_el8.3.0+2047+b07ac28e"
+					}
+				],
+				"fixed": [
+					"1.18.3-1.module_el8.3.0+2047+b07ac28e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17-3.module_el8.4.0+2224+b07ac28e"
+					}
+				],
+				"fixed": [
+					"17-3.module_el8.4.0+2224+b07ac28e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17-3.module_el8.4.0+2521+c668cc9f"
+					}
+				],
+				"fixed": [
+					"17-3.module_el8.4.0+2521+c668cc9f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17-3.module_el8.3.0+2023+d2377ea3"
+					}
+				],
+				"fixed": [
+					"17-3.module_el8.3.0+2023+d2377ea3"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

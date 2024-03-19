@@ -1,0 +1,242 @@
+{
+	"id": "ALSA-2021:4386",
+	"advisories": [
+		{
+			"id": "ALSA-2021:4386",
+			"title": "Low: gcc security and bug fix update",
+			"description": "The gcc packages provide compilers for C, C++, Java, Fortran, Objective C, and Ada 95 GNU, as well as related support libraries.\n\nSecurity Fix(es):\n\n* libiberty: Integer overflow in demangle_template() function (CVE-2018-20673)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2018-20673"
+				}
+			],
+			"published": "2021-11-09T09:16:05Z",
+			"modified": "2021-11-12T10:21:01Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-20673"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "cpp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gcc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gcc-c++"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gcc-gdb-plugin"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gcc-gfortran"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gcc-offload-nvptx"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gcc-plugin-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libitm-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libquadmath-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libstdc++-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libstdc++-docs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libstdc++-static"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.5.0-3.el8.alma"
+					}
+				],
+				"fixed": [
+					"8.5.0-3.el8.alma"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

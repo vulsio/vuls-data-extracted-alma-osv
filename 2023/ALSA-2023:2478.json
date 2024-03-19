@@ -1,0 +1,139 @@
+{
+	"id": "ALSA-2023:2478",
+	"advisories": [
+		{
+			"id": "ALSA-2023:2478",
+			"title": "Low: curl security update",
+			"description": "The curl packages provide the libcurl library and the curl utility for downloading files from servers using various protocols, including HTTP, FTP, and LDAP.\n\nSecurity Fix(es):\n\n* curl: Incorrect handling of control code characters in cookies (CVE-2022-35252)\n* curl: Use-after-free triggered by an HTTP proxy deny response (CVE-2022-43552)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:2478"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-35252"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-43552"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2120718"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2152652"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-2478.html"
+				}
+			],
+			"published": "2023-05-09T00:00:00Z",
+			"modified": "2023-05-12T02:58:43Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-35252"
+		},
+		{
+			"id": "CVE-2022-43552"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "curl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.76.1-23.el9"
+					}
+				],
+				"fixed": [
+					"7.76.1-23.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "curl-minimal"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.76.1-23.el9"
+					}
+				],
+				"fixed": [
+					"7.76.1-23.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libcurl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.76.1-23.el9"
+					}
+				],
+				"fixed": [
+					"7.76.1-23.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libcurl-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.76.1-23.el9"
+					}
+				],
+				"fixed": [
+					"7.76.1-23.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libcurl-minimal"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.76.1-23.el9"
+					}
+				],
+				"fixed": [
+					"7.76.1-23.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

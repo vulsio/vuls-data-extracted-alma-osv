@@ -1,0 +1,133 @@
+{
+	"id": "ALSA-2021:3666",
+	"advisories": [
+		{
+			"id": "ALSA-2021:3666",
+			"title": "Important: nodejs:14 security and bug fix update",
+			"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22930)\n\n* nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22940)\n\n* c-ares: Missing input validation of host names may lead to domain hijacking (CVE-2021-3672)\n\n* nodejs: Improper handling of untypical characters in domain names (CVE-2021-22931)\n\n* nodejs-tar: Insufficient symlink protection allowing arbitrary file creation and overwrite (CVE-2021-32803)\n\n* nodejs-tar: Insufficient absolute path sanitization allowing arbitrary file creation and overwrite (CVE-2021-32804)\n\n* nodejs: Incomplete validation of tls rejectUnauthorized parameter (CVE-2021-22939)\n\n* nodejs-path-parse: ReDoS via splitDeviceRe, splitTailRe and splitPathRe (CVE-2021-23343)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:14/nodejs: Make FIPS options always available (BZ#1993924)",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2021-3666.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-22930"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-22931"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-22939"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-22940"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-23343"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-32803"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-32804"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-3672"
+				}
+			],
+			"published": "2021-09-27T06:47:35Z",
+			"modified": "2022-11-07T17:47:24Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-22930"
+		},
+		{
+			"id": "CVE-2021-22931"
+		},
+		{
+			"id": "CVE-2021-22939"
+		},
+		{
+			"id": "CVE-2021-22940"
+		},
+		{
+			"id": "CVE-2021-23343"
+		},
+		{
+			"id": "CVE-2021-32803"
+		},
+		{
+			"id": "CVE-2021-32804"
+		},
+		{
+			"id": "CVE-2021-3672"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-nodemon"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.3-1.module_el8.4.0+2521+c668cc9f"
+					}
+				],
+				"fixed": [
+					"2.0.3-1.module_el8.4.0+2521+c668cc9f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "23-3.module_el8.5.0+254+b4526b16"
+					}
+				],
+				"fixed": [
+					"23-3.module_el8.5.0+254+b4526b16"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-packaging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "23-3.module_el8.4.0+2522+3bd42762"
+					}
+				],
+				"fixed": [
+					"23-3.module_el8.4.0+2522+3bd42762"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

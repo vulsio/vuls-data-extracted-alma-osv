@@ -1,0 +1,56 @@
+{
+	"id": "ALSA-2023:6167",
+	"advisories": [
+		{
+			"id": "ALSA-2023:6167",
+			"title": "Low: libguestfs-winsupport security update",
+			"description": "The libguestfs-winsupport package adds support for Windows guests to libguestfs, a set of tools and libraries allowing users to access and modify virtual machine (VM) disk images.\n\nSecurity Fix(es):\n\n* NTFS-3G: buffer overflow issue in NTFS-3G can cause code execution via crafted metadata in an NTFS image (CVE-2022-40284)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:6167"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-40284"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2236130"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-6167.html"
+				}
+			],
+			"published": "2023-10-30T00:00:00Z",
+			"modified": "2023-10-31T08:52:39Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-40284"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libguestfs-winsupport"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.2-2.el9_2"
+					}
+				],
+				"fixed": [
+					"9.2-2.el9_2"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

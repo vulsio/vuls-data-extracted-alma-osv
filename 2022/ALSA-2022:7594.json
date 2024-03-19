@@ -1,0 +1,200 @@
+{
+	"id": "ALSA-2022:7594",
+	"advisories": [
+		{
+			"id": "ALSA-2022:7594",
+			"title": "Moderate: poppler security and bug fix update",
+			"description": "Poppler is a Portable Document Format (PDF) rendering library, used by applications such as Evince.\n\nSecurity Fix(es):\n\n* poppler: A logic error in the Hints::Hints function can cause denial of service (CVE-2022-27337)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:7594"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-27337"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2087190"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-7594.html"
+				}
+			],
+			"published": "2022-11-08T00:00:00Z",
+			"modified": "2023-03-13T16:36:06Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-27337"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-5.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-cpp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-5.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-cpp-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-5.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-5.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-glib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-5.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-glib-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-5.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-qt5"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-5.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-qt5-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-5.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-utils"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-5.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-5.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

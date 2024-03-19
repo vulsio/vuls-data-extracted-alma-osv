@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2023:5224",
+	"advisories": [
+		{
+			"id": "ALSA-2023:5224",
+			"title": "Important: thunderbird security update",
+			"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.15.1.\n\nSecurity Fix(es):\n\n* libwebp: Heap buffer overflow in WebP Codec (CVE-2023-4863)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:5224"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-4863"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2238431"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-5224.html"
+				}
+			],
+			"published": "2023-09-19T00:00:00Z",
+			"modified": "2023-09-22T08:36:00Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-4863"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "thunderbird"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "102.15.1-1.el9_2.alma"
+					}
+				],
+				"fixed": [
+					"102.15.1-1.el9_2.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "thunderbird"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "102.15.1-1.el9_2.alma.plus"
+					}
+				],
+				"fixed": [
+					"102.15.1-1.el9_2.alma.plus"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,217 @@
+{
+	"id": "ALSA-2022:0891",
+	"advisories": [
+		{
+			"id": "ALSA-2022:0891",
+			"title": "Moderate: httpd:2.4 security update",
+			"description": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: NULL pointer dereference via malformed requests (CVE-2021-34798)\n\n* httpd: Out-of-bounds write in ap_escape_quotes() via malicious input (CVE-2021-39275)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-0891.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-34798"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-39275"
+				}
+			],
+			"published": "2022-03-15T09:10:44Z",
+			"modified": "2022-03-17T20:51:19Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-34798"
+		},
+		{
+			"id": "CVE-2021-39275"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+					}
+				],
+				"fixed": [
+					"2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+					}
+				],
+				"fixed": [
+					"2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-filesystem"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+					}
+				],
+				"fixed": [
+					"2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-manual"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+					}
+				],
+				"fixed": [
+					"2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+					}
+				],
+				"fixed": [
+					"2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_ldap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+					}
+				],
+				"fixed": [
+					"2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_md"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.0.8-8.module_el8.6.0+2872+fe0ff7aa"
+					}
+				],
+				"fixed": [
+					"1:2.0.8-8.module_el8.6.0+2872+fe0ff7aa"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_proxy_html"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+					}
+				],
+				"fixed": [
+					"1:2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_session"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+					}
+				],
+				"fixed": [
+					"2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_ssl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+					}
+				],
+				"fixed": [
+					"1:2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

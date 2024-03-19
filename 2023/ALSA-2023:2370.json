@@ -1,0 +1,110 @@
+{
+	"id": "ALSA-2023:2370",
+	"advisories": [
+		{
+			"id": "ALSA-2023:2370",
+			"title": "Moderate: unbound security update",
+			"description": "The unbound packages provide a validating, recursive, and caching DNS or DNSSEC resolver. \n\nSecurity Fix(es):\n\n* unbound: NRDelegation attack leads to uncontrolled resource consumption (Non-Responsive Delegation Attack) (CVE-2022-3204)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:2370"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-3204"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2128947"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-2370.html"
+				}
+			],
+			"published": "2023-05-09T00:00:00Z",
+			"modified": "2023-05-12T05:10:30Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-3204"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-unbound"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.2-3.el9"
+					}
+				],
+				"fixed": [
+					"1.16.2-3.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "unbound"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.2-3.el9"
+					}
+				],
+				"fixed": [
+					"1.16.2-3.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "unbound-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.2-3.el9"
+					}
+				],
+				"fixed": [
+					"1.16.2-3.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "unbound-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.2-3.el9"
+					}
+				],
+				"fixed": [
+					"1.16.2-3.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

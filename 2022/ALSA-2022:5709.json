@@ -1,0 +1,366 @@
+{
+	"id": "ALSA-2022:5709",
+	"advisories": [
+		{
+			"id": "ALSA-2022:5709",
+			"title": "Important: java-1.8.0-openjdk security, bug fix, and enhancement update",
+			"description": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime Environment and the OpenJDK 8 Java Software Development Kit.\nThe following packages have been upgraded to a later upstream version: java-1.8.0-openjdk (1.8.0.342.b07). (BZ#2084776)\nSecurity Fix(es):\n* OpenJDK: integer truncation issue in Xalan-J (JAXP, 8285407) (CVE-2022-34169)\n* OpenJDK: class compilation issue (Hotspot, 8281859) (CVE-2022-21540)\n* OpenJDK: improper restriction of MethodHandle.invokeBasic() (Hotspot, 8281866) (CVE-2022-21541)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nBug Fix(es):\n* rh1991003 patch breaks sun.security.pkcs11.wrapper.PKCS11.getInstance() [almalinux-9, openjdk-8] (BZ#2099916)\n* SecretKey generate/import operations don't add the CKA_SIGN attribute in FIPS mode [almalinux-9, openjdk-8] (BZ#2107956)\n* Revert to disabling system security properties and FIPS mode support together [almalinux-9, openjdk-8] (BZ#2107958)",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:5709"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21540"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-21541"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-34169"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2108540"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2108543"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2108554"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2022-5709.html"
+				}
+			],
+			"published": "2022-07-25T00:00:00Z",
+			"modified": "2023-09-15T13:41:48Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-21540"
+		},
+		{
+			"id": "CVE-2022-21541"
+		},
+		{
+			"id": "CVE-2022-34169"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-demo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-demo-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-demo-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-devel-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-devel-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-headless"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-headless-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-headless-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-javadoc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-javadoc-zip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-src"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-src-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-1.8.0-openjdk-src-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.8.0.342.b07-1.el9_0"
+					}
+				],
+				"fixed": [
+					"1:1.8.0.342.b07-1.el9_0"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

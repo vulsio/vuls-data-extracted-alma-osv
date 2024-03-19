@@ -1,0 +1,85 @@
+{
+	"id": "ALSA-2023:7207",
+	"advisories": [
+		{
+			"id": "ALSA-2023:7207",
+			"title": "Moderate: c-ares security update",
+			"description": "The c-ares C library defines asynchronous DNS (Domain Name System) requests and provides name resolving API.\n\nSecurity Fix(es):\n\n* c-ares: Heap buffer over read in ares_parse_soa_reply (CVE-2020-22217)\n* c-ares: Buffer Underwrite in ares_inet_net_pton() (CVE-2023-31130)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:7207"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2020-22217"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-31130"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2209497"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2235527"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-7207.html"
+				}
+			],
+			"published": "2023-11-14T00:00:00Z",
+			"modified": "2023-11-23T10:20:03Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-22217"
+		},
+		{
+			"id": "CVE-2023-31130"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "c-ares"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.0-9.el8_9.1"
+					}
+				],
+				"fixed": [
+					"1.13.0-9.el8_9.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "c-ares-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.0-9.el8_9.1"
+					}
+				],
+				"fixed": [
+					"1.13.0-9.el8_9.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,175 @@
+{
+	"id": "ALSA-2022:6457",
+	"advisories": [
+		{
+			"id": "ALSA-2022:6457",
+			"title": "Moderate: python3 security update",
+			"description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems. \n\nSecurity Fix(es):\n\n* python(mailcap): findmatch() function does not sanitise the second argument (CVE-2015-20107)\n* python: urllib.parse does not sanitize URLs containing ASCII newline and tabs (CVE-2022-0391)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:6457"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2015-20107"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-0391"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2047376"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2075390"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-6457.html"
+				}
+			],
+			"published": "2022-09-13T00:00:00Z",
+			"modified": "2022-11-14T18:21:18Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2015-20107"
+		},
+		{
+			"id": "CVE-2022-0391"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "platform-python"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.8-47.el8_6.alma"
+					}
+				],
+				"fixed": [
+					"3.6.8-47.el8_6.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "platform-python-debug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.8-47.el8_6.alma"
+					}
+				],
+				"fixed": [
+					"3.6.8-47.el8_6.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "platform-python-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.8-47.el8_6.alma"
+					}
+				],
+				"fixed": [
+					"3.6.8-47.el8_6.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-idle"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.8-47.el8_6.alma"
+					}
+				],
+				"fixed": [
+					"3.6.8-47.el8_6.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.8-47.el8_6.alma"
+					}
+				],
+				"fixed": [
+					"3.6.8-47.el8_6.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-test"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.8-47.el8_6.alma"
+					}
+				],
+				"fixed": [
+					"3.6.8-47.el8_6.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-tkinter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.8-47.el8_6.alma"
+					}
+				],
+				"fixed": [
+					"3.6.8-47.el8_6.alma"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

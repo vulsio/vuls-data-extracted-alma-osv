@@ -1,0 +1,254 @@
+{
+	"id": "ALSA-2022:5565",
+	"advisories": [
+		{
+			"id": "ALSA-2022:5565",
+			"title": "Important: kernel-rt security and bug fix update",
+			"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\nSecurity Fix(es):\n* kernel: race condition in perf_event_open leads to privilege escalation (CVE-2022-1729)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nBug Fix(es):\n* The latest AlmaLinux 8.6.z1 kernel changes need to be merged into the RT source tree to keep source parity between the two kernels. (BZ#2098244)",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:5565"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-1729"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2086753"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-5565.html"
+				}
+			],
+			"published": "2022-07-13T00:00:00Z",
+			"modified": "2022-07-21T17:02:09Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-1729"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-core"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug-core"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug-kvm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug-modules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug-modules-extra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-kvm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-modules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-modules-extra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.18.0-372.16.1.rt7.173.el8_6"
+					}
+				],
+				"fixed": [
+					"4.18.0-372.16.1.rt7.173.el8_6"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

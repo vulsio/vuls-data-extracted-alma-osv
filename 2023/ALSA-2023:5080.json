@@ -1,0 +1,175 @@
+{
+	"id": "ALSA-2023:5080",
+	"advisories": [
+		{
+			"id": "ALSA-2023:5080",
+			"title": "Moderate: keylime security update",
+			"description": "Keylime is a TPM based highly scalable remote boot attestation and runtime integrity measurement solution.\n\nSecurity Fix(es):\n\n* keylime: registrar is subject to a DoS against SSL connections (CVE-2023-38200)\n* Keylime: challenge-response protocol bypass during agent registration (CVE-2023-38201)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:5080"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38200"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38201"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2222692"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2222693"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-5080.html"
+				}
+			],
+			"published": "2023-09-12T00:00:00Z",
+			"modified": "2023-09-14T09:44:55Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-38200"
+		},
+		{
+			"id": "CVE-2023-38201"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "keylime"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.5.2-6.el9_2.alma.1"
+					}
+				],
+				"fixed": [
+					"6.5.2-6.el9_2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "keylime-base"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.5.2-6.el9_2.alma.1"
+					}
+				],
+				"fixed": [
+					"6.5.2-6.el9_2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "keylime-registrar"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.5.2-6.el9_2.alma.1"
+					}
+				],
+				"fixed": [
+					"6.5.2-6.el9_2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "keylime-selinux"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.5.2-6.el9_2.alma.1"
+					}
+				],
+				"fixed": [
+					"6.5.2-6.el9_2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "keylime-tenant"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.5.2-6.el9_2.alma.1"
+					}
+				],
+				"fixed": [
+					"6.5.2-6.el9_2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "keylime-verifier"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.5.2-6.el9_2.alma.1"
+					}
+				],
+				"fixed": [
+					"6.5.2-6.el9_2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-keylime"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.5.2-6.el9_2.alma.1"
+					}
+				],
+				"fixed": [
+					"6.5.2-6.el9_2.alma.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

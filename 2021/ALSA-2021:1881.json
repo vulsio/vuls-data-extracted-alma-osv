@@ -1,0 +1,152 @@
+{
+	"id": "ALSA-2021:1881",
+	"advisories": [
+		{
+			"id": "ALSA-2021:1881",
+			"title": "Moderate: poppler and evince security, bug fix, and enhancement update",
+			"description": "Poppler is a Portable Document Format (PDF) rendering library, used by applications such as Evince.\n\nThe evince packages provide a simple multi-page document viewer for Portable Document Format (PDF), PostScript (PS), Encapsulated PostScript (EPS) files, and, with additional back-ends, also the Device Independent File format (DVI) files.\n\nThe following packages have been upgraded to a later upstream version: poppler (20.11.0). (BZ#1644423)\n\nSecurity Fix(es):\n\n* poppler: pdftohtml: access to uninitialized pointer could lead to DoS (CVE-2020-27778)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2020-27778"
+				}
+			],
+			"published": "2021-05-18T06:18:48Z",
+			"modified": "2021-08-11T08:54:00Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-27778"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "evince-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.28.4-11.el8"
+					}
+				],
+				"fixed": [
+					"3.28.4-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-cpp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-2.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-2.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-cpp-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-2.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-2.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-2.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-2.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-glib-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-2.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-2.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-qt5"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-2.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-2.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-qt5-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-2.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-2.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

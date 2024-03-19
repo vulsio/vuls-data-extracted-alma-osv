@@ -1,0 +1,264 @@
+{
+	"id": "ALSA-2020:1631",
+	"advisories": [
+		{
+			"id": "ALSA-2020:1631",
+			"title": "Low: GStreamer, libmad, and SDL security, bug fix, and enhancement update",
+			"description": "The GStreamer library provides a streaming media framework based on graphs of media data filters.\n\nThe libmad package is an MPEG audio decoder capable of 24-bit output. \n\nSimple DirectMedia Layer (SDL) is a cross-platform multimedia library designed to provide fast access to the graphics frame buffer and audio device.\n\nSecurity Fix(es):\n\n* libmad: Double-free in the mad_decoder_run() function (CVE-2018-7263)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2020-1631.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2018-7263"
+				}
+			],
+			"published": "2020-04-28T08:58:37Z",
+			"modified": "2021-11-12T10:20:55Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-7263"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "SDL2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.10-2.el8"
+					}
+				],
+				"fixed": [
+					"2.0.10-2.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "SDL2-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.10-2.el8"
+					}
+				],
+				"fixed": [
+					"2.0.10-2.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "SDL2-static"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.10-2.el8"
+					}
+				],
+				"fixed": [
+					"2.0.10-2.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gstreamer1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.1-2.el8"
+					}
+				],
+				"fixed": [
+					"1.16.1-2.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gstreamer1-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.1-2.el8"
+					}
+				],
+				"fixed": [
+					"1.16.1-2.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gstreamer1-plugins-bad-free"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.1-1.el8"
+					}
+				],
+				"fixed": [
+					"1.16.1-1.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gstreamer1-plugins-bad-free-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.1-1.el8"
+					}
+				],
+				"fixed": [
+					"1.16.1-1.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gstreamer1-plugins-ugly-free"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.16.1-1.el8"
+					}
+				],
+				"fixed": [
+					"1.16.1-1.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libmad"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.15.1b-25.el8"
+					}
+				],
+				"fixed": [
+					"0.15.1b-25.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libmad-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.15.1b-25.el8"
+					}
+				],
+				"fixed": [
+					"0.15.1b-25.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "orc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.4.28-3.el8"
+					}
+				],
+				"fixed": [
+					"0.4.28-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "orc-compiler"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.4.28-3.el8"
+					}
+				],
+				"fixed": [
+					"0.4.28-3.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "orc-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.4.28-3.el8"
+					}
+				],
+				"fixed": [
+					"0.4.28-3.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

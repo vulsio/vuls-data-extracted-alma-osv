@@ -1,0 +1,56 @@
+{
+	"id": "ALSA-2023:2800",
+	"advisories": [
+		{
+			"id": "ALSA-2023:2800",
+			"title": "Moderate: sysstat security and bug fix update",
+			"description": "The sysstat packages provide the sar and iostat commands. These commands enable system monitoring of disk, network, and other I/O activity.\n\nSecurity Fix(es):\n\n* sysstat: arithmetic overflow in allocate_structures() on 32 bit systems (CVE-2022-39377)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:2800"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-39377"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2141207"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-2800.html"
+				}
+			],
+			"published": "2023-05-16T00:00:00Z",
+			"modified": "2023-05-19T22:00:00Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-39377"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "sysstat"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "11.7.3-9.el8"
+					}
+				],
+				"fixed": [
+					"11.7.3-9.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,404 @@
+{
+	"id": "ALSA-2019:2799",
+	"advisories": [
+		{
+			"id": "ALSA-2019:2799",
+			"title": "Important: nginx:1.14 security update",
+			"description": "Nginx is a web server and a reverse proxy server for HTTP, SMTP, POP3 (Post Office Protocol 3) and IMAP protocols, with a focus on high concurrency, performance and low memory usage. \n\nSecurity Fix(es):\n\n* HTTP/2: large amount of data request leads to denial of service (CVE-2019-9511)\n\n* HTTP/2: flood using PRIORITY frames resulting in excessive resource consumption (CVE-2019-9513)\n\n* HTTP/2: 0-length headers leads to denial of service (CVE-2019-9516)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2019-2799.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-9511"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-9513"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-9516"
+				}
+			],
+			"published": "2019-09-17T08:45:10Z",
+			"modified": "2019-09-17T08:45:10Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-9511"
+		},
+		{
+			"id": "CVE-2019-9513"
+		},
+		{
+			"id": "CVE-2019-9516"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-all-modules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-filesystem"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-http-image-filter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-http-image-filter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-http-image-filter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-http-perl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-http-perl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-http-perl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-http-xslt-filter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-http-xslt-filter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-http-xslt-filter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-mail"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-mail"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-mail"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-stream"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.3.0+2165+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-stream"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.4.0+2221+af250afe.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nginx-mod-stream"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+					}
+				],
+				"fixed": [
+					"1:1.14.1-9.module_el8.5.0+34+dc1cfba5.alma"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

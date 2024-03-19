@@ -1,0 +1,172 @@
+{
+	"id": "ALSA-2023:2780",
+	"advisories": [
+		{
+			"id": "ALSA-2023:2780",
+			"title": "Moderate: Image Builder security, bug fix, and enhancement update",
+			"description": "Image Builder is a service for building customized OS artifacts, such as VM images and OSTree commits, that uses osbuild under the hood.\n\nSecurity Fix(es):\n\n* golang: archive/tar: unbounded memory consumption when reading headers (CVE-2022-2879)\n* golang: net/http/httputil: ReverseProxy should not forward unparseable query parameters (CVE-2022-2880)\n* golang: net/http: handle server errors after sending GOAWAY (CVE-2022-27664)\n* golang: regexp/syntax: limit memory used by parsing regexps (CVE-2022-41715)\n* golang: net/http: An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests (CVE-2022-41717)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:2780"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-27664"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2879"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2880"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41715"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41717"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2124669"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2132867"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2132868"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2132872"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2161274"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-2780.html"
+				}
+			],
+			"published": "2023-05-16T00:00:00Z",
+			"modified": "2023-05-20T19:14:40Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-27664"
+		},
+		{
+			"id": "CVE-2022-2879"
+		},
+		{
+			"id": "CVE-2022-2880"
+		},
+		{
+			"id": "CVE-2022-41715"
+		},
+		{
+			"id": "CVE-2022-41717"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "osbuild-composer"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "75-1.el8.alma"
+					}
+				],
+				"fixed": [
+					"75-1.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "osbuild-composer-core"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "75-1.el8.alma"
+					}
+				],
+				"fixed": [
+					"75-1.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "osbuild-composer-dnf-json"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "75-1.el8.alma"
+					}
+				],
+				"fixed": [
+					"75-1.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "osbuild-composer-worker"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "75-1.el8.alma"
+					}
+				],
+				"fixed": [
+					"75-1.el8.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "weldr-client"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "35.9-2.el8"
+					}
+				],
+				"fixed": [
+					"35.9-2.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2024:0768",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0768",
+			"title": "Moderate: libmaxminddb security update",
+			"description": "The libmaxminddb package contains the MaxMind DB library.\n\nSecurity Fix(es):\n\n* libmaxminddb: improper initialization in dump_entry_data_list() in maxminddb.c (CVE-2020-28241)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0768"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2020-28241"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/1895379"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-0768.html"
+				}
+			],
+			"published": "2024-02-12T00:00:00Z",
+			"modified": "2024-02-12T10:04:42Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-28241"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libmaxminddb"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.2.0-10.el8_9.1"
+					}
+				],
+				"fixed": [
+					"1.2.0-10.el8_9.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libmaxminddb-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.2.0-10.el8_9.1"
+					}
+				],
+				"fixed": [
+					"1.2.0-10.el8_9.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

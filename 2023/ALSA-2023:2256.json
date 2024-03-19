@@ -1,0 +1,341 @@
+{
+	"id": "ALSA-2023:2256",
+	"advisories": [
+		{
+			"id": "ALSA-2023:2256",
+			"title": "Important: webkit2gtk3 security and bug fix update",
+			"description": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.\n\nSecurity Fix(es):\n\n* webkitgtk: use-after-free issue leading to arbitrary code execution (CVE-2022-42826)\n* webkitgtk: memory corruption issue leading to arbitrary code execution (CVE-2023-23517)\n* webkitgtk: memory corruption issue leading to arbitrary code execution (CVE-2023-23518)\n* webkitgtk: buffer overflow issue was addressed with improved memory handling (CVE-2022-32886)\n* webkitgtk: out-of-bounds write issue was addressed with improved bounds checking (CVE-2022-32888)\n* webkitgtk: correctness issue in the JIT was addressed with improved checks (CVE-2022-32923)\n* webkitgtk: issue was addressed with improved UI handling (CVE-2022-42799)\n* webkitgtk: type confusion issue leading to arbitrary code execution (CVE-2022-42823)\n* webkitgtk: sensitive information disclosure issue (CVE-2022-42824)\n* webkitgtk: memory disclosure issue was addressed with improved memory handling (CVE-2022-42852)\n* webkitgtk: memory corruption issue leading to arbitrary code execution (CVE-2022-42863)\n* webkitgtk: use-after-free issue leading to arbitrary code execution (CVE-2022-42867)\n* webkitgtk: memory corruption issue leading to arbitrary code execution (CVE-2022-46691)\n* webkitgtk: Same Origin Policy bypass issue (CVE-2022-46692)\n* webkitgtk: logic issue leading to user information disclosure (CVE-2022-46698)\n* webkitgtk: memory corruption issue leading to arbitrary code execution (CVE-2022-46699)\n* webkitgtk: memory corruption issue leading to arbitrary code execution (CVE-2022-46700)\n* webkitgtk: heap-use-after-free in WebCore::RenderLayer::addChild() (CVE-2023-25358)\n* webkitgtk: heap-use-after-free in WebCore::RenderLayer::renderer() (CVE-2023-25360)\n* webkitgtk: heap-use-after-free in WebCore::RenderLayer::setNextSibling() (CVE-2023-25361)\n* webkitgtk: heap-use-after-free in WebCore::RenderLayer::repaintBlockSelectionGaps() (CVE-2023-25362)\n* webkitgtk: heap-use-after-free in WebCore::RenderLayer::updateDescendantDependentFlags() (CVE-2023-25363)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:2256"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-32886"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-32888"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-32923"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42799"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42823"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42824"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42826"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42852"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42863"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-42867"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46691"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46692"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46698"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46699"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46700"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-23517"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-23518"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-25358"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-25360"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-25361"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-25362"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-25363"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2128643"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2140501"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2140502"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2140503"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2140504"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2140505"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2156986"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2156987"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2156989"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2156990"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2156991"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2156992"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2156993"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2156994"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2167715"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2167716"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2167717"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2175099"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2175101"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2175103"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2175105"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2175107"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-2256.html"
+				}
+			],
+			"published": "2023-05-09T00:00:00Z",
+			"modified": "2023-05-12T09:20:55Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-32886"
+		},
+		{
+			"id": "CVE-2022-32888"
+		},
+		{
+			"id": "CVE-2022-32923"
+		},
+		{
+			"id": "CVE-2022-42799"
+		},
+		{
+			"id": "CVE-2022-42823"
+		},
+		{
+			"id": "CVE-2022-42824"
+		},
+		{
+			"id": "CVE-2022-42826"
+		},
+		{
+			"id": "CVE-2022-42852"
+		},
+		{
+			"id": "CVE-2022-42863"
+		},
+		{
+			"id": "CVE-2022-42867"
+		},
+		{
+			"id": "CVE-2022-46691"
+		},
+		{
+			"id": "CVE-2022-46692"
+		},
+		{
+			"id": "CVE-2022-46698"
+		},
+		{
+			"id": "CVE-2022-46699"
+		},
+		{
+			"id": "CVE-2022-46700"
+		},
+		{
+			"id": "CVE-2023-23517"
+		},
+		{
+			"id": "CVE-2023-23518"
+		},
+		{
+			"id": "CVE-2023-25358"
+		},
+		{
+			"id": "CVE-2023-25360"
+		},
+		{
+			"id": "CVE-2023-25361"
+		},
+		{
+			"id": "CVE-2023-25362"
+		},
+		{
+			"id": "CVE-2023-25363"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk3"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.38.5-1.el9"
+					}
+				],
+				"fixed": [
+					"2.38.5-1.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk3-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.38.5-1.el9"
+					}
+				],
+				"fixed": [
+					"2.38.5-1.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk3-jsc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.38.5-1.el9"
+					}
+				],
+				"fixed": [
+					"2.38.5-1.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk3-jsc-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.38.5-1.el9"
+					}
+				],
+				"fixed": [
+					"2.38.5-1.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,390 @@
+{
+	"id": "ALSA-2019:3736",
+	"advisories": [
+		{
+			"id": "ALSA-2019:3736",
+			"title": "Critical: php:7.3 security update",
+			"description": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.\n\nSecurity Fix(es):\n\n* php: underflow in env_path_info in fpm_main.c (CVE-2019-11043)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2019-3736.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-11043"
+				}
+			],
+			"published": "2019-11-06T13:15:46Z",
+			"modified": "2019-11-06T13:15:34Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-11043"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "apcu-panel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.17-1.module_el8.3.0+2009+b272fdef"
+					}
+				],
+				"fixed": [
+					"5.1.17-1.module_el8.3.0+2009+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.5.2-1.module_el8.5.0+152+112d3b8c"
+					}
+				],
+				"fixed": [
+					"1.5.2-1.module_el8.5.0+152+112d3b8c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.5.2-1.module_el8.3.0+2009+b272fdef"
+					}
+				],
+				"fixed": [
+					"1.5.2-1.module_el8.3.0+2009+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.5.2-1.module_el8.4.0+2229+b272fdef"
+					}
+				],
+				"fixed": [
+					"1.5.2-1.module_el8.4.0+2229+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.5.2-1.module_el8.4.0+2229+b272fdef"
+					}
+				],
+				"fixed": [
+					"1.5.2-1.module_el8.4.0+2229+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.5.2-1.module_el8.3.0+2009+b272fdef"
+					}
+				],
+				"fixed": [
+					"1.5.2-1.module_el8.3.0+2009+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.5.2-1.module_el8.5.0+152+112d3b8c"
+					}
+				],
+				"fixed": [
+					"1.5.2-1.module_el8.5.0+152+112d3b8c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.5.2-1.module_el8.5.0+152+112d3b8c"
+					}
+				],
+				"fixed": [
+					"1.5.2-1.module_el8.5.0+152+112d3b8c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.5.2-1.module_el8.4.0+2229+b272fdef"
+					}
+				],
+				"fixed": [
+					"1.5.2-1.module_el8.4.0+2229+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.5.2-1.module_el8.3.0+2009+b272fdef"
+					}
+				],
+				"fixed": [
+					"1.5.2-1.module_el8.3.0+2009+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pear"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.10.9-1.module_el8.3.0+2009+b272fdef"
+					}
+				],
+				"fixed": [
+					"1:1.10.9-1.module_el8.3.0+2009+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.17-1.module_el8.5.0+152+112d3b8c"
+					}
+				],
+				"fixed": [
+					"5.1.17-1.module_el8.5.0+152+112d3b8c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.17-1.module_el8.3.0+2009+b272fdef"
+					}
+				],
+				"fixed": [
+					"5.1.17-1.module_el8.3.0+2009+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.17-1.module_el8.4.0+2229+b272fdef"
+					}
+				],
+				"fixed": [
+					"5.1.17-1.module_el8.4.0+2229+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.17-1.module_el8.3.0+2009+b272fdef"
+					}
+				],
+				"fixed": [
+					"5.1.17-1.module_el8.3.0+2009+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.17-1.module_el8.4.0+2229+b272fdef"
+					}
+				],
+				"fixed": [
+					"5.1.17-1.module_el8.4.0+2229+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.17-1.module_el8.5.0+152+112d3b8c"
+					}
+				],
+				"fixed": [
+					"5.1.17-1.module_el8.5.0+152+112d3b8c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-zip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.15.4-1.module_el8.4.0+2229+b272fdef"
+					}
+				],
+				"fixed": [
+					"1.15.4-1.module_el8.4.0+2229+b272fdef"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-zip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.15.4-1.module_el8.5.0+152+112d3b8c"
+					}
+				],
+				"fixed": [
+					"1.15.4-1.module_el8.5.0+152+112d3b8c"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-zip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.15.4-1.module_el8.3.0+2009+b272fdef"
+					}
+				],
+				"fixed": [
+					"1.15.4-1.module_el8.3.0+2009+b272fdef"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

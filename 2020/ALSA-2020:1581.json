@@ -1,0 +1,101 @@
+{
+	"id": "ALSA-2020:1581",
+	"advisories": [
+		{
+			"id": "ALSA-2020:1581",
+			"title": "Low: wavpack security update",
+			"description": "WavPack is a completely open audio compression format providing lossless, high-quality lossy, and a unique hybrid compression mode. \n\nSecurity Fix(es):\n\n* wawpack: Infinite loop in WavpackPackInit function lead to DoS (CVE-2018-19840)\n\n* wawpack: Out-of-bounds read in WavpackVerifySingleBlock function leads to DoS (CVE-2018-19841)\n\n* wavpack: Use of uninitialized variable in WavpackSetConfiguration64 leads to DoS (CVE-2019-11498)\n\n* wavpack: Divide by zero in ParseDsdiffHeaderConfig leads to crash (CVE-2019-1010315)\n\n* wavpack: Use of uninitialized variable in ParseCaffHeaderConfig leads to DoS (CVE-2019-1010317)\n\n* wavpack: Use of uninitialized variable in ParseWave64HeaderConfig leads to DoS (CVE-2019-1010319)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2020-1581.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2018-19840"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2018-19841"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-1010315"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-1010317"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-1010319"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-11498"
+				}
+			],
+			"published": "2020-04-28T08:53:05Z",
+			"modified": "2021-11-12T10:20:55Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2018-19840"
+		},
+		{
+			"id": "CVE-2018-19841"
+		},
+		{
+			"id": "CVE-2019-1010315"
+		},
+		{
+			"id": "CVE-2019-1010317"
+		},
+		{
+			"id": "CVE-2019-1010319"
+		},
+		{
+			"id": "CVE-2019-11498"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "wavpack"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.0-15.el8"
+					}
+				],
+				"fixed": [
+					"5.1.0-15.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "wavpack-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.0-15.el8"
+					}
+				],
+				"fixed": [
+					"5.1.0-15.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,89 @@
+{
+	"id": "ALSA-2024:0071",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0071",
+			"title": "Important: squid security update",
+			"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: Denial of Service in SSL Certificate validation (CVE-2023-46724)\n* squid: NULL pointer dereference in the gopher protocol code (CVE-2023-46728)\n* squid: Buffer over-read in the HTTP Message processing feature (CVE-2023-49285)\n* squid: Incorrect Check of Function Return Value In Helper Process management (CVE-2023-49286)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0071"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-46724"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-46728"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-49285"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-49286"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2247567"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2248521"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2252923"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2252926"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-0071.html"
+				}
+			],
+			"published": "2024-01-08T00:00:00Z",
+			"modified": "2024-01-08T13:54:39Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-46724"
+		},
+		{
+			"id": "CVE-2023-46728"
+		},
+		{
+			"id": "CVE-2023-49285"
+		},
+		{
+			"id": "CVE-2023-49286"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "squid"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7:5.5-6.el9_3.5"
+					}
+				],
+				"fixed": [
+					"7:5.5-6.el9_3.5"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

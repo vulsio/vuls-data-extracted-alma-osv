@@ -1,0 +1,128 @@
+{
+	"id": "ALSA-2022:7105",
+	"advisories": [
+		{
+			"id": "ALSA-2022:7105",
+			"title": "Moderate: gnutls security update",
+			"description": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS.\n\nSecurity Fix(es):\n\n* gnutls: Double free during gnutls_pkcs7_verify. (CVE-2022-2509)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:7105"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2509"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2108977"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-7105.html"
+				}
+			],
+			"published": "2022-10-25T00:00:00Z",
+			"modified": "2022-11-14T17:42:12Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-2509"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gnutls"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.16-5.el8_6"
+					}
+				],
+				"fixed": [
+					"3.6.16-5.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gnutls-c++"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.16-5.el8_6"
+					}
+				],
+				"fixed": [
+					"3.6.16-5.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gnutls-dane"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.16-5.el8_6"
+					}
+				],
+				"fixed": [
+					"3.6.16-5.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gnutls-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.16-5.el8_6"
+					}
+				],
+				"fixed": [
+					"3.6.16-5.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "gnutls-utils"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.6.16-5.el8_6"
+					}
+				],
+				"fixed": [
+					"3.6.16-5.el8_6"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

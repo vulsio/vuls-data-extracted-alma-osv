@@ -1,0 +1,348 @@
+{
+	"id": "ALSA-2024:0463",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0463",
+			"title": "Moderate: rpm security update",
+			"description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages.\n\nSecurity Fix(es):\n\n* rpm: TOCTOU race in checks for unsafe symlinks (CVE-2021-35937)\n* rpm: races with chown/chmod/capabilities calls during installation (CVE-2021-35938)\n* rpm: checks for unsafe symlinks are not performed for intermediary directories (CVE-2021-35939)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0463"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2021-35937"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2021-35938"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2021-35939"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/1964114"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/1964125"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/1964129"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-0463.html"
+				}
+			],
+			"published": "2024-01-25T00:00:00Z",
+			"modified": "2024-01-25T21:52:51Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-35937"
+		},
+		{
+			"id": "CVE-2021-35938"
+		},
+		{
+			"id": "CVE-2021-35939"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-rpm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-apidocs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-build"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-build-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-cron"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-plugin-audit"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-plugin-fapolicyd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-plugin-ima"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-plugin-selinux"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-plugin-syslog"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-plugin-systemd-inhibit"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-sign"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "rpm-sign-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.16.1.3-27.el9_3"
+					}
+				],
+				"fixed": [
+					"4.16.1.3-27.el9_3"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

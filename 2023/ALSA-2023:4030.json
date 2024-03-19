@@ -1,0 +1,56 @@
+{
+	"id": "ALSA-2023:4030",
+	"advisories": [
+		{
+			"id": "ALSA-2023:4030",
+			"title": "Critical: grafana security update",
+			"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nSecurity Fix(es):\n\n* grafana: account takeover possible when using Azure AD OAuth (CVE-2023-3128)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:4030"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-3128"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2213626"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-4030.html"
+				}
+			],
+			"published": "2023-07-12T00:00:00Z",
+			"modified": "2023-07-12T14:06:18Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-3128"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grafana"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.0.9-3.el9_2.alma"
+					}
+				],
+				"fixed": [
+					"9.0.9-3.el9_2.alma"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

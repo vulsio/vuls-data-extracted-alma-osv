@@ -1,0 +1,164 @@
+{
+	"id": "ALSA-2023:5249",
+	"advisories": [
+		{
+			"id": "ALSA-2023:5249",
+			"title": "Moderate: ncurses security update",
+			"description": "The ncurses (new curses) library routines are a terminal-independent method of updating character screens with reasonable optimization. The ncurses packages contain support utilities including a terminfo compiler tic, a decompiler infocmp, clear, tput, tset, and a termcap conversion tool captoinfo.\n\nSecurity Fix(es):\n\n* ncurses: Local users can trigger security-relevant memory corruption via malformed data (CVE-2023-29491)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:5249"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-29491"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2191704"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-5249.html"
+				}
+			],
+			"published": "2023-09-19T00:00:00Z",
+			"modified": "2023-09-21T16:17:16Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-29491"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ncurses"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.1-9.20180224.el8_8.1"
+					}
+				],
+				"fixed": [
+					"6.1-9.20180224.el8_8.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ncurses-base"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.1-9.20180224.el8_8.1"
+					}
+				],
+				"fixed": [
+					"6.1-9.20180224.el8_8.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ncurses-c++-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.1-9.20180224.el8_8.1"
+					}
+				],
+				"fixed": [
+					"6.1-9.20180224.el8_8.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ncurses-compat-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.1-9.20180224.el8_8.1"
+					}
+				],
+				"fixed": [
+					"6.1-9.20180224.el8_8.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ncurses-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.1-9.20180224.el8_8.1"
+					}
+				],
+				"fixed": [
+					"6.1-9.20180224.el8_8.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ncurses-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.1-9.20180224.el8_8.1"
+					}
+				],
+				"fixed": [
+					"6.1-9.20180224.el8_8.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ncurses-term"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.1-9.20180224.el8_8.1"
+					}
+				],
+				"fixed": [
+					"6.1-9.20180224.el8_8.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

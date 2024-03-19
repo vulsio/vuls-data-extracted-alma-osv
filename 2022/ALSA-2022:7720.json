@@ -1,0 +1,164 @@
+{
+	"id": "ALSA-2022:7720",
+	"advisories": [
+		{
+			"id": "ALSA-2022:7720",
+			"title": "Moderate: e2fsprogs security and bug fix update",
+			"description": "The e2fsprogs packages provide a number of utilities for creating, checking, modifying, and correcting the ext2, ext3, and ext4 file systems.\n\nSecurity Fix(es):\n\n* e2fsprogs: out-of-bounds read/write via crafted filesystem (CVE-2022-1304)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:7720"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-1304"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2069726"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-7720.html"
+				}
+			],
+			"published": "2022-11-08T00:00:00Z",
+			"modified": "2022-11-11T21:01:46Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-1304"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "e2fsprogs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.45.6-5.el8"
+					}
+				],
+				"fixed": [
+					"1.45.6-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "e2fsprogs-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.45.6-5.el8"
+					}
+				],
+				"fixed": [
+					"1.45.6-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "e2fsprogs-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.45.6-5.el8"
+					}
+				],
+				"fixed": [
+					"1.45.6-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libcom_err"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.45.6-5.el8"
+					}
+				],
+				"fixed": [
+					"1.45.6-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libcom_err-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.45.6-5.el8"
+					}
+				],
+				"fixed": [
+					"1.45.6-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libss"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.45.6-5.el8"
+					}
+				],
+				"fixed": [
+					"1.45.6-5.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libss-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.45.6-5.el8"
+					}
+				],
+				"fixed": [
+					"1.45.6-5.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,631 @@
+{
+	"id": "ALSA-2021:2360",
+	"advisories": [
+		{
+			"id": "ALSA-2021:2360",
+			"title": "Important: postgresql:9.6 security update",
+			"description": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nThe following packages have been upgraded to a later upstream version: postgresql (9.6.22)\n\nSecurity Fix(es):\n\n* postgresql: Buffer overrun from integer overflow in array subscripting calculations (CVE-2021-32027)\n\n* postgresql: Memory disclosure in INSERT ... ON CONFLICT ... DO UPDATE (CVE-2021-32028)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2021-2360.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-32027"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-32028"
+				}
+			],
+			"published": "2021-06-09T11:21:04Z",
+			"modified": "2021-06-09T11:21:04Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-32027"
+		},
+		{
+			"id": "CVE-2021-32028"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2492+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2479+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.5.0+58+52470387"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.5.0+58+52470387"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-contrib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.5.0+58+52470387"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.5.0+58+52470387"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-contrib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2492+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-contrib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2479+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-docs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2492+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-docs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2479+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-docs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.5.0+58+52470387"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.5.0+58+52470387"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-plperl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2479+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-plperl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.5.0+58+52470387"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.5.0+58+52470387"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-plperl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2492+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-plpython3"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2479+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-plpython3"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.5.0+58+52470387"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.5.0+58+52470387"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-plpython3"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2492+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-pltcl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2479+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-pltcl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.5.0+58+52470387"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.5.0+58+52470387"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-pltcl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2492+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-server"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.5.0+58+52470387"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.5.0+58+52470387"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-server"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2492+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-server"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2479+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-server-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2492+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-server-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2479+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-server-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.5.0+58+52470387"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.5.0+58+52470387"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-static"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2479+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-static"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.5.0+58+52470387"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.5.0+58+52470387"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-static"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2492+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-test"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2479+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-test"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2492+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-test"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.5.0+58+52470387"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.5.0+58+52470387"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-test-rpm-macros"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2479+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2479+beebcf7e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-test-rpm-macros"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.5.0+58+52470387"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.5.0+58+52470387"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-test-rpm-macros"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.6.22-1.module_el8.4.0+2492+beebcf7e"
+					}
+				],
+				"fixed": [
+					"9.6.22-1.module_el8.4.0+2492+beebcf7e"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

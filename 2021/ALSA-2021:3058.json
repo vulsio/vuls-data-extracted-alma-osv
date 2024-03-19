@@ -1,0 +1,62 @@
+{
+	"id": "ALSA-2021:3058",
+	"advisories": [
+		{
+			"id": "ALSA-2021:3058",
+			"title": "Moderate: glib2 security update",
+			"description": "GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.\n\nSecurity Fix(es):\n\n* glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform (CVE-2021-27218)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-27218"
+				}
+			],
+			"published": "2021-08-10T11:56:26Z",
+			"modified": "2021-08-11T08:54:00Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-27218"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "glib2-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.56.4-10.el8_4.1"
+					}
+				],
+				"fixed": [
+					"2.56.4-10.el8_4.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "glib2-static"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.56.4-10.el8_4.1"
+					}
+				],
+				"fixed": [
+					"2.56.4-10.el8_4.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

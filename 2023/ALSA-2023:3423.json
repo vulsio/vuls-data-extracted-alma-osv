@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2023:3423",
+	"advisories": [
+		{
+			"id": "ALSA-2023:3423",
+			"title": "Important: cups-filters security update",
+			"description": "The cups-filters package contains back ends, filters, and other software that was once part of the core Common UNIX Printing System (CUPS) distribution but is now maintained independently. \n\nSecurity Fix(es):\n\n* cups-filters: remote code execution in cups-filters, beh CUPS backend (CVE-2023-24805)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:3423"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-24805"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2203051"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-3423.html"
+				}
+			],
+			"published": "2023-06-05T00:00:00Z",
+			"modified": "2023-06-06T05:52:31Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-24805"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-filters"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.28.7-11.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.28.7-11.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-filters-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.28.7-11.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.28.7-11.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "cups-filters-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.28.7-11.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.28.7-11.el9_2.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,496 @@
+{
+	"id": "ALSA-2024:0249",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0249",
+			"title": "Important: java-21-openjdk security update",
+			"description": "The java-21-openjdk packages provide the OpenJDK 21 Java Runtime Environment and the OpenJDK 21 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: array out-of-bounds access due to missing range check in C1 compiler (8314468) (CVE-2024-20918)\n* OpenJDK: RSA padding issue and timing side-channel attack against TLS (8317547) (CVE-2024-20952)\n* OpenJDK: JVM class file verifier flaw allows unverified bytecode execution (8314295) (CVE-2024-20919)\n* OpenJDK: range check loop optimization issue (8314307) (CVE-2024-20921)\n* OpenJDK: logging of digital signature private keys (8316976) (CVE-2024-20945)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0249"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-20918"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-20919"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-20921"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-20945"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-20952"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257728"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257837"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257853"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257859"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257874"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-0249.html"
+				}
+			],
+			"published": "2024-01-17T00:00:00Z",
+			"modified": "2024-01-20T14:58:07Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-20918"
+		},
+		{
+			"id": "CVE-2024-20919"
+		},
+		{
+			"id": "CVE-2024-20921"
+		},
+		{
+			"id": "CVE-2024-20945"
+		},
+		{
+			"id": "CVE-2024-20952"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-demo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-demo-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-demo-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-devel-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-devel-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-headless"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-headless-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-headless-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-javadoc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-javadoc-zip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-jmods"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-jmods-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-jmods-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-src"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-src-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-src-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-static-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-static-libs-fastdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "java-21-openjdk-static-libs-slowdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:21.0.2.0.13-1.el9.alma.1"
+					}
+				],
+				"fixed": [
+					"1:21.0.2.0.13-1.el9.alma.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

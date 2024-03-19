@@ -1,0 +1,200 @@
+{
+	"id": "ALSA-2023:3147",
+	"advisories": [
+		{
+			"id": "ALSA-2023:3147",
+			"title": "Important: apr-util security update",
+			"description": "The Apache Portable Runtime (APR) is a portability library used by the\nApache HTTP Server and other projects. apr-util is a library which provides\nadditional utility interfaces for APR; including support for XML parsing,\nLDAP, database interfaces, URI parsing, and more.\n\nSecurity Fix(es):\n\n* apr-util: out-of-bounds writes in the apr_base64 (CVE-2022-25147)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:3147"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-25147"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2169652"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-3147.html"
+				}
+			],
+			"published": "2023-05-16T00:00:00Z",
+			"modified": "2023-05-19T22:03:43Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-25147"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "apr-util"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-20.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.6.1-20.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "apr-util-bdb"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-20.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.6.1-20.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "apr-util-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-20.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.6.1-20.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "apr-util-ldap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-20.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.6.1-20.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "apr-util-mysql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-20.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.6.1-20.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "apr-util-odbc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-20.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.6.1-20.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "apr-util-openssl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-20.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.6.1-20.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "apr-util-pgsql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-20.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.6.1-20.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "apr-util-sqlite"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-20.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.6.1-20.el9_2.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

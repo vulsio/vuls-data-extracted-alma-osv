@@ -1,0 +1,390 @@
+{
+	"id": "ALSA-2022:4799",
+	"advisories": [
+		{
+			"id": "ALSA-2022:4799",
+			"title": "Important: rsyslog security update",
+			"description": "The rsyslog packages provide an enhanced, multi-threaded syslog daemon. It supports MySQL, syslog/TCP, RFC 3195, permitted sender lists, filtering on any message part, and fine-grained control over output format.\n\nSecurity Fix(es):\n\n* rsyslog: Heap-based overflow in TCP syslog server (CVE-2022-24903)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-4799.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2022-24903"
+				}
+			],
+			"published": "2022-05-30T07:24:07Z",
+			"modified": "2022-05-30T11:39:08Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-24903"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-crypto"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-elasticsearch"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-gnutls"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-gssapi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-kafka"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-mmaudit"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-mmfields"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-mmjsonparse"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-mmkubernetes"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-mmnormalize"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-mmsnmptrapd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-mysql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-omamqp1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-openssl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-pgsql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-relp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-snmp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "rsyslog-udpspoof"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "8.2102.0-7.el8"
+					}
+				],
+				"fixed": [
+					"8.2102.0-7.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

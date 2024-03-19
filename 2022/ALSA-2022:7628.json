@@ -1,0 +1,870 @@
+{
+	"id": "ALSA-2022:7628",
+	"advisories": [
+		{
+			"id": "ALSA-2022:7628",
+			"title": "Moderate: php:7.4 security, bug fix, and enhancement update",
+			"description": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.\n\nThe following packages have been upgraded to a later upstream version: php (7.4.30), php-pear (1.10.13). (BZ#2055422)\n\nSecurity Fix(es):\n\n* php: Special character breaks path in xml parsing (CVE-2021-21707)\n* php: Use after free due to php_filter_float() failing for ints (CVE-2021-21708)\n* php-pear: Directory traversal vulnerability (CVE-2021-32610)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:7628"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2021-21707"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2021-21708"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2021-32610"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/1988558"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2026045"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2055879"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-7628.html"
+				}
+			],
+			"published": "2022-11-08T00:00:00Z",
+			"modified": "2022-11-24T19:17:28Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-21707"
+		},
+		{
+			"id": "CVE-2021-21708"
+		},
+		{
+			"id": "CVE-2021-32610"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "apcu-panel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.18-1.module_el8.6.0+2750+78feabcb"
+					}
+				],
+				"fixed": [
+					"5.1.18-1.module_el8.6.0+2750+78feabcb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-1.module_el8.6.0+2750+78feabcb"
+					}
+				],
+				"fixed": [
+					"1.6.1-1.module_el8.6.0+2750+78feabcb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-1.module_el8.6.0+3239+bedf0508"
+					}
+				],
+				"fixed": [
+					"1.6.1-1.module_el8.6.0+3239+bedf0508"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-1.module_el8.6.0+2750+78feabcb"
+					}
+				],
+				"fixed": [
+					"1.6.1-1.module_el8.6.0+2750+78feabcb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-1.module_el8.6.0+3239+bedf0508"
+					}
+				],
+				"fixed": [
+					"1.6.1-1.module_el8.6.0+3239+bedf0508"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-1.module_el8.6.0+3239+bedf0508"
+					}
+				],
+				"fixed": [
+					"1.6.1-1.module_el8.6.0+3239+bedf0508"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.6.1-1.module_el8.6.0+2750+78feabcb"
+					}
+				],
+				"fixed": [
+					"1.6.1-1.module_el8.6.0+2750+78feabcb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-bcmath"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-cli"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-dba"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-dbg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-embedded"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-enchant"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-ffi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-fpm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-gd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-gmp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-intl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-json"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-ldap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-mbstring"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-mysqlnd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-odbc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-opcache"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pdo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pear"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.10.13-1.module_el8.6.0+3268+b150a051"
+					}
+				],
+				"fixed": [
+					"1:1.10.13-1.module_el8.6.0+3268+b150a051"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.18-1.module_el8.6.0+2750+78feabcb"
+					}
+				],
+				"fixed": [
+					"5.1.18-1.module_el8.6.0+2750+78feabcb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.18-1.module_el8.6.0+3239+bedf0508"
+					}
+				],
+				"fixed": [
+					"5.1.18-1.module_el8.6.0+3239+bedf0508"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.18-1.module_el8.6.0+3239+bedf0508"
+					}
+				],
+				"fixed": [
+					"5.1.18-1.module_el8.6.0+3239+bedf0508"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.18-1.module_el8.6.0+2750+78feabcb"
+					}
+				],
+				"fixed": [
+					"5.1.18-1.module_el8.6.0+2750+78feabcb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-rrd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.1-1.module_el8.6.0+2750+78feabcb"
+					}
+				],
+				"fixed": [
+					"2.0.1-1.module_el8.6.0+2750+78feabcb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-rrd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.1-1.module_el8.6.0+3239+bedf0508"
+					}
+				],
+				"fixed": [
+					"2.0.1-1.module_el8.6.0+3239+bedf0508"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-xdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.5-1.module_el8.6.0+3239+bedf0508"
+					}
+				],
+				"fixed": [
+					"2.9.5-1.module_el8.6.0+3239+bedf0508"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-xdebug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.5-1.module_el8.6.0+2750+78feabcb"
+					}
+				],
+				"fixed": [
+					"2.9.5-1.module_el8.6.0+2750+78feabcb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-zip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.18.2-1.module_el8.6.0+2750+78feabcb"
+					}
+				],
+				"fixed": [
+					"1.18.2-1.module_el8.6.0+2750+78feabcb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-zip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.18.2-1.module_el8.6.0+3239+bedf0508"
+					}
+				],
+				"fixed": [
+					"1.18.2-1.module_el8.6.0+3239+bedf0508"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pgsql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-process"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-snmp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-soap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-xml"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-xmlrpc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.4.30-1.module_el8.7.0+3286+227f3cf0"
+					}
+				],
+				"fixed": [
+					"7.4.30-1.module_el8.7.0+3286+227f3cf0"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

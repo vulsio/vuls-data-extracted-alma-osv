@@ -1,0 +1,236 @@
+{
+	"id": "ALSA-2022:8434",
+	"advisories": [
+		{
+			"id": "ALSA-2022:8434",
+			"title": "Moderate: dotnet7.0 security, bug fix, and enhancement update",
+			"description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 7.0.100 RC 2 and .NET Runtime 7.0.0 RC 2. \n\nThe following packages have been upgraded to a later upstream version: dotnet7.0 (7.0.100). (BZ#2134641)\n\nSecurity Fix(es):\n\n* dotnet: Nuget cache poisoning on Linux via world-writable cache directory (CVE-2022-41032)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:8434"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41032"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2132614"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2022-8434.html"
+				}
+			],
+			"published": "2022-11-15T00:00:00Z",
+			"modified": "2022-11-17T13:06:37Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-41032"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "aspnetcore-runtime-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.0-0.5.rc2.el9_1"
+					}
+				],
+				"fixed": [
+					"7.0.0-0.5.rc2.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "aspnetcore-targeting-pack-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.0-0.5.rc2.el9_1"
+					}
+				],
+				"fixed": [
+					"7.0.0-0.5.rc2.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-apphost-pack-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.0-0.5.rc2.el9_1"
+					}
+				],
+				"fixed": [
+					"7.0.0-0.5.rc2.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-host"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.0-0.5.rc2.el9_1"
+					}
+				],
+				"fixed": [
+					"7.0.0-0.5.rc2.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-hostfxr-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.0-0.5.rc2.el9_1"
+					}
+				],
+				"fixed": [
+					"7.0.0-0.5.rc2.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-runtime-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.0-0.5.rc2.el9_1"
+					}
+				],
+				"fixed": [
+					"7.0.0-0.5.rc2.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-sdk-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.100-0.5.rc2.el9_1"
+					}
+				],
+				"fixed": [
+					"7.0.100-0.5.rc2.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-sdk-7.0-source-built-artifacts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.100-0.5.rc2.el9_1"
+					}
+				],
+				"fixed": [
+					"7.0.100-0.5.rc2.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-targeting-pack-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.0-0.5.rc2.el9_1"
+					}
+				],
+				"fixed": [
+					"7.0.0-0.5.rc2.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-templates-7.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.100-0.5.rc2.el9_1"
+					}
+				],
+				"fixed": [
+					"7.0.100-0.5.rc2.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "netstandard-targeting-pack-2.1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.0.100-0.5.rc2.el9_1"
+					}
+				],
+				"fixed": [
+					"7.0.100-0.5.rc2.el9_1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,6716 @@
+{
+	"id": "ALSA-2023:3661",
+	"advisories": [
+		{
+			"id": "ALSA-2023:3661",
+			"title": "Important: texlive security update",
+			"description": "The texlive packages contain TeXLive, an implementation of TeX for Linux or UNIX systems.\n\nSecurity Fix(es):\n\n* texlive: arbitrary code execution allows document complied with older version (CVE-2023-32700)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:3661"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-32700"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2208943"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-3661.html"
+				}
+			],
+			"published": "2023-06-19T00:00:00Z",
+			"modified": "2023-06-23T18:28:21Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-32700"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-adjustbox"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ae"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-algorithms"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-alphalph"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-amscls"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-amsfonts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-amsmath"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-anyfontsize"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-anysize"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-appendix"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-arabxetex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-arphic"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-atbegshi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-attachfile"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-attachfile2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-atveryend"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-auxhook"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-avantgar"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-awesomebox"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-babel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-babel-english"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-babelbib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-base"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-beamer"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-bera"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-beton"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-bibtex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-bibtopic"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-bidi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-bigfoot"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-bigintcalc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-bitset"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-bookman"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-bookmark"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-booktabs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-breakurl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-breqn"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-capt-of"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-caption"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-carlisle"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-catchfile"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-changebar"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-changepage"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-charter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-chngcntr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-cite"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-cjk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-classpack"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-cm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-cm-lgc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-cm-super"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-cmap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-cmextra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-cns"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-collectbox"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-collection-basic"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-collection-fontsrecommended"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-collection-htmlxml"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-collection-latex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-collection-latexrecommended"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-collection-xetex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-colorprofiles"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-colortbl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-context"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-courier"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-crop"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-csquotes"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ctable"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ctablestack"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-currfile"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-datetime"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-dehyph"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-dvipdfmx"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-dvipng"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-dvips"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-dvisvgm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ec"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-eepic"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-enctex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-enumitem"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-environ"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-epsf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-epstopdf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-epstopdf-pkg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-eqparbox"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-eso-pic"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-etex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-etex-pkg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-etexcmds"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-etoc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-etoolbox"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-euenc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-euler"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-euro"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-eurosym"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-extsizes"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fancybox"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fancyhdr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fancyref"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fancyvrb"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-filecontents"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-filehook"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-finstrut"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fix2col"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fixlatvian"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-float"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fmtcount"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fncychap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fontawesome"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fontbook"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fonts-tlwg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fontspec"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fontware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fontwrap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-footmisc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-footnotehyper"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-fpl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-framed"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-garuda-c90"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-geometry"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-gettitlestring"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-glyphlist"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-gnu-freefont"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-graphics"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-graphics-cfg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-graphics-def"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-grfext"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-grffile"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-gsftopk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-hanging"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-helvetic"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-hobsub"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-hologo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-hycolor"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-hyperref"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-hyph-utf8"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-hyphen-base"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-hyphenat"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-hyphenex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ifmtarg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ifoddpage"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ifplatform"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-iftex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-import"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-index"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-infwarerr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-intcalc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-jadetex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-jknapltx"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-kastrup"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-kerkis"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-knuth-lib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-knuth-local"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-koma-script"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-kpathsea"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-kvdefinekeys"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-kvoptions"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-kvsetkeys"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-l3backend"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-l3experimental"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-l3kernel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-l3packages"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-lastpage"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-latex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-latex-fonts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-latex2man"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-latexbug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-latexconfig"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-letltxmacro"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-lettrine"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-lib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-lib-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-linegoal"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-lineno"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-listings"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-listofitems"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-lm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-lm-math"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ltabptch"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ltxcmds"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ltxmisc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-lua-alt-getopt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-luahbtex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-lualatex-math"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-lualibs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-luaotfload"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-luatex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-luatex85"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-luatexbase"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-lwarp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-makecmds"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-makeindex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-manfnt-font"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-marginnote"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-marvosym"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-mathpazo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-mathspec"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-mathtools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-mdwtools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-memoir"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-metafont"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-metalogo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-metapost"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-mflogo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-mflogo-font"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-mfnfss"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-mfware"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-microtype"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-minitoc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-mnsymbol"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-modes"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-mparhack"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-mptopdf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ms"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-multido"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-multirow"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-natbib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ncctools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ncntrsbk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-needspace"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-newfloat"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-newunicodechar"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-norasi-c90"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-notoccite"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ntgclass"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-oberdiek"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-obsolete"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-overpic"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-palatino"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-paralist"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-parallel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-parskip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-passivetex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pdfcolmk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pdfescape"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pdflscape"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pdfpages"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pdftex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pdftexcmds"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pgf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-philokalia"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-placeins"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-plain"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-polyglossia"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-powerdot"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-preprint"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-psfrag"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pslatex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-psnfss"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pspicture"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-3d"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-arrow"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-blur"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-coil"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-eps"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-fill"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-grad"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-math"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-node"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-plot"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-slpe"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-text"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pst-tree"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pstricks"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pstricks-add"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ptext"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-pxfonts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-qstest"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ragged2e"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-rcs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-realscripts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-refcount"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-rerunfilecheck"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-rsfs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-sansmath"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-sansmathaccent"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-sauerj"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-scheme-basic"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-section"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-sectsty"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-seminar"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-sepnum"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-setspace"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-showexpl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-soul"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-stackengine"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-stmaryrd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-stringenc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-subfig"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-subfigure"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-svn-prov"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-symbol"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-t2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-tabu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-tabulary"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-tex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-tex-gyre"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-tex-gyre-math"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-tex-ini-files"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-tex4ht"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-texlive-common-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-texlive-docindex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-texlive-en"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-texlive-msg-translations"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-texlive-scripts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-texlive-scripts-extra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-texlive.infra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-textcase"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-textpos"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-threeparttable"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-thumbpdf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-times"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-tipa"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-titlesec"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-titling"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-tocloft"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-translator"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-trimspaces"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-txfonts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-type1cm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-typehtml"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ucharcat"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ucharclasses"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ucs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-uhc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-ulem"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-underscore"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-unicode-data"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-unicode-math"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-uniquecounter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-unisugar"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-updmap-map"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-upquote"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-url"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-utopia"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-varwidth"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-wadalab"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-was"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-wasy"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-wasy-type1"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-wasysym"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-wrapfig"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xcolor"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xdvi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xecjk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xecolor"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xecyr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xeindex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xepersian"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xesearch"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xetex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xetex-itrans"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xetex-pstricks"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xetex-tibetan"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xetexconfig"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xetexfontinfo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xifthen"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xkeyval"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xltxtra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xmltex"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xmltexconfig"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xstring"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xtab"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-xunicode"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-zapfchan"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-zapfding"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "texlive-zref"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9:20200406-26.el9_2"
+					}
+				],
+				"fixed": [
+					"9:20200406-26.el9_2"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

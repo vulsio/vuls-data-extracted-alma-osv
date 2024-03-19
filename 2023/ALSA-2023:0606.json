@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2023:0606",
+	"advisories": [
+		{
+			"id": "ALSA-2023:0606",
+			"title": "Important: thunderbird security update",
+			"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.7.1.\n\nSecurity Fix(es):\n\n* Mozilla: Revocation status of S/Mime signature certificates was not checked (CVE-2023-0430)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:0606"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-0430"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2166591"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-0606.html"
+				}
+			],
+			"published": "2023-02-06T00:00:00Z",
+			"modified": "2023-02-07T19:47:12Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-0430"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "thunderbird"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "102.7.1-2.el8_7.alma.plus"
+					}
+				],
+				"fixed": [
+					"102.7.1-2.el8_7.alma.plus"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "thunderbird"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "102.7.1-2.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"102.7.1-2.el8_7.alma"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,146 @@
+{
+	"id": "ALSA-2022:7133",
+	"advisories": [
+		{
+			"id": "ALSA-2022:7133",
+			"title": "Moderate: 389-ds:1.4 security update",
+			"description": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base packages include the Lightweight Directory Access Protocol (LDAP) server and command-line utilities for server administration. \n\nSecurity Fix(es):\n\n* 389-ds-base: SIGSEGV in sync_repl (CVE-2022-2850)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:7133"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2850"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2118691"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-7133.html"
+				}
+			],
+			"published": "2022-10-25T00:00:00Z",
+			"modified": "2022-10-27T10:05:54Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-2850"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "389-ds-base"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+					}
+				],
+				"fixed": [
+					"1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "389-ds-base-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+					}
+				],
+				"fixed": [
+					"1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "389-ds-base-legacy-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+					}
+				],
+				"fixed": [
+					"1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "389-ds-base-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+					}
+				],
+				"fixed": [
+					"1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "389-ds-base-snmp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+					}
+				],
+				"fixed": [
+					"1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-lib389"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+					}
+				],
+				"fixed": [
+					"1.4.3.28-8.module_el8.6.0+3338+ebccfef1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

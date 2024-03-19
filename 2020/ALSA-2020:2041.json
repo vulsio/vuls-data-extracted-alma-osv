@@ -1,0 +1,80 @@
+{
+	"id": "ALSA-2020:2041",
+	"advisories": [
+		{
+			"id": "ALSA-2020:2041",
+			"title": "Important: squid:4 security update",
+			"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: improper check for new member in ESIExpression::Evaluate allows for stack buffer overflow (CVE-2019-12519)\n\n* squid: improper access restriction upon Digest Authentication nonce replay could lead to remote code execution (CVE-2020-11945)\n\n* squid: parsing of header Proxy-Authentication leads to memory corruption (CVE-2019-12525)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2020-2041.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-12519"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2019-12525"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2020-11945"
+				}
+			],
+			"published": "2020-05-06T12:52:10Z",
+			"modified": "2020-05-06T12:52:10Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2019-12519"
+		},
+		{
+			"id": "CVE-2019-12525"
+		},
+		{
+			"id": "CVE-2020-11945"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+2741+01592ae8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+2741+01592ae8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

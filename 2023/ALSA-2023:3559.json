@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2023:3559",
+	"advisories": [
+		{
+			"id": "ALSA-2023:3559",
+			"title": "Important: c-ares security update",
+			"description": "The c-ares C library defines asynchronous DNS (Domain Name System) requests and provides name resolving API.\n\nSecurity Fix(es):\n\n* c-ares: 0-byte UDP payload Denial of Service (CVE-2023-32067)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:3559"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-32067"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2209502"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-3559.html"
+				}
+			],
+			"published": "2023-06-13T00:00:00Z",
+			"modified": "2023-06-14T07:21:32Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-32067"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "c-ares"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.17.1-5.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.17.1-5.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "c-ares-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.17.1-5.el9_2.1"
+					}
+				],
+				"fixed": [
+					"1.17.1-5.el9_2.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

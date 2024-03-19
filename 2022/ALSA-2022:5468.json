@@ -1,0 +1,218 @@
+{
+	"id": "ALSA-2022:5468",
+	"advisories": [
+		{
+			"id": "ALSA-2022:5468",
+			"title": "ALSA-2022:5468: php:8.0 security update (Important)",
+			"description": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.\nSecurity Fix(es):\n* php: password of excessive length triggers buffer overflow leading to RCE (CVE-2022-31626)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:5468"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-31626"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2098523"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-5468.html"
+				}
+			],
+			"published": "2022-06-30T00:00:00Z",
+			"modified": "2023-03-13T16:35:17Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-31626"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "apcu-panel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.20-1.module_el8.6.0+2739+efabdb8f"
+					}
+				],
+				"fixed": [
+					"5.1.20-1.module_el8.6.0+2739+efabdb8f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.7.3-1.module_el8.6.0+2739+efabdb8f"
+					}
+				],
+				"fixed": [
+					"1.7.3-1.module_el8.6.0+2739+efabdb8f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.7.3-1.module_el8.6.0+2739+efabdb8f"
+					}
+				],
+				"fixed": [
+					"1.7.3-1.module_el8.6.0+2739+efabdb8f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libzip-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.7.3-1.module_el8.6.0+2739+efabdb8f"
+					}
+				],
+				"fixed": [
+					"1.7.3-1.module_el8.6.0+2739+efabdb8f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pear"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.10.13-1.module_el8.6.0+3268+b150a051"
+					}
+				],
+				"fixed": [
+					"1:1.10.13-1.module_el8.6.0+3268+b150a051"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.20-1.module_el8.6.0+2739+efabdb8f"
+					}
+				],
+				"fixed": [
+					"5.1.20-1.module_el8.6.0+2739+efabdb8f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-apcu-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.1.20-1.module_el8.6.0+2739+efabdb8f"
+					}
+				],
+				"fixed": [
+					"5.1.20-1.module_el8.6.0+2739+efabdb8f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-rrd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.3-1.module_el8.6.0+2739+efabdb8f"
+					}
+				],
+				"fixed": [
+					"2.0.3-1.module_el8.6.0+2739+efabdb8f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-xdebug3"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.1.2-1.module_el8.6.0+2739+efabdb8f"
+					}
+				],
+				"fixed": [
+					"3.1.2-1.module_el8.6.0+2739+efabdb8f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "php-pecl-zip"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.19.2-1.module_el8.6.0+2739+efabdb8f"
+					}
+				],
+				"fixed": [
+					"1.19.2-1.module_el8.6.0+2739+efabdb8f"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

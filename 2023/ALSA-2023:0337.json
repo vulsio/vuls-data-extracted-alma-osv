@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2023:0337",
+	"advisories": [
+		{
+			"id": "ALSA-2023:0337",
+			"title": "Moderate: expat security update",
+			"description": "Expat is a C library for parsing XML documents.\n\nSecurity Fix(es):\n\n* expat: use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate (CVE-2022-43680)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:0337"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-43680"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2140059"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-0337.html"
+				}
+			],
+			"published": "2023-01-23T00:00:00Z",
+			"modified": "2023-01-24T11:01:47Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-43680"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "expat"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.9-1.el9_1.1"
+					}
+				],
+				"fixed": [
+					"2.4.9-1.el9_1.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "expat-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.9-1.el9_1.1"
+					}
+				],
+				"fixed": [
+					"2.4.9-1.el9_1.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

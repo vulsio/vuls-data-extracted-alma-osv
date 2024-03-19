@@ -1,0 +1,128 @@
+{
+	"id": "ALSA-2023:1701",
+	"advisories": [
+		{
+			"id": "ALSA-2023:1701",
+			"title": "Moderate: curl security update",
+			"description": "The curl packages provide the libcurl library and the curl utility for downloading files from servers using various protocols, including HTTP, FTP, and LDAP.\n\nSecurity Fix(es):\n\n* curl: HTTP multi-header compression denial of service (CVE-2023-23916)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:1701"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-23916"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2167815"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-1701.html"
+				}
+			],
+			"published": "2023-04-11T00:00:00Z",
+			"modified": "2023-04-20T14:09:15Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-23916"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "curl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.76.1-19.el9_1.2"
+					}
+				],
+				"fixed": [
+					"7.76.1-19.el9_1.2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "curl-minimal"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.76.1-19.el9_1.2"
+					}
+				],
+				"fixed": [
+					"7.76.1-19.el9_1.2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libcurl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.76.1-19.el9_1.2"
+					}
+				],
+				"fixed": [
+					"7.76.1-19.el9_1.2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libcurl-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.76.1-19.el9_1.2"
+					}
+				],
+				"fixed": [
+					"7.76.1-19.el9_1.2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libcurl-minimal"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.76.1-19.el9_1.2"
+					}
+				],
+				"fixed": [
+					"7.76.1-19.el9_1.2"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

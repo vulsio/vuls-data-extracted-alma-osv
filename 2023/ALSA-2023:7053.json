@@ -1,0 +1,207 @@
+{
+	"id": "ALSA-2023:7053",
+	"advisories": [
+		{
+			"id": "ALSA-2023:7053",
+			"title": "Moderate: ghostscript security and bug fix update",
+			"description": "The Ghostscript suite contains utilities for rendering PostScript and PDF documents. Ghostscript translates PostScript code to common bitmap formats so that the code can be displayed or printed.\n\nSecurity Fix(es):\n\n* ghostscript: buffer overflow in base/sbcp.c leading to data corruption (CVE-2023-28879)\n* ghostscript: Out-of-bound read in base/gdevdevn.c:1973 in devn_pcx_write_rle could result in DoS (CVE-2023-38559)\n* ghostscript: Incomplete fix for CVE-2020-16305 (CVE-2023-4042)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:7053"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-28879"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38559"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-4042"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2184585"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2224367"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2228151"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-7053.html"
+				}
+			],
+			"published": "2023-11-14T00:00:00Z",
+			"modified": "2023-11-23T10:22:35Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-16305"
+		},
+		{
+			"id": "CVE-2023-28879"
+		},
+		{
+			"id": "CVE-2023-38559"
+		},
+		{
+			"id": "CVE-2023-4042"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.27-11.el8"
+					}
+				],
+				"fixed": [
+					"9.27-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.27-11.el8"
+					}
+				],
+				"fixed": [
+					"9.27-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript-tools-dvipdf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.27-11.el8"
+					}
+				],
+				"fixed": [
+					"9.27-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript-tools-fonts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.27-11.el8"
+					}
+				],
+				"fixed": [
+					"9.27-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript-tools-printing"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.27-11.el8"
+					}
+				],
+				"fixed": [
+					"9.27-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript-x11"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.27-11.el8"
+					}
+				],
+				"fixed": [
+					"9.27-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libgs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.27-11.el8"
+					}
+				],
+				"fixed": [
+					"9.27-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libgs-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.27-11.el8"
+					}
+				],
+				"fixed": [
+					"9.27-11.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

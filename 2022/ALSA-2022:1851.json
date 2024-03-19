@@ -1,0 +1,282 @@
+{
+	"id": "ALSA-2022:1851",
+	"advisories": [
+		{
+			"id": "ALSA-2022:1851",
+			"title": "Moderate: pki-core:10.6 security and bug fix update",
+			"description": "The Public Key Infrastructure (PKI) Core contains fundamental packages required by AlmaLinux Certificate System.\n\nSecurity Fix(es):\n\n* JSS: memory leak in TLS connection leads to OOM (CVE-2021-4213)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-1851.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-4213"
+				}
+			],
+			"published": "2022-05-10T08:04:36Z",
+			"modified": "2022-05-10T08:04:34Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-4213"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "jss"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.9.3-1.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"4.9.3-1.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "jss-javadoc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.9.3-1.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"4.9.3-1.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ldapjdk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.23.0-1.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"4.23.0-1.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "ldapjdk-javadoc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.23.0-1.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"4.23.0-1.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pki-acme"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"10.12.0-2.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pki-base"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"10.12.0-2.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pki-base-java"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"10.12.0-2.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pki-ca"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"10.12.0-2.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pki-kra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"10.12.0-2.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pki-server"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"10.12.0-2.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pki-symkey"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"10.12.0-2.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pki-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"10.12.0-2.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-pki"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.12.0-2.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"10.12.0-2.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcatjss"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7.7.1-1.module_el8.6.0+2764+9fc58d50"
+					}
+				],
+				"fixed": [
+					"7.7.1-1.module_el8.6.0+2764+9fc58d50"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

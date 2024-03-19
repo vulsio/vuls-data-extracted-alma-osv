@@ -1,0 +1,121 @@
+{
+	"id": "ALSA-2023:3433",
+	"advisories": [
+		{
+			"id": "ALSA-2023:3433",
+			"title": "Important: webkit2gtk3 security update",
+			"description": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.\n\nSecurity Fix(es):\n\n* webkitgtk: a use-after-free when processing maliciously crafted web content (CVE-2023-32373)\n* webkitgtk: an out-of-bounds read when processing malicious content (CVE-2023-28204)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:3433"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-28204"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-32373"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2209208"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2209214"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-3433.html"
+				}
+			],
+			"published": "2023-06-05T00:00:00Z",
+			"modified": "2023-06-06T06:21:23Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-28204"
+		},
+		{
+			"id": "CVE-2023-32373"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk3"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.38.5-1.el8_8.4"
+					}
+				],
+				"fixed": [
+					"2.38.5-1.el8_8.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk3-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.38.5-1.el8_8.4"
+					}
+				],
+				"fixed": [
+					"2.38.5-1.el8_8.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk3-jsc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.38.5-1.el8_8.4"
+					}
+				],
+				"fixed": [
+					"2.38.5-1.el8_8.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "webkit2gtk3-jsc-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.38.5-1.el8_8.4"
+					}
+				],
+				"fixed": [
+					"2.38.5-1.el8_8.4"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

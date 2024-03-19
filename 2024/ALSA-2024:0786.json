@@ -1,0 +1,218 @@
+{
+	"id": "ALSA-2024:0786",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0786",
+			"title": "Moderate: nss security update",
+			"description": "Network Security Services (NSS) is a set of libraries designed to support the cross-platform development of security-enabled client and server applications.\n\nSecurity Fix(es):\n\n* nss: vulnerable to Minerva side-channel information leak (CVE-2023-6135)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0786"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-6135"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2249906"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-0786.html"
+				}
+			],
+			"published": "2024-02-12T00:00:00Z",
+			"modified": "2024-02-14T10:42:15Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-6135"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nss"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.90.0-6.el8_9"
+					}
+				],
+				"fixed": [
+					"3.90.0-6.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nss-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.90.0-6.el8_9"
+					}
+				],
+				"fixed": [
+					"3.90.0-6.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nss-softokn"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.90.0-6.el8_9"
+					}
+				],
+				"fixed": [
+					"3.90.0-6.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nss-softokn-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.90.0-6.el8_9"
+					}
+				],
+				"fixed": [
+					"3.90.0-6.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nss-softokn-freebl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.90.0-6.el8_9"
+					}
+				],
+				"fixed": [
+					"3.90.0-6.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nss-softokn-freebl-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.90.0-6.el8_9"
+					}
+				],
+				"fixed": [
+					"3.90.0-6.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nss-sysinit"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.90.0-6.el8_9"
+					}
+				],
+				"fixed": [
+					"3.90.0-6.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nss-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.90.0-6.el8_9"
+					}
+				],
+				"fixed": [
+					"3.90.0-6.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nss-util"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.90.0-6.el8_9"
+					}
+				],
+				"fixed": [
+					"3.90.0-6.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "nss-util-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.90.0-6.el8_9"
+					}
+				],
+				"fixed": [
+					"3.90.0-6.el8_9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

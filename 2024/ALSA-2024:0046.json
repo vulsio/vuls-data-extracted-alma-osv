@@ -1,0 +1,161 @@
+{
+	"id": "ALSA-2024:0046",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0046",
+			"title": "Important: squid:4 security update",
+			"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: Denial of Service in SSL Certificate validation (CVE-2023-46724)\n* squid: NULL pointer dereference in the gopher protocol code (CVE-2023-46728)\n* squid: Buffer over-read in the HTTP Message processing feature (CVE-2023-49285)\n* squid: Incorrect Check of Function Return Value In Helper Process management (CVE-2023-49286)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0046"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-46724"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-46728"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-49285"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-49286"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2247567"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2248521"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2252923"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2252926"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-0046.html"
+				}
+			],
+			"published": "2024-01-03T00:00:00Z",
+			"modified": "2024-01-08T14:59:53Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-46724"
+		},
+		{
+			"id": "CVE-2023-46728"
+		},
+		{
+			"id": "CVE-2023-49285"
+		},
+		{
+			"id": "CVE-2023-49286"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+2741+01592ae8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+3048+383bc947"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+3048+383bc947"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+2741+01592ae8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+3048+383bc947"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+3048+383bc947"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "squid"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7:4.15-7.module_el8.9.0+3708+6acaac63.5"
+					}
+				],
+				"fixed": [
+					"7:4.15-7.module_el8.9.0+3708+6acaac63.5"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2022:7106",
+	"advisories": [
+		{
+			"id": "ALSA-2022:7106",
+			"title": "Moderate: zlib security update",
+			"description": "The zlib packages provide a general-purpose lossless data compression library that is used by many different programs.\n\nSecurity Fix(es):\n\n* zlib: a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field (CVE-2022-37434)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:7106"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-37434"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2116639"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-7106.html"
+				}
+			],
+			"published": "2022-10-25T00:00:00Z",
+			"modified": "2022-10-26T12:13:56Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-37434"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "zlib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.2.11-19.el8_6"
+					}
+				],
+				"fixed": [
+					"1.2.11-19.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "zlib-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.2.11-19.el8_6"
+					}
+				],
+				"fixed": [
+					"1.2.11-19.el8_6"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "zlib-static"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.2.11-19.el8_6"
+					}
+				],
+				"fixed": [
+					"1.2.11-19.el8_6"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

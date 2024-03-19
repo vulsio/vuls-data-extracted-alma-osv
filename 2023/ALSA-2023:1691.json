@@ -1,0 +1,254 @@
+{
+	"id": "ALSA-2023:1691",
+	"advisories": [
+		{
+			"id": "ALSA-2023:1691",
+			"title": "Important: kernel-rt security and bug fix update",
+			"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: FUSE filesystem low-privileged user privileges escalation (CVE-2023-0386)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* kernel-rt: update RT source tree to the latest AlmaLinux-9.1.z3 Batch (BZ#2182066)",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:1691"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-0386"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2159505"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-1691.html"
+				}
+			],
+			"published": "2023-04-11T00:00:00Z",
+			"modified": "2023-04-20T13:48:52Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-0386"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-core"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug-core"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug-kvm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug-modules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-debug-modules-extra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-kvm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-modules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "kernel-rt-modules-extra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.14.0-162.23.1.rt21.186.el9_1"
+					}
+				],
+				"fixed": [
+					"5.14.0-162.23.1.rt21.186.el9_1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

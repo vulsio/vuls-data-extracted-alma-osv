@@ -1,0 +1,66 @@
+{
+	"id": "ALSA-2021:1979",
+	"advisories": [
+		{
+			"id": "ALSA-2021:1979",
+			"title": "Important: squid:4 security update",
+			"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: improper input validation may allow a trusted client to perform HTTP request smuggling (CVE-2020-25097)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2021-1979.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2020-25097"
+				}
+			],
+			"published": "2021-05-18T17:06:56Z",
+			"modified": "2021-05-18T17:06:52Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-25097"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+2741+01592ae8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libecap-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.1-2.module_el8.6.0+2741+01592ae8"
+					}
+				],
+				"fixed": [
+					"1.0.1-2.module_el8.6.0+2741+01592ae8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

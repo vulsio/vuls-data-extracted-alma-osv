@@ -1,0 +1,120 @@
+{
+	"id": "ALSA-2022:1792",
+	"advisories": [
+		{
+			"id": "ALSA-2022:1792",
+			"title": "Moderate: flatpak security and bug fix update",
+			"description": "Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.\n\nSecurity Fix(es):\n\n* flatpak: Permissions granted to applications can be hidden from the user at install time (CVE-2021-43860)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-1792.html"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://vulners.com/cve/CVE-2021-43860"
+				}
+			],
+			"published": "2022-05-10T08:01:39Z",
+			"modified": "2022-05-10T08:01:39Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-43860"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "flatpak"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.8.7-1.el8"
+					}
+				],
+				"fixed": [
+					"1.8.7-1.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "flatpak-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.8.7-1.el8"
+					}
+				],
+				"fixed": [
+					"1.8.7-1.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "flatpak-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.8.7-1.el8"
+					}
+				],
+				"fixed": [
+					"1.8.7-1.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "flatpak-selinux"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.8.7-1.el8"
+					}
+				],
+				"fixed": [
+					"1.8.7-1.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "flatpak-session-helper"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.8.7-1.el8"
+					}
+				],
+				"fixed": [
+					"1.8.7-1.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

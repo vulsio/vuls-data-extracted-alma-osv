@@ -1,0 +1,111 @@
+{
+	"id": "ALSA-2022:9067",
+	"advisories": [
+		{
+			"id": "ALSA-2022:9067",
+			"title": "Important: firefox security update",
+			"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.6.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Arbitrary file read from a compromised content process (CVE-2022-46872)\n* Mozilla: Memory safety bugs fixed in Firefox ESR 102.6 and Thunderbird 102.6 (CVE-2022-46878)\n* Mozilla: Use-after-free in WebGL (CVE-2022-46880)\n* Mozilla: Memory corruption in WebGL (CVE-2022-46881)\n* Mozilla: Drag and Dropped Filenames could have been truncated to malicious extensions (CVE-2022-46874)\n* Mozilla: Use-after-free in WebGL (CVE-2022-46882)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:9067"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46872"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46874"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46878"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46880"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46881"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-46882"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2153441"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2153449"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2153454"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2153463"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2153466"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2153467"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-9067.html"
+				}
+			],
+			"published": "2022-12-15T00:00:00Z",
+			"modified": "2022-12-16T10:20:49Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-46872"
+		},
+		{
+			"id": "CVE-2022-46874"
+		},
+		{
+			"id": "CVE-2022-46878"
+		},
+		{
+			"id": "CVE-2022-46880"
+		},
+		{
+			"id": "CVE-2022-46881"
+		},
+		{
+			"id": "CVE-2022-46882"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "firefox"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "102.6.0-1.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"102.6.0-1.el8_7.alma"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

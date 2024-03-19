@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2022:6357",
+	"advisories": [
+		{
+			"id": "ALSA-2022:6357",
+			"title": "Important: open-vm-tools security update",
+			"description": "The Open Virtual Machine Tools are the open source implementation of the VMware Tools. They are a set of guest operating system virtualization components that enhance performance and user experience of virtual machines.\n\nSecurity Fix(es):\n\n* open-vm-tools: local root privilege escalation in the virtual machine (CVE-2022-31676)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:6357"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-31676"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2118714"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2022-6357.html"
+				}
+			],
+			"published": "2022-09-06T00:00:00Z",
+			"modified": "2022-10-07T08:04:27Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-31676"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "open-vm-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "11.3.5-1.el8_6.1"
+					}
+				],
+				"fixed": [
+					"11.3.5-1.el8_6.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "open-vm-tools-desktop"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "11.3.5-1.el8_6.1"
+					}
+				],
+				"fixed": [
+					"11.3.5-1.el8_6.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "open-vm-tools-sdmp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "11.3.5-1.el8_6.1"
+					}
+				],
+				"fixed": [
+					"11.3.5-1.el8_6.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

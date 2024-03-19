@@ -1,0 +1,308 @@
+{
+	"id": "ALSA-2024:0468",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0468",
+			"title": "Moderate: grub2 security update",
+			"description": "The grub2 packages provide version 2 of the Grand Unified Boot Loader (GRUB), a highly configurable and customizable boot loader with modular architecture. The packages support a variety of kernel formats, file systems, computer architectures, and hardware devices.\n\nSecurity Fix(es):\n\n* grub2: bypass the GRUB password protection feature (CVE-2023-4001)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0468"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-4001"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2224951"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-0468.html"
+				}
+			],
+			"published": "2024-01-25T00:00:00Z",
+			"modified": "2024-01-26T10:16:18Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-4001"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-efi-aa64"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-efi-aa64-cdboot"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-efi-aa64-modules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-efi-x64"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-efi-x64-cdboot"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-efi-x64-modules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-pc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-pc-modules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-ppc64le"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-ppc64le-modules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-tools-efi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-tools-extra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grub2-tools-minimal"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.06-70.el9_3.2.alma.1"
+					}
+				],
+				"fixed": [
+					"1:2.06-70.el9_3.2.alma.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

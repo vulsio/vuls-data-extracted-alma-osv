@@ -1,0 +1,100 @@
+{
+	"id": "ALSA-2023:2167",
+	"advisories": [
+		{
+			"id": "ALSA-2023:2167",
+			"title": "Moderate: grafana security and enhancement update",
+			"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nSecurity Fix(es):\n\n* golang: net/http/httputil: ReverseProxy should not forward unparseable query parameters (CVE-2022-2880)\n* golang: net/http: handle server errors after sending GOAWAY (CVE-2022-27664)\n* grafana: Escalation from admin to server admin when auth proxy is used (CVE-2022-35957)\n* grafana: using email as a username can block other users from signing in (CVE-2022-39229)\n* golang: regexp/syntax: limit memory used by parsing regexps (CVE-2022-41715)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:2167"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-27664"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-2880"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-35957"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-39229"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41715"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2124669"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2125514"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2131149"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2132868"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2132872"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-2167.html"
+				}
+			],
+			"published": "2023-05-09T00:00:00Z",
+			"modified": "2023-05-11T17:41:17Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-27664"
+		},
+		{
+			"id": "CVE-2022-2880"
+		},
+		{
+			"id": "CVE-2022-35957"
+		},
+		{
+			"id": "CVE-2022-39229"
+		},
+		{
+			"id": "CVE-2022-41715"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grafana"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.0.9-2.el9"
+					}
+				],
+				"fixed": [
+					"9.0.9-2.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

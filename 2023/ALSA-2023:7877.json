@@ -1,0 +1,132 @@
+{
+	"id": "ALSA-2023:7877",
+	"advisories": [
+		{
+			"id": "ALSA-2023:7877",
+			"title": "Low: openssl security update",
+			"description": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library.\n\nSecurity Fix(es):\n\n* openssl: Excessive time spent checking DH keys and parameters (CVE-2023-3446)\n* OpenSSL: Excessive time spent checking DH q parameter value (CVE-2023-3817)\n* openssl: Generating excessively long X9.42 DH keys or checking excessively long X9.42 DH keys or parameters may be very slow (CVE-2023-5678)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:7877"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-3446"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-3817"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-5678"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2224962"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2227852"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2248616"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-7877.html"
+				}
+			],
+			"published": "2023-12-19T00:00:00Z",
+			"modified": "2023-12-20T12:42:21Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-3446"
+		},
+		{
+			"id": "CVE-2023-3817"
+		},
+		{
+			"id": "CVE-2023-5678"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "openssl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.1.1k-12.el8_9"
+					}
+				],
+				"fixed": [
+					"1:1.1.1k-12.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "openssl-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.1.1k-12.el8_9"
+					}
+				],
+				"fixed": [
+					"1:1.1.1k-12.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "openssl-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.1.1k-12.el8_9"
+					}
+				],
+				"fixed": [
+					"1:1.1.1k-12.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "openssl-perl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.1.1k-12.el8_9"
+					}
+				],
+				"fixed": [
+					"1:1.1.1k-12.el8_9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

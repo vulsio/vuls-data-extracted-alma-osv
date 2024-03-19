@@ -1,0 +1,56 @@
+{
+	"id": "ALSA-2022:8219",
+	"advisories": [
+		{
+			"id": "ALSA-2022:8219",
+			"title": "Moderate: mutt security update",
+			"description": "Mutt is a low resource, highly configurable, text-based MIME e-mail client. Mutt supports most e-mail storing formats, such as mbox and Maildir, as well as most protocols, including POP3 and IMAP.\n\nSecurity Fix(es):\n\n* mutt: buffer overflow in uudecoder function (CVE-2022-1328)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2022:8219"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-1328"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2076058"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2022-8219.html"
+				}
+			],
+			"published": "2022-11-15T00:00:00Z",
+			"modified": "2022-11-18T01:45:17Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-1328"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mutt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5:2.2.6-1.el9"
+					}
+				],
+				"fixed": [
+					"5:2.2.6-1.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

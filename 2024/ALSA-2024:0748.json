@@ -1,0 +1,870 @@
+{
+	"id": "ALSA-2024:0748",
+	"advisories": [
+		{
+			"id": "ALSA-2024:0748",
+			"title": "Important: container-tools:4.0 security update",
+			"description": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* runc: file descriptor leak (\"Leaky Vessels\") (CVE-2024-21626)\n\nA AlmaLinux Security Bulletin which addresses further details about the Leaky Vessels flaw is available in the References section.\n\n* golang: net/http/internal: Denial of Service (DoS) via Resource Consumption via HTTP requests (CVE-2023-39326)\n* golang: crypto/tls: Timing Side Channel attack in RSA based TLS key exchanges. (CVE-2023-45287)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:0748"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-39326"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45287"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-21626"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2253193"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2253330"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2258725"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-0748.html"
+				}
+			],
+			"published": "2024-02-08T00:00:00Z",
+			"modified": "2024-02-12T10:53:48Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-39326"
+		},
+		{
+			"id": "CVE-2023-45287"
+		},
+		{
+			"id": "CVE-2024-21626"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "aardvark-dns"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:1.0.1-38.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"2:1.0.1-38.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "buildah"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.24.6-7.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"1:1.24.6-7.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "buildah-tests"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.24.6-7.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"1:1.24.6-7.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "buildah-tests"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.24.6-7.module_el8.9.0+3687+dcd7ef8f"
+					}
+				],
+				"fixed": [
+					"1:1.24.6-7.module_el8.9.0+3687+dcd7ef8f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "cockpit-podman"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "46-1.module_el8.7.0+3344+5bcd850f"
+					}
+				],
+				"fixed": [
+					"46-1.module_el8.7.0+3344+5bcd850f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "conmon"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:2.1.4-2.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"2:2.1.4-2.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "conmon"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:2.1.4-2.module_el8.9.0+3687+dcd7ef8f"
+					}
+				],
+				"fixed": [
+					"2:2.1.4-2.module_el8.9.0+3687+dcd7ef8f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "container-selinux"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:2.205.0-3.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"2:2.205.0-3.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "containernetworking-plugins"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.1.1-6.module_el8.9.0+3711+04fcca5e"
+					}
+				],
+				"fixed": [
+					"1:1.1.1-6.module_el8.9.0+3711+04fcca5e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "containers-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:1-38.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"2:1-38.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "crit"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.15-3.module_el8.6.0+3137+d33c3efb"
+					}
+				],
+				"fixed": [
+					"3.15-3.module_el8.6.0+3137+d33c3efb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "crit"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.15-3.module_el8.6.0+2877+8e437bf5"
+					}
+				],
+				"fixed": [
+					"3.15-3.module_el8.6.0+2877+8e437bf5"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "criu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.15-3.module_el8.6.0+2877+8e437bf5"
+					}
+				],
+				"fixed": [
+					"3.15-3.module_el8.6.0+2877+8e437bf5"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "criu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.15-3.module_el8.6.0+3137+d33c3efb"
+					}
+				],
+				"fixed": [
+					"3.15-3.module_el8.6.0+3137+d33c3efb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "criu-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.15-3.module_el8.6.0+2877+8e437bf5"
+					}
+				],
+				"fixed": [
+					"3.15-3.module_el8.6.0+2877+8e437bf5"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "criu-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.15-3.module_el8.6.0+3137+d33c3efb"
+					}
+				],
+				"fixed": [
+					"3.15-3.module_el8.6.0+3137+d33c3efb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "criu-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.15-3.module_el8.6.0+2877+8e437bf5"
+					}
+				],
+				"fixed": [
+					"3.15-3.module_el8.6.0+2877+8e437bf5"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "criu-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.15-3.module_el8.6.0+3137+d33c3efb"
+					}
+				],
+				"fixed": [
+					"3.15-3.module_el8.6.0+3137+d33c3efb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "crun"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.8.7-1.module_el8.9.0+3683+33eb0feb"
+					}
+				],
+				"fixed": [
+					"1.8.7-1.module_el8.9.0+3683+33eb0feb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "fuse-overlayfs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.9-2.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"1.9-2.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libslirp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.4.0-1.module_el8.6.0+2877+8e437bf5"
+					}
+				],
+				"fixed": [
+					"4.4.0-1.module_el8.6.0+2877+8e437bf5"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libslirp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.4.0-1.module_el8.6.0+3137+d33c3efb"
+					}
+				],
+				"fixed": [
+					"4.4.0-1.module_el8.6.0+3137+d33c3efb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libslirp-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.4.0-1.module_el8.6.0+3137+d33c3efb"
+					}
+				],
+				"fixed": [
+					"4.4.0-1.module_el8.6.0+3137+d33c3efb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libslirp-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.4.0-1.module_el8.6.0+2877+8e437bf5"
+					}
+				],
+				"fixed": [
+					"4.4.0-1.module_el8.6.0+2877+8e437bf5"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "netavark"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:1.0.1-38.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"2:1.0.1-38.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "oci-seccomp-bpf-hook"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.2.5-2.module_el8.8.0+3468+16b86c82"
+					}
+				],
+				"fixed": [
+					"1.2.5-2.module_el8.8.0+3468+16b86c82"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "podman"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+					}
+				],
+				"fixed": [
+					"2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-catatonit"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+					}
+				],
+				"fixed": [
+					"2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-docker"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+					}
+				],
+				"fixed": [
+					"2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-gvproxy"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+					}
+				],
+				"fixed": [
+					"2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-plugins"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+					}
+				],
+				"fixed": [
+					"2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-remote"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+					}
+				],
+				"fixed": [
+					"2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-tests"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+					}
+				],
+				"fixed": [
+					"2:4.0.2-26.module_el8.9.0+3722+7fd8ab2b.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-criu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.15-3.module_el8.6.0+3137+d33c3efb"
+					}
+				],
+				"fixed": [
+					"3.15-3.module_el8.6.0+3137+d33c3efb"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-criu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.15-3.module_el8.6.0+2877+8e437bf5"
+					}
+				],
+				"fixed": [
+					"3.15-3.module_el8.6.0+2877+8e437bf5"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-podman"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.0.0-2.module_el8.9.0+3711+04fcca5e"
+					}
+				],
+				"fixed": [
+					"4.0.0-2.module_el8.9.0+3711+04fcca5e"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "runc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.1.12-1.module_el8.9.0+3722+7fd8ab2b"
+					}
+				],
+				"fixed": [
+					"1:1.1.12-1.module_el8.9.0+3722+7fd8ab2b"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "skopeo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:1.6.2-9.module_el8.9.0+3687+dcd7ef8f.alma.1"
+					}
+				],
+				"fixed": [
+					"2:1.6.2-9.module_el8.9.0+3687+dcd7ef8f.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "skopeo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:1.6.2-9.module_el8.9.0+3711+04fcca5e.alma.1"
+					}
+				],
+				"fixed": [
+					"2:1.6.2-9.module_el8.9.0+3711+04fcca5e.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "skopeo-tests"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:1.6.2-9.module_el8.9.0+3687+dcd7ef8f.alma.1"
+					}
+				],
+				"fixed": [
+					"2:1.6.2-9.module_el8.9.0+3687+dcd7ef8f.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "skopeo-tests"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:1.6.2-9.module_el8.9.0+3711+04fcca5e.alma.1"
+					}
+				],
+				"fixed": [
+					"2:1.6.2-9.module_el8.9.0+3711+04fcca5e.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "slirp4netns"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.1.8-3.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"1.1.8-3.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "toolbox"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.0.99.4-5.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"0.0.99.4-5.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "toolbox-tests"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.0.99.4-5.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"0.0.99.4-5.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "udica"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.2.6-4.module_el8.9.0+3627+db8ec155"
+					}
+				],
+				"fixed": [
+					"0.2.6-4.module_el8.9.0+3627+db8ec155"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

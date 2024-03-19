@@ -1,0 +1,77 @@
+{
+	"id": "ALSA-2023:6077",
+	"advisories": [
+		{
+			"id": "ALSA-2023:6077",
+			"title": "Moderate: toolbox security update",
+			"description": "The rhel9/toolbox container image can be used with Toolbox to obtain AlmaLinux based containerized command line environments to aid with development and software testing. Toolbox is built on top of Podman and other standard container technologies from OCI.\n\nThis updates the rhel9/toolbox image in the AlmaLinux container registry.\n\nTo pull this container image, run one of the following commands:\n\n    podman pull registry.AlmaLinux.io/rhel9/toolbox (authenticated)\n    podman pull registry.access.AlmaLinux.com/ubi9/toolbox (unauthenticated)",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:6077"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-39325"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-44487"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2242803"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2243296"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-6077.html"
+				}
+			],
+			"published": "2023-10-24T00:00:00Z",
+			"modified": "2023-10-25T11:22:46Z"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "toolbox"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.0.99.3-10.el9_2"
+					}
+				],
+				"fixed": [
+					"0.0.99.3-10.el9_2"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "toolbox-tests"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "0.0.99.3-10.el9_2"
+					}
+				],
+				"fixed": [
+					"0.0.99.3-10.el9_2"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

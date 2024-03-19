@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2023:5081",
+	"advisories": [
+		{
+			"id": "ALSA-2023:5081",
+			"title": "Moderate: librsvg2 security update",
+			"description": "The librsvg2 packages provide a Scalable Vector Graphics (SVG) library based on the libart library.\n\nSecurity Fix(es):\n\n* librsvg: Arbitrary file read when xinclude href has special characters (CVE-2023-38633)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:5081"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38633"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2224945"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-5081.html"
+				}
+			],
+			"published": "2023-09-12T00:00:00Z",
+			"modified": "2023-09-14T09:52:29Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-38633"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "librsvg2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.50.7-1.el9_2.1"
+					}
+				],
+				"fixed": [
+					"2.50.7-1.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "librsvg2-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.50.7-1.el9_2.1"
+					}
+				],
+				"fixed": [
+					"2.50.7-1.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "librsvg2-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.50.7-1.el9_2.1"
+					}
+				],
+				"fixed": [
+					"2.50.7-1.el9_2.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

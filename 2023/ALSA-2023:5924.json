@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2023:5924",
+	"advisories": [
+		{
+			"id": "ALSA-2023:5924",
+			"title": "Important: varnish security update",
+			"description": "Varnish Cache is a high-performance HTTP accelerator. It stores web pages in memory so web servers don't have to create the same web page over and over again, giving the website a significant speed up.\n\nSecurity Fix(es):\n\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:5924"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-44487"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2242803"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2023-5924.html"
+				}
+			],
+			"published": "2023-10-19T00:00:00Z",
+			"modified": "2023-10-20T07:42:51Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-44487"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "varnish"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.6.2-3.el9_2.1"
+					}
+				],
+				"fixed": [
+					"6.6.2-3.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "varnish-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.6.2-3.el9_2.1"
+					}
+				],
+				"fixed": [
+					"6.6.2-3.el9_2.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "varnish-docs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.6.2-3.el9_2.1"
+					}
+				],
+				"fixed": [
+					"6.6.2-3.el9_2.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

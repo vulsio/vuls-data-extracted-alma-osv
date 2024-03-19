@@ -1,0 +1,200 @@
+{
+	"id": "ALSA-2023:5460",
+	"advisories": [
+		{
+			"id": "ALSA-2023:5460",
+			"title": "Important: bind9.16 security update",
+			"description": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.\n\nSecurity Fix(es):\n\n* bind: stack exhaustion in control channel code may lead to DoS (CVE-2023-3341)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:5460"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-3341"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2239621"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-5460.html"
+				}
+			],
+			"published": "2023-10-05T00:00:00Z",
+			"modified": "2023-10-06T10:02:13Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-3341"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind9.16"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.16.23-0.14.el8_8.2.alma.1"
+					}
+				],
+				"fixed": [
+					"32:9.16.23-0.14.el8_8.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind9.16-chroot"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.16.23-0.14.el8_8.2.alma.1"
+					}
+				],
+				"fixed": [
+					"32:9.16.23-0.14.el8_8.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind9.16-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.16.23-0.14.el8_8.2.alma.1"
+					}
+				],
+				"fixed": [
+					"32:9.16.23-0.14.el8_8.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind9.16-dnssec-utils"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.16.23-0.14.el8_8.2.alma.1"
+					}
+				],
+				"fixed": [
+					"32:9.16.23-0.14.el8_8.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind9.16-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.16.23-0.14.el8_8.2.alma.1"
+					}
+				],
+				"fixed": [
+					"32:9.16.23-0.14.el8_8.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind9.16-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.16.23-0.14.el8_8.2.alma.1"
+					}
+				],
+				"fixed": [
+					"32:9.16.23-0.14.el8_8.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind9.16-license"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.16.23-0.14.el8_8.2.alma.1"
+					}
+				],
+				"fixed": [
+					"32:9.16.23-0.14.el8_8.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "bind9.16-utils"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.16.23-0.14.el8_8.2.alma.1"
+					}
+				],
+				"fixed": [
+					"32:9.16.23-0.14.el8_8.2.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-bind9.16"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "32:9.16.23-0.14.el8_8.2.alma.1"
+					}
+				],
+				"fixed": [
+					"32:9.16.23-0.14.el8_8.2.alma.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

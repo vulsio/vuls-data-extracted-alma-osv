@@ -1,0 +1,211 @@
+{
+	"id": "ALSA-2023:7258",
+	"advisories": [
+		{
+			"id": "ALSA-2023:7258",
+			"title": "Moderate: dotnet6.0 security update",
+			"description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 6.0.125 and .NET Runtime 6.0.25.\n\nSecurity Fix(es):\n\n* dotnet: Arbitrary File Write and Deletion Vulnerability: FormatFtpCommand (CVE-2023-36049)\n* dotnet: ASP.NET Security Feature Bypass Vulnerability in Blazor forms (CVE-2023-36558)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:7258"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-36049"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-36558"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2247750"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2248883"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-7258.html"
+				}
+			],
+			"published": "2023-11-15T00:00:00Z",
+			"modified": "2023-11-23T10:20:59Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-36049"
+		},
+		{
+			"id": "CVE-2023-36558"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "aspnetcore-runtime-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.25-1.el8_9"
+					}
+				],
+				"fixed": [
+					"6.0.25-1.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "aspnetcore-targeting-pack-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.25-1.el8_9"
+					}
+				],
+				"fixed": [
+					"6.0.25-1.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-apphost-pack-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.25-1.el8_9"
+					}
+				],
+				"fixed": [
+					"6.0.25-1.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-hostfxr-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.25-1.el8_9"
+					}
+				],
+				"fixed": [
+					"6.0.25-1.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-runtime-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.25-1.el8_9"
+					}
+				],
+				"fixed": [
+					"6.0.25-1.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-sdk-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.125-1.el8_9"
+					}
+				],
+				"fixed": [
+					"6.0.125-1.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-sdk-6.0-source-built-artifacts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.125-1.el8_9"
+					}
+				],
+				"fixed": [
+					"6.0.125-1.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-targeting-pack-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.25-1.el8_9"
+					}
+				],
+				"fixed": [
+					"6.0.25-1.el8_9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "dotnet-templates-6.0"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "6.0.125-1.el8_9"
+					}
+				],
+				"fixed": [
+					"6.0.125-1.el8_9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

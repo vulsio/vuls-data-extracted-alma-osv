@@ -1,0 +1,294 @@
+{
+	"id": "ALSA-2023:2870",
+	"advisories": [
+		{
+			"id": "ALSA-2023:2870",
+			"title": "Moderate: freeradius:3.0 security update",
+			"description": "FreeRADIUS is a high-performance and highly configurable free Remote Authentication Dial In User Service (RADIUS) server, designed to allow centralized authentication and authorization for a network.\n\nSecurity Fix(es):\n\n* freeradius: Information leakage in EAP-PWD (CVE-2022-41859)\n* freeradius: Crash on unknown option in EAP-SIM (CVE-2022-41860)\n* freeradius: Crash on invalid abinary data (CVE-2022-41861)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:2870"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41859"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41860"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-41861"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2078483"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2078485"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2078487"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-2870.html"
+				}
+			],
+			"published": "2023-05-16T00:00:00Z",
+			"modified": "2023-05-19T22:03:50Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-41859"
+		},
+		{
+			"id": "CVE-2022-41860"
+		},
+		{
+			"id": "CVE-2022-41861"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius-krb5"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius-ldap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius-mysql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius-perl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius-postgresql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius-rest"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius-sqlite"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius-unixODBC"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "freeradius-utils"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-freeradius"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.0.20-14.module_el8.8.0+3469+c05aea40"
+					}
+				],
+				"fixed": [
+					"3.0.20-14.module_el8.8.0+3469+c05aea40"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

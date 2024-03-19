@@ -1,0 +1,3149 @@
+{
+	"id": "ALSA-2023:0089",
+	"advisories": [
+		{
+			"id": "ALSA-2023:0089",
+			"title": "Moderate: libreoffice security update",
+			"description": "LibreOffice is an open source, community-developed office productivity suite. It includes key desktop applications, such as a word processor, a spreadsheet, a presentation manager, a formula editor, and a drawing program. LibreOffice replaces OpenOffice and provides a similar but enhanced and extended office suite.\n\nSecurity Fix(es):\n\n* libreoffice: Macro URL arbitrary script execution (CVE-2022-3140)\n* libreoffice: Execution of Untrusted Macros Due to Improper Certificate Validation (CVE-2022-26305)\n* libreoffice: Static Initialization Vector Allows to Recover Passwords for Web Connections Without Knowing the Master Password (CVE-2022-26306)\n* libreoffice: Weak Master Keys (CVE-2022-26307)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2023:0089"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-26305"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-26306"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-26307"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-3140"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2118610"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2118611"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2118613"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2134697"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2023-0089.html"
+				}
+			],
+			"published": "2023-01-12T00:00:00Z",
+			"modified": "2023-01-13T18:11:38Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-26305"
+		},
+		{
+			"id": "CVE-2022-26306"
+		},
+		{
+			"id": "CVE-2022-26307"
+		},
+		{
+			"id": "CVE-2022-3140"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-af"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-bg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-ca"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-cs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-da"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-de"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-en"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-es"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-fa"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-fi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-fr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-ga"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-hr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-hu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-is"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-it"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-ja"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-ko"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-lb"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-lt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-mn"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-nl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-pl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-pt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-ro"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-ru"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-sk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-sl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-sr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-sv"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-tr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-vi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "autocorr-zh"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-base"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-calc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-core"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-data"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-draw"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-emailmerge"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-filters"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-gdb-debug-support"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-graphicfilter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-gtk3"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-ar"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-bg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-bn"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-ca"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-cs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-da"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-de"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-dz"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-el"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-en"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-es"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-et"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-eu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-fi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-fr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-gl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-gu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-he"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-hi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-hr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-hu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-id"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-it"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-ja"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-ko"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-lt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-lv"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-nb"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-nl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-nn"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-pl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-pt-BR"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-pt-PT"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-ro"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-ru"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-si"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-sk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-sl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-sv"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-ta"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-tr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-uk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-zh-Hans"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-help-zh-Hant"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-impress"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-af"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ar"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-as"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-bg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-bn"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-br"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ca"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-cs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-cy"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-da"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-de"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-dz"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-el"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-en"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-es"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-et"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-eu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-fa"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-fi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-fr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ga"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-gl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-gu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-he"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-hi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-hr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-hu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-id"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-it"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ja"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-kk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-kn"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ko"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-lt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-lv"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-mai"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ml"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-mr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-nb"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-nl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-nn"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-nr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-nso"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-or"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-pa"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-pl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-pt-BR"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-pt-PT"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ro"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ru"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-si"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-sk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-sl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-sr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ss"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-st"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-sv"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ta"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-te"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-th"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-tn"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-tr"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-uk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-ve"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-xh"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-zh-Hans"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-zh-Hant"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-langpack-zu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-math"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-ogltrans"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-opensymbol-fonts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-pdfimport"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-pyuno"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-sdk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-sdk-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-ure"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-ure-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-wiki-publisher"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-writer"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-x11"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreoffice-xsltfilter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libreofficekit"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:6.4.7.2-12.el8_7.alma"
+					}
+				],
+				"fixed": [
+					"1:6.4.7.2-12.el8_7.alma"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
