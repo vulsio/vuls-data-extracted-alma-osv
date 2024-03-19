@@ -847,6 +847,22 @@
 	],
 	"references": [
 		{
+			"name": "2026757",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2026757"
+		},
+		{
+			"name": "2075687",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"bugzilla"
+			],
+			"url": "https://bugzilla.redhat.com/2075687"
+		},
+		{
 			"name": "ALSA-2022-6447",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -893,22 +909,6 @@
 				"bugzilla"
 			],
 			"url": "https://bugzilla.redhat.com/2025104"
-		},
-		{
-			"name": "2026757",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2026757"
-		},
-		{
-			"name": "2075687",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"bugzilla"
-			],
-			"url": "https://bugzilla.redhat.com/2075687"
 		}
 	],
 	"published": "2022-09-13T00:00:00Z",

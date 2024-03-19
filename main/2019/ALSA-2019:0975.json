@@ -141,20 +141,20 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2019-5736",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://vulners.com/cve/CVE-2019-5736"
-		},
-		{
 			"name": "ALSA-2019-0975",
 			"source": "errata.almalinux.org",
 			"tags": [
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/8/ALSA-2019-0975.html"
+		},
+		{
+			"name": "CVE-2019-5736",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://vulners.com/cve/CVE-2019-5736"
 		}
 	],
 	"published": "2019-05-07T03:39:11Z",

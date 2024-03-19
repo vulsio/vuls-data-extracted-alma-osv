@@ -201,14 +201,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2024-21392",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2024-21392"
-		},
-		{
 			"name": "2268266",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -231,6 +223,14 @@
 				"third-party-advisory"
 			],
 			"url": "https://access.redhat.com/errata/RHSA-2024:1309"
+		},
+		{
+			"name": "CVE-2024-21392",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2024-21392"
 		}
 	],
 	"published": "2024-03-13T00:00:00Z",

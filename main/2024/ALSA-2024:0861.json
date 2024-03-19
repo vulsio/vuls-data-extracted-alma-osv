@@ -674,14 +674,6 @@
 	],
 	"references": [
 		{
-			"name": "CVE-2023-44444",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-44444"
-		},
-		{
 			"name": "2249942",
 			"source": "errata.almalinux.org",
 			"tags": [
@@ -720,6 +712,14 @@
 				"cve"
 			],
 			"url": "https://access.redhat.com/security/cve/CVE-2023-44442"
+		},
+		{
+			"name": "CVE-2023-44444",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-44444"
 		}
 	],
 	"published": "2024-02-19T00:00:00Z",

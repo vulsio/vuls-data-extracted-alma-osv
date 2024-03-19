@@ -26,19 +26,6 @@
 	],
 	"vulnerabilities": [
 		{
-			"cve": "CVE-2023-45539",
-			"references": [
-				{
-					"name": "CVE-2023-45539",
-					"source": "errata.almalinux.org",
-					"tags": [
-						"cve"
-					],
-					"url": "https://access.redhat.com/security/cve/CVE-2023-45539"
-				}
-			]
-		},
-		{
 			"cve": "CVE-2023-40225",
 			"references": [
 				{
@@ -50,9 +37,38 @@
 					"url": "https://access.redhat.com/security/cve/CVE-2023-40225"
 				}
 			]
+		},
+		{
+			"cve": "CVE-2023-45539",
+			"references": [
+				{
+					"name": "CVE-2023-45539",
+					"source": "errata.almalinux.org",
+					"tags": [
+						"cve"
+					],
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45539"
+				}
+			]
 		}
 	],
 	"references": [
+		{
+			"name": "RHSA-2024:1142",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"third-party-advisory"
+			],
+			"url": "https://access.redhat.com/errata/RHSA-2024:1142"
+		},
+		{
+			"name": "CVE-2023-40225",
+			"source": "errata.almalinux.org",
+			"tags": [
+				"cve"
+			],
+			"url": "https://access.redhat.com/security/cve/CVE-2023-40225"
+		},
 		{
 			"name": "CVE-2023-45539",
 			"source": "errata.almalinux.org",
@@ -84,22 +100,6 @@
 				"vendor-advisory"
 			],
 			"url": "https://errata.almalinux.org/9/ALSA-2024-1142.html"
-		},
-		{
-			"name": "RHSA-2024:1142",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"third-party-advisory"
-			],
-			"url": "https://access.redhat.com/errata/RHSA-2024:1142"
-		},
-		{
-			"name": "CVE-2023-40225",
-			"source": "errata.almalinux.org",
-			"tags": [
-				"cve"
-			],
-			"url": "https://access.redhat.com/security/cve/CVE-2023-40225"
 		}
 	],
 	"published": "2024-03-05T00:00:00Z",
