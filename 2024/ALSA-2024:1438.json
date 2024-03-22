@@ -1,0 +1,128 @@
+{
+	"id": "ALSA-2024:1438",
+	"advisories": [
+		{
+			"id": "ALSA-2024:1438",
+			"title": "Important: nodejs security update",
+			"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: reading unprocessed HTTP request with unbounded chunk extension allows DoS attacks (CVE-2024-22019)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:1438"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-22019"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2264574"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-1438.html"
+				}
+			],
+			"published": "2024-03-20T00:00:00Z",
+			"modified": "2024-03-21T07:09:06Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-22019"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:16.20.2-4.el9_3"
+					}
+				],
+				"fixed": [
+					"1:16.20.2-4.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-docs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:16.20.2-4.el9_3"
+					}
+				],
+				"fixed": [
+					"1:16.20.2-4.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-full-i18n"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:16.20.2-4.el9_3"
+					}
+				],
+				"fixed": [
+					"1:16.20.2-4.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "nodejs-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:16.20.2-4.el9_3"
+					}
+				],
+				"fixed": [
+					"1:16.20.2-4.el9_3"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "npm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:8.19.4-1.16.20.2.4.el9_3"
+					}
+				],
+				"fixed": [
+					"1:8.19.4-1.16.20.2.4.el9_3"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

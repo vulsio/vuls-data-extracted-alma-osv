@@ -1,0 +1,56 @@
+{
+	"id": "ALSA-2024:1436",
+	"advisories": [
+		{
+			"id": "ALSA-2024:1436",
+			"title": "Important: postgresql-jdbc security update",
+			"description": "PostgreSQL is an advanced object-relational database management system. The postgresql-jdbc package includes the .jar files needed for Java programs to access a PostgreSQL database.\n\nSecurity Fix(es):\n\n* PostgreSQL JDBC Driver allows attacker to inject SQL if using PreferQueryMode=SIMPLE (CVE-2024-1597)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:1436"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-1597"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2266523"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-1436.html"
+				}
+			],
+			"published": "2024-03-20T00:00:00Z",
+			"modified": "2024-03-21T12:39:08Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-1597"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "postgresql-jdbc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "42.2.28-1.el9_3"
+					}
+				],
+				"fixed": [
+					"42.2.28-1.el9_3"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
