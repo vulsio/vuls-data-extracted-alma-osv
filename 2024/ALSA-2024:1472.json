@@ -1,0 +1,182 @@
+{
+	"id": "ALSA-2024:1472",
+	"advisories": [
+		{
+			"id": "ALSA-2024:1472",
+			"title": "Important: go-toolset:rhel8 security update",
+			"description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nSecurity Fix(es):\n\n* golang-fips/openssl: Memory leaks in code encrypting and decrypting RSA payloads (CVE-2024-1394)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:1472"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-1394"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2262921"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-1472.html"
+				}
+			],
+			"published": "2024-03-21T00:00:00Z",
+			"modified": "2024-03-22T09:53:39Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-1394"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "delve"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.2-1.module_el8.9.0+3642+43318da8"
+					}
+				],
+				"fixed": [
+					"1.20.2-1.module_el8.9.0+3642+43318da8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "go-toolset"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.12-1.module_el8.9.0+3728+f1d47c6f"
+					}
+				],
+				"fixed": [
+					"1.20.12-1.module_el8.9.0+3728+f1d47c6f"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "golang"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.12-3.module_el8.9.0+3750+10f4110d"
+					}
+				],
+				"fixed": [
+					"1.20.12-3.module_el8.9.0+3750+10f4110d"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "golang-bin"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.12-3.module_el8.9.0+3750+10f4110d"
+					}
+				],
+				"fixed": [
+					"1.20.12-3.module_el8.9.0+3750+10f4110d"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "golang-docs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.12-3.module_el8.9.0+3750+10f4110d"
+					}
+				],
+				"fixed": [
+					"1.20.12-3.module_el8.9.0+3750+10f4110d"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "golang-misc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.12-3.module_el8.9.0+3750+10f4110d"
+					}
+				],
+				"fixed": [
+					"1.20.12-3.module_el8.9.0+3750+10f4110d"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "golang-src"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.12-3.module_el8.9.0+3750+10f4110d"
+					}
+				],
+				"fixed": [
+					"1.20.12-3.module_el8.9.0+3750+10f4110d"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "golang-tests"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.20.12-3.module_el8.9.0+3750+10f4110d"
+					}
+				],
+				"fixed": [
+					"1.20.12-3.module_el8.9.0+3750+10f4110d"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
