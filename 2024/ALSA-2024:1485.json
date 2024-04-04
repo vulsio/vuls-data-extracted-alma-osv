@@ -1,0 +1,173 @@
+{
+	"id": "ALSA-2024:1485",
+	"advisories": [
+		{
+			"id": "ALSA-2024:1485",
+			"title": "Critical: firefox security update",
+			"description": "Mozilla Firefox is an open-source web browser, designed for standards\ncompliance, performance, and portability.\n\nThis update upgrades Firefox to version 115.9.1 ESR.\n\nSecurity Fix(es):\n\n* nss: timing attack against RSA decryption (CVE-2023-5388)\n* Mozilla: Crash in NSS TLS method (CVE-2024-0743)\n* Mozilla: JIT code failed to save return registers on Armv7-A (CVE-2024-2607)\n* Mozilla: Integer overflow could have led to out of bounds write (CVE-2024-2608)\n* Mozilla: Improve handling of out-of-memory conditions in ICU (CVE-2024-2616)\n* Mozilla: Improper handling of html and body tags enabled CSP nonce leakage (CVE-2024-2610)\n* Mozilla: Clickjacking vulnerability could have led to a user accidentally granting permissions (CVE-2024-2611)\n* Mozilla: Self referencing object could have potentially led to a use-after-free (CVE-2024-2612)\n* Mozilla: Memory safety bugs fixed in Firefox 124, Firefox ESR 115.9, and Thunderbird 115.9 (CVE-2024-2614)\n* Mozilla: Privileged JavaScript Execution via Event Handlers (CVE-2024-29944)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:1485"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-5388"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-0743"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-2607"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-2608"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-2610"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-2611"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-2612"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-2614"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-2616"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-29944"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2243644"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2260012"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2270660"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2270661"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2270662"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2270663"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2270664"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2270665"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2270666"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2271064"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-1485.html"
+				}
+			],
+			"published": "2024-03-25T00:00:00Z",
+			"modified": "2024-04-03T14:53:57Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-5388"
+		},
+		{
+			"id": "CVE-2024-0743"
+		},
+		{
+			"id": "CVE-2024-2607"
+		},
+		{
+			"id": "CVE-2024-2608"
+		},
+		{
+			"id": "CVE-2024-2610"
+		},
+		{
+			"id": "CVE-2024-2611"
+		},
+		{
+			"id": "CVE-2024-2612"
+		},
+		{
+			"id": "CVE-2024-2614"
+		},
+		{
+			"id": "CVE-2024-2616"
+		},
+		{
+			"id": "CVE-2024-29944"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "firefox"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "115.9.1-1.el9_3.alma.1"
+					}
+				],
+				"fixed": [
+					"115.9.1-1.el9_3.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "firefox-x11"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "115.9.1-1.el9_3.alma.1"
+					}
+				],
+				"fixed": [
+					"115.9.1-1.el9_3.alma.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
