@@ -1,0 +1,78 @@
+{
+	"id": "ALSA-2024:1376",
+	"advisories": [
+		{
+			"id": "ALSA-2024:1376",
+			"title": "Important: squid security update",
+			"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: denial of service in HTTP header parser (CVE-2024-25617)\n* squid: Denial of Service in HTTP Chunked Decoding (CVE-2024-25111)\n* squid: denial of service in HTTP request parsing (CVE-2023-50269)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:1376"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-50269"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-25111"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-25617"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2254663"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2264309"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2268366"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-1376.html"
+				}
+			],
+			"published": "2024-03-19T00:00:00Z",
+			"modified": "2024-04-12T18:57:26Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-50269"
+		},
+		{
+			"id": "CVE-2024-25111"
+		},
+		{
+			"id": "CVE-2024-25617"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "squid"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "7:5.5-6.el9_3.8"
+					}
+				],
+				"fixed": [
+					"7:5.5-6.el9_3.8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
