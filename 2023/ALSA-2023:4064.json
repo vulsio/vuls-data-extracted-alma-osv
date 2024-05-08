@@ -87,24 +87,6 @@
 				"type": "rpm",
 				"range": [
 					{
-						"lt": "102.13.0-2.el9_2.alma.plus"
-					}
-				],
-				"fixed": [
-					"102.13.0-2.el9_2.alma.plus"
-				]
-			}
-		},
-		{
-			"ecosystem": "alma:9",
-			"vulnerable": true,
-			"package": {
-				"name": "thunderbird"
-			},
-			"affected": {
-				"type": "rpm",
-				"range": [
-					{
 						"lt": "102.13.0-2.el9_2.alma"
 					}
 				],

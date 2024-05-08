@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2024:2184",
+	"advisories": [
+		{
+			"id": "ALSA-2024:2184",
+			"title": "Moderate: libsndfile security update",
+			"description": "libsndfile is a C library for reading and writing files containing sampled sound, such as AIFF, AU, or WAV. \n\nSecurity Fix(es):\n\n* libsndfile: integer overflow in src/mat4.c and src/au.c leads to DoS (CVE-2022-33065)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:2184"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-33065"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2238934"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-2184.html"
+				}
+			],
+			"published": "2024-04-30T00:00:00Z",
+			"modified": "2024-05-07T14:57:14Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-33065"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libsndfile"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.31-8.el9"
+					}
+				],
+				"fixed": [
+					"1.0.31-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libsndfile-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.31-8.el9"
+					}
+				],
+				"fixed": [
+					"1.0.31-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libsndfile-utils"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.0.31-8.el9"
+					}
+				],
+				"fixed": [
+					"1.0.31-8.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

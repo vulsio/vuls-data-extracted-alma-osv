@@ -1,0 +1,294 @@
+{
+	"id": "ALSA-2024:2132",
+	"advisories": [
+		{
+			"id": "ALSA-2024:2132",
+			"title": "Moderate: fence-agents security and bug fix update",
+			"description": "The fence-agents packages provide a collection of scripts for handling remote power management for cluster devices. They allow failed or unreachable nodes to be forcibly restarted and removed from the cluster. \n\nSecurity Fix(es):\n\n* urllib3: Request body not stripped after redirect from 303 status changes request method to GET (CVE-2023-45803)\n* pycryptodome: side-channel leakage for OAEP decryption in PyCryptodome and pycryptodomex (CVE-2023-52323)\n* jinja2: HTML attribute injection when passing user input as keys to xmlattr filter (CVE-2024-22195)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:2132"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45803"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-52323"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-22195"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2246840"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257028"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257854"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-2132.html"
+				}
+			],
+			"published": "2024-04-30T00:00:00Z",
+			"modified": "2024-05-07T15:08:16Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-45803"
+		},
+		{
+			"id": "CVE-2023-52323"
+		},
+		{
+			"id": "CVE-2024-22195"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-compute"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-ibm-powervs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-ibm-vpc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-kubevirt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-virsh"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-virt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-virtd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-virtd-cpg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-virtd-libvirt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-virtd-multicast"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-virtd-serial"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-virtd-tcp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2024:2571",
+	"advisories": [
+		{
+			"id": "ALSA-2024:2571",
+			"title": "Moderate: sssd security and bug fix update",
+			"description": "The System Security Services Daemon (SSSD) service provides a set of daemons to manage access to remote directories and authentication mechanisms. It also provides the Name Service Switch (NSS) and the Pluggable Authentication Modules (PAM) interfaces toward the system, and a pluggable back-end system to connect to multiple different account sources.\n\nSecurity Fix(es):\n\n* sssd: Race condition during authorization leads to GPO policies functioning inconsistently (CVE-2023-3758)\n\nBug Fix(es):\n\n* socket leak (JIRA:AlmaLinux-22340)\n* Passkey cannot fall back to password (JIRA:AlmaLinux-28161)\n* sssd: Race condition during authorization leads to GPO policies functioning inconsistently (JIRA:AlmaLinux-27209)",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:2571"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-3758"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2223762"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-2571.html"
+				}
+			],
+			"published": "2024-04-30T00:00:00Z",
+			"modified": "2024-05-07T14:54:59Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-3758"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libsss_nss_idmap-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-idp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

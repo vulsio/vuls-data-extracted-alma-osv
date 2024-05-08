@@ -1,0 +1,175 @@
+{
+	"id": "ALSA-2024:2298",
+	"advisories": [
+		{
+			"id": "ALSA-2024:2298",
+			"title": "Important: tigervnc security update",
+			"description": "Virtual Network Computing (VNC) is a remote display system which allows users to view a computing desktop environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures. TigerVNC is a suite of VNC servers and clients.\n\nSecurity Fix(es):\n\n* xorg-x11-server: Use-after-free bug in DamageDestroy (CVE-2023-5574)\n* xorg-x11-server: Use-after-free bug in DestroyWindow (CVE-2023-5380)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:2298"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-5380"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-5574"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2244735"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2244736"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-2298.html"
+				}
+			],
+			"published": "2024-04-30T00:00:00Z",
+			"modified": "2024-05-07T15:14:40Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-5380"
+		},
+		{
+			"id": "CVE-2023-5574"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.13.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-icons"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.13.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-license"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.13.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-selinux"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.13.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-server"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.13.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-server-minimal"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.13.1-8.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-server-module"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-8.el9"
+					}
+				],
+				"fixed": [
+					"1.13.1-8.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

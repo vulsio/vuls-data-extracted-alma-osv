@@ -80,7 +80,7 @@
 				}
 			],
 			"published": "2024-02-26T00:00:00Z",
-			"modified": "2024-02-28T15:36:18Z"
+			"modified": "2024-02-28T15:36:17Z"
 		}
 	],
 	"vulnerabilities": [
@@ -125,24 +125,6 @@
 				],
 				"fixed": [
 					"115.8.0-1.el9_3.alma"
-				]
-			}
-		},
-		{
-			"ecosystem": "alma:9",
-			"vulnerable": true,
-			"package": {
-				"name": "thunderbird"
-			},
-			"affected": {
-				"type": "rpm",
-				"range": [
-					{
-						"lt": "115.8.0-1.el9_3.alma.plus"
-					}
-				],
-				"fixed": [
-					"115.8.0-1.el9_3.alma.plus"
 				]
 			}
 		}

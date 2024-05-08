@@ -1,0 +1,70 @@
+{
+	"id": "ALSA-2024:2368",
+	"advisories": [
+		{
+			"id": "ALSA-2024:2368",
+			"title": "Moderate: mod_http2 security update",
+			"description": "The mod_http2 Apache httpd module implements the HTTP2 protocol (h2+h2c) on top of libnghttp2 for httpd 2.4 servers.\n\nSecurity Fix(es):\n\n* httpd: mod_http2: DoS in HTTP/2 with initial window size 0 (CVE-2023-43622)\n* mod_http2: reset requests exhaust memory (incomplete fix of CVE-2023-44487) (CVE-2023-45802)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:2368"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-43622"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45802"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2243877"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2245153"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-2368.html"
+				}
+			],
+			"published": "2024-04-30T00:00:00Z",
+			"modified": "2024-05-07T15:03:54Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-43622"
+		},
+		{
+			"id": "CVE-2023-44487"
+		},
+		{
+			"id": "CVE-2023-45802"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_http2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.26-1.el9"
+					}
+				],
+				"fixed": [
+					"2.0.26-1.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

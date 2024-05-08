@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2024:2512",
+	"advisories": [
+		{
+			"id": "ALSA-2024:2512",
+			"title": "Low: file security update",
+			"description": "The file command is used to identify a particular file according to the type of data the file contains. It can identify many different file types, including Executable and Linkable Format (ELF) binary files, system libraries, RPM packages, and different graphics formats.\n\nSecurity Fix(es):\n\n* file: stack-based buffer over-read in file_copystr in funcs.c (CVE-2022-48554)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:2512"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-48554"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2235714"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-2512.html"
+				}
+			],
+			"published": "2024-04-30T00:00:00Z",
+			"modified": "2024-05-07T15:04:40Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-48554"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "file-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.39-16.el9"
+					}
+				],
+				"fixed": [
+					"5.39-16.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-file-magic"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.39-16.el9"
+					}
+				],
+				"fixed": [
+					"5.39-16.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

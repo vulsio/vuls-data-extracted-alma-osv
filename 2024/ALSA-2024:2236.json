@@ -1,0 +1,596 @@
+{
+	"id": "ALSA-2024:2236",
+	"advisories": [
+		{
+			"id": "ALSA-2024:2236",
+			"title": "Moderate: libvirt security update",
+			"description": "The libvirt library contains a C API for managing and interacting with the virtualization capabilities of Linux and other operating systems. In addition, libvirt provides tools for remote management of virtualized systems.\n\nSecurity Fix(es):\n\n* libvirt: NULL pointer dereference in udevConnectListAllInterfaces() (CVE-2024-2496)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:2236"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-2496"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2269672"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-2236.html"
+				}
+			],
+			"published": "2024-04-30T00:00:00Z",
+			"modified": "2024-05-07T15:10:52Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-2496"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-client"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-client-qemu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-config-network"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-config-nwfilter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-interface"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-network"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-nodedev"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-nwfilter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-qemu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-secret"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-storage"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-storage-core"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-storage-disk"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-storage-iscsi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-storage-logical"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-storage-mpath"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-storage-rbd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-driver-storage-scsi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-kvm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-lock"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-log"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-plugin-lockd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-plugin-sanlock"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-daemon-proxy"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-docs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libvirt-nss"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "10.0.0-6.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"10.0.0-6.el9_4.alma.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

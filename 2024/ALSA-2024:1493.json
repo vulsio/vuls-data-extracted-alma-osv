@@ -138,24 +138,6 @@
 					"115.9.0-1.el9_3.alma.1"
 				]
 			}
-		},
-		{
-			"ecosystem": "alma:9",
-			"vulnerable": true,
-			"package": {
-				"name": "thunderbird"
-			},
-			"affected": {
-				"type": "rpm",
-				"range": [
-					{
-						"lt": "115.9.0-1.el9_3.alma.plus.1"
-					}
-				],
-				"fixed": [
-					"115.9.0-1.el9_3.alma.plus.1"
-				]
-			}
 		}
 	],
 	"data_source": "alma-osv"

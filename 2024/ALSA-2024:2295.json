@@ -1,0 +1,128 @@
+{
+	"id": "ALSA-2024:2295",
+	"advisories": [
+		{
+			"id": "ALSA-2024:2295",
+			"title": "Moderate: libjpeg-turbo security update",
+			"description": "The libjpeg-turbo packages contain a library of functions for manipulating JPEG images. They also contain simple client programs for accessing the libjpeg functions. These packages provide the same functionality and API as libjpeg but with better performance.\n\nSecurity Fix(es):\n\n* libjpeg-turbo: heap-buffer-overflow vulnerability in decompress_smooth_data in jdcoefct.c (CVE-2021-29390)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:2295"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2021-29390"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2235521"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-2295.html"
+				}
+			],
+			"published": "2024-04-30T00:00:00Z",
+			"modified": "2024-05-07T15:01:13Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2021-29390"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libjpeg-turbo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.90-7.el9"
+					}
+				],
+				"fixed": [
+					"2.0.90-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libjpeg-turbo-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.90-7.el9"
+					}
+				],
+				"fixed": [
+					"2.0.90-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libjpeg-turbo-utils"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.90-7.el9"
+					}
+				],
+				"fixed": [
+					"2.0.90-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "turbojpeg"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.90-7.el9"
+					}
+				],
+				"fixed": [
+					"2.0.90-7.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "turbojpeg-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.0.90-7.el9"
+					}
+				],
+				"fixed": [
+					"2.0.90-7.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

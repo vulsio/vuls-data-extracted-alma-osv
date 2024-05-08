@@ -1,0 +1,85 @@
+{
+	"id": "ALSA-2024:2568",
+	"advisories": [
+		{
+			"id": "ALSA-2024:2568",
+			"title": "Moderate: grafana security update",
+			"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.\n\nSecurity Fix(es):\n\n* grafana: golang-fips/openssl: Memory leaks in code encrypting and decrypting RSA payloads (CVE-2024-1394)\n* grafana: vulnerable to authorization bypass (CVE-2024-1313)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:2568"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-1313"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-1394"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2262921"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2271903"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-2568.html"
+				}
+			],
+			"published": "2024-04-30T00:00:00Z",
+			"modified": "2024-05-07T14:54:57Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-1313"
+		},
+		{
+			"id": "CVE-2024-1394"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grafana"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.2.10-16.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"9.2.10-16.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "grafana-selinux"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.2.10-16.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"9.2.10-16.el9_4.alma.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

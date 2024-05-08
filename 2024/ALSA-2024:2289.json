@@ -1,0 +1,136 @@
+{
+	"id": "ALSA-2024:2289",
+	"advisories": [
+		{
+			"id": "ALSA-2024:2289",
+			"title": "Moderate: libtiff security update",
+			"description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: infinite loop via a crafted TIFF file (CVE-2022-40090)\n* libtiff: segmentation fault in Fax3Encode in libtiff/tif_fax3.c (CVE-2023-3618)\n* libtiff: integer overflow in tiffcp.c (CVE-2023-40745)\n* libtiff: potential integer overflow in raw2tiff.c (CVE-2023-41175)\n* libtiff: heap-based buffer overflow in cpStripToTile() in tools/tiffcp.c (CVE-2023-6228)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:2289"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-40090"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-3618"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-40745"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-41175"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-6228"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2215865"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2234970"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2235264"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2235265"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2240995"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-2289.html"
+				}
+			],
+			"published": "2024-04-30T00:00:00Z",
+			"modified": "2024-05-07T15:00:37Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-40090"
+		},
+		{
+			"id": "CVE-2023-3618"
+		},
+		{
+			"id": "CVE-2023-40745"
+		},
+		{
+			"id": "CVE-2023-41175"
+		},
+		{
+			"id": "CVE-2023-6228"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libtiff"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.4.0-12.el9"
+					}
+				],
+				"fixed": [
+					"4.4.0-12.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libtiff-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.4.0-12.el9"
+					}
+				],
+				"fixed": [
+					"4.4.0-12.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libtiff-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.4.0-12.el9"
+					}
+				],
+				"fixed": [
+					"4.4.0-12.el9"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
