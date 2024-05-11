@@ -24,7 +24,7 @@
 				}
 			],
 			"published": "2024-04-30T00:00:00Z",
-			"modified": "2024-05-07T14:54:59Z"
+			"modified": "2024-05-07T15:07:15Z"
 		}
 	],
 	"vulnerabilities": [
@@ -33,6 +33,96 @@
 		}
 	],
 	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libipa_hbac"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libsss_autofs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libsss_certmap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libsss_idmap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libsss_nss_idmap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
 		{
 			"ecosystem": "alma:9",
 			"vulnerable": true,
@@ -55,7 +145,439 @@
 			"ecosystem": "alma:9",
 			"vulnerable": true,
 			"package": {
+				"name": "libsss_simpleifp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libsss_sudo"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-libipa_hbac"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-libsss_nss_idmap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-sss"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-sss-murmur"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-sssdconfig"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-ad"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-client"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-common-pac"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-dbus"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
 				"name": "sssd-idp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-ipa"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-kcm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-krb5"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-krb5-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-ldap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-nfs-idmap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-passkey"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-polkit-rules"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-proxy"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.4-6.el9_4"
+					}
+				],
+				"fixed": [
+					"2.9.4-6.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "sssd-winbind-idmap"
 			},
 			"affected": {
 				"type": "rpm",

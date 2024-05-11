@@ -48,6 +48,24 @@
 			"ecosystem": "alma:9",
 			"vulnerable": true,
 			"package": {
+				"name": "gnutls"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.8.3-4.el9_4"
+					}
+				],
+				"fixed": [
+					"3.8.3-4.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
 				"name": "gnutls-c++"
 			},
 			"affected": {

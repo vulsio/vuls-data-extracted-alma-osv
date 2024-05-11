@@ -37,7 +37,43 @@
 			"ecosystem": "alma:9",
 			"vulnerable": true,
 			"package": {
+				"name": "file"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.39-16.el9"
+					}
+				],
+				"fixed": [
+					"5.39-16.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
 				"name": "file-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.39-16.el9"
+					}
+				],
+				"fixed": [
+					"5.39-16.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "file-libs"
 			},
 			"affected": {
 				"type": "rpm",

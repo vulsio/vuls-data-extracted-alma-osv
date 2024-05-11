@@ -24,7 +24,7 @@
 				}
 			],
 			"published": "2024-04-30T00:00:00Z",
-			"modified": "2024-05-07T14:56:16Z"
+			"modified": "2024-05-07T15:07:01Z"
 		}
 	],
 	"vulnerabilities": [
@@ -37,7 +37,61 @@
 			"ecosystem": "alma:9",
 			"vulnerable": true,
 			"package": {
+				"name": "rhel-net-naming-sysattrs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "252-32.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"252-32.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "systemd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "252-32.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"252-32.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
 				"name": "systemd-boot-unsigned"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "252-32.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"252-32.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "systemd-container"
 			},
 			"affected": {
 				"type": "rpm",
@@ -74,6 +128,114 @@
 			"vulnerable": true,
 			"package": {
 				"name": "systemd-journal-remote"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "252-32.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"252-32.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "systemd-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "252-32.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"252-32.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "systemd-oomd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "252-32.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"252-32.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "systemd-pam"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "252-32.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"252-32.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "systemd-resolved"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "252-32.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"252-32.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "systemd-rpm-macros"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "252-32.el9_4.alma.1"
+					}
+				],
+				"fixed": [
+					"252-32.el9_4.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "systemd-udev"
 			},
 			"affected": {
 				"type": "rpm",

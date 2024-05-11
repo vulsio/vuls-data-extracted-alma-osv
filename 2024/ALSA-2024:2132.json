@@ -149,6 +149,24 @@
 			"ecosystem": "alma:9",
 			"vulnerable": true,
 			"package": {
+				"name": "fence-agents-lpar"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
 				"name": "fence-agents-virsh"
 			},
 			"affected": {

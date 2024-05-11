@@ -37,6 +37,24 @@
 			"ecosystem": "alma:9",
 			"vulnerable": true,
 			"package": {
+				"name": "pam"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.5.1-19.el9"
+					}
+				],
+				"fixed": [
+					"1.5.1-19.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
 				"name": "pam-devel"
 			},
 			"affected": {
