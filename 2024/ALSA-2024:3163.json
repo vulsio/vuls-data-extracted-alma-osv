@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2024:3163",
+	"advisories": [
+		{
+			"id": "ALSA-2024:3163",
+			"title": "Moderate: pam security update",
+			"description": "Pluggable Authentication Modules (PAM) provide a system to set up authentication policies without the need to recompile programs to handle authentication.\n\nSecurity Fix(es):\n\n* pam: allowing unprivileged user to block another user namespace (CVE-2024-22365)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:3163"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-22365"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257722"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-3163.html"
+				}
+			],
+			"published": "2024-05-22T00:00:00Z",
+			"modified": "2024-05-29T14:42:42Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-22365"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pam"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.3.1-33.el8"
+					}
+				],
+				"fixed": [
+					"1.3.1-33.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pam-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.3.1-33.el8"
+					}
+				],
+				"fixed": [
+					"1.3.1-33.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

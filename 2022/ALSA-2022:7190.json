@@ -80,7 +80,7 @@
 				}
 			],
 			"published": "2022-10-25T00:00:00Z",
-			"modified": "2022-11-20T15:00:13Z"
+			"modified": "2022-10-26T07:18:12Z"
 		}
 	],
 	"vulnerabilities": [
@@ -125,24 +125,6 @@
 				],
 				"fixed": [
 					"102.4.0-1.el8_6.alma"
-				]
-			}
-		},
-		{
-			"ecosystem": "alma:8",
-			"vulnerable": true,
-			"package": {
-				"name": "thunderbird"
-			},
-			"affected": {
-				"type": "rpm",
-				"range": [
-					{
-						"lt": "102.4.0-1.el8_6.alma.plus.1"
-					}
-				],
-				"fixed": [
-					"102.4.0-1.el8_6.alma.plus.1"
 				]
 			}
 		}

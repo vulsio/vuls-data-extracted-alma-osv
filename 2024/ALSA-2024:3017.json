@@ -1,0 +1,151 @@
+{
+	"id": "ALSA-2024:3017",
+	"advisories": [
+		{
+			"id": "ALSA-2024:3017",
+			"title": "Important: edk2 security update",
+			"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* edk2: Buffer overflow when handling Server ID option from a DHCPv6 proxy Advertise message (CVE-2023-45235)\n* EDK2: heap buffer overflow in Tcg2MeasureGptTable() (CVE-2022-36763)\n* EDK2: heap buffer overflow in Tcg2MeasurePeImage() (CVE-2022-36764)\n* EDK2: integer overflow in CreateHob() could lead to HOB OOB R/W (CVE-2022-36765)\n* edk2: Integer underflow when processing IA_NA/IA_TA options in a DHCPv6 Advertise message (CVE-2023-45229)\n* edk2: Out of Bounds read when handling a ND Redirect message with truncated options (CVE-2023-45231)\n* edk2: Infinite loop when parsing unknown options in the Destination Options header (CVE-2023-45232)\n* edk2: Infinite loop when parsing a PadN option in the Destination Options header (CVE-2023-45233)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:3017"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-36763"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-36764"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-36765"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45229"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45231"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45232"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45233"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45235"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257582"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257583"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2257584"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2258677"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2258688"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2258691"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2258694"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2258700"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-3017.html"
+				}
+			],
+			"published": "2024-05-22T00:00:00Z",
+			"modified": "2024-05-29T12:19:10Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-36763"
+		},
+		{
+			"id": "CVE-2022-36764"
+		},
+		{
+			"id": "CVE-2022-36765"
+		},
+		{
+			"id": "CVE-2023-45229"
+		},
+		{
+			"id": "CVE-2023-45231"
+		},
+		{
+			"id": "CVE-2023-45232"
+		},
+		{
+			"id": "CVE-2023-45233"
+		},
+		{
+			"id": "CVE-2023-45235"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "edk2-aarch64"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20220126gitbb1bba3d77-13.el8_10"
+					}
+				],
+				"fixed": [
+					"20220126gitbb1bba3d77-13.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "edk2-ovmf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20220126gitbb1bba3d77-13.el8_10"
+					}
+				],
+				"fixed": [
+					"20220126gitbb1bba3d77-13.el8_10"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

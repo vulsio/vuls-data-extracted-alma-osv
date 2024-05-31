@@ -61,24 +61,6 @@
 					"102.12.0-1.el8_8.alma"
 				]
 			}
-		},
-		{
-			"ecosystem": "alma:8",
-			"vulnerable": true,
-			"package": {
-				"name": "thunderbird"
-			},
-			"affected": {
-				"type": "rpm",
-				"range": [
-					{
-						"lt": "102.12.0-1.el8_8.alma.plus"
-					}
-				],
-				"fixed": [
-					"102.12.0-1.el8_8.alma.plus"
-				]
-			}
 		}
 	],
 	"data_source": "alma-osv"

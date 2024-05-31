@@ -1,0 +1,186 @@
+{
+	"id": "ALSA-2024:3261",
+	"advisories": [
+		{
+			"id": "ALSA-2024:3261",
+			"title": "Important: tigervnc security update",
+			"description": "Virtual Network Computing (VNC) is a remote display system which allows users to view a computing desktop environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures. TigerVNC is a suite of VNC servers and clients.\n\nSecurity Fix(es):\n\n* xorg-x11-server: Heap buffer overread/data leakage in ProcXIGetSelectedEvents (CVE-2024-31080)\n* xorg-x11-server: Heap buffer overread/data leakage in ProcXIPassiveGrabDevice (CVE-2024-31081)\n* xorg-x11-server: Use-after-free in ProcRenderAddGlyphs (CVE-2024-31083)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:3261"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-31080"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-31081"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-31083"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2271997"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2271998"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2272000"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-3261.html"
+				}
+			],
+			"published": "2024-05-22T00:00:00Z",
+			"modified": "2024-05-29T14:47:38Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-31080"
+		},
+		{
+			"id": "CVE-2024-31081"
+		},
+		{
+			"id": "CVE-2024-31083"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-10.el8_10"
+					}
+				],
+				"fixed": [
+					"1.13.1-10.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-icons"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-10.el8_10"
+					}
+				],
+				"fixed": [
+					"1.13.1-10.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-license"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-10.el8_10"
+					}
+				],
+				"fixed": [
+					"1.13.1-10.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-selinux"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-10.el8_10"
+					}
+				],
+				"fixed": [
+					"1.13.1-10.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-server"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-10.el8_10"
+					}
+				],
+				"fixed": [
+					"1.13.1-10.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-server-minimal"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-10.el8_10"
+					}
+				],
+				"fixed": [
+					"1.13.1-10.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tigervnc-server-module"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.13.1-10.el8_10"
+					}
+				],
+				"fixed": [
+					"1.13.1-10.el8_10"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

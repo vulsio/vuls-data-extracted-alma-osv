@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2024:3059",
+	"advisories": [
+		{
+			"id": "ALSA-2024:3059",
+			"title": "Moderate: libtiff security update",
+			"description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: out-of-bounds read in tiffcp in tools/tiffcp.c (CVE-2022-4645)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:3059"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2022-4645"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2176220"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-3059.html"
+				}
+			],
+			"published": "2024-05-22T00:00:00Z",
+			"modified": "2024-05-29T14:42:13Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2022-4645"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libtiff"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.0.9-31.el8"
+					}
+				],
+				"fixed": [
+					"4.0.9-31.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libtiff-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.0.9-31.el8"
+					}
+				],
+				"fixed": [
+					"4.0.9-31.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libtiff-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.0.9-31.el8"
+					}
+				],
+				"fixed": [
+					"4.0.9-31.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

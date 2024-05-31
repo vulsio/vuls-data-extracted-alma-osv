@@ -1,0 +1,218 @@
+{
+	"id": "ALSA-2024:2979",
+	"advisories": [
+		{
+			"id": "ALSA-2024:2979",
+			"title": "Moderate: poppler security update",
+			"description": "Poppler is a Portable Document Format (PDF) rendering library, used by applications such as Evince.\n\nSecurity Fix(es):\n\n* poppler: NULL pointer dereference in `FoFiType1C::convertToType1` (CVE-2020-36024)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:2979"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2020-36024"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2231520"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-2979.html"
+				}
+			],
+			"published": "2024-05-22T00:00:00Z",
+			"modified": "2024-05-29T14:47:13Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2020-36024"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-11.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-cpp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-11.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-cpp-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-11.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-11.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-glib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-11.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-glib-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-11.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-glib-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-11.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-qt5"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-11.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-qt5-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-11.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-11.el8"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "poppler-utils"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "20.11.0-11.el8"
+					}
+				],
+				"fixed": [
+					"20.11.0-11.el8"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

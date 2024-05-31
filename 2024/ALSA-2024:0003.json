@@ -153,24 +153,6 @@
 				"type": "rpm",
 				"range": [
 					{
-						"lt": "115.6.0-1.el8_9.alma.plus"
-					}
-				],
-				"fixed": [
-					"115.6.0-1.el8_9.alma.plus"
-				]
-			}
-		},
-		{
-			"ecosystem": "alma:8",
-			"vulnerable": true,
-			"package": {
-				"name": "thunderbird"
-			},
-			"affected": {
-				"type": "rpm",
-				"range": [
-					{
 						"lt": "115.6.0-1.el8_9.alma"
 					}
 				],

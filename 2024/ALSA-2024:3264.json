@@ -1,0 +1,1838 @@
+{
+	"id": "ALSA-2024:3264",
+	"advisories": [
+		{
+			"id": "ALSA-2024:3264",
+			"title": "Important: pcp security update",
+			"description": "Performance Co-Pilot (PCP) is a suite of tools, services, and libraries for acquisition, archiving, and analysis of system-level performance measurements. Its light-weight distributed architecture makes it particularly well-suited to centralized analysis of complex systems.\n\nSecurity Fix(es):\n\n* pcp: exposure of the redis server backend allows remote command execution via pmproxy (CVE-2024-3019)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:3264"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-3019"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2271898"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-3264.html"
+				}
+			],
+			"published": "2024-05-22T00:00:00Z",
+			"modified": "2024-05-29T14:50:51Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-3019"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-conf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-export-pcp2elasticsearch"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-export-pcp2graphite"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-export-pcp2influxdb"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-export-pcp2json"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-export-pcp2spark"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-export-pcp2xml"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-export-pcp2zabbix"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-export-zabbix-agent"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-gui"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-import-collectl2pcp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-import-ganglia2pcp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-import-iostat2pcp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-import-mrtg2pcp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-import-sar2pcp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-libs-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-activemq"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-apache"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-bash"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-bcc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-bind2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-bonding"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-bpftrace"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-cifs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-cisco"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-dbping"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-denki"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-dm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-docker"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-ds389"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-ds389log"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-elasticsearch"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-gfs2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-gluster"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-gpfs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-gpsd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-hacluster"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-haproxy"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-infiniband"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-json"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-libvirt"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-lio"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-lmsensors"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-logger"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-lustre"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-lustrecomm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-mailq"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-memcache"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-mic"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-mongodb"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-mounts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-mssql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-mysql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-named"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-netcheck"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-netfilter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-news"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-nfsclient"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-nginx"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-nvidia-gpu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-openmetrics"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-openvswitch"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-oracle"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-pdns"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-perfevent"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-podman"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-postfix"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-postgresql"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-rabbitmq"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-redis"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-roomtemp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-rsyslog"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-samba"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-sendmail"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-shping"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-slurm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-smart"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-snmp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-sockets"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-statsd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-summary"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-systemd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-trace"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-unbound"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-weblog"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-zimbra"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-pmda-zswap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-selinux"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-system-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-testsuite"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "pcp-zeroconf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "perl-PCP-LogImport"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "perl-PCP-LogSummary"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "perl-PCP-MMV"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "perl-PCP-PMDA"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-pcp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "5.3.7-20.el8_10"
+					}
+				],
+				"fixed": [
+					"5.3.7-20.el8_10"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
