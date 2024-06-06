@@ -1,0 +1,92 @@
+{
+	"id": "ALSA-2024:3626",
+	"advisories": [
+		{
+			"id": "ALSA-2024:3626",
+			"title": "Moderate: libxml2 security update",
+			"description": "The libxml2 library is a development toolbox providing the implementation of\nvarious XML standards.\n\nSecurity Fix(es):\n\n* libxml2: use-after-free in XMLReader (CVE-2024-25062)\n\nFor more details about the security issue(s), including the impact,\na CVSS score, acknowledgments, and other related information, refer\nto the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:3626"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-25062"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2262726"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-3626.html"
+				}
+			],
+			"published": "2024-06-05T00:00:00Z",
+			"modified": "2024-06-05T18:34:23Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-25062"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libxml2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.7-18.el8_10.1"
+					}
+				],
+				"fixed": [
+					"2.9.7-18.el8_10.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libxml2-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.7-18.el8_10.1"
+					}
+				],
+				"fixed": [
+					"2.9.7-18.el8_10.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-libxml2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.9.7-18.el8_10.1"
+					}
+				],
+				"fixed": [
+					"2.9.7-18.el8_10.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
