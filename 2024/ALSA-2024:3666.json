@@ -1,0 +1,193 @@
+{
+	"id": "ALSA-2024:3666",
+	"advisories": [
+		{
+			"id": "ALSA-2024:3666",
+			"title": "Important: tomcat security and bug fix update",
+			"description": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.\n\nSecurity Fix(es):\n\n* Apache Tomcat: HTTP/2 header handling DoS (CVE-2024-24549)\n* Apache Tomcat: WebSocket DoS with incomplete closing handshake (CVE-2024-23672)\n\nBug Fix(es):\n\n* Rebase tomcat to version 9.0.87 (JIRA:AlmaLinux-35813)\n* Amend tomcat package's changelog so that fixed CVEs are mentioned explicitly (JIRA:AlmaLinux-38548)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:3666"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-23672"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-24549"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2269607"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2269608"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-3666.html"
+				}
+			],
+			"published": "2024-06-06T00:00:00Z",
+			"modified": "2024-06-06T12:55:40Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-23672"
+		},
+		{
+			"id": "CVE-2024-24549"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.87-1.el8_10.1.alma.1"
+					}
+				],
+				"fixed": [
+					"1:9.0.87-1.el8_10.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-admin-webapps"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.87-1.el8_10.1.alma.1"
+					}
+				],
+				"fixed": [
+					"1:9.0.87-1.el8_10.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-docs-webapp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.87-1.el8_10.1.alma.1"
+					}
+				],
+				"fixed": [
+					"1:9.0.87-1.el8_10.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-el-3.0-api"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.87-1.el8_10.1.alma.1"
+					}
+				],
+				"fixed": [
+					"1:9.0.87-1.el8_10.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-jsp-2.3-api"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.87-1.el8_10.1.alma.1"
+					}
+				],
+				"fixed": [
+					"1:9.0.87-1.el8_10.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-lib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.87-1.el8_10.1.alma.1"
+					}
+				],
+				"fixed": [
+					"1:9.0.87-1.el8_10.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-servlet-4.0-api"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.87-1.el8_10.1.alma.1"
+					}
+				],
+				"fixed": [
+					"1:9.0.87-1.el8_10.1.alma.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "tomcat-webapps"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:9.0.87-1.el8_10.1.alma.1"
+					}
+				],
+				"fixed": [
+					"1:9.0.87-1.el8_10.1.alma.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
