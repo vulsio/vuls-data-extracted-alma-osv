@@ -40,7 +40,7 @@
 				}
 			],
 			"published": "2024-04-30T00:00:00Z",
-			"modified": "2024-05-07T15:08:16Z"
+			"modified": "2024-05-07T15:14:09Z"
 		}
 	],
 	"vulnerabilities": [
@@ -55,6 +55,204 @@
 		}
 	],
 	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-aliyun"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-all"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-amt-ws"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-apc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-apc-snmp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-aws"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-azure-arm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-bladecenter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-brocade"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-cisco-mds"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-cisco-ucs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
 		{
 			"ecosystem": "alma:9",
 			"vulnerable": true,
@@ -78,6 +276,132 @@
 			"vulnerable": true,
 			"package": {
 				"name": "fence-agents-compute"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-drac5"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-eaton-snmp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-emerson"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-eps"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-gce"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-heuristics-ping"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-hpblade"
 			},
 			"affected": {
 				"type": "rpm",
@@ -131,6 +455,186 @@
 			"ecosystem": "alma:9",
 			"vulnerable": true,
 			"package": {
+				"name": "fence-agents-ibmblade"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-ifmib"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-ilo-moonshot"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-ilo-mp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-ilo-ssh"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-ilo2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-intelmodular"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-ipdu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-ipmilan"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-kdump"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
 				"name": "fence-agents-kubevirt"
 			},
 			"affected": {
@@ -167,7 +671,223 @@
 			"ecosystem": "alma:9",
 			"vulnerable": true,
 			"package": {
+				"name": "fence-agents-mpath"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-openstack"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-redfish"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-rhevm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-rsa"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-rsb"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-sbd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-scsi"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
 				"name": "fence-agents-virsh"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-vmware-rest"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-vmware-soap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-wti"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "fence-agents-zvm"
 			},
 			"affected": {
 				"type": "rpm",
@@ -294,6 +1014,24 @@
 			"vulnerable": true,
 			"package": {
 				"name": "fence-virtd-tcp"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4.10.0-62.el9"
+					}
+				],
+				"fixed": [
+					"4.10.0-62.el9"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "ha-cloud-support"
 			},
 			"affected": {
 				"type": "rpm",
