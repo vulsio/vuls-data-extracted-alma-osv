@@ -1,0 +1,150 @@
+{
+	"id": "ALSA-2024:3826",
+	"advisories": [
+		{
+			"id": "ALSA-2024:3826",
+			"title": "Moderate: podman security and bug fix update",
+			"description": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.\n\nSecurity Fixes:\n\n* podman: jose-go: improper handling of highly compressed data (CVE-2024-28180)\n* podman: golang: net/http: memory exhaustion in Request.ParseMultipartForm (CVE-2023-45290)\n* podman: jose: resource exhaustion (CVE-2024-28176)",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:3826"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45290"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-28176"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-28180"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2268017"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2268820"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2268854"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-3826.html"
+				}
+			],
+			"published": "2024-06-11T00:00:00Z",
+			"modified": "2024-06-14T09:47:46Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-45290"
+		},
+		{
+			"id": "CVE-2024-28176"
+		},
+		{
+			"id": "CVE-2024-28180"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "podman"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4:4.9.4-4.el9_4"
+					}
+				],
+				"fixed": [
+					"4:4.9.4-4.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-docker"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4:4.9.4-4.el9_4"
+					}
+				],
+				"fixed": [
+					"4:4.9.4-4.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-plugins"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4:4.9.4-4.el9_4"
+					}
+				],
+				"fixed": [
+					"4:4.9.4-4.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-remote"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4:4.9.4-4.el9_4"
+					}
+				],
+				"fixed": [
+					"4:4.9.4-4.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "podman-tests"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "4:4.9.4-4.el9_4"
+					}
+				],
+				"fixed": [
+					"4:4.9.4-4.el9_4"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

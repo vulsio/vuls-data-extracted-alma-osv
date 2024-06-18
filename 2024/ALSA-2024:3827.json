@@ -1,0 +1,96 @@
+{
+	"id": "ALSA-2024:3827",
+	"advisories": [
+		{
+			"id": "ALSA-2024:3827",
+			"title": "Moderate: buildah security and bug fix update",
+			"description": "The buildah package provides a tool for facilitating building OCI container images. Among other things, buildah enables you to: Create a working container, either from scratch or using an image as a starting point; Create an image, either from a working container or using the instructions in a Dockerfile; Build both Docker and OCI images. \n\nSecurity Fix(es):\n\n* golang: net/http: memory exhaustion in Request.ParseMultipartForm (CVE-2023-45290)\n* jose-go: improper handling of highly compressed data (CVE-2024-28180)\n* buildah: jose: resource exhaustion (CVE-2024-28176)",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:3827"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-45290"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-28176"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-28180"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2268017"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2268820"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2268854"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-3827.html"
+				}
+			],
+			"published": "2024-06-11T00:00:00Z",
+			"modified": "2024-06-13T13:22:49Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-45290"
+		},
+		{
+			"id": "CVE-2024-28176"
+		},
+		{
+			"id": "CVE-2024-28180"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "buildah"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:1.33.7-2.el9_4"
+					}
+				],
+				"fixed": [
+					"2:1.33.7-2.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "buildah-tests"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2:1.33.7-2.el9_4"
+					}
+				],
+				"fixed": [
+					"2:1.33.7-2.el9_4"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

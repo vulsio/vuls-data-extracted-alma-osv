@@ -1,0 +1,121 @@
+{
+	"id": "ALSA-2024:3837",
+	"advisories": [
+		{
+			"id": "ALSA-2024:3837",
+			"title": "Important: 389-ds-base security update",
+			"description": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base\npackages include the Lightweight Directory Access Protocol (LDAP) server and\ncommand-line utilities for server administration.\n\nSecurity Fix(es):\n\n* 389-ds-base: potential denial of service via specially crafted kerberos AS-REQ request (CVE-2024-3657)\n* 389-ds-base: Malformed userPassword may cause crash at do_modify in slapd/modify.c (CVE-2024-2199)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:3837"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-2199"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-3657"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2267976"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2274401"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-3837.html"
+				}
+			],
+			"published": "2024-06-11T00:00:00Z",
+			"modified": "2024-06-14T06:41:16Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-2199"
+		},
+		{
+			"id": "CVE-2024-3657"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "389-ds-base"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.5-8.el9_4"
+					}
+				],
+				"fixed": [
+					"2.4.5-8.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "389-ds-base-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.5-8.el9_4"
+					}
+				],
+				"fixed": [
+					"2.4.5-8.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "389-ds-base-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.5-8.el9_4"
+					}
+				],
+				"fixed": [
+					"2.4.5-8.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3-lib389"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.5-8.el9_4"
+					}
+				],
+				"fixed": [
+					"2.4.5-8.el9_4"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
