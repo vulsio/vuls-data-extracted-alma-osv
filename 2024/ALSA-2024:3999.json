@@ -1,0 +1,182 @@
+{
+	"id": "ALSA-2024:3999",
+	"advisories": [
+		{
+			"id": "ALSA-2024:3999",
+			"title": "Important: ghostscript security update",
+			"description": "The Ghostscript suite contains utilities for rendering PostScript and PDF documents. Ghostscript translates PostScript code to common bitmap formats so that the code can be displayed or printed.\n\nSecurity Fix(es):\n\n* ghostscript: OPVP device arbitrary code execution via custom Driver library (CVE-2024-33871)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:3999"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-33871"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2283508"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-3999.html"
+				}
+			],
+			"published": "2024-06-20T00:00:00Z",
+			"modified": "2024-06-20T11:33:41Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-33871"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.54.0-16.el9_4"
+					}
+				],
+				"fixed": [
+					"9.54.0-16.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript-doc"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.54.0-16.el9_4"
+					}
+				],
+				"fixed": [
+					"9.54.0-16.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript-tools-dvipdf"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.54.0-16.el9_4"
+					}
+				],
+				"fixed": [
+					"9.54.0-16.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript-tools-fonts"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.54.0-16.el9_4"
+					}
+				],
+				"fixed": [
+					"9.54.0-16.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript-tools-printing"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.54.0-16.el9_4"
+					}
+				],
+				"fixed": [
+					"9.54.0-16.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "ghostscript-x11"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.54.0-16.el9_4"
+					}
+				],
+				"fixed": [
+					"9.54.0-16.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libgs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.54.0-16.el9_4"
+					}
+				],
+				"fixed": [
+					"9.54.0-16.el9_4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "libgs-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "9.54.0-16.el9_4"
+					}
+				],
+				"fixed": [
+					"9.54.0-16.el9_4"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
