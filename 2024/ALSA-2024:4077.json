@@ -1,0 +1,164 @@
+{
+	"id": "ALSA-2024:4077",
+	"advisories": [
+		{
+			"id": "ALSA-2024:4077",
+			"title": "Important: python3.11 security update",
+			"description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nSecurity Fix(es):\n\n* python: Path traversal on tempfile.TemporaryDirectory (CVE-2023-6597)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:4077"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-6597"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2276518"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-4077.html"
+				}
+			],
+			"published": "2024-06-25T00:00:00Z",
+			"modified": "2024-06-25T13:57:29Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-6597"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.11"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.11.7-1.el9_4.1"
+					}
+				],
+				"fixed": [
+					"3.11.7-1.el9_4.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.11-debug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.11.7-1.el9_4.1"
+					}
+				],
+				"fixed": [
+					"3.11.7-1.el9_4.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.11-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.11.7-1.el9_4.1"
+					}
+				],
+				"fixed": [
+					"3.11.7-1.el9_4.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.11-idle"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.11.7-1.el9_4.1"
+					}
+				],
+				"fixed": [
+					"3.11.7-1.el9_4.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.11-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.11.7-1.el9_4.1"
+					}
+				],
+				"fixed": [
+					"3.11.7-1.el9_4.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.11-test"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.11.7-1.el9_4.1"
+					}
+				],
+				"fixed": [
+					"3.11.7-1.el9_4.1"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.11-tkinter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.11.7-1.el9_4.1"
+					}
+				],
+				"fixed": [
+					"3.11.7-1.el9_4.1"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
