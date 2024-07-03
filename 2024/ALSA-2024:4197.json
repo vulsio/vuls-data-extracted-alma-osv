@@ -1,0 +1,254 @@
+{
+	"id": "ALSA-2024:4197",
+	"advisories": [
+		{
+			"id": "ALSA-2024:4197",
+			"title": "Moderate: httpd:2.4/httpd security update",
+			"description": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd:2.4: httpd: HTTP response splitting (CVE-2023-38709)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:4197"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2023-38709"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2273491"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-4197.html"
+				}
+			],
+			"published": "2024-07-01T00:00:00Z",
+			"modified": "2024-07-01T16:03:26Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2023-38709"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-65.module_el8.10.0+3860+a6e26e50"
+					}
+				],
+				"fixed": [
+					"2.4.37-65.module_el8.10.0+3860+a6e26e50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-65.module_el8.10.0+3860+a6e26e50"
+					}
+				],
+				"fixed": [
+					"2.4.37-65.module_el8.10.0+3860+a6e26e50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-filesystem"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-65.module_el8.10.0+3860+a6e26e50"
+					}
+				],
+				"fixed": [
+					"2.4.37-65.module_el8.10.0+3860+a6e26e50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-manual"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-65.module_el8.10.0+3860+a6e26e50"
+					}
+				],
+				"fixed": [
+					"2.4.37-65.module_el8.10.0+3860+a6e26e50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "httpd-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-65.module_el8.10.0+3860+a6e26e50"
+					}
+				],
+				"fixed": [
+					"2.4.37-65.module_el8.10.0+3860+a6e26e50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_http2"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1.15.7-10.module_el8.10.0+3832+564e7653"
+					}
+				],
+				"fixed": [
+					"1.15.7-10.module_el8.10.0+3832+564e7653"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_ldap"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-65.module_el8.10.0+3860+a6e26e50"
+					}
+				],
+				"fixed": [
+					"2.4.37-65.module_el8.10.0+3860+a6e26e50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_md"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.0.8-8.module_el8.6.0+2872+fe0ff7aa"
+					}
+				],
+				"fixed": [
+					"1:2.0.8-8.module_el8.6.0+2872+fe0ff7aa"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_md"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.0.8-8.module_el8.6.0+3031+fb177b09"
+					}
+				],
+				"fixed": [
+					"1:2.0.8-8.module_el8.6.0+3031+fb177b09"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_proxy_html"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.4.37-65.module_el8.10.0+3860+a6e26e50"
+					}
+				],
+				"fixed": [
+					"1:2.4.37-65.module_el8.10.0+3860+a6e26e50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_session"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "2.4.37-65.module_el8.10.0+3860+a6e26e50"
+					}
+				],
+				"fixed": [
+					"2.4.37-65.module_el8.10.0+3860+a6e26e50"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "mod_ssl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:2.4.37-65.module_el8.10.0+3860+a6e26e50"
+					}
+				],
+				"fixed": [
+					"1:2.4.37-65.module_el8.10.0+3860+a6e26e50"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
