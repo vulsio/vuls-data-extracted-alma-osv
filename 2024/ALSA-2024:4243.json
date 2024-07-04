@@ -1,0 +1,182 @@
+{
+	"id": "ALSA-2024:4243",
+	"advisories": [
+		{
+			"id": "ALSA-2024:4243",
+			"title": "Moderate: python3 security update",
+			"description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nSecurity Fix(es):\n\n* python: The zipfile module is vulnerable to zip-bombs leading to denial of service (CVE-2024-0450)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:4243"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-0450"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2276525"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-4243.html"
+				}
+			],
+			"published": "2024-07-02T00:00:00Z",
+			"modified": "2024-07-03T12:16:48Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-0450"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.12"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.12.3-2.el8_10"
+					}
+				],
+				"fixed": [
+					"3.12.3-2.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.12-debug"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.12.3-2.el8_10"
+					}
+				],
+				"fixed": [
+					"3.12.3-2.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.12-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.12.3-2.el8_10"
+					}
+				],
+				"fixed": [
+					"3.12.3-2.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.12-idle"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.12.3-2.el8_10"
+					}
+				],
+				"fixed": [
+					"3.12.3-2.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.12-libs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.12.3-2.el8_10"
+					}
+				],
+				"fixed": [
+					"3.12.3-2.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.12-rpm-macros"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.12.3-2.el8_10"
+					}
+				],
+				"fixed": [
+					"3.12.3-2.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.12-test"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.12.3-2.el8_10"
+					}
+				],
+				"fixed": [
+					"3.12.3-2.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "python3.12-tkinter"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "3.12.3-2.el8_10"
+					}
+				],
+				"fixed": [
+					"3.12.3-2.el8_10"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

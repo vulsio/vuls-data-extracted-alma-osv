@@ -1,0 +1,398 @@
+{
+	"id": "ALSA-2024:4278",
+	"advisories": [
+		{
+			"id": "ALSA-2024:4278",
+			"title": "Important: qemu-kvm security update",
+			"description": "Kernel-based Virtual Machine (KVM) is a full virtualization solution for Linux on a variety of architectures. The qemu-kvm packages provide the user-space component for running virtual machines that use KVM.\n\nSecurity Fix(es):\n\n* qemu-kvm: QEMU: 'qemu-img info' leads to host file read/write (CVE-2024-4467)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:4278"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-4467"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2278875"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/9/ALSA-2024-4278.html"
+				}
+			],
+			"published": "2024-07-02T00:00:00Z",
+			"modified": "2024-07-03T14:13:47Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-4467"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-guest-agent"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-img"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-audio-pa"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-block-blkio"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-block-curl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-block-rbd"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-common"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-core"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-device-display-virtio-gpu"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-device-display-virtio-gpu-ccw"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-device-display-virtio-gpu-pci"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-device-display-virtio-vga"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-device-usb-host"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-device-usb-redirect"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-docs"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-tools"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-ui-egl-headless"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-kvm-ui-opengl"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:9",
+			"vulnerable": true,
+			"package": {
+				"name": "qemu-pr-helper"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "17:8.2.0-11.el9_4.4"
+					}
+				],
+				"fixed": [
+					"17:8.2.0-11.el9_4.4"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}

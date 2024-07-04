@@ -1,0 +1,74 @@
+{
+	"id": "ALSA-2024:4247",
+	"advisories": [
+		{
+			"id": "ALSA-2024:4247",
+			"title": "Moderate: libuv security update",
+			"description": "libuv is a multi-platform support library with a focus on asynchronous I/O. \n\nSecurity Fix(es):\n\n* libuv: Improper Domain Lookup that potentially leads to SSRF attacks (CVE-2024-24806)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+			"references": [
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/errata/RHSA-2024:4247"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://access.redhat.com/security/cve/CVE-2024-24806"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://bugzilla.redhat.com/2263292"
+				},
+				{
+					"source": "errata.almalinux.org",
+					"url": "https://errata.almalinux.org/8/ALSA-2024-4247.html"
+				}
+			],
+			"published": "2024-07-02T00:00:00Z",
+			"modified": "2024-07-03T11:49:55Z"
+		}
+	],
+	"vulnerabilities": [
+		{
+			"id": "CVE-2024-24806"
+		}
+	],
+	"detection": [
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libuv"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.41.1-2.el8_10"
+					}
+				],
+				"fixed": [
+					"1:1.41.1-2.el8_10"
+				]
+			}
+		},
+		{
+			"ecosystem": "alma:8",
+			"vulnerable": true,
+			"package": {
+				"name": "libuv-devel"
+			},
+			"affected": {
+				"type": "rpm",
+				"range": [
+					{
+						"lt": "1:1.41.1-2.el8_10"
+					}
+				],
+				"fixed": [
+					"1:1.41.1-2.el8_10"
+				]
+			}
+		}
+	],
+	"data_source": "alma-osv"
+}
